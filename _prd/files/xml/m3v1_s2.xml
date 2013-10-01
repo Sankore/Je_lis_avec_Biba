@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3v1s2_cons">Range-les mots de la même famille dans le même igloo.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_glisser" id="glissade" type="draggable" />
+    <QUESTION goodRep="z_glisser" id="glissant" type="draggable" />
+    <QUESTION goodRep="z_nord" id="nordique" type="draggable" />
+    <QUESTION goodRep="z_nord" id="nordiste" type="draggable" />
+    <QUESTION goodRep="z_ours" id="ourson" type="draggable" />
+    <QUESTION goodRep="z_ours" id="oursonne" type="draggable" />
+    <QUESTION goodRep="z_blanc" id="blancheur" type="draggable" />
+    <QUESTION goodRep="z_blanc" id="blanchir" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m3v1s2_all1" rep="z_glisser">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "gliss".</message>
+        </ALL>
+        <ALL son="m3v1s2_all2" rep="z_nord">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "nord".</message>
+        </ALL>
+        <ALL rep="z_ours" son="m3v1s2_all3">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "ours".</message>
+        </ALL>
+        <ALL rep="z_blanc" son="m3v1s2_all4">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "blanc".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3v_demo.swf</DEMO>
+</EXO>

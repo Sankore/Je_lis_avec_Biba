@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2v2_cons">Il y a un wagon qui contient un intrus. Tu dois le retrouver et cliquer dessus.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="lineBlack" selectionTypeCorrection="lines">
+    <QUESTION goodRep="1" group="2" id="pie" type="choix" />
+    <QUESTION goodRep="1" group="3" id="caillou" type="choix" />
+    <QUESTION goodRep="0" group="2" id="escargot" type="choix" />
+    <QUESTION goodRep="0" group="2" id="limace" type="choix" />
+    <QUESTION goodRep="0" group="2" id="ver" type="choix" />
+    <QUESTION goodRep="0" group="3" id="diament" type="choix" />
+    <QUESTION goodRep="0" group="3" id="rubis" type="choix" />
+    <QUESTION goodRep="0" group="3" id="emeraude" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2v2_ou2">
+          <message>La pie possède des ailes, elle ne rampe pas, elle peut voler, c' est un oiseau. C'est donc l'intrus !</message>
+          <CELLULE id="escargot" />
+          <CELLULE id="limace" />
+          <CELLULE id="ver" />
+        </OU>
+        <OU son="m2v2_ou3">
+          <message>L'intrus ? c'était le caillou. Sur toutes ces images on voit des pierres. Mais le rubis, le diamant et l'émeraude sont des pierres précieuses.</message>
+          <CELLULE id="rubis" />
+          <CELLULE id="diament" />
+          <CELLULE id="emeraude" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1_cons">Complète chaque phrase par l'étiquette dont le sens est le plus proche du mot écrit en bleu et en italique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_pirates" id="corsaires" type="draggable" />
+    <QUESTION goodRep="0" id="bateaux" type="draggable" />
+    <QUESTION goodRep="0" id="vacanciers" type="draggable" />
+    <QUESTION goodRep="0" id="jardin" type="draggable" />
+    <QUESTION goodRep="z_depotoir" id="decharge" type="draggable" />
+    <QUESTION goodRep="0" id="dune" type="draggable" />
+    <QUESTION goodRep="z_crustaces" id="fruits_mer" type="draggable" />
+    <QUESTION goodRep="0" id="des poissons" type="draggable" />
+    <QUESTION goodRep="0" id="legumes" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_pirates" son="m4v1s2_all1">
+          <message>"Pirates" et "corsaires" sont des navigateurs qui attaquaient les navires.</message>
+        </ALL>
+        <ALL goodRep="z_depotoir" son="m4v1s2_all2">
+          <message>Le dépotoir et la décharge sont des endroits où l'on jette les objets dont on veut se débarasser.</message>
+        </ALL>
+        <ALL goodRep="z_crustaces" son="m4v1s2_all4">
+          <message>Les fruits de mer sont des crustacés.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

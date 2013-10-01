@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="aeroport" type="choix" />
+    <QUESTION goodRep="0" group="1" id="console" type="choix" />
+    <QUESTION goodRep="1" group="1" id="fusee" type="choix" />
+    <QUESTION goodRep="0" group="1" id="avion" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="aeroport" son="m7c1s11_cellule1">
+          <message>Oups ! Un aéroport permet de faire décoller les avions.</message>
+        </CELLULE>
+        <CELLULE id="avion" son="m7c1s11_cellule2">
+          <message>Jacques ne peut pas être dans un avion car un avion ne décolle pas à partir d'une rampe de lancement.</message>
+        </CELLULE>
+        <CELLULE id="console" son="m7c1s11_cellule3">
+          <message>Oups ! Le texte semble indiquer que Jacques est en train de piloter une fusée.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="aeroport" />
+        <CELLULE id="avion" />
+        <CELLULE id="console" />
+        <CELLULE id="photo" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

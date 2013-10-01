@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2coe1_cons">Clique sur le point d'interrogation ( ? ) et ensuite sur le haut-parleur. Choisis la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="phr1_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="1" id="phr1_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="2" id="phr2_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="3" id="phr3_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_5" type="choix">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m2coe1s11_cellule1" id="phr1_5">
+          <message>Le mot "terre" est le dernier mot que l'on entend dans la phrase. Tu as cliqué sur le mot qui est juste avant.</message>
+        </CELLULE>
+        <OU son="m2coe1s11_ou1">
+          <message>Le mot "terre" est le dernier mot que l'on entend dans la phrase. Tu as cliqué sur un mot au milieu de la phrase.</message>
+          <CELLULE id="phr1_3">
+          </CELLULE>
+          <CELLULE id="phr1_4">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe1s11_ou2">
+          <message>Tu as cliqué sur un mot au début de la phrase. Le mot "terre" est le dernier mot que l'on entend dans la phrase.</message>
+          <CELLULE id="phr1_1">
+          </CELLULE>
+          <CELLULE id="phr1_2">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe1s11_ou3">
+          <message>Le mot "chenille" est le 2ème mot que l'on entend dans la phrase. Tu as cliqué sur le mot juste à côté.</message>
+          <CELLULE id="phr2_1">
+          </CELLULE>
+          <CELLULE id="phr2_3">
+          </CELLULE>
+        </OU>
+        <CELLULE son="m2coe1s11_cellule2" id="phr2_4">
+          <message>On entend le mot "chenille" dans la première partie de la phrase et non au milieu de la phrase.</message>
+        </CELLULE>
+        <OU son="m2coe1s11_ou4">
+          <message>On entend le mot "chenille" dans la première partie de la phrase. Tu as cliqué sur un mot qui est à la fin de la phrase.</message>
+          <CELLULE id="phr2_5">
+          </CELLULE>
+          <CELLULE id="phr2_6">
+          </CELLULE>
+        </OU>
+        <CELLULE son="m2coe1s11_cellule3" id="phr3_1">
+          <message>On entend le mot "creusent" au milieu de la phrase. Le mot sur lequel tu as cliqué s'entend au début de la phrase.</message>
+        </CELLULE>
+        <OU son="m2coe1s11_ou5">
+          <message>On entend le mot "creusent" au milieu de la phrase.  Le mot sur lequel tu as cliqué s'entend en fin de phrase.</message>
+          <CELLULE id="phr3_5">
+          </CELLULE>
+          <CELLULE id="phr3_6">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe1s11_ou6">
+          <message>On entend le mot "creusent" au milieu de la phrase. Tu as cliqué sur le mot juste à côté.</message>
+          <CELLULE id="phr3_2">
+          </CELLULE>
+          <CELLULE id="phr3_4">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2coe_demo.swf</DEMO>
+</EXO>

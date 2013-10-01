@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <!--<br/> : saut de ligne, <i>...</i> : italique, <b>...</b> : gras, <font color="...">...</font>-->
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="" ref="0058F3" coul="1" son="">
+    </COULEUR>
+    <COULEUR legende="" ref="F17D0A" coul="2" son="">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="">
+  </CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;v coul="2"&gt;C&lt;/v&gt;’est &lt;f id="faux1"&gt;l&lt;/f&gt;e grand jour&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;T&lt;/v&gt;inouk s’est &lt;f id="faux2"&gt;l&lt;/f&gt;evé de bonne heure &lt;v coul="1"&gt;:&lt;/v&gt; aujourd’hui&lt;v coul="1"&gt;,&lt;/v&gt; son père &lt;f id="faux3"&gt;l&lt;/f&gt;’emmène à &lt;f id="faux4"&gt;l&lt;/f&gt;a pêche sur &lt;f id="faux5"&gt;l&lt;/f&gt;a banquise&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e petit &lt;v coul="2"&gt;E&lt;/v&gt;squimau a préparé &lt;br/&gt;&lt;f id="faux6"&gt;l&lt;/f&gt;e traîneau&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e chien de tête&lt;v coul="1"&gt;,&lt;/v&gt; ce sera &lt;v coul="2"&gt;N&lt;/v&gt;orki&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;C&lt;/v&gt;’est &lt;f id="faux7"&gt;l&lt;/f&gt;e mei&lt;f id="faux8"&gt;l&lt;/f&gt;&lt;f id="faux9"&gt;l&lt;/f&gt;eur &lt;v coul="1"&gt;!&lt;/v&gt; &lt;v coul="1"&gt;«&lt;/v&gt; &lt;v coul="2"&gt;A&lt;/v&gt;s-tu pris ton harpon &lt;v coul="1"&gt;?&lt;/v&gt; &lt;v coul="1"&gt;»&lt;/v&gt; demande &lt;v coul="2"&gt;G&lt;/v&gt;rishka à son fi&lt;f id="faux10"&gt;l&lt;/f&gt;s&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;es chien&lt;f id="faux&gt;s s’agitent&lt;v coul="1"&gt;,&lt;/v&gt; i&lt;f id="faux11"&gt;l&lt;/f&gt;s sentent &lt;f id="faux12"&gt;l&lt;/f&gt;e départ&lt;v coul="1"&gt;…&lt;/v&gt;</TEXTE>
+  </CONTENU>
+  <!--bonne réponse : <v coul="1">...</v>(1= id de la couleur : "coul"), mauvaise réponse : <f id="faux2">...</f>-->
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </OU>
+        <ALL son="" rep="" goodRep="">
+          <message>
+          </message>
+        </ALL>
+        <CELLULE id="" rep="" son="">
+          <message>
+          </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

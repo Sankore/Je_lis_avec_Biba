@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2vr1_cons">Passe sur chaque étiquette, écoute bien retrouve le nom du groupe. Place l'étiquette sur le bon wagon.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_oiseaux" id="oiseaux" type="draggable" />
+    <QUESTION goodRep="0" id="poissons" type="draggable" />
+    <QUESTION goodRep="z_sports" id="sports" type="draggable" />
+    <QUESTION goodRep="0" id="habits" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="poissons" son="m2vr1_cellule2">
+          <message>Attention ! Ces 3 images représentent des oiseaux, des animaux qui volent.</message>
+        </CELLULE>
+        <CELLULE id="habits" son="m2vr1_cellule3">
+          <message>Attention ! La natation, la randonnée et la plongée sont des sports comme le tennis par exemple.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

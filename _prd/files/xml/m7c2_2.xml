@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="midi" type="choix" group="1" />
+    <QUESTION goodRep="1" id="nuit" type="choix" group="1" />
+    <QUESTION goodRep="0" id="matin" type="choix" group="1" />
+    <QUESTION goodRep="0" id="am" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m7c22_2ou1">
+          <message>Ce n'est pas possible car Martin attend que le soleil soit couché.</message>
+          <CELLULE id="matin" />
+          <CELLULE id="am" />
+          <CELLULE id="midi" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

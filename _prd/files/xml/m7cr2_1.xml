@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1r2_cons">Ecoute bien ce court texte car après je vais te poser une seule question. Pour répondre, clique sur une des 4 phrases.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="ville" type="choix" group="1" />
+    <QUESTION goodRep="0" id="lune" type="choix" group="1" />
+    <QUESTION goodRep="0" id="voitures" type="choix" group="1" />
+    <QUESTION goodRep="1" id="etoiles" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="ville" son="m7c1r2_cellule1">
+          <message>Oups ! Quand on parle de "celle du Berger", il s'agit d'une étoile. Cela n'a donc rien à voir avec les lumières de la ville.</message>
+        </CELLULE>
+        <CELLULE id="lune" son="m7c1r2_cellule2">
+          <message>Attention ! Marine "les" observe et "elles" brillent (au pluriel). Or, il n'y a qu'une seule Lune.</message>
+        </CELLULE>
+        <CELLULE id="voitures" son="m7c1r2_cellule3">
+          <message>Zut ! Quand on parle de "celle du Berger", il s'agit d'une étoile. Cela n'a donc rien à voir avec les voitures.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

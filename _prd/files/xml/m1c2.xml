@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire. &lt;br/&gt;Ces images sont mal rangées. Déplace-les pour les remettre dans l'ordre de l'histoire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="image1" type="draggable" />
+    <QUESTION goodRep="case2" id="image2" type="draggable" />
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+    <QUESTION goodRep="case4" id="image4" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case1" son="m1c2_all1">
+          <message>Ce n'est pas l'image du début de l'histoire.&lt;br/&gt;Au début de l'histoire, Max regarde les hiboux qui dorment, installés sur une branche.</message>
+        </ALL>
+        <ALL rep="case2" son="m1c2_all2">
+          <message>A ce moment de l'histoire, Max réveille un hibou &lt;br/&gt;avec un bâton.&lt;br/&gt;Ce n'est pas ce que Max fait sur cette image !</message>
+        </ALL>
+        <ALL rep="case3" son="m1c2_all3">
+          <message>A ce moment de l'histoire, Max est attaché à une branche.</message>
+        </ALL>
+        <ALL rep="case4" son="m1c2_all4">
+          <message>Ce n'est pas l'image de la fin de l'histoire.&lt;br/&gt; L'histoire se termine lorsque les amis de Max viennent le libérer.</message>
+        </ALL>
+        <ALL rep="0" son="mess_oubli">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

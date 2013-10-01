@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Ponctuation" ref="0058F3" coul="1" son="m3fl1_leg1">
+    </COULEUR>
+    <COULEUR legende="Majuscules" ref="F17D0A" coul="2" son="m3fl1_leg2">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m3fl1_cons">Avec le pinceau bleu, clique sur les signes de ponctuation.&lt;br/&gt; Avec le pinceau orange, clique sur les lettres majuscules.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;v coul="2"&gt;C&lt;/v&gt;’est &lt;f id="faux1"&gt;l&lt;/f&gt;e grand jour&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;T&lt;/v&gt;inouk s’est &lt;f id="faux2"&gt;l&lt;/f&gt;evé de bonne heure &lt;v coul="1"&gt;:&lt;/v&gt; aujourd’hui&lt;v coul="1"&gt;,&lt;/v&gt; son père &lt;f id="faux3"&gt;l&lt;/f&gt;’emmène à &lt;f id="faux4"&gt;l&lt;/f&gt;a pêche sur &lt;f id="faux5"&gt;l&lt;/f&gt;a banquise&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e petit &lt;v coul="2"&gt;E&lt;/v&gt;squimau a préparé &lt;br/&gt;&lt;f id="faux6"&gt;l&lt;/f&gt;e traîneau&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e chien de tête&lt;v coul="1"&gt;,&lt;/v&gt; ce sera &lt;v coul="2"&gt;N&lt;/v&gt;orki&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;C&lt;/v&gt;’est &lt;f id="faux7"&gt;l&lt;/f&gt;e mei&lt;f id="faux8"&gt;l&lt;/f&gt;&lt;f id="faux9"&gt;l&lt;/f&gt;eur &lt;v coul="1"&gt;!&lt;/v&gt; &lt;v coul="1"&gt;«&lt;/v&gt; &lt;v coul="2"&gt;A&lt;/v&gt;s-tu pris ton harpon &lt;v coul="1"&gt;?&lt;/v&gt; &lt;v coul="1"&gt;»&lt;/v&gt; demande &lt;v coul="2"&gt;G&lt;/v&gt;rishka à son fi&lt;f id="faux10"&gt;l&lt;/f&gt;s&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;es chiens s’agitent&lt;v coul="1"&gt;,&lt;/v&gt; i&lt;f id="faux11"&gt;l&lt;/f&gt;s sentent &lt;f id="faux12"&gt;l&lt;/f&gt;e départ&lt;v coul="1"&gt;…&lt;/v&gt;</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m3fl1_ou1">
+          <message>Attention, ce n'est pas facile ! Le "l" minuscule ressemble au "L" majuscule. Là, tu as cliqué sur la lettre minuscule.</message>
+          <CELLULE id="faux1">
+          </CELLULE>
+          <CELLULE id="faux2">
+          </CELLULE>
+          <CELLULE id="faux3">
+          </CELLULE>
+          <CELLULE id="faux4">
+          </CELLULE>
+          <CELLULE id="faux5">
+          </CELLULE>
+          <CELLULE id="faux6">
+          </CELLULE>
+          <CELLULE id="faux7">
+          </CELLULE>
+          <CELLULE id="faux8">
+          </CELLULE>
+          <CELLULE id="faux9">
+          </CELLULE>
+          <CELLULE id="faux10">
+          </CELLULE>
+          <CELLULE id="faux11">
+          </CELLULE>
+          <CELLULE id="faux12">
+          </CELLULE>
+        </OU>
+        <ALL son="m3fl1_all3" rep="2" goodRep="1">
+          <message>Tu t'es mélangé les pinceaux ! C'est un signe de ponctuation, pas une lettre majuscule.</message>
+        </ALL>
+        <ALL son="m3fl1_all4" rep="1" goodRep="2">
+          <message>Tu t'es mélangé les pinceaux ! C'est une lettre majuscule, pas un signe de ponctuation.</message>
+        </ALL>
+        <ALL son="m3fl1_all1" rep="0" goodRep="1">
+          <message>Tu n'as pas trouvé ce signe de ponctuation.</message>
+        </ALL>
+        <ALL son="m3fl1_all2" rep="0" goodRep="2">
+          <message>Tu n'as pas trouvé cette lettre majuscule.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3fl1_def">
+          <message>Ce n'est ni une lettre majuscule, ni un signe de ponctuation.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m3fl_demo.swf</DEMO>
+</EXO>

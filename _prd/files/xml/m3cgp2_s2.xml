@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g380" alignY="h150">
+      <liste id="r1_l2" goodRep="3" align="gauche">
+        <item>son</item>
+        <item>bi</item>
+        <item>com</item>
+        <item>nai</item>
+      </liste>
+      <liste id="r2_l2" goodRep="2" align="gauche">
+        <item>son</item>
+        <item>bi</item>
+        <item>com</item>
+        <item>nai</item>
+      </liste>
+      <liste id="r3_l2" goodRep="4" align="gauche">
+        <item>son</item>
+        <item>bi</item>
+        <item>com</item>
+        <item>nai</item>
+      </liste>
+      <liste id="r4_l2" goodRep="1" align="gauche">
+        <item>son</item>
+        <item>bi</item>
+        <item>com</item>
+        <item>nai</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g690" alignY="h220">
+      <liste id="r1_l3" goodRep="3" align="center">
+        <item>mè</item>
+        <item>tre</item>
+        <item>ther</item>
+        <item>mo</item>
+      </liste>
+      <liste id="r2_l3" goodRep="4" align="center">
+        <item>mè</item>
+        <item>tre</item>
+        <item>ther</item>
+        <item>mo</item>
+      </liste>
+      <liste id="r3_l3" goodRep="1" align="center">
+        <item>mè</item>
+        <item>tre</item>
+        <item>ther</item>
+        <item>mo</item>
+      </liste>
+      <liste id="r4_l3" goodRep="2" align="center">
+        <item>mè</item>
+        <item>tre</item>
+        <item>ther</item>
+        <item>mo</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g170" alignY="h290">
+      <liste id="r1_l4" goodRep="2" align="gauche">
+        <item>plo</item>
+        <item>ex</item>
+        <item>teur</item>
+        <item>ra</item>
+      </liste>
+      <liste id="r2_l4" goodRep="1" align="gauche">
+        <item>plo</item>
+        <item>ex</item>
+        <item>teur</item>
+        <item>ra</item>
+      </liste>
+      <liste id="r3_l4" goodRep="4" align="gauche">
+        <item>plo</item>
+        <item>ex</item>
+        <item>teur</item>
+        <item>ra</item>
+      </liste>
+      <liste id="r4_l4" goodRep="3" align="gauche">
+        <item>plo</item>
+        <item>ex</item>
+        <item>teur</item>
+        <item>ra</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g513" alignY="h370">
+      <liste id="r1_l5" goodRep="2" align="gauche">
+        <item>le</item>
+        <item>é</item>
+        <item>ge</item>
+        <item>va</item>
+      </liste>
+      <liste id="r2_l5" goodRep="1" align="gauche">
+        <item>le</item>
+        <item>é</item>
+        <item>ge</item>
+        <item>va</item>
+      </liste>
+      <liste id="r3_l5" goodRep="4" align="gauche">
+        <item>le</item>
+        <item>é</item>
+        <item>ge</item>
+        <item>va</item>
+      </liste>
+      <liste id="r4_l5" goodRep="3" align="gauche">
+        <item>le</item>
+        <item>é</item>
+        <item>ge</item>
+        <item>va</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m3cgp2_def">
+          <message>Cette syllabe n'est pas à sa place ici.&lt;br/&gt;Regarde bien la solution.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

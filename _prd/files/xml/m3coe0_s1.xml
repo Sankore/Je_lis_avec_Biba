@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coe0_cons">Clique sur le haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU type="draggable">
+    <QUESTION goodRep="z_intrus" id="camoufler" type="draggable" />
+    <QUESTION goodRep="0" id="moto" />
+    <QUESTION goodRep="0" id="coquille" type="draggable" />
+    <QUESTION goodRep="0" id="thermometre" type="draggable" />
+  </CONTENU>
+</EXO>

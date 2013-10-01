@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5flr1_cons">Place chaque mot dans le bon nuage.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_il" id="climat" type="draggable" />
+    <QUESTION goodRep="z_il" id="moulin" type="draggable" />
+    <QUESTION goodRep="z_il" id="passager" type="draggable" />
+    <QUESTION goodRep="z_il" id="aeroport" type="draggable" />
+    <QUESTION goodRep="z_il" id="cockpit" type="draggable" />
+    <QUESTION goodRep="z_ils" id="planeurs" type="draggable" />
+    <QUESTION goodRep="z_ils" id="nuages" type="draggable" />
+    <QUESTION goodRep="z_ils" id="helicopteres" type="draggable" />
+    <QUESTION goodRep="z_ils" id="pilotes" type="draggable" />
+    <QUESTION goodRep="z_ils" id="casques" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_il" son="m5flr2_all1">
+          <message>Attention ! Les déterminants "des" ou "les" sont au pluriel.</message>
+        </ALL>
+        <ALL rep="z_ils" son="m5flr2_all2">
+          <message>Oups ! Les déterminants "un" ou "le" sont au singulier.</message>
+        </ALL>
+        <ALL son="mess_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

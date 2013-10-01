@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent &lt;br/&gt;aux questions posées.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="d1" type="draggable" />
+    <QUESTION goodRep="z_q1" id="d2" type="draggable" />
+    <QUESTION goodRep="0" id="d3" type="draggable" />
+    <QUESTION goodRep="0" id="d4" type="draggable" />
+    <QUESTION goodRep="0" id="d5" type="draggable" />
+    <QUESTION goodRep="0" id="d6" type="draggable" />
+    <QUESTION goodRep="0" id="d7" type="draggable" />
+    <QUESTION goodRep="z_q2" id="d8" type="draggable" />
+    <QUESTION goodRep="0" id="d9" type="draggable" />
+    <QUESTION goodRep="0" id="d10" type="draggable" />
+    <QUESTION goodRep="0" id="d11" type="draggable" />
+    <QUESTION goodRep="0" id="d12" type="draggable" />
+    <QUESTION goodRep="z_q3" id="d13" type="draggable" />
+    <QUESTION goodRep="0" id="d14" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m4c1s1_cellule1" id="d6" rep="z_q1">
+          <message>Les oursins vivent au fond de la mer :&lt;br/&gt;c'est eux qui sont ramassés. </message>
+        </CELLULE>
+        <CELLULE rep="z_q1" son="m4c1s1_cellule1" id="d11">
+          <message>Les oursins vivent au fond de la mer : c'est eux qui sont ramassés. </message>
+        </CELLULE>
+        <ALL rep="z_q1" son="m4c1s1_all1">
+          <message>Cette réponse ne dit pas quel animal plonge dans la mer pour aller chercher des oursins. </message>
+        </ALL>
+        <CELLULE rep="z_q2" son="m4c1s1_cellule2" id="d4">
+          <message>La loutre ramasse les oursins au fond de la baie mais, elle les mange à un autre endroit. Quel est cet endroit ? </message>
+        </CELLULE>
+        <ALL rep="z_q2" son="m4c1s1_cellule3">
+          <message>Cette étiquette ne parle pas d'un lieu de l'histoire.</message>
+        </ALL>
+        <CELLULE rep="z_q3" son="m4c1s1_cellule6" id="d6">
+          <message>Le texte ne dit pas que les oursins sont sur le ventre de la loutre.</message>
+        </CELLULE>
+        <CELLULE rep="z_q3" son="m4c1s1_cellule6" id="d11">
+          <message>Le texte ne dit pas que les oursins sont sur le ventre de la loutre.</message>
+        </CELLULE>
+        <ALL rep="z_q3" son="m4c1s1_cellule4">
+          <message>Oups ! La pierre est posée sur son ventre.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="d1" />
+        <CELLULE id="d3" />
+        <CELLULE id="d7" />
+        <CELLULE id="d9" />
+        <CELLULE id="d14" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7vr1_cons">Lis les textes et choisis la bonne réponse.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="extra_terrestre" type="choix" />
+    <QUESTION goodRep="1" group="1" id="cosmonaute" type="choix" />
+    <QUESTION goodRep="0" group="1" id="pilote" type="choix" />
+    <QUESTION goodRep="1" group="3" id="fusee" type="choix" />
+    <QUESTION goodRep="0" group="3" id="voiture" type="choix" />
+    <QUESTION goodRep="0" group="3" id="avion" type="choix" />
+    <QUESTION goodRep="1" group="2" id="soleil" type="choix" />
+    <QUESTION goodRep="0" group="2" id="lune" type="choix" />
+    <QUESTION goodRep="0" group="2" id="comete" type="choix" />
+    <QUESTION goodRep="1" group="4" id="alunir" type="choix" />
+    <QUESTION goodRep="0" group="4" id="atterrir" type="choix" />
+    <QUESTION goodRep="0" group="4" id="accoster" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="extra_terrestre" son="m7vr1_cellule1">
+          <message>Ce n'est pas un métier d'extra-terrestre.</message>
+        </CELLULE>
+        <CELLULE id="pilote" son="m7vr1_cellule2">
+          <message>Oups ! Un pilote d'avion conduit des avions.</message>
+        </CELLULE>
+        <CELLULE id="voiture" son="m7vr1_cellule3">
+          <message>Attention ! Pour l'instant, sauf dans les films, une voiture ne permet pas d'aller jusqu'à la Lune.</message>
+        </CELLULE>
+        <CELLULE id="avion" son="m7vr1_cellule4">
+          <message>Un avion ne permet pas d'aller jusqu'à la Lune.</message>
+        </CELLULE>
+        <CELLULE id="lune" son="m7vr1_cellule5">
+          <message>Ce n'est pas la Lune car elle ne réchauffe pas la Terre.</message>
+        </CELLULE>
+        <CELLULE id="comete" son="m7vr1_cellule6">
+          <message>Les comètes ne réchauffent pas la Terre.</message>
+        </CELLULE>
+        <CELLULE id="accoster" son="m7vr1_cellule7">
+          <message>Oups ! "Accoster" est un mot qui est utilisé pour les bateaux. </message>
+        </CELLULE>
+        <CELLULE id="atterrir" son="m7vr1_cellule8">
+          <message>Zut ! Le mot "atterrir" est de la même famille que le mot "Terre". "Atterir" signifie donc : se poser sur la Terre. </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

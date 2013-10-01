@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6v1s11_cons">Complète chaque phrase à l'aide du bon mot :&lt;br/&gt;"puits" ou "puis".&lt;br/&gt;Aide-toi des définitions en cliquant sur les haut-parleurs.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_puits1,z_puits2" id="puits1" type="draggable" />
+    <QUESTION goodRep="z_puis1,z_puis2" id="puis1" type="draggable" />
+    <QUESTION goodRep="z_puis2,z_puis1" id="puis2" type="draggable" />
+    <QUESTION goodRep="z_puits2,z_puits1" id="puits2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6v1s11_all1" rep="z_puits1">
+          <message>C'est dans un "puits" qu'il y a de l'eau pour faire boire les bêtes.</message>
+        </ALL>
+        <ALL son="m6v1s11_all2" rep="z_puis1">
+          <message>Oups ! Dans cette phrase, on peut remplacer&lt;br/&gt;"puis" par "après".</message>
+        </ALL>
+        <ALL son="m6v1s11_all3" rep="z_puis2">
+          <message>Cette phrase n'a pas de sens avec ce mot.</message>
+        </ALL>
+        <ALL son="m6v1s11_all4" rep="z_puits2">
+          <message>Ce sont des "puits" que l'on creuse dans le sol.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

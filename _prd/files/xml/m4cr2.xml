@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m4cr2_cons">Ecoute le haut-parleur.&lt;br/&gt;Réponds ensuite aux questions en cliquant&lt;br/&gt;sur la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="1dd1" type="choix" />
+    <QUESTION goodRep="0" group="1" id="1dd2" type="choix" />
+    <QUESTION goodRep="1" group="1" id="1dd3" type="choix" />
+    <QUESTION goodRep="0" group="2" id="2dd1" type="choix" />
+    <QUESTION goodRep="1" group="2" id="2dd2" type="choix" />
+    <QUESTION goodRep="0" group="2" id="2dd3" type="choix" />
+    <QUESTION goodRep="0" group="2" id="2dd4" type="choix" />
+    <QUESTION goodRep="0" group="3" id="3dd1" type="choix" />
+    <QUESTION goodRep="0" group="3" id="3dd2" type="choix" />
+    <QUESTION goodRep="1" group="3" id="3dd3" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4cr2_ou1">
+          <message>Zut ! Quand on te demande "où", tu dois répondre par un lieu.</message>
+          <CELLULE id="1dd1">
+          </CELLULE>
+          <CELLULE id="1dd2">
+          </CELLULE>
+        </OU>
+        <OU son="m4cr2_ou2">
+          <message>Attention, ce sont les bateaux qui circulent sur la mer.</message>
+          <CELLULE id="2dd1">
+          </CELLULE>
+          <CELLULE id="2dd3">
+          </CELLULE>
+          <CELLULE id="2dd4">
+          </CELLULE>
+        </OU>
+        <OU son="m4cr2_ou4">
+          <message>Oups ! Quand on te demande "quand", tu dois répondre par quelque chose qui exprime le temps.</message>
+          <CELLULE id="3dd1">
+          </CELLULE>
+          <CELLULE id="3dd2">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

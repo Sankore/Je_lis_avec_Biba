@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgp1_cons">Complète chaque phrase avec le mot qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_seau" id="seau" type="draggable" />
+    <QUESTION goodRep="0" id="veau" type="draggable" />
+    <QUESTION goodRep="0" id="gateaux" type="draggable" />
+    <QUESTION goodRep="z_bateaux" id="bateaux" type="draggable" />
+    <QUESTION goodRep="z_radeau" id="radeau" type="draggable" />
+    <QUESTION goodRep="0" id="rateau" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="veau" son="m4cgp1s22_et1">
+          <message>Eh oui ! Ces mots se ressemblent beaucoup. &lt;br/&gt;"Seau" s'écrit avec un "s".</message>
+        </CELLULE>
+        <CELLULE id="gateaux" son="m4cgp1s22_et2">
+          <message>On confond souvent ces deux mots.&lt;br/&gt;Gâteaux s'écrit avec un "g", bateaux s'écrit avec un "b".</message>
+        </CELLULE>
+        <CELLULE id="rateau" son="m4cgp1s22_et3">
+          <message>Dans le mot "radeau", on entend la lettre son [d].&lt;br/&gt;Dans le mot "râteau", on entend  la lettre son [t].&lt;br/&gt;L'exemple suivant peut t'aider : on entend le son [d] dans "doigt" et le son [t] dans "toi".</message>
+        </CELLULE>
+        <!--<ALL son="m4cgp1s12_def" rep="0">
+          <message>La phrase est incomplète.</message>
+        </ALL>-->
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

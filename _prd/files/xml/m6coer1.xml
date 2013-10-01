@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m6coer1_cons">Clique sur chaque image puis retrouve le mot lu.&lt;br/&gt;Attention, tous ces mots se ressemblent !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="crapaud" type="choix" />
+    <QUESTION goodRep="0" group="1" id="crapule" type="choix" />
+    <QUESTION goodRep="1" group="2" id="rongeur" type="choix" />
+    <QUESTION goodRep="0" group="2" id="rougeur" type="choix" />
+    <QUESTION goodRep="0" group="3" id="basson" type="choix" />
+    <QUESTION goodRep="1" group="3" id="buisson" type="choix" />
+    <QUESTION goodRep="0" group="4" id="detail" type="choix" />
+    <QUESTION goodRep="1" group="4" id="betail" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="crapule" son="m6coer1_cellule1">
+          <message>Oups ! Dans "crapaud", on entend la lettre son [o] à la fin.&lt;br/&gt;Dans "crapule", il n'y a pas la lettre son [o].</message>
+        </CELLULE>
+        <CELLULE id="rougeur" son="m6coer1_cellule2">
+          <message>Attention ! Dans "rongeur", on entend les lettres sons [ron] au début. Dans "rougeur", on entend les lettres sons [rou].</message>
+        </CELLULE>
+        <CELLULE id="basson" son="m6coer1_cellule3">
+          <message>Zut ! Dans "buisson", on entend les lettres sons [bui] au début. Dans "basson", on entend les lettres sons [ba].</message>
+        </CELLULE>
+        <CELLULE id="detail" son="m6coer1_cellule4">
+          <message>Tu as confondu la lettre son [b] et la lettre son [d].&lt;br/&gt;"Bétail" s'écrit avec un "b", sinon, cela fait "détail".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

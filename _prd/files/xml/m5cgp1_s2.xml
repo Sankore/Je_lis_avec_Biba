@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5cgp1_cons">Retrouve la syllabe de chaque mot incomplet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_invention" id="ion" type="draggable" />
+    <QUESTION goodRep="z_chiens" id="ien" type="draggable" />
+    <QUESTION goodRep="z_transporter" id="er" type="draggable" />
+    <QUESTION goodRep="z_pompiers" id="ier" type="draggable" />
+    <QUESTION goodRep="z_ceinture" id="ein" type="draggable" />
+    <QUESTION goodRep="z_loin" id="oin" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="oin" rep="z_invention" son="m5cgp1s2_cellule1">
+          <message>Ce sont les bonnes lettres mais elles ne sont pas dans le bon ordre : "invention" s'écrit avec les lettres "i-o-n".</message>
+        </CELLULE>
+        <CELLULE rep="z_pompiers" son="m5cgp1s2_cellule4" id="er">
+          <message>Il manque un "i" pour écrire le mot "pompier".</message>
+        </CELLULE>
+        <CELLULE rep="z_transporter" son="m5cgp1s2_cellule3" id="ier">
+          <message>Il y a une lettre en trop : tu as écrit "transportier".&lt;br/&gt;Pour écrire le mot "transporter", il faut les lettres "e-r".</message>
+        </CELLULE>
+        <CELLULE rep="z_chiens" son="m5cgp1s2_cellule2" id="ein">
+          <message>Ce sont les bonnes lettres mais elles ne sont pas dans le bon ordre. "Chien" s'écrit avec les lettres "i-e-n".</message>
+        </CELLULE>
+        <CELLULE rep="z_loin" son="m5cgp1s2_cellule5" id="ion">
+          <message>Les lettres ne sont pas dans le bon ordre.&lt;br/&gt;Il faut les lettres "o-i-n".</message>
+        </CELLULE>
+        <CELLULE rep="z_ceinture" son="m5cgp1s2_cellule6" id="ien">
+          <message>Les lettres ne sont pas dans le bon ordre.&lt;br/&gt;Pour écrire le mot "ceinture", il faut mettre les lettres "e-i-n".</message>
+        </CELLULE>
+        <ALL rep="0">
+          <message son="m5cgp1s1_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m5cgp1s1_all1">
+          <message>Tu n'as pas choisi la bonne syllabe.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+      <DEMO>m5cgp_demo.swf</DEMO>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m5cgp_demo.swf</DEMO>
+</EXO>

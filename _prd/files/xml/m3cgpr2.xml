@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g389">
+      <liste>
+        <item>ani</item>
+      </liste>
+      <liste id="r1_l1" goodRep="1" align="gauche">
+        <item>mal</item>
+        <item>nal</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g678">
+      <liste>
+        <item>ge</item>
+      </liste>
+      <liste id="r2_l1" goodRep="1" align="left">
+        <item>lé</item>
+        <item>bé</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g196">
+      <liste id="r3_l1" goodRep="2" align="left">
+        <item>pa</item>
+        <item>ba</item>
+      </liste>
+      <liste>
+        <item>leine</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g609">
+      <liste id="r4_l1" goodRep="1" align="left"><item>bo</item><item>bou</item></liste>
+      <liste>
+        <item>ttes</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g242">
+      <liste id="r5_l1" goodRep="1" align="center">
+        <item>ban</item>
+        <item>bon</item>
+      </liste>
+      <liste>
+        <item>quise</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3cgpr2_cellule1" id="r1_l1" rep="2">
+          <message>Tu as écrit "aninal" et non pas "animal". </message>
+        </CELLULE>
+        <CELLULE son="m3cgpr2_cellule2" id="r2_l1" rep="2">
+          <message>Dans le mot "gelé", on entend la lettre son [l].&lt;br/&gt;Tu as écrit : "gebé".</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr2_cellule3" id="r3_l1" rep="1">
+          <message>Le mot "baleine" commence par la lettre son [b],&lt;br/&gt;pas par la lettre son [p].&lt;br/&gt;Tu n'as pas choisi la bonne syllabe.</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr2_cellule4" id="r4_l1" rep="1">
+          <message>Tu as écrit "bouttes" au lieu de "bottes".</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr2_cellule5" id="r5_l1" rep="2">
+          <message>Tu as écrit "bonquise" au lieu de "banquise".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

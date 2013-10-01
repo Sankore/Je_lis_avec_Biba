@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clickmot">
+  <!--<br/> : saut de ligne, <i>...</i> : italique, <b>...</b> : gras, <font color="...">...</font>-->
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="" ref="0058F3" coul="1" son="">
+    </COULEUR>
+    <COULEUR legende="" ref="F17D0A" coul="2" son="">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="">
+  </CONSIGNE>
+  <CONTENU>
+    <TEXTE>
+    </TEXTE>
+  </CONTENU>
+  <!--bonne réponse : <v coul="1">...</v>(1= id de la couleur : "coul"), mauvaise réponse : <f id="faux2">...</f>-->
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </OU>
+        <ALL son="" rep="" goodRep="">
+          <message>
+          </message>
+        </ALL>
+        <CELLULE id="" rep="" son="">
+          <message>
+          </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

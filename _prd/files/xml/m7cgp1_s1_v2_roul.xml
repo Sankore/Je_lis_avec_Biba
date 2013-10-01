@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m67cgp1_v2_cons">Complète chaque mot incomplet. Tu as le choix entre : br, cr, dr, fr, gr, pr, tr, vr.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="20" align="g72" alignY="h50">
+      <liste>
+        <item>Pierre a</item>
+      </liste>
+      <liste id="ld1" goodRep="1" align="center">
+        <item>br</item>
+        <item>cr</item>
+        <item>dr</item>
+        <item>fr</item>
+        <item>gr</item>
+        <item>pr</item>
+        <item>tr</item>
+        <item>vr</item>
+      </liste>
+      <liste>
+        <item>ouvé la solution en ou </item>
+      </liste>
+      <liste id="ld1" goodRep="1" align="center">
+        <item>br</item>
+        <item>cr</item>
+        <item>dr</item>
+        <item>fr</item>
+        <item>gr</item>
+        <item>pr</item>
+        <item>tr</item>
+        <item>vr</item>
+      </liste>
+      <liste>
+        <item>ant une encyclopédie.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m6cgp1_s1_v2_cellule1" id="ld1" rep="2">
+          <message>Oups ! Là, tu as choisi "in" ce qui donne le mot "sinf" et non "s&lt;b&gt;oi&lt;/b&gt;f".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule2" id="ld1" rep="3">
+          <message>On ne dit pas "soinf" mais "s&lt;b&gt;oi&lt;/b&gt;f". Les letrres sons [oi] s'écrivent avec les lettres "o-i".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule3" id="ld2" rep="1">
+          <message>Il manque la lettre "n" pour écrire le mot "bes&lt;b&gt;oin&lt;/b&gt;". Les lettres "i-n" forment les lettres sons [in].</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule4" id="ld2" rep="2">
+          <message>Tu as confondu les lettres sons [in] avec les lettres sons [oin] du mot "bes&lt;b&gt;oin&lt;/b&gt;".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule5" id="ld3" rep="1">
+          <message>Le mot "médec&lt;b&gt;in&lt;/b&gt;" s'écrit avec les lettres "i-n" qui forment les lettres sons [in]. Les lettres "o-i" forment les lettres sons [oi].</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule6" id="ld3" rep="3">
+          <message>Avec les lettres "o-i-n" tu as formé le mot "médecoin" et non "médec&lt;b&gt;in&lt;/b&gt;" qui s'écrit avec les lettres "i-n".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule7" id="ld4" rep="2">
+          <message>Ecoute bien, "&lt;b&gt;oi&lt;/b&gt;seau". Là, tu as écrit "inseau".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule8" id="ld4" rep="3">
+          <message>Le mot "oiseau" s'écrit avec les lettres "o-i". Là, tu as choisi les lettres sons [oin].</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule9" id="ld5" rep="3">
+          <message>Tu as écrit le mot "oinvitation".  Il fallait écrire "&lt;b&gt;in&lt;/b&gt;vitation".</message>
+        </CELLULE>
+        <CELLULE son="m6cgp1_s1_v2_cellule10" id="ld5" rep="1">
+          <message>Tu as écrit le mot "oivitation".  Il fallait écrire "&lt;b&gt;in&lt;/b&gt;vitation".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3c1_cons">Clique sur chaque mot pour écouter ce qui est écrit. Remets les mots dans l'ordre pour former une phrase.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="il" type="draggable" />
+    <QUESTION goodRep="case2" id="fait" type="draggable" />
+    <QUESTION goodRep="case3" id="tres" type="draggable" />
+    <QUESTION goodRep="case4" id="froid" type="draggable" />
+    <QUESTION goodRep="case5" id="la" type="draggable" />
+    <QUESTION goodRep="case6" id="neige" type="draggable" />
+    <QUESTION goodRep="case7" id="recouvre" type="draggable" />
+    <QUESTION goodRep="case8" id="tout" type="draggable" />
+    <QUESTION goodRep="case9" id="le" type="draggable" />
+    <QUESTION goodRep="case10" id="renne" type="draggable" />
+    <QUESTION goodRep="case11" id="court" type="draggable" />
+    <QUESTION goodRep="case12" id="vite" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m3cr1_ou1">
+          <message>Cette étiquette avec un mot en majuscule se place au début de la phrase.</message>
+          <CELLULE id="il" />
+          <CELLULE id="la" />
+          <CELLULE id="le" />
+        </OU>
+        <OU son="m3cr1_ou2">
+          <message>Il y a un point, ce qui signifie que cette étiquette se place en fin de phrase.</message>
+          <CELLULE id="froid" />
+          <CELLULE id="tout" />
+          <CELLULE id="vite" />
+        </OU>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3cr1_def">
+          <message>Cette étiquette n'est pas à sa place.&lt;br&gt;Une phrase doit avoir du sens, elle doit vouloir dire quelque chose.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

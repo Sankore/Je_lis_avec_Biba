@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m4coer1_cons">Clique sur les mots qui se terminent par une ou plusieurs lettres muettes.&lt;br/&gt;Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="banc" type="choix" />
+    <QUESTION goodRep="1" id="etang" type="choix" />
+    <QUESTION goodRep="1" id="goeland" type="choix" />
+    <QUESTION goodRep="1" id="chant" type="choix" />
+    <QUESTION goodRep="1" id="corps" type="choix" />
+    <QUESTION goodRep="1" id="nord" type="choix" />
+    <QUESTION goodRep="1" id="port" type="choix" />
+    <QUESTION goodRep="1" id="dehors" type="choix" />
+    <QUESTION goodRep="0" id="flan" type="choix" />
+    <QUESTION goodRep="0" id="ocean" type="choix" />
+    <QUESTION goodRep="0" id="tresor" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m4coer1_cellule1" id="banc">
+          <message>Attention ! Dans cet exemple, le "c" ne se prononce pas, &lt;br/&gt;c' est donc une lettre muette.</message>
+        </CELLULE>
+        <CELLULE son="m4coer1_cellule2" id="etang">
+          <message>Le mot "étang" se termine par un "g" que l'on n'entend pas, un "g" muet.</message>
+        </CELLULE>
+        <OU son="m4coer1_ou1">
+          <message>Toutes les lettres de ce mot s'entendent : elles ne sont pas muettes. Dans cet exemple, les lettres "a" et "n" forment les lettres sons [an]. </message>
+          <CELLULE id="flan" />
+          <CELLULE id="ocean" />
+        </OU>
+        <OU son="m4coer1_ou2">
+          <message>Dans les mots "goéland" et "nord" on n'entend pas le "d" final. Il est donc muet. Sinon, on entendrait {goélande} et {norde}.</message>
+          <CELLULE id="goeland" />
+          <CELLULE id="nord" />
+        </OU>
+        <OU son="m4coer1_ou3">
+          <message>Attention, en fin de mot le "t" peut être muet.&lt;br/&gt;Exemple : les mots "chant" et "port" ne se terminent pas par la lettre son [t].</message>
+          <CELLULE id="chant" />
+          <CELLULE id="port" />
+        </OU>
+        <OU son="m4coer1_ou4">
+          <message>Les mots "corps" et "dehors" se terminent par un "s" muet.</message>
+          <CELLULE id="corps" />
+          <CELLULE id="dehors" />
+        </OU>
+        <CELLULE son="m4coer1_cellule3" id="tresor">
+          <message>Ecoute bien ce mot : "trésor".&lt;br/&gt;On entend bien toutes les lettres.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

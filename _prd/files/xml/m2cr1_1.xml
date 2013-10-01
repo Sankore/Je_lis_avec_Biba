@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cr1_cons">Place chaque dessin sous la consigne correspondante.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_relier" id="relier" type="draggable" />
+    <QUESTION goodRep="z_entourer" id="entourer" type="draggable" />
+    <QUESTION goodRep="z_decouper" id="decouper" type="draggable" />
+    <QUESTION goodRep="z_dessiner" id="dessiner" type="draggable" />
+    <QUESTION goodRep="z_barrer" id="barrer" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="relier" son="m2cr11_cellule2">
+          <message>Oups, sur ce dessin, on a fait un trait entre le dessin et le mot "mille-pattes". Là, tu as relié.</message>
+        </CELLULE>
+        <CELLULE id="entourer" son="m2cr11_cellule4">
+          <message>Zut, sur l'image que tu as choisie, il y a un rond dessiné autour du mot. Là, tu as entouré.</message>
+        </CELLULE>
+        <CELLULE id="decouper" son="m2cr11_cellule1">
+          <message>Attention, sur cette image, on voit une paire de ciseaux. A quoi sert-elle ? A découper.</message>
+        </CELLULE>
+        <CELLULE id="dessiner" son="m2cr11_cellule3">
+          <message>Oups, ici, on devine un mille-patte. La main est en train de dessiner.</message>
+        </CELLULE>
+        <CELLULE id="barrer" son="m2cr11_cellule5">
+          <message>Attention. Regarde cette image : il y a un trait sur le mot "mille-pattes". Là tu as barré.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2c_demo.swf</DEMO>
+</EXO>

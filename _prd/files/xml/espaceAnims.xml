@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro>
+    <status perso="martienne" scaleX="1" />
+    <status perso="souris" frame="marche" x="-400" y="-1200" scaleX="-1" />
+    <move perso="souris" x="-400" y="-825" speed="15" />
+    <status perso="souris" frame="ecoute" scaleX="-1" />
+    <status perso="martienne" scaleX="1" />
+    <dialogue perso="souris" son="m7_dial_deb_01_souris">
+		Bonjour Madame ! Je m’appelle Léon. 
+	</dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_02_martienne">Bonjour Léon ! Je m’appelle Adeugrudululu, mais sur ta planète, cela se prononce Ugule !  
+	</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_03_souris">Ha ha ha ! D’accord…Ugule. Gédéon, le caméléon, m’a conseillé de venir vous rencontrer au sujet de …
+	</dialogue>
+    <status perso="martienne" frame="objectif" />
+    <dialogue perso="martienne" son="m7_dial_deb_04_martienne">Je sais parfaitement pourquoi tu es venu jusqu’ici… après un si long voyage.	</dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_05_martienne">Tu as rassemblé 6 morceaux de formule magique… et bien moi je vais te donner le tout dernier. Tu seras bientôt chez toi …
+	</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_06_souris">Fantastique ! 
+	</dialogue>
+    <status perso="martienne" frame="objectif" />
+    <dialogue perso="martienne" son="m7_dial_deb_07_martienne">Je vais te donner la fin de la formule magique, mais pour l’instant je suis un peu pressée ! </dialogue>
+    <dialogue perso="martienne" son="m7_dial_deb_08_martienne">J’ai cinq enfants, tous plus jeunes et désobéissants que toi. Ils s’amusent à se cacher et je ne les retrouve pas. </dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_09_martienne">Je commence à m’inquiéter.	</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_10_souris">Ne vous inquiétez pas madame Ugule, je vais retrouver chacun de vos cinq enfants…ils ne doivent pas être très loin.</dialogue>
+    <dialogue perso="martienne" son="m7_dial_deb_11_martienne">Merci 1000 fois mon jeune ami.</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_12_souris">C’est parti !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m7_dial_deb_13_souris">Tu me donnes un coup de main ?
+	</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_14_souris">Clique sur les enfants de Ugule lorsque tu les auras trouvé. Tu te souviens, ils sont 5 !</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_15_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <finsExos>
+    <animFin_fruits>
+      <status perso="martienne" scaleX="1" frame="marche" />
+      <move perso="martienne" x="" />
+    </animFin_fruits>
+  </finsExos>
+  <rappelConsigne>
+    <status perso="martienne" frame="objectif" />
+    <dialogue autoClose="false" perso="martienne" son="m7_rap_cons_martienne">Tu te souviens, il faut retrouver les 5 jeunes martiens. 
+	</dialogue>
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="martienne" son="m7_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+    <status perso="souris" frame="ecoute" />
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m7_dial_fin_01_souris">Et voilà ! La famille est au complet !
+	</dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_02_martienne">Merci beaucoup cher Léo ! Tous les habitants de ta planète sont aussi gentils que toi ?
+	</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_03_souris">Les souris sont adorables en tout cas !</dialogue>
+    <status perso="martienne" frame="objectif" />
+    <dialogue perso="martienne" son="m7_dial_deb_04_martienne">Bon, et bien voilà, la fin de la formule magique est à toi ! 
+	</dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_05_martienne">Bravo, tu es persévérant et tu vas voir… la magie du livre est incroyable ! 
+	</dialogue>
+    <dialogue perso="souris" son="m7_dial_fin_06_souris">Merci Ugule.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="narratrice" son="m7_dial_deb_07_narratrice">« tous les secrets du monde sont miens.»
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <status perso="martienne" frame="objectif" />
+    <dialogue perso="martienne" son="m7_dial_fin_08_martienne"> Viens avec moi, je te conduis chez toi, j’ai une soucoupe volante toute neuve… nous arriverons en un rien de temps !</dialogue>
+    <dialogue perso="souris" son="m7_dial_deb_09_souris">Une soucoupe volante ! Génial ! </dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="m7_dial_deb_10_martienne">En route !
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="-1" />
+    <move perso="souris" x="-1000" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m7_dial_retour_10__souris">Bonjour Ugule ! Euh… Adeugrudululu ! 
+	</dialogue>
+    <status perso="martienne" frame="objectif" />
+    <dialogue perso="martienne" son="m7_dial_retour_10__martienne">Léon ! Mais tu parles martien maintenant ? C’est fantastique ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="bis0_m7_dial_retour_10__souris">Oui oui très bien ! </dialogue>
+    <status perso="martienne" frame="attend_jeu" />
+    <dialogue perso="martienne" son="bis0_m7_dial_retour_10__martienne"> Bon, je te laisse voltiger tranquillement, je vais surveiller mes cinq petits monstres !</dialogue>
+    <dialogue perso="souris" son="m7_dial_retour_10__souris_bis"> D'accord, A bientôt !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m7_dial_retour_11__souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m7_dial_retour_12__souris">Clique sur les martiens en bas de l’écran. </dialogue>
+  </retourExo>
+</data>

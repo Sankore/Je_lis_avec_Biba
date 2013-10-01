@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2c1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Place les images au bon endroit.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_completer" id="completer" type="draggable" />
+    <QUESTION goodRep="z_decouper" id="decouper" type="draggable" />
+  </CONTENU>
+</EXO>

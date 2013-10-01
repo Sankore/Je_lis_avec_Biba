@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1v1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, clique sur l'image qui correspond à ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="limace" type="choix" />
+    <QUESTION goodRep="0" group="1" id="escargot" type="choix" />
+    <QUESTION goodRep="0" group="1" id="chenille" type="choix" />
+    <QUESTION goodRep="1" group="2" id="empreinte" type="choix" />
+    <QUESTION goodRep="0" group="2" id="patte" type="choix" />
+    <QUESTION goodRep="0" group="2" id="ombre" type="choix" />
+    <QUESTION goodRep="1" group="4" id="plume" type="choix" />
+    <QUESTION goodRep="0" group="4" id="oiseau" type="choix" />
+    <QUESTION goodRep="0" group="4" id="aile" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="oiseau" rep="1" son="m1v1s1_cellule1">
+          <message>Tu as cliqué sur l'oiseau.&lt;br/&gt;Attention ! Un oiseau est couvert de plumes mais ce n'est pas une plume !</message>
+        </CELLULE>
+        <CELLULE id="aile" rep="1" son="m1v1s1_cellule2">
+          <message>Une aile est couverte de plumes mais ce n'est pas une plume !</message>
+        </CELLULE>
+        <CELLULE id="escargot" rep="1" son="m1v1s1_cellule3">
+          <message>La limace, elle, n'a pas de coquille.</message>
+        </CELLULE>
+        <CELLULE id="chenille" rep="1" son="m1v1s1_cellule4">
+          <message>La limace, elle, n'a pas de pattes.</message>
+        </CELLULE>
+        <CELLULE id="patte" rep="1" son="m1v1s1_cellule7">
+          <message>Une patte laisse une empreinte mais ce n'est pas une empreinte.</message>
+        </CELLULE>
+        <CELLULE id="ombre" rep="1" son="m1v1s1_cellule8">
+          <message>Une empreinte, c'est une trace laissée sur le sol par des pattes et des pieds.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1v_demo.swf</DEMO>
+</EXO>

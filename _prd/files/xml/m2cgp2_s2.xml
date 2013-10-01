@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur.&lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="zone_a" id="cave" type="draggable" />
+    <QUESTION goodRep="zone_m" id="gomme" type="draggable" />
+    <QUESTION goodRep="zone_ch" id="chene" type="draggable" />
+    <QUESTION goodRep="zone_ou" id="loup" type="draggable" />
+    <QUESTION goodRep="zone_r" id="groseille" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="cave" son="m2cgp2s2_cellule1">
+          <message>Dans le mot "cave", on entend la lettre son [a].</message>
+        </CELLULE>
+        <CELLULE id="gomme" son="m2cgp2s2_cellule2">
+          <message>Dans le mot "gomme", on entend la lettre son [o].</message>
+        </CELLULE>
+        <CELLULE id="chene" son="m2cgp2s2_cellule3">
+          <message>Dans le mot "chêne", on entend les lettres sons [ch].</message>
+        </CELLULE>
+        <CELLULE id="loup" son="m2cgp2s2_cellule4">
+          <message>Dans le mot "loup", on entend les lettres sons [ou].</message>
+        </CELLULE>
+        <CELLULE id="groseille" son="m2cgp21s_cellule5">
+          <message>Dans le mot "groseille", on entend la lettre son [r].</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

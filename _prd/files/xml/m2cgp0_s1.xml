@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur. &lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="mulot" goodRep="zone_u" />
+    <QUESTION id="enfoncer" goodRep="zone_on" />
+  </CONTENU>
+</EXO>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22488" type="q1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m7fl1_s1.xml" swfPath="m7fl1_s1.swf">
+    <redirectType id="*" value="q1_2" />
+  </question>
+  <question itemId="22489" type="q1_2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m7fl1_s2.xml" swfPath="m7fl1_s2.swf">
+    <redirectType value="q2" id="0" />
+    <redirectType id="1" value="r1" />
+  </question>
+  <question itemId="22491" type="r1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/m7flr1.xml" swfPath="m7flr1.swf">
+  </question>
+  <question itemId="22490" type="q2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7fl2.xml" swfPath="m7fl2.swf">
+  </question>
+</exo>

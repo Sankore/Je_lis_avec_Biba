@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur. &lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="chemin" goodRep="zone_ch" />
+    <QUESTION id="hache" goodRep="zone_ch" />
+    <QUESTION id="pousser" goodRep="zone_ou" />
+    <QUESTION id="boue" goodRep="zone_ou" />
+    <QUESTION id="graine" goodRep="zone_r" />
+    <QUESTION id="terre" goodRep="zone_r" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m2cgp1s3_ou1" goodRep="zone_ou">
+          <message>Dans ce mot, on entend les lettres sons [ou]. </message>
+        </ALL>
+        <ALL son="m2cgp1s3_ou2" goodRep="zone_r">
+          <message>Dans ce mot, on entend la lettre son [r]. </message>
+        </ALL>
+        <ALL son="m2cgp1s3_ou3" goodRep="zone_ch">
+          <message>Dans ce mot, on entend les lettres sons [ch]. </message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="464454" son="m2cgp1s3_def">
+          <message>Ces mots sont mal classés.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <cellule id="chemin" />
+        <cellule id="pousser" />
+        <cellule id="graine" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m2cgp_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22456" type="c1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/ce2_fr_famille_m2.xml">
+  </question>
+  <question itemId="22456" type="c1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_famille_m1.xml" swfPath="ce2_fr_famille_m1.swf">
+  </question>
+  <question itemId="22445" type="d1" interfPath="oaalDragndrop.swf" swfPath="ce2_fr_dico_d1.swf" aide="1" label="azefasefa">
+    <redirectType value="q1" id="*" />
+    <anim path="ce2_fr_dico_d1.swf" />
+  </question>
+</exo>

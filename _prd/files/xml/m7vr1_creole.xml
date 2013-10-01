@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7vr1_cons_creole">Li tèks yo epi chwazi repons ki bon an.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="extra_terrestre" type="choix" />
+    <QUESTION goodRep="1" group="1" id="cosmonaute" type="choix" />
+    <QUESTION goodRep="0" group="1" id="pilote" type="choix" />
+    <QUESTION goodRep="1" group="3" id="fusee" type="choix" />
+    <QUESTION goodRep="0" group="3" id="voiture" type="choix" />
+    <QUESTION goodRep="0" group="3" id="avion" type="choix" />
+    <QUESTION goodRep="1" group="2" id="soleil" type="choix" />
+    <QUESTION goodRep="0" group="2" id="lune" type="choix" />
+    <QUESTION goodRep="0" group="2" id="comete" type="choix" />
+    <QUESTION goodRep="1" group="4" id="alunir" type="choix" />
+    <QUESTION goodRep="0" group="4" id="atterrir" type="choix" />
+    <QUESTION goodRep="0" group="4" id="accoster" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="extra_terrestre" son="m7vr1_cellule1_creole">
+          <message>Ki moun ki konnen sa Extraterès yo ap fè si yo ta egziste tout bon vre?</message>
+        </CELLULE>
+        <CELLULE id="pilote" son="m7vr1_cellule2_creole">
+          <message>Yon pilòt se li men kap mennen avyon an.</message>
+        </CELLULE>
+        <CELLULE id="voiture" son="m7vr1_cellule3_creole">
+          <message>Yon machin pa ka mennen moun sou lalin.</message>
+        </CELLULE>
+        <CELLULE id="avion" son="m7vr1_cellule4_creole">
+          <message>Yon avyon pa ka ale jis sou lalin.</message>
+        </CELLULE>
+        <CELLULE id="lune" son="m7vr1_cellule5_creole">
+          <message>Se pa lalin lan paske li pa chofe tè a.</message>
+        </CELLULE>
+        <CELLULE id="comete" son="m7vr1_cellule6_creole">
+          <message>Zetwal yo pa chofe tè a.</message>
+        </CELLULE>
+        <CELLULE id="accoster" son="m7vr1_cellule7_creole">
+          <message>Oups ! "Accoster" est un mot qui est utilisé pour les bateaux. </message>
+        </CELLULE>
+        <CELLULE id="atterrir" son="m7vr1_cellule8_creole">
+          <message>Mot "Ateri" a se nan menm fanmi ak mo tè a. "Ateri" vle di: poze sou tè a.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

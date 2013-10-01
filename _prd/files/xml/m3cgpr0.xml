@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g604">
+      <liste id="r1_l1" goodRep="1" align="gauche">
+        <item>cha</item>
+        <item>ja</item>
+      </liste>
+      <liste>
+        <item>sse</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+</EXO>

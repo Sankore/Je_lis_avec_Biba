@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgp1_cons">Complète chaque phrase avec le mot qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_chateaux" id="chateaux" type="draggable" />
+    <QUESTION goodRep="0" id="chatons" type="draggable" />
+    <QUESTION goodRep="0" id="poisons" type="draggable" />
+    <QUESTION goodRep="z_poissons" id="poissons" type="draggable" />
+    <QUESTION goodRep="0" id="bagues" type="draggable" />
+    <QUESTION goodRep="z_vagues" id="vagues" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m4cgp1s12_et1" id="chatons">
+          <message>Zut ! Dans le mot que tu as choisi, on n'entend pas la lettre son [o] mais les lettres sons  [on].</message>
+        </CELLULE>
+        <CELLULE id="poisons" son="m4cgp1s12_et2">
+          <message>Attention ! Ces mots se ressemblent beaucoup :&lt;br/&gt;"poisson" s'écrit avec deux "s".</message>
+        </CELLULE>
+        <CELLULE id="bagues" son="m4cgp1s12_et3">
+          <message>Oups ! Le mot "vague" s'écrit avec un "v" comme le mot "voiture". </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <!--<OUBLIS son="m4cgp1s12_def">
+          <message>La phrase est incomplète.</message>
+        </OUBLIS>-->
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m4cgp_demo.swf</DEMO>
+</EXO>

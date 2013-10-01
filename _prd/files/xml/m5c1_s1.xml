@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5c1_cons">Voici les phrases d'une histoire : elles sont dans le désordre.&lt;br/&gt;A toi de jouer !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="ligne1" id="d1" type="draggable" />
+    <QUESTION goodRep="ligne2" id="d2" type="draggable" />
+    <QUESTION goodRep="ligne3" id="d3" type="draggable" />
+    <QUESTION goodRep="ligne4" id="d4" type="draggable" />
+    <QUESTION goodRep="ligne5" id="d5" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="d3" rep="ligne1" son="m5c1s1_cellule1">
+          <message>Il faut une majuscule au début du texte.&lt;br/&gt;Cette étiquette ne peut donc pas être la première de l'histoire.</message>
+        </CELLULE>
+        <ALL rep="ligne1" son="m5c1s2_cellule3">
+          <message>Tu as bien vu que cette étiquette commence par une majuscule mais ce n'est pas le début de l'histoire.</message>
+        </ALL>
+        <ALL rep="ligne5" son="m5c1s1_all2">
+          <message>L'histoire ne se termine pas comme ça.</message>
+        </ALL>
+        <ALL son="mess_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m5c1s1_def">
+          <message>Cette étiquette n'est pas à la bonne place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="d3" />
+        <CELLULE id="d4" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m5c_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<i>...</i> : italique, <b>...</b> : gras, <font color="#...">...</font> : couleur typo, <br/>: saut de ligne -->
+<EXO type="dragndrop">
+  <CONSIGNE son="">Saisir ici la consigne qui s'affichera dans l'encart prévu du fla.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="" goodRep="" type="draggable">
+      <!--Attention, les ids doivent être exctement les mêmes que dans le fichier fla. -->
+      <!--id = identifiant du DRAGGABLE (ex : sauter), goodrep = identifiant de la ZONE (ex : z_sauter)-->
+    </QUESTION>
+    <QUESTION id="" goodRep="" type="draggable">
+      <!--Attention, les ids doivent être exctement les mêmes que dans le fichier fla. -->
+      <!--id = identifiant du DRAGGABLE (ex : sauter), goodrep = identifiant de la ZONE (ex : z_sauter)-->
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="" rep="" son="">
+          <message>
+          </message>
+        </CELLULE>
+        <!--rep = id de la zone où l'enfant a déposé la cellule (ex: draggable "sauter" (=id) poser sur la zone "z_manger" (=rep))-->
+        <OU son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </OU>
+        <ET son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </ET>
+        <ALL son="" goodRep="" rep="">
+          <message>
+          </message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

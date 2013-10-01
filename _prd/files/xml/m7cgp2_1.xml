@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m7cgp2_cons">Retrouve ce qui est dessiné sur les images suivantes en te servant des lettres de l'alphabet. Tu peux essayer de faire l'exercice sans cliquer sur les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="_e_etoile,_e_fusee" id="_e1" type="draggable" />
+    <QUESTION goodRep="t_etoile,t_robot" id="t1" type="draggable" />
+    <QUESTION goodRep="o_etoile,o1_robot,o2_robot,o1_soucoupe,o2_soucoupe" id="o1" type="draggable" />
+    <QUESTION goodRep="i_etoile" id="i1" type="draggable" />
+    <QUESTION goodRep="l_etoile" id="l1" type="draggable" />
+    <QUESTION goodRep="e_etoile,e_soucoupe,e_fusee" id="e1" type="draggable" />
+    <QUESTION goodRep="r_robot" id="r1" type="draggable" />
+    <QUESTION goodRep="o1_robot,o_etoile,o2_robot,o1_soucoupe,o2_soucoupe" id="o2" type="draggable" />
+    <QUESTION goodRep="b_robot," id="b1" type="draggable" />
+    <QUESTION goodRep="o2_robot,o_etoile,o1_robot,o1_soucoupe,o2_soucoupe" id="o3" type="draggable" />
+    <QUESTION goodRep="t_robot,t_etoile" id="t2" type="draggable" />
+    <QUESTION goodRep="s_soucoupe,s_fusee" id="s1" type="draggable" />
+    <QUESTION goodRep="o1_soucoupe,o_etoile,o1_robot,o2_robot,o2_soucoupe" id="o4" type="draggable" />
+    <QUESTION goodRep="u1_soucoupe,u_fusee,u2_soucoupe" id="u1" type="draggable" />
+    <QUESTION goodRep="c_soucoupe" id="c1" type="draggable" />
+    <QUESTION goodRep="o2_soucoupe,o_etoile,o1_robot,o2_robot,o1_soucoupe," id="o5" type="draggable" />
+    <QUESTION goodRep="u2_soucoupe,u_fusee,u1_soucoupe" id="u2" type="draggable" />
+    <QUESTION goodRep="p_soucoupe" id="p1" type="draggable" />
+    <QUESTION goodRep="e_soucoupe,e_etoile,e_fusee," id="e2" type="draggable" />
+    <QUESTION goodRep="f_fusee" id="f1" type="draggable" />
+    <QUESTION goodRep="u_fusee,u1_soucoupe,u2_soucoupe" id="u3" type="draggable" />
+    <QUESTION goodRep="s_fusee,s_soucoupe" id="s2" type="draggable" />
+    <QUESTION goodRep="_e_fusee,_e_etoile" id="_e2" type="draggable" />
+    <QUESTION goodRep="e_fusee,e_etoile,e_soucoupe" id="e3" type="draggable" />
+    <QUESTION goodRep="0" id="e_" type="draggable" />
+    <QUESTION goodRep="0" id="g1" type="draggable" />
+    <QUESTION goodRep="0" id="h1" type="draggable" />
+    <QUESTION goodRep="0" id="j1" type="draggable" />
+    <QUESTION goodRep="0" id="k1" type="draggable" />
+    <QUESTION goodRep="0" id="m1" type="draggable" />
+    <QUESTION goodRep="0" id="n1" type="draggable" />
+    <QUESTION goodRep="0" id="s1" type="draggable" />
+    <QUESTION goodRep="0" id="v1" type="draggable" />
+    <QUESTION goodRep="0" id="w1" type="draggable" />
+    <QUESTION goodRep="0" id="x1" type="draggable" />
+    <QUESTION goodRep="0" id="y1" type="draggable" />
+    <QUESTION goodRep="0" id="z1" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m7cgp1s1_def">
+          <message>Tu n'as pas écrit correctement le mot à compléter.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

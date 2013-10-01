@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root intro="false">
+  <noms>
+    <types>
+      <type id="1" nom="Démonstration"></type>
+      <type id="2" nom="Séquence"></type>
+      <type id="3" nom="Exercice" />
+    </types>
+    <niveaux>
+      <niveau id="1" nom="Monde 1" />
+      <niveau id="2" nom="Monde 2" />
+      <niveau id="3" nom="Monde 3" />
+      <niveau id="4" nom="Monde 4" />
+      <niveau id="5" nom="Monde 5" />
+      <niveau id="6" nom="Monde 6" />
+      <niveau id="7" nom="Monde 7" />
+    </niveaux>
+    <competences>
+      <competence id="1" nom="Compréhension" />
+      <competence id="2" nom="Conscience grapho-phonologique" />
+      <competence id="3" nom="Correspondance oral-écrit" />
+      <competence id="4" nom="Fonctionnement de la langue" />
+      <competence id="5" nom="Vocabulaire" />
+    </competences>
+  </noms>
+  <items>
+    <niveau id="1">
+      <competence id="1">
+        <item type="1" nom="Ranger des images dans l’ordre d'une l’histoire lue." source="m1c_demo.swf"></item>
+        <item type="2" nom="Manifester la compréhension d'une histoire lue par l'adulte en ordonnant des images séquentielles." source="meta_m1c.xml"></item>
+        <item type="3" idExercice="22445" nom="Exemple : Ranger des images dans l’ordre de l’histoire lue : &quot;Le voyage de M. Hérisson&quot;." source="m1c0.xml"></item>
+        <item type="3" idExercice="22446" nom="Exercice 1 - Série 1 : Ranger des images dans l’ordre de l’histoire lue : &quot;Comment l'ours se fit des amis&quot;." source="m1c1_s1.xml"></item>
+        <item type="3" idExercice="22456" nom="Exercice 1.1 : Ranger des images dans l’ordre de l’histoire à partir d’un texte court : &quot;Tom et son ballon&quot;." source="m1cr1.xml"></item>
+        <item type="3" idExercice="22457" nom="Exercice 1.2 : Retrouver parmi trois images celle qui correspond au début de l'histoire." source="m1cr2.xml"></item>
+        <item type="3" idExercice="22448" nom="Exercice 2 : Ranger des images dans l’ordre de l’histoire à partir d’un texte plus complexe : &quot;La colère du chef des hiboux&quot;." source="m1c2.xml"></item>
+      </competence>
+      <competence id="2">
+        <item type="1" nom="Classer des mots en fonction du nombre de syllabe." source="m1cgp_demo.swf"></item>
+        <item type="2" nom="Segmenter le mot illustré en syllabes et en donner le nombre." source="meta_m1cgp.xml"></item>
+        <item type="3" idExercice="22449" nom="Exemple : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp0.xml"></item>
+        <item type="3" idExercice="22450" nom="Exercice 1 - Série 1 : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp1_s1.xml"></item>
+        <item type="3" idExercice="22451" nom="Exercice 1 - Série 2 : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp1_s2.xml"></item>
+        <item type="3" idExercice="22452" nom="Exercice 1.1.1 : Reconstituer des illustrations d'animaux en fonction du nombre de syllabes : 2 ou 3 syllabes." source="m1cgpr1_1.xm"></item>
+        <item type="3" idExercice="22453" nom="Exercice 1.1.2 : Classer des images d'animaux en fonction du nombre de syllabes : 2 ou 3 syllabes." source="m1cgpr1_2.xml"></item>
+        <item type="3" idExercice="22454" nom="Exercice 1.2 : Classer des mots en fonction du nombre de syllabes : 2, 3 ou 4 syllabes." source="m1cgpr2.xml"></item>
+        <item type="3" idExercice="22455" nom="Exercice 2 : Classer de mots moins fréquents en fonction du nombre de syllabes : 3 ou 4 syllabes." source="m1cgp2.xml"></item>
+      </competence>
+      <competence id="3">
+        <item type="1" nom="Retrouver l'étiquette qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe_demo.swf"></item>
+        <item type="2" nom="Faire le lien entre la quantité de mots entendus et la quantité de mots écrits." source="meta_m1coe.xml"></item>
+        <item type="3" idExercice="22458" nom="Exemple : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe0.xml"></item>
+        <item type="3" idExercice="22459" nom="Exercice 1 - Série 1 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe1_s1.xml"></item>
+        <item type="3" idExercice="22460" nom="Exercice 1 - Série 2 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe1_s2.xml"></item>
+        <item type="3" idExercice="22462" nom="Exercice 1.1 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coer1.xml"></item>
+        <item type="3" idExercice="22461" nom="Exercice 2 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe2.xml"></item>
+      </competence>
+      <competence id="4">
+        <item type="1" nom="Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl_demo.swf"></item>
+        <item type="2" nom="Connaître le vocabulaire technique utilisé à propos des textes : les lettres." source="meta_m1fl.xml"></item>
+        <item type="3" idExercice="22463" nom="Exemple : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl0.xml"></item>
+        <item type="3" idExercice="22464" nom="Exercice 1 - Série 1 : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl1_s1.xml"></item>
+        <item type="3" idExercice="22465" nom="Exercice 1 - Série 2 : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl1_s2.xml"></item>
+        <item type="3" idExercice="22467" nom="Exercice 1.1 : Reconnaître et sélectionner les lettres parmi une liste de chiffres et de lettres." source="m1flr1.xml"></item>
+        <item type="3" idExercice="22468" nom="Exercice 1.2 : Mettre en correspondance les différentes typologies d’écriture d’une même lettre." source="m1flr2.xml"></item>
+        <item type="3" idExercice="22466" nom="Exercice 2 : Recopier un mot écrit dans une typologie d'écriture différente." source="m1fl2.xml"></item>
+        <item type="3" idExercice="16563" nom="Fonctionnement de la langue - Exercice 16563" source="m1flr2_2.xml"></item>
+      </competence>
+      <competence id="5">
+        <item type="1" nom="Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v_demo.swf"></item>
+        <item type="2" nom="Nommer en trouvant l'image correspondante." source="meta_m1v.xml"></item>
+        <item type="3" idExercice="22469" nom="Exemple : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v0.xml"></item>
+        <item type="3" idExercice="22470" nom="Exercice 1 - Série 1 : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v1_s1.xml"></item>
+        <item type="3" idExercice="22471" nom="Exercice 1 - Série 2 : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v1_s2.xml"></item>
+        <item type="3" idExercice="22473" nom="Exercice 1.1.1 : Sélectionner parmi cinq images celle qui correspond au mot et à sa définition." source="m1vr1_s1.xml"></item>
+        <item type="3" idExercice="22474" nom="Exercice 1.1.2 : Sélectionner parmi cinq images celle qui correspond au mot et à sa définition." source="m1vr1_s2.xml"></item>
+        <item type="3" idExercice="22472" nom="Exercice 2 : Sélectionner parmi trois images celle qui correspond à un mot entendu (vocabulaire plus élaboré)." source="m1v2.xml"></item>
+      </competence>
+    </niveau>
+    <niveau id="2">
+      <competence id="1">
+        <item type="1" nom="Ranger des images dans l’ordre d'une l’histoire lue." source="m1c_demo.swf"></item>
+        <item type="2" nom="Manifester la compréhension d'une histoire lue par l'adulte en ordonnant des images séquentielles." source="meta_m1c.xml"></item>
+        <item type="3" idExercice="22445" nom="Exemple : Ranger des images dans l’ordre de l’histoire lue : &quot;Le voyage de M. Hérisson&quot;." source="m1c0.xml"></item>
+        <item type="3" idExercice="22446" nom="Exercice 1 - Série 1 : Ranger des images dans l’ordre de l’histoire lue : &quot;Comment l'ours se fit des amis&quot;." source="m1c1_s1.xml"></item>
+        <item type="3" idExercice="22456" nom="Exercice 1.1 : Ranger des images dans l’ordre de l’histoire à partir d’un texte court : &quot;Tom et son ballon&quot;." source="m1cr1.xml"></item>
+        <item type="3" idExercice="22457" nom="Exercice 1.2 : Retrouver parmi trois images celle qui correspond au début de l'histoire." source="m1cr2.xml"></item>
+        <item type="3" idExercice="22448" nom="Exercice 2 : Ranger des images dans l’ordre de l’histoire à partir d’un texte plus complexe : &quot;La colère du chef des hiboux&quot;." source="m1c2.xml"></item>
+      </competence>
+      <competence id="2">
+        <item type="1" nom="Classer des mots en fonction du nombre de syllabe." source="m1cgp_demo.swf"></item>
+        <item type="2" nom="Segmenter le mot illustré en syllabes et en donner le nombre." source="meta_m1cgp.xml"></item>
+        <item type="3" idExercice="22449" nom="Exemple : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp0.xml"></item>
+        <item type="3" idExercice="22450" nom="Exercice 1 - Série 1 : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp1_s1.xml"></item>
+        <item type="3" idExercice="22451" nom="Exercice 1 - Série 2 : Classer des mots en fonction du nombre de syllabes : 1, 2 ou 3 syllabes." source="m1cgp1_s2.xml"></item>
+        <item type="3" idExercice="22452" nom="Exercice 1.1.1 : Reconstituer des illustrations d'animaux en fonction du nombre de syllabes : 2 ou 3 syllabes." source="m1cgpr1_1.xm"></item>
+        <item type="3" idExercice="22453" nom="Exercice 1.1.2 : Classer des images d'animaux en fonction du nombre de syllabes : 2 ou 3 syllabes." source="m1cgpr1_2.xml"></item>
+        <item type="3" idExercice="22454" nom="Exercice 1.2 : Classer des mots en fonction du nombre de syllabes : 2, 3 ou 4 syllabes." source="m1cgpr2.xml"></item>
+        <item type="3" idExercice="22455" nom="Exercice 2 : Classer de mots moins fréquents en fonction du nombre de syllabes : 3 ou 4 syllabes." source="m1cgp2.xml"></item>
+      </competence>
+      <competence id="3">
+        <item type="1" nom="Retrouver l'étiquette qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe_demo.swf"></item>
+        <item type="2" nom="Faire le lien entre la quantité de mots entendus et la quantité de mots écrits." source="meta_m1coe.xml"></item>
+        <item type="3" idExercice="22458" nom="Exemple : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe0.xml"></item>
+        <item type="3" idExercice="22459" nom="Exercice 1 - Série 1 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe1_s1.xml"></item>
+        <item type="3" idExercice="22460" nom="Exercice 1 - Série 2 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe1_s2.xml"></item>
+        <item type="3" idExercice="22462" nom="Exercice 1.1 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coer1.xml"></item>
+        <item type="3" idExercice="22461" nom="Exercice 2 : Retrouver parmi trois étiquettes celle qui correspond à ce qui est lu en fonction de la quantité de mots entendus." source="m1coe2.xml"></item>
+      </competence>
+      <competence id="4">
+        <item type="1" nom="Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl_demo.swf"></item>
+        <item type="2" nom="Connaître le vocabulaire technique utilisé à propos des textes : les lettres." source="meta_m1fl.xml"></item>
+        <item type="3" idExercice="22463" nom="Exemple : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl0.xml"></item>
+        <item type="3" idExercice="22464" nom="Exercice 1 - Série 1 : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl1_s1.xml"></item>
+        <item type="3" idExercice="22465" nom="Exercice 1 - Série 2 : Reconnaître et sélectionner les lettres parmi différents caractères." source="m1fl1_s2.xml"></item>
+        <item type="3" idExercice="22467" nom="Exercice 1.1 : Reconnaître et sélectionner les lettres parmi une liste de chiffres et de lettres." source="m1flr1.xml"></item>
+        <item type="3" idExercice="22468" nom="Exercice 1.2 : Mettre en correspondance les différentes typologies d’écriture d’une même lettre." source="m1flr2.xml"></item>
+        <item type="3" idExercice="22466" nom="Exercice 2 : Recopier un mot écrit dans une typologie d'écriture différente." source="m1fl2.xml"></item>
+        <item type="3" idExercice="16563" nom="Fonctionnement de la langue - Exercice 16563" source="m1flr2_2.xml"></item>
+      </competence>
+      <competence id="5">
+        <item type="1" nom="Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v_demo.swf"></item>
+        <item type="2" nom="Nommer en trouvant l'image correspondante." source="meta_m1v.xml"></item>
+        <item type="3" idExercice="22469" nom="Exemple : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v0.xml"></item>
+        <item type="3" idExercice="22470" nom="Exercice 1 - Série 1 : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v1_s1.xml"></item>
+        <item type="3" idExercice="22471" nom="Exercice 1 - Série 2 : Sélectionner parmi trois images celle qui correspond à un mot entendu." source="m1v1_s2.xml"></item>
+        <item type="3" idExercice="22473" nom="Exercice 1.1.1 : Sélectionner parmi cinq images celle qui correspond au mot et à sa définition." source="m1vr1_s1.xml"></item>
+        <item type="3" idExercice="22474" nom="Exercice 1.1.2 : Sélectionner parmi cinq images celle qui correspond au mot et à sa définition." source="m1vr1_s2.xml"></item>
+        <item type="3" idExercice="22472" nom="Exercice 2 : Sélectionner parmi trois images celle qui correspond à un mot entendu (vocabulaire plus élaboré)." source="m1v2.xml"></item>
+      </competence>
+    </niveau>
+  </items>
+</root>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22458" type="q0" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m1coe0.xml" swfPath="m1coe0.swf" aide="1">
+    <redirectType value="q1" id="*" />
+    <anim path="m1coe0_anim.swf">
+    </anim>
+  </question>
+  <groupe type="q1">
+    <question itemId="22459" type="q1_1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m1coe1_s1.xml" swfPath="m1coe1_s1.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+    <question itemId="22460" type="q1_2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m1coe1_s2.xml" swfPath="m1coe1_s2.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+  </groupe>
+  <question itemId="22462" type="r1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m1coer1.xml" swfPath="m1coer1.swf">
+  </question>
+  <question itemId="22461" type="q2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m1coe2.xml" swfPath="m1coe2.swf" />
+</exo>

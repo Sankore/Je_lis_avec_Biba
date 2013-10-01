@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1coe1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Tu dois choisir l'étiquette dans laquelle est écrit&lt;br/&gt;ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="3" id="d1" type="choix" />
+    <QUESTION goodRep="0" group="3" id="d2" type="choix" />
+    <QUESTION goodRep="0" group="3" id="d3" type="choix" />
+    <QUESTION goodRep="0" group="4" id="e1" type="choix" />
+    <QUESTION goodRep="0" group="4" id="e2" type="choix" />
+    <QUESTION goodRep="1" group="4" id="e3" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1coe1s1_ou3">
+          <message>Attention, lorsque tu cliques sur le haut-parleur, tu n'entends pas beaucoup de mots. </message>
+          <CELLULE id="d2" />
+          <CELLULE id="d3" />
+        </OU>
+        <CELLULE son="m1coe1s1_ou1" id="e1">
+          <message>Ecoute bien ce qui est lu : on entend beaucoup de mots qui forment une longue phrase.&lt;br/&gt;Là, tu as cliqué sur une étiquette qui ne contient que deux mots.</message>
+        </CELLULE>
+        <CELLULE id="e2" son="m1coe1s1_ou2">
+          <message>La phrase que l'on entend quand on clique sur le haut-parleur contient plus de mots que ça. </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1coe_demo.swf</DEMO>
+</EXO>

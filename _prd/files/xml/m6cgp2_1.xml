@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgpr1_cons">Reconstitue chaque mot en regardant bien les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_moustique1" id="m_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique2,z_caillou6" id="o_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique3,z_moustique8" id="u1_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique4" id="s_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique5" id="t_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique6,z_caillou3" id="i_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique7" id="q_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique8,z_moustique3,z_caillou7" id="u2_moustique" type="draggable" />
+    <QUESTION goodRep="z_moustique9" id="e_moustique" type="draggable" />
+    <QUESTION goodRep="z_caillou1" id="c_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou2" id="a_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou3,z_moustique6" id="i_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou4,z_caillou5" id="l1_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou5,z_caillou4" id="l2_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou6,z_moustique2" id="o_caillou" type="draggable" />
+    <QUESTION goodRep="z_caillou7,z_moustique8,z_moustique3" id="u_caillou" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE rep="z_secheresse2" id="e2_feuille" son="m6cgp21_cellule">
+          <message>C'est la bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cgp2_cellule">
+          <message>Cette lettre n'est pas à sa place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

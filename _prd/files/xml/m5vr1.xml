@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5vr1_cons">Range les lettres de chaque nuage dans l'ordre alphabétique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="c" type="draggable" goodRep="z1" />
+    <QUESTION goodRep="z2" id="d" type="draggable" />
+    <QUESTION goodRep="z3" id="e" type="draggable" />
+    <QUESTION goodRep="z4" id="f" type="draggable" />
+    <QUESTION goodRep="z5" id="m" type="draggable" />
+    <QUESTION goodRep="z6" id="n" type="draggable" />
+    <QUESTION goodRep="z7" id="o" type="draggable" />
+    <QUESTION goodRep="z8" id="p" type="draggable" />
+    <QUESTION goodRep="z9" id="h" type="draggable" />
+    <QUESTION goodRep="z10" id="i" type="draggable" />
+    <QUESTION goodRep="z11" id="j" type="draggable" />
+    <QUESTION goodRep="z12" id="k" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m5vr1_ou1">
+          <message>Oups ! Tu devais ranger ces lettres dans l'ordre alphabétique : "b", "c", "d", "e" puis "f".</message>
+          <CELLULE id="f" />
+          <CELLULE id="c" />
+          <CELLULE id="d" />
+          <CELLULE id="e" />
+        </OU>
+        <OU son="m5vr1_ou2">
+          <message>Attention ! Tu devais ranger ces lettres dans l'ordre alphabétique :&lt;br/&gt;"l", "m", "n", "o", puis "p".</message>
+          <CELLULE id="m" />
+          <CELLULE id="n" />
+          <CELLULE id="o" />
+          <CELLULE id="p" />
+        </OU>
+        <OU son="m5vr1_ou3">
+          <message>Zut ! Tu devais ranger ces lettres dans l'ordre alphabétique :&lt;br/&gt;"g", "h", "i", "j", puis "k".</message>
+          <CELLULE id="h" />
+          <CELLULE id="i" />
+          <CELLULE id="j" />
+          <CELLULE id="k" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m5v2_cons">Pour chaque série d'avions (bleue, orange ou rose),&lt;br/&gt;clique sur chaque mot qui n'est pas dans l'ordre alphabétique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="alize" group="1" type="choix" />
+    <QUESTION goodRep="1" id="ulm" group="2" type="choix" />
+    <QUESTION goodRep="1" id="atterir" group="3" type="choix" />
+    <QUESTION goodRep="0" id="blizzard" group="1" type="choix" />
+    <QUESTION goodRep="0" id="mistral" group="1" type="choix" />
+    <QUESTION goodRep="0" id="sirocco" group="1" type="choix" />
+    <QUESTION goodRep="0" id="zephyr" group="1" type="choix" />
+    <QUESTION goodRep="0" id="ballon" group="2" type="choix" />
+    <QUESTION goodRep="0" id="deltaplane" group="2" type="choix" />
+    <QUESTION goodRep="0" id="montgolfiere" group="2" type="choix" />
+    <QUESTION goodRep="0" id="parachute" group="2" type="choix" />
+    <QUESTION goodRep="0" id="decoller" group="3" type="choix" />
+    <QUESTION goodRep="0" id="planer" group="3" type="choix" />
+    <QUESTION goodRep="0" id="tournoyer" group="3" type="choix" />
+    <QUESTION goodRep="0" id="voltiger" group="3" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+      </ERREURS_COM>
+      <ERREURS_SPEC>
+        <CELLULE id="alize" son="m5v2_cellule1">
+          <message>Attention, dans l'alphabet, le "a" ne se trouve pas entre le "m" et le "s". </message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="ulm" son="m5v2_cellule2">
+          <message>Oups ! Dans l'alphabet, le "u" ne se trouve pas entre le "m" et le "p". </message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="atterir" son="m5v2_cellule3">
+          <message>Zut ! Dans l'alphabet, le "a" ne se trouve pas entre le "p" et le "t". </message>
+          <CELLULE />
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

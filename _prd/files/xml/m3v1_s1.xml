@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3v1s1_cons">Range les mots de la même famille dans le même igloo.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_chasse" id="chasser" type="draggable" />
+    <QUESTION goodRep="z_chasse" id="chasseur" type="draggable" />
+    <QUESTION goodRep="z_trainer" id="traineau" type="draggable" />
+    <QUESTION goodRep="z_trainer" id="entrainer" type="draggable" />
+    <QUESTION goodRep="z_froid" id="froideur" type="draggable" />
+    <QUESTION goodRep="z_froid" id="froidement" type="draggable" />
+    <QUESTION goodRep="z_neige" id="enneige" type="draggable" />
+    <QUESTION goodRep="z_neige" id="neigeux" type="draggable" />
+    <QUESTION type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_chasse" son="m3v1s1_all1">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "chasse".</message>
+        </ALL>
+        <ALL son="m3v1s1_all2" rep="z_trainer">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "traîne".</message>
+        </ALL>
+        <ALL son="m3v1s1_all3" rep="z_froid">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "froid".</message>
+        </ALL>
+        <ALL son="m3v1s1_all4" rep="z_neige">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le même groupe de lettres : "neig".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3v_demo.swf</DEMO>
+</EXO>

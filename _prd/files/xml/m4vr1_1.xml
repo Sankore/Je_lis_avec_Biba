@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4vr1_cons">Associe les mots qui ont le même sens.&lt;br/&gt;Déplace les étiquettes à la bonne place.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_bete" id="animal" type="draggable" />
+    <QUESTION goodRep="z_brillant" id="scintillant" type="draggable" />
+    <QUESTION goodRep="z_bronzer" id="se_dorer" type="draggable" />
+    <QUESTION goodRep="z_rocher" id="pierre" type="draggable" />
+    <QUESTION goodRep="z_dresse" id="apprivoise" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m4v1s1_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4v1r1_def">
+          <message>Attention ! Ces mots ne veulent pas dire la même chose, ce ne sont pas des synonymes.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

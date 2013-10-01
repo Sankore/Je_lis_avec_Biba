@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1vr1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, déplace l'image qui correspond à ce que tu as entendu dans le bon buisson.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_plume" id="plume" type="draggable" />
+    <QUESTION goodRep="z_limace" id="limace" type="draggable" />
+    <QUESTION goodRep="z_empreinte" id="empreinte" type="draggable" />
+    <QUESTION goodRep="z_chataigne" id="chataigne" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="0" son="m1vr1s1_oub">
+          <message >Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m1vr1s1_def">
+          <message>Cette image ne correspond pas au mot qui est lu.&lt;br/&gt;Clique à nouveau sur le haut-parleur pour réécouter ce mot.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

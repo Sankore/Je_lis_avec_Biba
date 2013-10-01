@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent à la question posée.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="qcm1" type="draggable" />
+    <QUESTION goodRep="0" id="qcm2" type="draggable" />
+    <QUESTION goodRep="0" id="qcm3" type="draggable" />
+    <QUESTION goodRep="0" id="qcm4" type="draggable" />
+    <QUESTION goodRep="0" id="qcm5" type="draggable" />
+    <QUESTION goodRep="0" id="d9" type="draggable" />
+    <QUESTION goodRep="0" id="qcm7" type="draggable" />
+    <QUESTION goodRep="0" id="qcm8" type="draggable" />
+    <QUESTION goodRep="0" id="qcm9" type="draggable" />
+    <QUESTION goodRep="z_ok" id="qcm10" type="draggable" />
+    <QUESTION goodRep="0" id="qcm11" type="draggable" />
+    <QUESTION goodRep="0" id="qcm12" type="draggable" />
+    <QUESTION goodRep="0" id="qcm13" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m6c1s1_cellule3" id="qcm9" rep="z_ok">
+          <message>Zut ! Cette étiquette indique seulement que Majouba va parler à son groupe.</message>
+        </CELLULE>
+        <ALL rep="z_ok" son="m6c1s1_all2">
+          <message>Cette étiquette ne permet pas de répondre à la question posée par Majouba.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

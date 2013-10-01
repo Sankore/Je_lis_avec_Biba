@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent à la question posée.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="qcm1" type="draggable" />
+    <QUESTION goodRep="0" id="qcm2" type="draggable" />
+    <QUESTION goodRep="z_ok" id="qcm3" type="draggable" />
+    <QUESTION goodRep="0" id="qcm4" type="draggable" />
+    <QUESTION goodRep="0" id="qcm5" type="draggable" />
+    <QUESTION goodRep="0" id="d9" type="draggable" />
+    <QUESTION goodRep="0" id="qcm7" type="draggable" />
+    <QUESTION goodRep="0" id="qcm8" type="draggable" />
+    <QUESTION goodRep="0" id="qcm9" type="draggable" />
+    <QUESTION goodRep="0" id="qcm10" type="draggable" />
+    <QUESTION goodRep="0" id="qcm11" type="draggable" />
+    <QUESTION goodRep="0" id="qcm12" type="draggable" />
+    <QUESTION goodRep="0" id="qcm13" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m6c1s1_cellule1" id="qcm1" rep="z_ok">
+          <message>Attention ! C’est à cette époque que Majouba et son groupe marchent pour aller chercher du sel. Mais c’est après plusieurs heures de marche sous le soleil que Majouba aperçoit de l’eau.  </message>
+        </CELLULE>
+        <CELLULE son="m6c1s1_cellule2" id="qcm7" rep="z_ok">
+          <message>Zut ! Lorsque Majouba se met à courir, elle a déjà apperçu l'eau.</message>
+        </CELLULE>
+        <ALL rep="z_ok" son="m6c1s1_all1">
+          <message>Cette étiquette ne renseigne pas sur un moment de l'histoire.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

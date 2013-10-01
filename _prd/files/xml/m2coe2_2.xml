@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2coe1_cons">Clique sur le point d'interrogation ( ? ) et ensuite sur le haut-parleur. Choisis la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="4" id="phr4_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_7" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_8" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_9" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="4" id="phr4_10" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_11" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="5" id="phr5_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_7" type="choix">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2coe2_ou9">
+          <message>Oups ! Le mot "des" est l'avant dernier mot de la phrase.</message>
+          <CELLULE id="phr4_1">
+          </CELLULE>
+          <CELLULE id="phr4_2">
+          </CELLULE>
+          <CELLULE id="phr4_3">
+          </CELLULE>
+          <CELLULE id="phr4_4">
+          </CELLULE>
+          <CELLULE id="phr4_5">
+          </CELLULE>
+          <CELLULE id="phr4_6">
+          </CELLULE>
+          <CELLULE id="phr4_7">
+          </CELLULE>
+          <CELLULE id="phr4_8">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou10">
+          <message>Attention ! Tu as cliqué juste à côté du mot "des". Le mot "des" est l'avant dernier mot de la phrase.</message>
+          <CELLULE id="phr4_9">
+          </CELLULE>
+          <CELLULE id="phr4_11">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou11">
+          <message>Oups ! On entend le mot "malheureusement" dans la première partie de la phrase. Tu as cliqué après.</message>
+          <CELLULE id="phr5_4">
+          </CELLULE>
+          <CELLULE id="phr5_5">
+          </CELLULE>
+          <CELLULE id="phr5_6">
+          </CELLULE>
+          <CELLULE id="phr5_7">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou12">
+          <message>Tu y étais presque ! Le mot "malheureusement" est le 2ème mot de la phrase.</message>
+          <CELLULE id="phr5_1">
+          </CELLULE>
+          <CELLULE id="phr5_3">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m3flr2_cons">Clique sur tous les signes de ponctuation que tu vois dans cet iceberg.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="1" type="choix" />
+    <QUESTION goodRep="0" id="_e" type="choix" />
+    <QUESTION goodRep="1" id="2" type="choix" />
+    <QUESTION goodRep="0" id="l" type="choix" />
+    <QUESTION goodRep="1" id="3" type="choix" />
+    <QUESTION goodRep="0" id="0" type="choix" />
+    <QUESTION goodRep="0" id="l_" type="choix" />
+    <QUESTION goodRep="1" id="4" type="choix" />
+    <QUESTION goodRep="0" id="v" type="choix" />
+    <QUESTION goodRep="1" id="5" type="choix" />
+    <QUESTION goodRep="1" id="6" type="choix" />
+    <QUESTION goodRep="0" id="i" type="choix" />
+    <QUESTION goodRep="1" id="7" type="choix" />
+    <QUESTION goodRep="0" id="8" type="choix" />
+    <QUESTION goodRep="0" id="9" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m3flr2_def">
+          <message>Ce n'est pas un signe de ponctuation.&lt;br/&gt;Regarde, ils sont tous écrits dans l'encadré violet.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

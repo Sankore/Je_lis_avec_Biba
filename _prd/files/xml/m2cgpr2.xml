@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2cgpr1_cons">Clique sur le haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="a_araignee" type="choix" />
+    <QUESTION goodRep="0" group="1" id="rai_araignee" type="choix" />
+    <QUESTION goodRep="0" group="2" id="gnee_araignee" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2cgpr2_ou1">
+          <message>Le son que tu cherches se trouve au tout début du mot.</message>
+          <CELLULE id="rai_araignee"></CELLULE>
+          <CELLULE id="gnee_araignee"></CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

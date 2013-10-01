@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6fl1_cons">Choisis la fin de la phrase qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g518" alignY="h88">
+      <liste>
+        <item>Nous</item>
+      </liste>
+      <liste id="r1_l1" goodRep="1" align="center">
+        <item>traversons le désert.</item>
+        <item>traverse le désert.</item>
+        <item>traversez le désert.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g115" alignY="h200">
+      <liste>
+        <item>Je</item>
+      </liste>
+      <liste id="r2_l1" goodRep="2" align="center">
+        <item>sommes épuisés.</item>
+        <item>suis épuisé.</item>
+        <item>est épuisé.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g547" alignY="h260">
+      <liste>
+        <item>Tu</item>
+      </liste>
+      <liste id="r3_l1" goodRep="3" align="center">
+        <item>avons très chaud.</item>
+        <item>ont très chaud.  </item>
+        <item>as très chaud.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g179" alignY="h368">
+      <liste>
+        <item>Elle</item>
+      </liste>
+      <liste id="r4_l1" goodRep="1" align="center">
+        <item>attend la pluie.</item>
+        <item>attendent la pluie.</item>
+        <item>attendons la pluie.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m6fl1s1_ou1" id="r1_l1" rep="2">
+          <message>Oups ! Ce verbe se termine par "e" ce qui ne correspond pas à la terminaison du pronom "nous".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou2" id="r1_l1" rep="3">
+          <message>Attention ! Ce verbe se termine par "ez" ce qui ne correspond pas à la terminaison du pronom "nous".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou3" id="r2_l1" rep="3">
+          <message>Zut ! Ce verbe s'écrit ici "est". Ce n'est pas la terminaison qui va avec le pronom "je".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou4" id="r2_l1" rep="1">
+          <message>Attention ! "Sommes", cela ne va pas avec le pronom "je".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou5" id="r3_l1" rep="1">
+          <message>Zut ! Ce verbe se termine par "ons", ce qui ne correspond pas à la terminaison du pronom "tu".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou6" id="r3_l1" rep="2">
+          <message>Oups ! Ce verbe se termine par "ont", ce qui ne correspond pas à la terminaison du pronom "tu".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou7" id="r4_l1" rep="2">
+          <message>Zut ! Avec le pronom au pluriel "elles", le verbe se termine par "ent".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s1_ou8" id="r4_l1" rep="3">
+          <message>Attention ! Avec le pronom "nous", le verbe se termine par "ons".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

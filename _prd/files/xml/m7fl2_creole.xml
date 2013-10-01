@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7fl2_cons">li fraz yo. Klike sou fraz envès la.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="n1" type="choix" />
+    <QUESTION goodRep="0" group="1" id="a1" type="choix" />
+    <QUESTION goodRep="0" group="2" id="a2" type="choix" />
+    <QUESTION goodRep="1" group="2" id="n2" type="choix" />
+    <QUESTION goodRep="0" group="3" id="n3" type="choix" />
+    <QUESTION goodRep="1" group="3" id="a3" type="choix" />
+    <QUESTION goodRep="1" group="4" id="n4" type="choix" />
+    <QUESTION goodRep="0" group="4" id="a4" type="choix" />
+    <QUESTION goodRep="1" group="5" id="a5" type="choix" />
+    <QUESTION goodRep="0" group="5" id="n5" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="a1" son="m7fl2_cellule1_creole">
+          <message>"Pa" se pa negasyon "toujou".</message>
+        </CELLULE>
+        <CELLULE id="a2" son="m7fl2_ou1_creole">
+          <message>"Ankò" se kontrè "janm". Ou pa jwenn mo sa a nan fraz la.</message>
+        </CELLULE>
+        <OU son="m7fl2_cellule2_creole">
+          <message>Kontrè yon fraz negativ pa ka yon lòt fraz negativ.</message>
+          <CELLULE id="n3">
+          </CELLULE>
+          <CELLULE id="n5">
+          </CELLULE>
+        </OU>
+        <CELLULE id="a4" son="m7fl2_cellule3_creole">
+          <message>"Toujou" pa kontrè "ankò".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

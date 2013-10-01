@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m3vr1_cons">Ecoute le haut-parleur. Choisis le mot qui appartient à la famille du mot que tu as entendu .</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="harpon" type="choix" />
+    <QUESTION goodRep="0" group="1" id="lardon" type="choix" />
+    <QUESTION goodRep="1" group="2" id="pole" type="choix" />
+    <QUESTION goodRep="0" group="2" id="pile" type="choix" />
+    <QUESTION goodRep="1" group="3" id="acclimater" type="choix" />
+    <QUESTION goodRep="0" group="3" id="cercle" type="choix" />
+    <QUESTION goodRep="1" group="4" id="expedier" type="choix" />
+    <QUESTION goodRep="0" group="4" id="esperance" type="choix" />
+    <QUESTION goodRep="1" group="5" id="pisteur" type="choix" />
+    <QUESTION goodRep="0" group="5" id="patineur" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3vr1_cellule1" id="lardon">
+          <message>Attention ! Entre les mots "harponner" et "lardon" on voit bien les lettres "a", "r". Mais dans le mot "harponner" on retrouve le groupe de lettres "harpon".</message>
+        </CELLULE>
+        <CELLULE son="m3vr1_cellule2" id="pile">
+          <message>Zut ! Le groupe de lettres que tu dois chercher est "p", "o", "l". Dans le mot "pile", entre les lettres "p" et "l",&lt;br/&gt;on ne retrouve pas la lettre "o".</message>
+        </CELLULE>
+        <CELLULE son="m3vr1_cellule3" id="cercle">
+          <message>Attention ! Dans le mot "acclimater", il y a le mot "climat".</message>
+        </CELLULE>
+        <CELLULE son="m3vr1_cellule4" id="esperance">
+          <message>Oups ! Il y a un "x" dans les mots "expédition" et "expédier" que l'on ne retrouve pas dans le mot "espérance".</message>
+        </CELLULE>
+        <CELLULE son="m3vr1_cellule5" id="patineur">
+          <message>Attention ! Quand on regarde le mot "dépister", on retrouve le groupe de lettres "piste".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

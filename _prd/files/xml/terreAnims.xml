@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro2>
+    <status perso="souris" frame="attend" x="-800" scaleX="1" />
+    <pause>2</pause>
+    <status perso="souris" frame="marche" x="-800" scaleX="1" />
+    <move perso="souris" x="-350" speed="15" />
+    <status perso="taupe" scaleX="-1" />
+    <status perso="souris" frame="ecoute" x="-350" scaleX="1" />
+    <dialogue perso="souris">
+		Bonjour ! Je m’appelle Léon. 
+	</dialogue>
+    <dialogue perso="taupe">
+		Bonjour mon jeune ami, sois le bienvenu… Je t’attendais, Oscar m’a dit que tu allais venir ! 
+	</dialogue>
+  </animIntro2>
+  <animIntro>
+    <status perso="taupe" scaleX="-1" />
+    <status perso="souris" frame="marche" x="-800" scaleX="1" />
+    <move perso="souris" x="-350" speed="10" />
+    <status perso="souris" frame="attend" />
+    <dialogue perso="souris" son="m2_dial_deb_01_souris">
+		Bonjour ! Je m’appelle Léon. 
+	</dialogue>
+    <status perso="taupe" frame="objectif" />
+    <dialogue perso="taupe" son="m2_dial_deb_02_taupe">
+		Bonjour mon jeune ami, sois le bienvenu... Je t’attendais, Oscar m’a dit que tu allais venir ! 
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_deb_03_taupe">
+Je m’appelle Louise. Tu ne t’es pas perdu dans cette grande forêt ?
+	</dialogue>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m2_dial_deb_04_souris">Non, non ça va ! Tu dois savoir ce que je recherche...
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_deb_05_taupe">
+Oui Léon ! J’ai avec moi une partie de la formule que tu recherches pour ouvrir le livre magique. 
+	</dialogue>
+    <status perso="souris" frame="attend" />
+    <dialogue perso="souris" son="m2_dial_deb_06_souris">
+		Super ! 
+	</dialogue>
+    <status perso="taupe" frame="objectif" />
+    <dialogue perso="taupe" son="m2_dial_deb_07_taupe">Mais, avant que je ne te la donne et que tu poursuives ton chemin pourrais-tu me rendre un service ? 
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_deb_08_taupe">Ma galerie est encombrée et je ne peux rentrer chez moi. Peux-tu m’aider à la débarrasser, je suis un peu fatiguée. 
+	</dialogue>
+    <dialogue perso="souris" son="m2_dial_deb_09_souris">Avec plaisir madame Louise ! Que vais-je devoir déplacer ?
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_deb_10_taupe">Alors : Une réserve de nourriture, un escargot, une brouette de charbon, un mille-pattes et un tas de cailloux. </dialogue>
+    <move perso="camera" y="-700" speed="10">
+    </move>
+    <pause>2</pause>
+    <move perso="camera" y="400" speed="20">
+    </move>
+    <dialogue perso="souris" son="m2_dial_deb_11_souris">
+		C’est parti !
+	</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m2_dial_deb_12_souris">Tu me donnes un coup de main ? 
+	</dialogue>
+    <dialogue perso="souris" son="m2_dial_deb_13_souris">Clique sur les 5 éléments qui encombrent la galerie de Louise. 
+	</dialogue>
+    <dialogue perso="souris" son="m2_dial_deb_14_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <finsExos>
+    <animFin_fruits>
+      <status perso="taupe" scaleX="1" frame="marche" />
+      <move perso="taupe" x="" />
+    </animFin_fruits>
+  </finsExos>
+  <rappelConsigne>
+    <status perso="taupe" frame="objectif" />
+    <dialogue autoClose="false" perso="taupe" son="m2_rap_cons_taupe">Tu te souviens, il faut déplacer une réserve de nourriture, un escargot, une brouette de charbon, un mille-pattes et un tas de cailloux. 
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m2_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+    <status perso="souris" frame="attend" />
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m2_dial_fin_01_souris">C’est bon, plus rien n’encombre ta galerie. Tu vas pouvoir rentrer chez toi pour te reposer !
+	</dialogue>
+    <dialogue perso="taupe" son="m2_dial_fin_02_taupe">Merci beaucoup pour ton aide, c’est très gentil ! 
+	</dialogue>
+    <status perso="taupe" frame="objectif" />
+    <dialogue perso="taupe" son="m2_dial_fin_03_taupe">Tu as faim ? Viens manger un petit morceau si tu veux…
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="souris" son="m2_dial_fin_04_souris">Non merci, je dois continuer ma route ! Et la formule magique ?
+	</dialogue>
+    <dialogue perso="taupe" son="m2_dial_fin_05_taupe">
+		Ah oui ! La voilà.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="taupe" son="m2_dial_fin_07_narratrice">«…c’est par la lecture .»
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <dialogue perso="souris" son="m2_dial_fin_06_souris">
+		Génial.
+	</dialogue>
+    <status perso="taupe" frame="objectif" />
+    <dialogue perso="taupe" son="m2_dial_fin_08_taupe">
+		Va voir Max, c’est un pingouin, il habite sur la banquise et possède une autre partie de la formule.
+	</dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_fin_09_taupe">Mais, un conseil, couvre toi bien... Il fait très froid là-bas ! Bonne route et à bientôt !
+	</dialogue>
+    <dialogue perso="souris" son="m2_dial_fin_10_souris">
+		Encore merci ! À bientôt Louise !
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="-1" />
+    <move perso="souris" x="-1000" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m2_dial_retour_11_souris">Bonjour Louise ! Ca me fait plaisir de te revoir.
+	</dialogue>
+    <status perso="taupe" frame="objectif" />
+    <dialogue perso="taupe" son="m2_dial_retour_12_taupe">Léon ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="m2_dial_retour_13_souris">Oui oui très bien ! </dialogue>
+    <status perso="taupe" frame="attend_jeu" />
+    <dialogue perso="taupe" son="m2_dial_retour_14_taupe">Bon, je te laisse te balader dans ma galerie, moi je vais préparer une petite tarte. </dialogue>
+    <dialogue perso="taupe" son="m2_dial_retour_15_taupe">Fais comme chez toi ! </dialogue>
+    <dialogue perso="souris" son="m2_dial_retour_16_souris">A bientôt !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m2_dial_retour_17_souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m2_dial_retour_18_souris"> Clique sur les objets en bas de l’écran. </dialogue>
+  </retourExo>
+</data>

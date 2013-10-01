@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5cr2_cons">Seules les phrases de début et de fin de cette histoire sont dans le bon ordre.&lt;br/&gt;Complète le milieu du texte.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="ligne1" id="d1" type="draggable" />
+    <QUESTION goodRep="ligne2" id="d2" type="draggable" />
+    <QUESTION goodRep="ligne3" id="d3" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="d3" rep="ligne1" son="m5cr2_cellule1">
+          <message>Ton étiquette ne convient pas ici.</message>
+        </CELLULE>
+        <CELLULE rep="ligne1" son="m5cr2_cellule2" id="d2">
+          <message>Cette phrase ne convient pas ici.&lt;br/&gt;Qui le petit nuage veut-il rejoindre ?</message>
+        </CELLULE>
+        <ALL rep="ligne2" son="m5cr2_all1">
+          <message>Ce n'est pas la bonne phrase.</message>
+        </ALL>
+        <ALL rep="ligne3" son="m5cr2_all2">
+          <message>Lis bien la fin de l'histoire : que faut-il pour que le nuage rejoigne la petite rivière ?</message>
+        </ALL>
+        <ALL son="mess_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

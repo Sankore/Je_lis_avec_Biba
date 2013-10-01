@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1s1_cons">Pour chaque phrase, remplasse les mots en bleu par l'étiquette qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_navire" id="bateau" type="draggable" />
+    <QUESTION goodRep="0" id="marin" type="draggable" />
+    <QUESTION goodRep="0" id="planche" type="draggable" />
+    <QUESTION goodRep="0" id="mer" type="draggable" />
+    <QUESTION goodRep="z_rivage" id="cote" type="draggable" />
+    <QUESTION goodRep="0" id="soleil" type="draggable" />
+    <QUESTION goodRep="z_vogue" id="navigue" type="draggable" />
+    <QUESTION goodRep="0" id="coule" type="draggable" />
+    <QUESTION goodRep="0" id="chante" type="draggable" />
+    <QUESTION goodRep="0" id="nuit" type="draggable" />
+    <QUESTION goodRep="0" id="neige" type="draggable" />
+    <QUESTION goodRep="z_ouragan" id="tempete" type="draggable" />
+    <QUESTION goodRep="0" id="malade" type="draggable" />
+    <QUESTION goodRep="z_trempe" id="mouille" type="draggable" />
+    <QUESTION goodRep="0" id="sale" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_navire" son="m4v1s1_all1">
+          <message>Un navire est un grand bateau qui navigue sur la mer. Un marin est une personne qui navigue en mer, et une planche à voile une planche qui glisse sur l'eau.</message>
+        </ALL>
+        <ALL goodRep="z_rivage" son="m4v1s1_all2">
+          <message>Le rivage ou la côte est le bord de la mer. Le soleil est un astre qui nous envoie de la lumière et de la chaleur; la mer une étendue d'eau salée.</message>
+        </ALL>
+        <ALL goodRep="z_vogue" son="m4v1s1_all3">
+          <message>Voguer et naviguer sont des synonymes qui signifient : se déplacer sur la mer.
+Couler, c'est s'enfoncer dans l'eau, et chanter, c'est émettre des sons musicaux par la bouche.</message>
+        </ALL>
+        <ALL goodRep="z_ouragan" son="m4v1s1_all4">
+          <message>Un ouragan est une grande tempête, c'est à dire un vent violent accompagné de pluies. La nuit correspond au temps pendant lequel le soleil est couché et où il fait noir. La neige, c'est de l'eau congelée en flocons blancs.</message>
+        </ALL>
+        <ALL goodRep="z_trempe" son="m4v1s1_all5">
+          <message>Quand on est trempé, on est très mouillé. Les malades ne sont pas en bonne santé. Ce qui est sale est couvert de crasse.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4v1s1_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4v1s1_def" />
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

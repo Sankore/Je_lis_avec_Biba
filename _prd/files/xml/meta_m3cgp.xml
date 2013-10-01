@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22553" type="q0" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3cgp0.xml" swfPath="m3cgp0.swf">
+    <redirectType value="q1" id="*" />
+    <anim path="m3cgp0_anim.swf" />
+  </question>
+  <groupe type="q1">
+    <question type="q1_1" itemId="22554" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3cgp1_s1.xml" swfPath="m3cgp1_s1.swf">
+      <redirectType value="r1_0" id="1" />
+      <redirectType value="r2_0" id="2" />
+      <redirectType value="q2_0" id="0" />
+    </question>
+    <question type="q1_2" itemId="22555" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3cgp1_s2.xml" swfPath="m3cgp1_s2.swf">
+      <redirectType value="r1_0" id="1" />
+      <redirectType value="r2_0" id="2" />
+      <redirectType value="q2_0" id="0" />
+    </question>
+    <question type="q1_3" itemId="22556" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3cgp1_s3.xml" swfPath="m3cgp1_s3.swf">
+      <redirectType value="r1_0" id="1" />
+      <redirectType value="r2_0" id="2" />
+      <redirectType value="q2_0" id="0" />
+    </question>
+    <question itemId="22557" type="q1_4" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3cgp1_s4.xml" swfPath="m3cgp1_s4.swf">
+      <redirectType value="r1_0" id="1" />
+      <redirectType value="r2_0" id="2" />
+      <redirectType value="q2_0" id="0" />
+    </question>
+  </groupe>
+  <question itemId="22563" type="r1_0" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgpr0.xml" swfPath="m3cgpr0.swf">
+    <redirectType value="r1" id="*" />
+    <anim path="m3cgpr0_anim.swf" />
+  </question>
+  <question itemId="22567" type="r2_0" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgpr2.xml" swfPath="m3cgpr2.swf">
+    <redirectType value="r2" id="*" />
+    <anim path="m3cgpr0_anim.swf" />
+  </question>
+  <question itemId="22566" type="r1" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgpr1.xml" swfPath="m3cgpr1.swf">
+  </question>
+  <question itemId="" type="r2" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgpr2.xml" swfPath="m3cgpr2.swf">
+  </question>
+  <groupe type="q2_0">
+    <question type="q2_1" itemId="22560" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgp2_s1.xml" swfPath="m3cgp2_1.swf">
+      <redirectType value="q2" id="*" />
+      <anim path="m3cgp2_0_anim.swf" />
+    </question>
+    <question type="q2_2" itemId="22562" interfPath="oaalLD.swf" xmlPath="../datas/xml/m3cgp2_s2.xml" swfPath="m3cgp2_s2.swf">
+      <redirectType value="q2" id="*" />
+      <anim path="m3cgp2_0_anim.swf" />
+    </question>
+  </groupe>
+</exo>

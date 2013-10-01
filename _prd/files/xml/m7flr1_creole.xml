@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clickmot">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Mots qui montrent que la phrase est négative" ref="0058F3" son="m7flr1_leg1">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m7flr1_cons_creole">Nan chak fraz, mete yon pwen sou 2 mo ki montre ke fraz la negativ pandan w'ap itilize penso a.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>Astwonot yo &lt;v coul="1"&gt;pa&lt;/v&gt; kapab bwè &lt;v coul="1"&gt;nan&lt;/v&gt; yon vè.&lt;br/&gt;Moun &lt;v coul="1"&gt;pa&lt;/v&gt; janm ale sou planèt Satin.&lt;br/&gt;La jounen, nou &lt;v coul="1"&gt;pa&lt;/v&gt; ka wè la lin lan. &lt;br/&gt;&lt;v coul="1"&gt;Pa&lt;/v&gt; genyen la vi sou planèt Mas. 
+</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m7flr1_all1_creole" rep="0" goodRep="1">
+          <message>Ou bliye mo "pa" a ki make negasyon. Se li ki montre se yon fraz negativ.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m7flr1_def_creole">
+          <message>Se pa yon mo ki make negasyon.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

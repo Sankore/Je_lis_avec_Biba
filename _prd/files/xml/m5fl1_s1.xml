@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m5fl1_cons">Choisis le bon pronom personnel : Il, Ils, Elle ou Elles.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" alignY="h61" align="g465">
+      <liste id="r1_l1" goodRep="1">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>décolle en bout de piste.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" alignY="h123" align="g512">
+      <liste id="r2_l1" goodRep="4">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>voyageront en hélicoptère.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g496" alignY="h185">
+      <liste id="r3_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>virevoltent dans le ciel.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g520" alignY="h250">
+      <liste id="r4_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>a tout détruit sur son passage.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g530" alignY="h310">
+      <liste id="r5_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>soufflent très fort.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g387" alignY="h370">
+      <liste id="r6_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>est plus fraîche dans les hauteurs.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="0" son="m5fl1s1_all0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m5fl1s1_cellule1" rep="2" id="r1_l1">
+          <message>Oups ! Tu as bien choisi un pronom masculin mais il est écrit&lt;br/&gt;"un avion", il faut donc un pronom au masculin singulier.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule2" rep="3,4" id="r1_l1">
+          <message>Attention ! Tu as choisi un pronon féminin mais le mot "avion" est un mot masculin.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule3" rep="3" id="r2_l1">
+          <message>Oups ! Tu as bien vu que "Mathilde et Julie" sont des filles.&lt;br/&gt;Mais comme elles sont deux, il faut un pronom féminin pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule4" rep="1,2" id="r2_l1">
+          <message>Attention ! "Mathilde et Julie" sont des filles. Il faut un pronom féminin au pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule5" rep="1" id="r3_l1">
+          <message>Zut ! Tu as bien choisi un pronom masculin mais il est écrit&lt;br/&gt;"des cerfs volant", il faut donc un pronom au pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule6" rep="3,4" id="r3_l1">
+          <message>Attention ! "Cerf volant" n'est pas un mot féminin, le pronom que tu as choisi ne convient pas.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule7" rep="4" id="r4_l1">
+          <message>Oups ! Il n'y a pas de "s" à la fin du mot "tornade".&lt;br/&gt;Le pronom "Elles" ne convient pas.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule8" rep="1,2" id="r4_l1">
+          <message>Attention ! On dit "une tornade", pas "un tornade" !</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule9" rep="1" id="r5_l1">
+          <message>Oups ! Dans cette phrase, le pronom renvoie au :&lt;br/&gt;" mistral" et au "sirocco". Ces mots sont bien au masculin mais comme ils sont deux, il faut un masculin pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule10" rep="3,4" id="r5_l1">
+          <message>Attention ! "Le mistral et le sirocco" sont deux mots masculins.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule11" rep="4" id="r6_l1">
+          <message>Attention ! Tu as bien choisi un pronom au féminin.&lt;br/&gt;Dans la phrase on parle de "la température" : il faut donc un pronom féminin singulier.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s1_cellule12" rep="1,2" id="r6_l1">
+          <message>Attention, le mot "température" est un mot féminin.&lt;br/&gt;Il faut donc un pronom féminin.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

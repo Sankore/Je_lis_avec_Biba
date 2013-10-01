@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <message>On entend le son [m] à la fin de ce mot. Écoute bien "four&lt;b&gt;m&lt;/b&gt;i".</message>
+  <CONSIGNE son="m1cgp2_v3_cons">Passe sur une image et écoute bien le mot : si tu entends la lettre [m] place l'image dasn le terrier correspondant.  </CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="zone_m" id="moustique" type="draggable" />
+    <QUESTION goodRep="zone_m" id="chaumiere" type="draggable" />
+    <QUESTION goodRep="zone_m" id="amanite" type="draggable" />
+    <QUESTION goodRep="zone_non_m" id="herisson" type="draggable" />
+    <QUESTION goodRep="zone_m" id="marguerite" type="draggable" />
+    <QUESTION goodRep="zone_non_m" id="chataignier" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="zone_non_m" id="bucheron" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="zone_m" id="fourmi" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="zone_non_m" id="empreinte" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="zone_m" id="limace" type="draggable">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="0" son="m1cgp2_v3_all1" goodRep="zone_m">
+          <message>Tu n'as pas déplacé cette image. Ecoute bien le mot en passant dessus : on entend la lettre son [m].</message>
+        </ALL>
+        <ALL rep="0" son="m1cgp2_v3_all1" goodRep="zone_non_m">
+          <message>Tu n'as pas déplacé cette image. Ecoute bien le mot en passant dessus : on n'entend pas la lettre son [m].</message>
+        </ALL>
+        <CELLULE id="fourmi" rep="zone_non_m" son="m1cgp2_v3_cellule1">
+        </CELLULE>
+        <OU son="m1cgp2_v3_ou1">
+          <message>Ce mot commence par le son [m] comme le mot "mouche".</message>
+          <CELLULE id="moustique" />
+          <CELLULE id="marguerite">
+          </CELLULE>
+        </OU>
+        <OU son="m1cgp2_v3_ou2">
+          <message>On entend le son [m] dans ce mot.</message>
+          <CELLULE id="chaumiere" />
+          <CELLULE id="limace">
+          </CELLULE>
+        </OU>
+        <CELLULE id="empreinte" rep="zone_m" son="m1cgp2_v3_cellule2">
+          <message>Dis ce mot à voix haute : "empreinte". Tu n'entends pas le son [m].</message>
+        </CELLULE>
+        <ALL rep="zone_m" son="m1cgp2_v3_all1" goodrep="">
+          <message>Dis ce mot à voix haute : tu n'entends pas le son [m].</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m1cgp2_v3_def">
+          <message>Ce mot n'est pas à sa place, il faut le placer dans le bon terrier : entends-tu le son [m] ?</message>
+        </DEFAUT>
+        <OUBLI son="m1cgp2_v3_oub">
+          <message>Passe sur cette image et écoute bien le mot.</message>
+        </OUBLI>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="image1" />
+        <CELLULE id="image2" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2coe1_cons">Clique sur le point d'interrogation ( ? ) et ensuite sur le haut-parleur. Choisis la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="phr1_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="1" id="phr1_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="2" id="phr2_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="3" id="phr3_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="4" id="phr4_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="4" id="phr4_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="5" id="phr5_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="5" id="phr5_4" type="choix">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2coer1_ou1">
+          <message>Oups! Le mot "escargot" est le dernier mot de la phrase.</message>
+          <CELLULE id="phr1_1">
+          </CELLULE>
+          <CELLULE id="phr1_2">
+          </CELLULE>
+        </OU>
+        <OU son="m2coer1_ou2">
+          <message>Tu as cliqué sur la mauvaise étiquette.&lt;br/&gt;Le mot "est" est le 3ème mot de la phrase.</message>
+          <CELLULE id="phr2_1">
+          </CELLULE>
+          <CELLULE id="phr2_2">
+          </CELLULE>
+          <CELLULE id="phr2_4">
+          </CELLULE>
+        </OU>
+        <OU son="m2coer1_ou3">
+          <message>Oups! "Jeannot" est le 1er mot de la phrase.</message>
+          <CELLULE id="phr3_2">
+          </CELLULE>
+          <CELLULE id="phr3_3">
+          </CELLULE>
+          <CELLULE id="phr3_4">
+          </CELLULE>
+        </OU>
+        <OU son="m2coer1_ou4">
+          <message>Attention ! On entend le mot "galerie" au milieu de la phrase.</message>
+          <CELLULE id="phr4_1">
+          </CELLULE>
+          <CELLULE id="phr4_3">
+          </CELLULE>
+        </OU>
+        <OU son="m2coer1_ou5">
+          <message>Tu as cliqué sur la mauvaise étiquette.&lt;br/&gt;Le mot "des" est le 3ème mot de la phrase.</message>
+          <CELLULE id="phr5_1">
+          </CELLULE>
+          <CELLULE id="phr5_2">
+          </CELLULE>
+          <CELLULE id="phr5_4">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

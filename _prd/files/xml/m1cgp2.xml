@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgp2_cons">Ecoute chaque mot en passant sur les images. Range-les dans le bon buisson : les mots de 3 syllabes dans le buisson 3 et ceux de 4 syllabes dans le buisson 4.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="panier3" id="campagnol" type="draggable" />
+    <QUESTION goodRep="panier3" id="marcassin" type="draggable" />
+    <QUESTION goodRep="panier3" id="tronçonneuse" type="draggable" />
+    <QUESTION goodRep="panier3" id="promeneur" type="draggable" />
+    <QUESTION goodRep="panier3" id="coquelicot" type="draggable" />
+    <QUESTION goodRep="panier4" id="apiculteur" type="draggable" />
+    <QUESTION goodRep="panier4" id="agriculteur" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1cgp2_ou1">
+          <message>On entend trois syllabes dans le mot qui correspond à cette image.&lt;br/&gt;Cette image doit être rangée dans le buisson 3.</message>
+          <CELLULE id="campagnol" />
+          <CELLULE id="marcassin" />
+          <CELLULE id="tronçonneuse" />
+          <CELLULE id="promeneur" />
+          <CELLULE id="enfoncer" />
+        </OU>
+        <OU son="m1cgp2_ou2">
+          <message>Le mot correspondant à cette image se range dans le buisson 4. &lt;br/&gt;On entend 4 syllabes.</message>
+          <CELLULE id="coquelicot" />
+          <CELLULE id="apiculteur" />
+          <CELLULE id="agriculteur" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1cgp_demo.swf</DEMO>
+</EXO>

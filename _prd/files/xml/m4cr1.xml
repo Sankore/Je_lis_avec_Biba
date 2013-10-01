@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m4cr1_cons">Lis le texte suivant.&lt;br/&gt;Choisis le groupe de mots qui répond aux questions posées.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="bateau" type="choix" />
+    <QUESTION goodRep="0" group="1" id="maison" type="choix" />
+    <QUESTION goodRep="1" group="2" id="matin" type="choix" />
+    <QUESTION goodRep="0" group="2" id="soir" type="choix" />
+    <QUESTION goodRep="1" group="3" id="dauphin" type="choix" />
+    <QUESTION goodRep="0" group="3" id="baleine" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="maison" rep="1" son="m4cr1_cellule1">
+          <message>Attention ! Ecoute bien la 1ère phrase du texte :&lt;br/&gt;"Un matin ensoleillé, la famille Lebret  part en mer, sur un joli bateau blanc".</message>
+        </CELLULE>
+        <CELLULE id="baleine" rep="1" son="m4cr1_cellule3">
+          <message>Oups ! Rappelle-toi la dernière phrase du texte :&lt;br/&gt;"Heureusement, un dauphin qui passait par là vient au secours de Max !"</message>
+        </CELLULE>
+        <CELLULE id="soir" rep="1" son="m4cr1_cellule2">
+          <message>Zut ! La réponse est donnée dès le début du texte : "Un matin ensoleillé, la famille…"</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

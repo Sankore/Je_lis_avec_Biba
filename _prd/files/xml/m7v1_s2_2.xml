@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7v1_cons">Lis le texte. Choisis l'étiquette qui correspond à la définition du mot écrit en violet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="endroit" type="choix" />
+    <QUESTION goodRep="0" group="1" id="batiment" type="choix" />
+    <QUESTION goodRep="0" group="1" id="personne" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="batiment" son="m7v1s22_cellule1">
+          <message>Oups ! Il n'y a pas de bâtiment, pas d'observatoire,&lt;br/&gt; aujourd'hui, sur la Lune.</message>
+        </CELLULE>
+        <CELLULE id="personne" son="m7v1s22_cellule2">
+          <message>Attention ! L'observatoire est un bâtiment avec un télescope,&lt;br/&gt;ce n'est pas une personne.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

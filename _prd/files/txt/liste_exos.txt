@@ -1,0 +1,43 @@
+m1	Niveau 1	La forêt
+m2	Niveau 2	Sous-terre
+m3	Niveau 3	La glace
+m4	Niveau 4	La mer
+m5	Niveau 5	Le ciel
+m6	Niveau 6	Le désert
+m7	Niveau 7	L'espace
+
+meta_m1c.xml	Compréhension	Manifester la compréhension d’une histoire lue par l’adulte .
+meta_m1cgp.xml	Conscience graphophonologique	Segmenter des mots illustrés en syllabes .	
+meta_m1coe.xml	Correspondance oral/écrit	Faire le lien entre la quantité de mots entendus et la quantité de mots écrits.	
+meta_m1fl.xml	Fonctionnement de la langue	Connaître le vocabulaire technique utilisé à propos des textes : les lettres.
+meta_m1v.xml	Vocabulaire	Nommer,en trouvant le dessin correspondant.
+meta_m2c.xml	Compréhension	Connaître et comprendre les consignes courantes de travail.
+meta_m2cgp.xml	Conscience graphophonologique	Identifier les phonèmes les plus simples et les plus fréquents.a/i/u/m/r/p/ou/on/ch.
+meta_m2coe.xml	Correspondance oral/écrit	Situer un mot dans une phrase écrite lue par l’adulte.	
+meta_m2fl.xml	Fonctionnement de la langue	Appréhender  l’organisation de la phrase (segmentation de la chaîne écrite en mots).
+meta_m2v.xml	Vocabulaire	Définir des catégories lexicales.
+meta_m3c.xml	Compréhension	Manifester la compréhension d’énoncés courts.
+meta_m3cgp.xml	Conscience graphophonologique	Associer des phonèmes pour lire des syllabes.
+meta_m3coe.xml	Correspondance oral/écrit	Repérer des intrus dans des mots ayant un fragment commun écrit qui ne s’entend pas de la même  façon.                                               
+meta_m3fl.xml	Fonctionnement de la langue	Identifier les indices morphosyntaxiques (lettres majuscules et ponctuation).
+meta_m3v.xml	Vocabulaire	Appréhender la notion de famille de mots.
+meta_m4c.xml	Compréhension	Manifester la compréhension d’une histoire lue par l’adulte , avec le texte sous les yeux.
+meta_m4cgp.xml	Conscience graphophonologique	Identifier des phonèmes moins fréquents et des phonèmes proches.
+meta_m4coe.xml	Correspondance oral/écrit	Repérer des lettres muettes.                                                        
+meta_m4fl.xml	Fonctionnement de la langue	Connaître et appliquer les variations du déterminant dans le groupe minimal nominal.
+meta_m4v.xml	Vocabulaire	Appréhender la notion de synonymes.	
+meta_m5c.xml	Compréhension	Manifester la compréhension d’un texte court lu de manière autonome.
+meta_m5cgp.xml	Conscience graphophonologique	Compléter un  mot par le graphème manquant.ien/ein  ,  ier/er  ,  ion/oin
+meta_m5coe.xml	Correspondance oral/écrit	Identifier et repérer les phrases d’un texte.
+meta_m5fl.xml	Fonctionnement de la langue	Remplacer le groupe nominal par un substitut pronominal (il, ils, elle, elles).
+meta_m5v.xml	Vocabulaire	Manifester sa connaissance de l’ordre alphabétique.
+meta_m6c.xml	Compréhension	Manifester la compréhension d'un texte lu de manière autonome en répondant à des questions portant sur ,les actions et la chronologie.(questions de type extractif et déductif).
+meta_m6cgp.xml	Conscience graphophonologique	Former des mots avec des lettres dans le désordre.
+meta_m6coe.xml	Correspondance oral/écrit	Identifier un mot parmi d’autres dont la graphie est proche.                                                                  
+meta_m6fl.xml	Fonctionnement de la langue	Connaître et marquer quelques accords sujet/verbe au présent de l’indicatif dans les formes verbales les plus fréquentes.
+meta_m6v.xml	Vocabulaire	Appréhender la notion d’homonymes.
+meta_m7c.xml	Compréhension	Faire des inférences.
+meta_m7cgp.xml	Conscience graphophonologique	Proposer une unité graphophonologique pour compléter des mots.
+meta_m7coe.xml	Correspondance oral/écrit	Identifier un mot parmi des mots présentant des similitudes (correspondance relative à l’ordre des lettres).
+meta_m7fl.xml	Fonctionnement de la langue	Appréhender les différentes formes de la phrase (affirmative, négative)
+meta_m7v.xml	Vocabulaire	Trouver le sens d’un mot en fonction du contexte et choisir la définition qui lui correspond.

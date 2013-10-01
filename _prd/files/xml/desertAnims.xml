@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro>
+    <status perso="cameleon" scaleX="-1" />
+    <status perso="souris" frame="marche" x="-1500" scaleX="1" />
+    <move perso="souris" x="-600" speed="10" />
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m6_dial_deb_01_souris">
+		Bonjour ! Je m’appelle Léon. 
+	</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="cameleon" son="m6_dial_deb_02_cameleon">Hé ! Salut ! Je m’appelle Gédéon. Waouh ! Elles sont cool tes lunettes de soleil ! 
+	</dialogue>
+    <dialogue perso="souris" son="m6_dial_deb_03_souris"> Merci ! 
+	</dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_deb_04_cameleon"> J’ai entendu dire que tu allais venir me voir pour le morceau de formule magique.</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_deb_05_souris"> Eh bien me voilà ! 
+	</dialogue>
+    <dialogue perso="cameleon" son="m6_dial_deb_06_cameleon"> Tu arrives au bon moment. La tempête de sable a emporté tous mes bermudas.
+	</dialogue>
+    <dialogue perso="souris" son="m6_dial_deb_07_souris"> Veux-tu que je t’aide à les ramasser ?	</dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_deb_08_cameleon"> Super ! Merci. Je te donne la formule magique juste après. </dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_deb_09_souris">Pas de problème, de quelle couleur sont chacun de tes beaux bermudas ?</dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_deb_10_cameleon">Il y en a un vert, un bleu, un jaune, un violet et un orange.</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_deb_10_souris"> C’est parti !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m6_dial_deb_11_souris">Tu me donnes un coup de main ? Clique sur les 5 bermudas éparpillés dans le désert. 
+	</dialogue>
+    <dialogue perso="souris" son="m6_dial_deb_12_souris">Tu te souviens, il y en a un vert, un bleu, un jaune, un violet et un orange.</dialogue>
+    <dialogue perso="souris" son="m6_dial_deb_13_souris">A nous de jouer !</dialogue>
+  </animIntro>
+  <finsExos>
+    <animFin_fruits>
+      <status perso="cameleon" scaleX="1" frame="marche" />
+      <move perso="cameleon" x="" />
+    </animFin_fruits>
+  </finsExos>
+  <rappelConsigne>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue autoClose="false" perso="cameleon" son="m6_rap_cons_cameleon">Tu te souviens, il faut retrouver mes 5 bermudas.</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m6_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+    <status perso="souris" frame="ecoute" />
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m6_dial_fin_01_souris">Et voilà ! Tous tes bermudas sont rassemblés !
+	</dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_fin_02_cameleon"> Super ! merci beaucoup pour ton aide ! J’avais peur de les avoir perdu, ils sont tellement cool !
+	</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_fin_03_souris">C’est vrai qu’ils sont sympas ! </dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_fin_04_cameleon"> Bon, voilà le morceau de formule magique !
+	</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_fin_05_souris"> Super, merci.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="formule" son="m6_dial_fin_06_narratrice">"  maintenant "
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_fin_07_cameleon"> Hé ! Est ce que tu as déjà vu des martiens ? </dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_fin_08_souris">Euh…oui…à la télé.</dialogue>
+    <status perso="cameleon" frame="objectif" />
+    <dialogue perso="cameleon" son="m6_dial_fin_09_cameleon"> Et bien tu vas en voir vraiment…envole toi haut, très haut… dans l’espace ! Ma copine Ugule la martienne va t’accueillir. 
+
+	</dialogue>
+    <dialogue perso="cameleon" son="m6_dial_fin_10_cameleon"> Mais si tu veux un conseil il va te falloir un équipement spécial… et tes lunettes de soleil ne te serviront à rien la haut !
+
+	</dialogue>
+    <status perso="cameleon" frame="attend_jeu" />
+    <dialogue perso="souris" son="m6_dial_fin_11_souris">Merci Gédéon, à bientôt !
+
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="-1" />
+    <move perso="souris" x="-1000" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m6_dial_retour_01__souris">Salut Gédéon ! Ca me fait plaisir de te revoir.
+	</dialogue>
+    <status perso="caméléon" frame="objectif" />
+    <dialogue perso="caméléon" son="m6_dial_retour_02__caméléon"> Léon ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="m6_dial_retour_03__souris">Oui oui très bien ! </dialogue>
+    <status perso="caméléon" frame="attend_jeu" />
+    <dialogue perso="caméléon" son="m6_dial_retour_04__caméléon"> Bon, je te laisse te balader, moi je vais retrouver un copain dans la dune d’à côté.</dialogue>
+    <dialogue perso="souris" son="m6_dial_retour_05__souris">D'accord, A bientôt !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m6_dial_retour_06__souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m6_dial_retour_07__souris">Clique sur les bermudas en bas de l’écran.</dialogue>
+  </retourExo>
+</data>

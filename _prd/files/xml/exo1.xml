@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <CONSIGNE>Clique sur les lettres muettes en début ou en fin de mot. Attention, certains mots ont une lettre muette au début et à la fin.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>Sur le quai, comme c&lt;f id="fa1"&gt;h&lt;/f&gt;aque jour, c’es&lt;f id="fp1"&gt;t&lt;/f&gt; la crié&lt;v&gt;e&lt;/v&gt; : on ven&lt;v&gt;d&lt;/v&gt; du &lt;v&gt;h&lt;/v&gt;aren&lt;v&gt;g&lt;/v&gt;, du &lt;v&gt;h&lt;/v&gt;omar&lt;v&gt;d&lt;/v&gt;… Le ven&lt;v&gt;t&lt;/v&gt; es&lt;f id="fp2"&gt;t&lt;/f&gt; tombé, la &lt;v&gt;h&lt;/v&gt;oule anime le&lt;f id="fp3"&gt;s&lt;/f&gt; bateau&lt;v&gt;x&lt;/v&gt;. Prè&lt;v&gt;s&lt;/v&gt; du p&lt;f id="fa2"&gt;h&lt;/f&gt;are, de&lt;f id="fp4"&gt;s&lt;/f&gt; p&lt;f id="fa3"&gt;h&lt;/f&gt;oque&lt;v&gt;s&lt;/v&gt; attende&lt;v&gt;nt&lt;/v&gt; qu’on leur jette du poisson.</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU item-id="M4COEr1" son="">
+          <message>Attention, ce n’est pas parce que tu vois un &lt;b&gt;h&lt;/b&gt; qu’il est muet. 
+Quand tu vois &lt;b&gt;ch&lt;/b&gt;,  tu entends &lt;b&gt;[ch]&lt;/b&gt; comme dans &lt;b&gt;ch&lt;/b&gt;eval  ou  &lt;b&gt;[k]&lt;/b&gt; comme dans &lt;b&gt;Ch&lt;/b&gt;ristophe. Quand tu vois &lt;b&gt;ph&lt;/b&gt;, tu entends &lt;b&gt;[f]&lt;/b&gt; comme dans &lt;b&gt;ph&lt;/b&gt;oque.</message>
+          <cellule id="fa1" />
+          <cellule id="fa2">
+          </cellule>
+          <cellule id="fa3" />
+        </OU>
+        <OU>
+          <message>Dans ce mot, le &lt;b&gt;t&lt;/b&gt; n'est pas une lettre muette.</message>
+          <cellule id="fp1" />
+          <cellule id="fp2">
+          </cellule>
+        </OU>
+        <OU>
+          <message>Dans ce mot, le &lt;b&gt;s&lt;/b&gt; n'est pas une lettre muette.</message>
+          <cellule id="fp3" />
+          <cellule id="fp4">
+          </cellule>
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="M4COEr2" son="">
+          <message>Quand tu lis, certaines lettres ne font aucun bruit. Ce sont des lettres muettes.Voici quelques lettres qui peuvent être muettes: &lt;b&gt;e&lt;/b&gt;, &lt;b&gt;t&lt;/b&gt;, &lt;b&gt;d&lt;/b&gt;, &lt;b&gt;s&lt;/b&gt;, &lt;b&gt;x&lt;/b&gt;, &lt;b&gt;g&lt;/b&gt;, &lt;b&gt;s&lt;/b&gt;, &lt;b&gt;nt&lt;/b&gt; en fin de mot et  &lt;b&gt;h&lt;/b&gt; en début ou en milieu de mot.</message>
+        </DEFAUT>
+        <OUBLIS item-id="64" son="">
+          <message>Tu as oublié de cliquer sur ces lettres muettes.</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>lettre_muette.swf</DEMO>
+</EXO>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2v0_cons">Dépose dans les wagons verts, les images de fruits et dans les wagons violets, les images d'animaux.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_fruits" id="fraise" type="draggable" />
+    <QUESTION goodRep="z_animaux" id="tortue" type="draggable" />
+  </CONTENU>
+</EXO>

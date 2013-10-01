@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgp1_cons">Passe sur une image et écoute bien le mot : compte le nombre de syllabes que tu entends puis place l'image dans le buisson correspondant.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="panier1" id="buche" type="draggable" />
+    <QUESTION goodRep="panier1" id="trou" type="draggable" />
+    <QUESTION goodRep="panier2" id="chasseur" type="draggable" />
+    <QUESTION goodRep="panier2" id="muguet" type="draggable" />
+    <QUESTION goodRep="panier3" id="champignon" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1cgp1_ou1">
+          <message>On n'entend qu'une seule syllabe dans le mot qui correspond à cette image, comme dans le mot "lit".&lt;br/&gt;Il fallait donc placer cette image dans le buisson 1.</message>
+          <CELLULE id="buche" />
+          <CELLULE id="trou" />
+        </OU>
+        <OU son="m1cgp1_ou2">
+          <message>On entend deux syllabes dans le mot qui correspond à cette image comme dans le mot "serpent".&lt;br/&gt;Il fallait donc placer cette image dans le buisson 2.</message>
+          <CELLULE id="chasseur" />
+          <CELLULE id="muguet" />
+        </OU>
+        <OU son="m1cgp1_ou3">
+          <message>On entend trois syllabes dans le mot qui correspond à cette image comme dans le mot "scarabée".&lt;br/&gt;Cette image doit être rangée dans le buisson 3.</message>
+          <CELLULE id="champignon" />
+          <CELLULE id="rossignol" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="chasseur" />
+        <CELLULE id="muguet" />
+        <CELLULE id="champignon" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1cgp_demo.swf</DEMO>
+</EXO>

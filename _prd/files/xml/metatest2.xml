@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo>
+  <!--oaalDragndrop.swf   oaalPickWords.swf  oaalQCM.swf  oaalPicker.swf  oaalLD.swf-->
+  <question itemId="16561" type="r2_2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m1cgp1_s1.xml" swfPath="m1cgp1_s1.swf">
+  </question>
+</exo>

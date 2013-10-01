@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1fl2_cons">Tu dois reconstituer le mot écrit suivant le modèle. Place les bonnes lettres parmi celles proposées.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="ze1,zl6" id="de_e" type="draggable" />
+    <QUESTION goodRep="ze2" id="de_s" type="draggable" />
+    <QUESTION goodRep="ze3,zl5" id="de_c" type="draggable" />
+    <QUESTION goodRep="ze4,zl4" id="de_a" type="draggable" />
+    <QUESTION goodRep="ze5" id="de_r" type="draggable" />
+    <QUESTION goodRep="ze6" id="de_g" type="draggable" />
+    <QUESTION goodRep="ze7" id="de_o" type="draggable" />
+    <QUESTION goodRep="ze8" id="de_t" type="draggable" />
+    <QUESTION goodRep="0" id="de_n" type="draggable" />
+    <QUESTION goodRep="0" id="de_j" type="draggable" />
+    <QUESTION goodRep="0" id="de_q" type="draggable" />
+    <QUESTION goodRep="0" id="de_h" type="draggable" />
+    <QUESTION goodRep="zl1" id="dl_l" type="draggable" />
+    <QUESTION goodRep="zl2" id="dl_i" type="draggable" />
+    <QUESTION goodRep="zl3" id="dl_m" type="draggable" />
+    <QUESTION goodRep="zl4,ze4" id="dl_a" type="draggable" />
+    <QUESTION goodRep="zl5,ze3" id="dl_c" type="draggable" />
+    <QUESTION goodRep="zl6,ze1," id="dl_e" type="draggable" />
+    <QUESTION goodRep="0" id="dl_j" type="draggable" />
+    <QUESTION goodRep="0" id="dl_k" type="draggable" />
+    <QUESTION goodRep="0" id="dl_f" type="draggable" />
+    <QUESTION goodRep="0" id="dl_w" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1fl2_ou1" rep="0">
+          <message>Cette lettre ne fait pas partie du mot "escargot".</message>
+          <CELLULE id="de_n">
+          </CELLULE>
+          <CELLULE id="de_j">
+          </CELLULE>
+          <CELLULE id="de_h">
+          </CELLULE>
+          <CELLULE id="de_q">
+          </CELLULE>
+        </OU>
+        <OU son="m1fl2_ou2" rep="0">
+          <message>Cette lettre ne fait pas partie du mot "limace".</message>
+          <CELLULE id="dl_j">
+          </CELLULE>
+          <CELLULE id="dl_h">
+          </CELLULE>
+          <CELLULE id="dl_f">
+          </CELLULE>
+          <CELLULE id="dl_w">
+          </CELLULE>
+        </OU>
+        <ALL son="m1fl2_all1" rep="0">
+          <message>On a besoin de cette lettre pour écrire le mot demandé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

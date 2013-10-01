@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1flr2_cons">Rassemble dans chaque buisson les différentes façons d'écrire la lettre que tu y vois.&lt;br/&gt;Tu peux cliquer sur le haut-parleur&lt;br/&gt;si tu souhaites obtenir de l'aide !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="dzi" id="d19" />
+    <QUESTION id="d20" goodRep="dzi" />
+    <QUESTION goodRep="dzf" id="d3" />
+    <QUESTION goodRep="dzf" id="d4" />
+    <QUESTION goodRep="dzp" id="d5" />
+    <QUESTION goodRep="dzp" id="d6" />
+    <QUESTION goodRep="dzm" id="d9" />
+    <QUESTION goodRep="dzm" id="d10" />
+    <QUESTION goodRep="dzk" id="d22" />
+    <QUESTION goodRep="dzk" id="d21" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m1flr21_all2" rep="dzi">
+          <message>Cette lettre n'est pas un "i".</message>
+        </ALL>
+        <ALL son="m1flr21_all3" rep="dzf">
+          <message>Cette lettre n'est pas un "f".</message>
+        </ALL>
+        <ALL son="m1flr21_all1" rep="dzp">
+          <message>Cette lettre n'est pas un "p".</message>
+        </ALL>
+        <ALL son="m1flr21_all4" rep="dzm">
+          <message>Cette lettre n'est pas un "m".</message>
+        </ALL>
+        <ALL son="m1flr21_all5" rep="dzk">
+          <message>Cette lettre n'est pas un "k".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

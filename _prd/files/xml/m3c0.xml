@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3c1_cons">Clique sur chaque mot pour écouter ce qui est écrit. Remets les mots dans l'ordre pour former une phrase.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="la" type="draggable" />
+    <QUESTION goodRep="case2" id="mer" type="draggable" />
+    <QUESTION goodRep="case3" id="est" type="draggable" />
+    <QUESTION goodRep="case4" id="gelee" type="draggable" />
+  </CONTENU>
+</EXO>

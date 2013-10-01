@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <groupe type="q0">
+    <question type="q0_1" itemId="22571" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3coe0_s1.xml" swfPath="m3coe0_s1.swf">
+      <redirectType value="q1" id="*" />
+      <anim path="m3coe0_s1_anim.swf" />
+    </question>
+    <question type="q0_2" itemId="22573" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3coe0_s2.xml" swfPath="m3coe0_s2.swf">
+      <redirectType value="q1" id="*" />
+      <anim path="m3coe0_s2_anim.swf" />
+    </question>
+  </groupe>
+  <groupe type="q1">
+    <question itemId="22574" type="q1_1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3coe1_s1.xml" swfPath="m3coe1_s1.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+    <question itemId="22575" type="q1_2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3coe1_s2.xml" swfPath="m3coe1_s2.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+  </groupe>
+  <question itemId="22577" type="r1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m3coer1.xml" swfPath="m3coer1.swf">
+    <anim path="m3coer0_anim.swf" />
+  </question>
+  <question itemId="22576" type="q2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3coe2.xml" swfPath="m3coe2.swf" />
+</exo>

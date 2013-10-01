@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6vr13_cons">Trouve le mot qui se prononce de la même manière que "rat", donc son homonyme.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="conte" type="draggable" />
+    <QUESTION goodRep="0" id="rat" type="draggable" />
+    <QUESTION goodRep="0" id="sot" type="draggable" />
+    <QUESTION goodRep="0" id="compte" type="draggable" />
+    <QUESTION goodRep="z_ras" id="ras" type="draggable" />
+    <QUESTION goodRep="0" id="seau" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_ras" son="m6vr13_all1">
+          <message>On n'entend pas le son [ra] dans ce mot.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

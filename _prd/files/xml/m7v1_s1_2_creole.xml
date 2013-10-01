@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7v1_cons_creole">Li byen 3 etikèt yo, epi jwen yon definisyon ki mache ak mo ki ekri an vyolèt la.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="etoiles" type="choix" />
+    <QUESTION goodRep="1" group="1" id="nuages" type="choix" />
+    <QUESTION goodRep="0" group="1" id="montagnes" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="etoiles" son="m7v1s12_cellule1_creole">
+          <message>Nebileze yo se pa zetwal yo men yo tou 2 nan syel la.</message>
+        </CELLULE>
+        <CELLULE id="montagnes" son="m7v1s12_cellule2_creole">
+          <message>Nebileze yo se pa mònn yo. Mònn yo sou tè a.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

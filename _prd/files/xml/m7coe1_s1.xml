@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7coe2_cons">Clique sur les martiens et écoute bien ce qu'ils disent.&lt;br/&gt;Choisis le mot lu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="poser" type="choix" />
+    <QUESTION goodRep="0" group="1" id="repos" type="choix" />
+    <QUESTION goodRep="1" group="2" id="rouge" type="choix" />
+    <QUESTION goodRep="0" group="2" id="orgue" type="choix" />
+    <QUESTION goodRep="0" group="3" id="canards" type="choix" />
+    <QUESTION goodRep="1" group="3" id="cadrans" type="choix" />
+    <QUESTION goodRep="1" group="4" id="emis" type="choix" />
+    <QUESTION goodRep="0" group="4" id="mise" type="choix" />
+    <QUESTION goodRep="1" id="vise" type="choix" group="5" />
+    <QUESTION goodRep="0" id="vies" type="choix" group="5" />
+    <QUESTION goodRep="0" id="grande" type="choix" group="6" />
+    <QUESTION goodRep="1" id="danger" type="choix" group="6" />
+    <QUESTION goodRep="1" id="devenir" type="choix" group="7" />
+    <QUESTION goodRep="0" id="deviner" type="choix" group="7" />
+    <QUESTION goodRep="0" id="lange" type="choix" group="8" />
+    <QUESTION goodRep="1" id="angle" type="choix" group="8" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m7coe1s1_def">
+          <message>Clique à nouveau sur les martiens.&lt;br/&gt;Ces mots se ressemblent. Fais bien attention à la place de chaque lettre.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

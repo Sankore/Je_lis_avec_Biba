@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3v2_cons">Place les mots de la même famille dans le même igloo.&lt;br/&gt;Attention, tous ces mots se ressemblent beaucoup.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_pendre" id="pendu" type="draggable" />
+    <QUESTION goodRep="z_pendre" id="penderie" type="draggable" />
+    <QUESTION goodRep="z_penser" id="penseur" type="draggable" />
+    <QUESTION goodRep="z_penser" id="pensee" type="draggable" />
+    <QUESTION goodRep="z_pencher" id="penchant" type="draggable" />
+    <QUESTION goodRep="z_pencher" id="penche" type="draggable" />
+    <QUESTION goodRep="z_prendre" id="prise" type="draggable" />
+    <QUESTION goodRep="z_prendre" id="preneur" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m3v2_all1" rep="z_pendre">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le groupe de lettres : "pend".</message>
+        </ALL>
+        <ALL son="m3v2_all2" rep="z_penser">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le groupe de lettres : "pens".</message>
+        </ALL>
+        <ALL son="m3v2_all3" rep="z_pencher">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le groupe de lettres : "pench".</message>
+        </ALL>
+        <ALL son="m3v2_all4" rep="z_prendre">
+          <message>Dans cet igloo, tu dois placer les deux mots qui contiennent le groupe de lettres : "pr".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

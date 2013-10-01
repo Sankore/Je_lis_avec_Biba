@@ -1,0 +1,39 @@
+<EXO type="clicklettre">
+  <PALETTE>
+    <COULEUR legende="Ponctuation" ref="DB23D6" coul="1" son="surlignage_test/ponctuation">
+    </COULEUR>
+    <COULEUR legende="Majuscules" ref="32C1CD" coul="2" son="surlignage_test/majuscule">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="surlignage_test/consigne">Trouve les signes de ponctuation et les majuscules.</CONSIGNE>
+  <CONTENU>
+    <TEXTE son="surlignage_test/ponctuation">&lt;v coul="2"&gt;C&lt;/v&gt;’est le grand jour&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;T&lt;/v&gt;inouk s’est &lt;f id="faux1"&gt;l&lt;/f&gt;evé de bonne heure &lt;v coul="1"&gt;:&lt;/v&gt; aujourd’hui&lt;v coul="1"&gt;,&lt;/v&gt; son père l’emmène à la pêche sur la banquise&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e petit &lt;v coul="2"&gt;E&lt;/v&gt;squimau a préparé le traîneau&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;e chien de tête&lt;v coul="1"&gt;,&lt;/v&gt; ce sera &lt;v coul="2"&gt;N&lt;/v&gt;orki&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;C&lt;/v&gt;’est le meilleur &lt;v coul="1"&gt;!&lt;/v&gt; &lt;v coul="1"&gt;«&lt;/v&gt; &lt;v coul="2"&gt;A&lt;/v&gt;s-tu pris ton harpon &lt;v coul="1"&gt;?&lt;/v&gt; &lt;v coul="1"&gt;»&lt;/v&gt; demande  &lt;v coul="2"&gt;G&lt;/v&gt;rishka à son fils&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;L&lt;/v&gt;es chiens s’agitent&lt;v coul="1"&gt;,&lt;/v&gt; ils sentent le départ&lt;v coul="1"&gt;…&lt;/v&gt;</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL item-id="464454" son="surlignage_test/err1" rep="0" goodRep="1">
+          <message>Tu n'as pas trouvé ces signes de ponctuation.</message>
+        </ALL>
+        <ALL item-id="464454" son="surlignage_test/err2" rep="0" goodRep="2">
+          <message>Tu n'as pas trouvé ces majuscules.</message>
+        </ALL>
+        <ALL item-id="464454" son="surlignage_test/err3" rep="2" goodRep="1">
+          <message>Ces caractères ne sont pas des majuscules, mais des signes de ponctuation.</message>
+        </ALL>
+        <ALL item-id="464454" son="surlignage_test/err4" rep="1" goodRep="2">
+          <message>Les lettres majuscules sont écrites en lettres capitales. Voici l’alphabet en lettres capitales :A  B  C  D  E  F  G  H  I  J  K  L  M  N  O P  Q  R  S  T  U  V  W  X  Y  Z Quand la minuscule et la majuscule se ressemblent, la lettre majuscule est plus grande.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="464454" son="surlignage_test/err5">
+          <message>Ces lettres ne sont ni des signes de ponctuaction ni des majuscules.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>lettre_muette.swf</DEMO>
+  <SONS>
+    <SON clip="herisson" son="surlignage_test/ponctuation" />
+  </SONS>
+</EXO>

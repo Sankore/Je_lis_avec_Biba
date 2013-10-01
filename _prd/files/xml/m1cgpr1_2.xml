@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgr12_cons">Place les images de chaque animal &lt;br/&gt;dans le bon buisson.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="panier3" id="ecureuil" type="draggable" />
+    <QUESTION goodRep="panier3" id="sanglier" type="draggable" />
+    <QUESTION goodRep="panier2" id="bourdon" type="draggable" />
+    <QUESTION goodRep="panier2" id="lapin" type="draggable" />
+    <QUESTION goodRep="panier2" id="pigeon" type="draggable" />
+    <QUESTION goodRep="panier2" id="elan" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1cgpr12_ou1">
+          <message>On entend 2 syllabes dans le mot correspondant à cette image. Il fallait la placer dans le buisson 2.</message>
+          <CELLULE id="lapin" />
+          <CELLULE id="elan" />
+          <CELLULE id="bourdon" />
+          <CELLULE id="pigeon" />
+        </OU>
+        <OU son="m1cgpr12_ou2">
+          <message>Ce mot est formé de trois syllabes.&lt;br/&gt;Tu peux les entendre en frappant trois fois dans tes mains.</message>
+          <CELLULE id="sanglier" />
+          <CELLULE id="ecureuil" />
+        </OU>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

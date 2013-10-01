@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1_cons">Complète chaque phrase par l'étiquette dont le sens est le plus proche du mot écrit en bleu et en italique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="flotter" type="draggable" />
+    <QUESTION goodRep="0" id="nager" type="draggable" />
+    <QUESTION goodRep="z_couler" id="chavirer" type="draggable" />
+    <QUESTION goodRep="0" id="calme" type="draggable" />
+    <QUESTION goodRep="z_demontee" id="agitee" type="draggable" />
+    <QUESTION goodRep="0" id="belle" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_couler" son="m4v1s2_all3">
+          <message>Couler et chavirer sont des synonymes qui siginifient s'enfoncer dans l'eau.</message>
+        </ALL>
+        <ALL goodRep="z_demontee" son="m4v1s2_all5">
+          <message>Une mer démontée est une mer agitée, avec de grosses vagues.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4v1s2_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

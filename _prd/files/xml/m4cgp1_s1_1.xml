@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgp1_cons">Complète chaque phrase avec le mot qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="oursons" type="draggable" />
+    <QUESTION goodRep="z_oursins" id="oursins" type="draggable" />
+    <QUESTION goodRep="z_noeud" id="noeud" type="draggable" />
+    <QUESTION goodRep="0" id="voeu" type="draggable" />
+    <QUESTION goodRep="0" id="fouette" type="draggable" />
+    <QUESTION goodRep="z_mouette" id="mouette" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="oursons" son="m4cgp1s11_cell1">
+          <message>Zut ! Dans le mot que tu as choisi, on n'entend pas les lettres sons [in] mais les lettres sons [on].</message>
+        </CELLULE>
+        <CELLULE id="voeu" son="m4cgp1s11_et2">
+          <message>Attention ! Dans le mot que tu as choisi, on n'entend pas la lettre son [n] mais la lettre son [v].</message>
+        </CELLULE>
+        <CELLULE id="fouette" son="m4cgp1s11_et3">
+          <message>Oups ! Les "fouettes", ça n'existe pas ! Sur la plage, on trouve des mouettes&lt;br/&gt;avec un "m" comme dans "mer".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m4cgp_demo.swf</DEMO>
+</EXO>

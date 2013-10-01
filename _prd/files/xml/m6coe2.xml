@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m6coe2_cons">Clique sur chaque haut-parleur&lt;br/&gt;puis clique sur le mot que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="dromadaire" type="choix" />
+    <QUESTION goodRep="0" group="1" id="dormiraient" type="choix" />
+    <QUESTION goodRep="0" group="1" id="dominerait" type="choix" />
+    <QUESTION goodRep="1" group="2" id="antilope" type="choix" />
+    <QUESTION goodRep="0" group="2" id="antidote" type="choix" />
+    <QUESTION goodRep="0" group="2" id="antipode" type="choix" />
+    <QUESTION goodRep="1" group="3" id="tarentule" type="choix" />
+    <QUESTION goodRep="0" group="3" id="tentacule" type="choix" />
+    <QUESTION goodRep="0" group="3" id="tarentelle" type="choix" />
+    <QUESTION goodRep="1" group="4" id="poussiere" type="choix" />
+    <QUESTION goodRep="0" group="4" id="poussiereux" type="choix" />
+    <QUESTION goodRep="0" group="4" id="pousserent" type="choix" />
+    <QUESTION goodRep="1" group="5" id="adaptation" type="choix" />
+    <QUESTION goodRep="0" group="5" id="adoption" type="choix" />
+    <QUESTION goodRep="0" group="5" id="adaptateur" type="choix" />
+    <QUESTION goodRep="1" group="6" id="aridite" type="choix" />
+    <QUESTION goodRep="0" group="6" id="agilite" type="choix" />
+    <QUESTION goodRep="0" group="6" id="avidite" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6coe2_ou1">
+          <message>Attention ! Le mot "dromadaire" se termine par les lettres sons [ère].&lt;br/&gt;Toi, tu as cliqué sur un mot qui se termine par les lettres sons [rè].</message>
+          <CELLULE id="dormiraient" />
+          <CELLULE id="dominerait" />
+        </OU>
+        <CELLULE id="antidote" son="m6coe2_cellule1">
+          <message>Oups ! Le mot "antilope" se termine par "ope".&lt;br/&gt;Toi, tu as cliqué sur "antidote" qui se termine par "ote".</message>
+        </CELLULE>
+        <CELLULE id="antipode" son="m6coe2_cellule2">
+          <message>Attention ! Le mot "antilope" se termine par "ope".&lt;br/&gt;Tu as cliqué sur "antipode" qui finit par "ode".</message>
+        </CELLULE>
+        <CELLULE id="tentacule" son="m6coe2_cellule3">
+          <message>Zut ! On n'entend pas le même son au début du mot.</message>
+        </CELLULE>
+        <CELLULE id="tarentelle" son="m6coe2_cellule4">
+          <message>Zut ! Le mot "tarentelle" ne se termine pas par les lettres sons [ule].</message>
+        </CELLULE>
+        <OU son="m6coe2_ou2">
+          <message>Attention ! Réécoute bien le mot "poussière".</message>
+          <CELLULE id="poussiereux" />
+          <CELLULE id="pousserent" />
+        </OU>
+        <CELLULE id="adaptateur" son="m6coe2_cellule5">
+          <message>Oups ! Le mot "adaptation" se termine par "tion".&lt;br/&gt;Là, tu as cliqué sur le mot "adaptateur" qui se termine par "eur".</message>
+        </CELLULE>
+        <CELLULE id="adoption" son="m6coe2_cellule6">
+          <message>Attention ! Dans "adaptation", on entend le son [ap];&lt;br/&gt;dans "adoption", on entend les lettres sons [op].</message>
+        </CELLULE>
+        <OU son="m6coe2_ou3">
+          <message>Zut ! Le mot sur lequel tu as cliqué ne contient pas ce son.</message>
+          <CELLULE id="avidite" />
+          <CELLULE id="agilite" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

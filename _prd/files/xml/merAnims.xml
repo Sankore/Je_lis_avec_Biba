@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro>
+    <status perso="pieuvre" scaleX="-1" />
+    <status perso="souris" frame="marche" x="-300" scaleX="1" />
+    <move perso="souris" x="300" speed="10" />
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m4_dial_deb_01_souris">
+		Bonjour ! Je suis Léon. 
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu" />
+    <dialogue perso="pieuvre" son="m4_dial_deb_02_pieuvre">Oh, salut ! Je m’appelle Cathy. Sympa la combi et les palmes, j’adore la couleur ! 
+	</dialogue>
+    <dialogue perso="souris" son="m4_dial_deb_03_souris">Merci ! 
+	</dialogue>
+    <status perso="pieuvre" frame="objectif" />
+    <dialogue perso="pieuvre" son="m4_dial_deb_04_pieuvre"> Max m’a dit que tu allais venir me voir pour le morceau de formule magique.
+	</dialogue>
+    <dialogue perso="souris" son="m4_dial_deb_05_souris">Les nouvelles vont vite ! 
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_deb_06_pieuvre">Et oui, je suis toujours au courant de tout ! 
+	</dialogue>
+    <status perso="pieuvre" frame="objectif">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_deb_07_pieuvre">Mais avant que je ne te donne la formule, pourrais tu m’aider à nettoyer ce fond marin, des objets polluent la mer. 
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu" />
+    <dialogue perso="souris" son="m4_dial_deb_08_souris">D’accord, quels sont ces objets à rassembler ?	</dialogue>
+    <status perso="pieuvre" frame="objectif">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_deb_09_pieuvre"> Une bouteille en verre, une fourchette, une canette en métal, un sac plastique et une chaussure !
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu">
+    </status>
+    <dialogue perso="souris" son="m4_dial_deb_10_souris">C’est parti !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m4_dial_deb_11_souris">Tu me donnes un coup de main ? 
+	</dialogue>
+    <dialogue perso="souris" son="m4_dial_deb_12_souris">Clique sur les 5 objets qui polluent la mer. </dialogue>
+    <dialogue perso="souris" son="m4_dial_deb_13_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <finsExos>
+    <animFin_fruits>
+      <status perso="taupe" scaleX="1" frame="marche" />
+      <move perso="taupe" x="" />
+    </animFin_fruits>
+  </finsExos>
+  <rappelConsigne>
+    <status perso="pieuvre" frame="objectif" />
+    <dialogue autoClose="false" perso="pieuvre" son="m4_rap_cons_pieuvre">Tu te souviens, il faut ramasser : une bouteille en verre, une fourchette, une canette en métal, un sac plastique et une chaussure. 
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu" />
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m4_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+    <status perso="souris" frame="attend" />
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m4_dial_fin_01_souris">Voilà, c’est fait ! J’ai débarrassé le fond marin des ordures qui le polluent !
+	</dialogue>
+    <status perso="pieuvre" frame="objectif">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_02_pieuvre">Bravo et merci beaucoup pour ton aide ! 
+	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_03_pieuvre">Je ne comprends pas pourquoi les gens continuent à jeter leurs ordures dans la mer, c’est dégoutant !
+	</dialogue>
+    <dialogue perso="souris" son="m4_dial_fin_04_souris">Tu as raison Cathy.
+	</dialogue>
+    <status perso="pieuvre" frame="objectif">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_05_pieuvre">Bon, voilà le morceau de formule magique, désolée, le papier est un peu mouillé, hi hi !
+	</dialogue>
+    <dialogue perso="pieuvre" son="m4_dial_fin_05_pieuvre">Super, merci.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_07_narratrice">« j’assemble les lettres et les mots »
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <status perso="pieuvre" frame="attend_jeu">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_08_pieuvre">Pour la suite de ton voyage, je connais un pélican qui pourra t’aider. Il s’appelle Gilou et tu vas voir, il est très sympa !
+	</dialogue>
+    <status perso="pieuvre" frame="objectif">
+    </status>
+    <dialogue perso="pieuvre" son="m4_dial_fin_09_pieuvre"> C’est dans les nuages que tu le trouveras et tu vas devoir trouver une solution car les souris ne savent pas voler il me semble !	</dialogue>
+    <status perso="pieuvre" frame="attend_jeu">
+    </status>
+    <dialogue perso="souris" son="m4_dial_fin_10_souris"> Encore merci ! À bientôt Cathy !
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="-1" />
+    <move perso="souris" x="-1000" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m4_dial_retour_01__souris">Salut Cathy ! Ca me fait plaisir de te revoir.
+	</dialogue>
+    <status perso="pieuvre" frame="objectif" />
+    <dialogue perso="pieuvre" son="m4_dial_retour_02__pieuvre">Léon ! Ton voyage se passe bien ?</dialogue>
+    <status perso="pieuvre" frame="attend_jeu" />
+    <dialogue perso="souris" son="m4_dial_retour_03__souris">Oui oui très bien ! </dialogue>
+    <status perso="pieuvre" frame="objectif" />
+    <dialogue perso="pieuvre" son="m4_dial_retour_04__pieuvre">Bon, je te laisse profiter de cette mer toute propre, </dialogue>
+    <dialogue perso="pieuvre" son="m4_dial_retour_05__pieuvre"> moi je vais continuer mon petit ménage ! </dialogue>
+    <status perso="pieuvre" frame="attend_jeu" />
+    <dialogue perso="souris" son="m4_dial_retour_06__souris"> D'accord, à bientôt !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m4_dial_retour_07__souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="bis0_m4_dial_retour_07__souris"> Clique sur les objets en bas de l’écran. </dialogue>
+  </retourExo>
+</data>

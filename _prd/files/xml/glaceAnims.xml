@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro>
+    <status perso="souris" frame="marche" x="-1000" scaleX="1" />
+    <status perso="pingouin" scaleX="-1" />
+    <move perso="souris" x="-400" speed="10" />
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m3_dial_deb_01_souris"> Bonjour ! Je suis Léon. 
+	</dialogue>
+    <status perso="pingouin" frame="attend_jeu" />
+    <dialogue perso="pingouin" son="m3_dial_deb_02_pingouin">Bonjour bonjour ! Moi c’est Max. 
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_03_souris">Il fait un peu froid chez toi !
+	</dialogue>
+    <status perso="pingouin" frame="objectif" />
+    <dialogue perso="pingouin" son="m3_dial_deb_04_pingouin">Oui, moi aussi j’ai froid pourtant c’est une belle journée il ne fait que – 45 ° C aujourd’hui !
+	</dialogue>
+    <status perso="pingouin" frame="attend_jeu" />
+    <dialogue perso="pingouin" son="m3_dial_deb_05_pingouin">J’imagine que tu as fait ce long chemin jusqu’ici pour le morceau de formule magique que je possède ? 
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_06_souris">Eh oui ! </dialogue>
+    <status perso="pingouin" frame="objectif" />
+    <dialogue perso="pingouin" son="m3_dial_deb_07_pingouin">Parfait, mais avant que je ne te la donne pourrais-tu me rendre un petit service ? 
+	</dialogue>
+    <dialogue perso="pingouin" son="m3_dial_deb_08_pingouin">Le pont en bois qui me permet de rentrer dans mon igloo est cassé. Peux-tu m’aider à rassembler les 5 rondins éparpillés pour que je puisse le reconstruire ? </dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_09_souris">Pas de problème, je m’en occupe !
+	</dialogue>
+    <status perso="pingouin" frame="attend_jeu" />
+    <dialogue perso="pingouin" son="m3_dial_deb_10_pingouin">Tu es adorable, merci. Ce pont m’évite de nager dans cette eau beaucoup trop froide pour moi !
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_11_souris">C’est parti ! 
+	</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m3_dial_deb_12_souris"> Tu me donnes un coup de main ?
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_13_souris">Clique sur les 5 rondins de bois éparpillés sur la glace. 
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_deb_14_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <rappelConsigne>
+    <status perso="pingouin" frame="objectif" />
+    <dialogue autoClose="false" perso="pingouin" son="m3_rap_cons_pingouin">Tu te souviens, il faut ramasser les 5 rondins de bois éparpillés sur la glace.
+	</dialogue>
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m3_mess_allez_souris">Super ! Allez, on continue !
+	</dialogue>
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m3_dial_fin_01_souris">Et voilà, le pont est réparé, tu vas pouvoir rentrer dans ton igloo sans mouiller ton écharpe !
+	</dialogue>
+    <status perso="pingouin" frame="attend_jeu">
+    </status>
+    <dialogue perso="pingouin" son="m3_dial_fin_02_pingouin">Bravo et merci beaucoup pour ton aide ! Voudrais-tu te réchauffer un peu dans mon igloo ?
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_fin_03_souris">Non merci, je dois continuer ma route ! Et la formule magique ?
+	</dialogue>
+    <status perso="pingouin" frame="objectif" />
+    <dialogue perso="pingouin" son="m3_dial_fin_04_pingouin">
+		Ah oui ! La voilà.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="pingouin" son="m3_dial_fin_06_narratrice">«que l’invisible devient,...»
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <dialogue perso="souris" son="m3_dial_fin_05_souris">
+		Génial.
+	</dialogue>
+    <dialogue perso="pingouin" son="m3_dial_fin_07_pingouin">Plonge dans la mer et va voir Cathy la pieuvre, c’est une copine et elle possède une autre partie de la formule. </dialogue>
+    <status perso="pingouin" frame="attend_jeu">
+    </status>
+    <dialogue perso="pingouin" son="m3_dial_fin_08_pingouin">Mais attention, les souris ne sont pas des poissons, hi hi hi !! Bonne baignade et à bientôt !
+	</dialogue>
+    <dialogue perso="souris" son="m3_dial_fin_09_souris">Encore merci ! À bientôt Max !</dialogue>
+    <status perso="souris" frame="marche" scaleX="1" />
+    <move perso="souris" x="1050" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m3_dial_retour_10_souris">Bonjour Max ! Ca me fait plaisir de te revoir.
+	</dialogue>
+    <status perso="pingouin" frame="objectif" />
+    <dialogue perso="pingouin" son="m3_dial_retour_11_pingouin">Léon ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="m3_dial_retour_12_souris">Oui oui très bien ! </dialogue>
+    <status perso="pingouin" frame="attend_jeu" />
+    <dialogue perso="pingouin" son="m3_dial_retour_13_pingouin">Bon, je te laisse te balader. Fais attention à ne pas glisser sur la glace ! </dialogue>
+    <dialogue perso="souris" son="m3_dial_retour_14_souris"> D'accord, A bientôt !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m3_dial_retour_15_souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m3_dial_retour_16_souris">Clique sur les rondins en bas de l’écran.</dialogue>
+  </retourExo>
+</data>

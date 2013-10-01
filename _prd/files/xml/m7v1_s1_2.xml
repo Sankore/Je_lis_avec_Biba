@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7v1_cons">Lis le texte. Choisis l'étiquette qui correspond à la définition du mot écrit en violet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="etoiles" type="choix" />
+    <QUESTION goodRep="1" group="1" id="nuages" type="choix" />
+    <QUESTION goodRep="0" group="1" id="montagnes" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="etoiles" son="m7v1s12_cellule1">
+          <message>Les nébuleuses ne sont pas des étoiles même si elles sont toutes les deux dans le ciel.</message>
+        </CELLULE>
+        <CELLULE id="montagnes" son="m7v1s12_cellule2">
+          <message>Les nébuleuses ne sont pas des montagnes.&lt;br/&gt;Les montagnes, elles, ont les pieds sur Terre.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m7cgpr1_cons">Complète les morceaux de mots écrits en violet à l'aide des lettres de l'alphabet.&lt;br/&gt; Tu peux écouter les mots à compléter en cliquant sur chaque haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_nebuleuse" id="_e" type="draggable" />
+    <QUESTION goodRep="z_cosmos" id="s" type="draggable" />
+    <QUESTION goodRep="z_champ" id="ch" type="draggable" />
+    <QUESTION goodRep="z_magnetique" id="gn" type="draggable" />
+    <QUESTION goodRep="z_constellation" id="ion" type="draggable" />
+    <QUESTION goodRep="z_appareil" id="eil" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m7cgp1s1_def">
+          <message>Tu n'as pas écrit correctement le mot à compléter.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgp1_s1_v2_cons">Passe sur une image et écoute bien le mot : si tu entends la lettre [m] place l'image dans le buisson correspondant.  </CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="zone_m" id="mousse" type="draggable" />
+    <QUESTION goodRep="zone_m" id="mure" type="draggable" />
+    <QUESTION goodRep="zone_non_m" id="bourgeon" type="draggable" />
+    <QUESTION goodRep="zone_non_m" id="noisette" type="draggable" />
+    <QUESTION goodRep="zone_m" id="pomme" type="draggable" />
+    <QUESTION goodRep="zone_m" id="muguet" type="draggable">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="cabane" rep="zone_non_a" son="m1cgp1_s1_v2_cellule2">
+          <message>On entend 2 fois le son [a] dans le mot cabane, comme dans le mot "&lt;font color ="#000000"&gt;a&lt;/font&gt;&lt;font color ="#0033ff"&gt;n&lt;/font&gt;&lt;font color ="#000000"&gt;i&lt;/font&gt;&lt;font color ="#0033ff"&gt;m&lt;/font&gt;&lt;font color ="#000000"&gt;a&lt;/font&gt;&lt;font color ="#000000"&gt;l&lt;/font&gt;". Il fallait placer cette image dans la butte de terre [a].</message>
+        </CELLULE>
+        <CELLULE id="cabane" rep="zone_non_a" son="m1cgp1_s1_v2_cellule2">
+          <message>On entend 2 fois le son [a] dans le mot cabane, comme dans le mot "&lt;font color ="#000000"&gt;a&lt;/font&gt;&lt;font color ="#0033ff"&gt;n&lt;/font&gt;&lt;font color ="#000000"&gt;i&lt;/font&gt;&lt;font color ="#0033ff"&gt;m&lt;/font&gt;&lt;font color ="#000000"&gt;a&lt;/font&gt;&lt;font color ="#000000"&gt;l&lt;/font&gt;". Il fallait placer cette image dans la butte de terre [a].</message>
+        </CELLULE>
+        <ET son="m1cgp1_s1_v2_et1">
+          <message>Dans ces deux mots, on n'entend pas le son [m], écoute : "noisette", "bourgeon". Il fallait placer ces images dans la butte de terre "Je n'entends pas le son [m]".</message>
+          <CELLULE id="noisette" />
+          <CELLULE id="bourgeon">
+          </CELLULE>
+        </ET>
+        <OU son="m1cgp1_s1_v2_et1">
+          <message>Dans ce mot, on n'entend pas le son [m]. Il fallait placer ces images dans l'autre butte de terre. </message>
+          <CELLULE id="noisette" />
+          <CELLULE id="bourgeon">
+          </CELLULE>
+        </OU>
+        <OU son="m1cgp1_s1_v2_ou1">
+          <message>On entend le son [m] au milieu de ce mot, écoute : "pomme". Il fallait placer cette image dans la butte de terre "j'entends le son [m]". </message>
+          <CELLULE id="radis" />
+          <CELLULE id="marron">
+          </CELLULE>
+        </OU>
+        <OU son="m1cgp1_s1_v2_ou2">
+          <message>On entend le son [m] au début de ce mot. Il fallait placer cette image dans la butte de terre où est écrit [m]. </message>
+          <CELLULE id="muguet" />
+          <CELLULE id="mousse">
+          </CELLULE>
+          <CELLULE id="mure">
+          </CELLULE>
+        </OU>
+        <ALL rep="zone_a" son="m1cgp1_s1_v2_all1" goodrep="">
+          <message>Dis ce mot à voix haute : tu n'entends pas le son [a]. Il fallait le placer dans l'autre butte de terre.  </message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m1cgp1_s1_v2_def">
+          <message>Ce mot n'est pas à sa place.</message>
+        </DEFAUT>
+        <OUBLI son="m1cgp1_s1_v2_oub">
+          <message>Ce mot n'est pas à sa place. </message>
+        </OUBLI>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="image1" />
+        <CELLULE id="image2" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

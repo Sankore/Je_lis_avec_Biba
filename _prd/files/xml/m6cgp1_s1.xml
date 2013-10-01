@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgp1_cons">Lis bien les phrases. Puis, à l'aide des lettres proposées, reconstitue les mots.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_soleil1" id="s_soleil" type="draggable" />
+    <QUESTION goodRep="z_soleil2" id="o_soleil" type="draggable" />
+    <QUESTION goodRep="z_soleil3, z_soleil6" id="l1_soleil" type="draggable" />
+    <QUESTION goodRep="z_soleil4" id="e_soleil" type="draggable" />
+    <QUESTION goodRep="z_soleil5" id="i_soleil" type="draggable" />
+    <QUESTION goodRep="z_soleil6,z_soleil3" id="l2_soleil" type="draggable" />
+    <QUESTION goodRep="z_scorpion1" id="s_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion2" id="c_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion3,z_scorpion7" id="o1_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion4" id="r_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion5" id="p_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion6" id="i_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion7,z_scorpion3" id="o2_scorpion" type="draggable" />
+    <QUESTION goodRep="z_scorpion8" id="n_scorpion" type="draggable" />
+    <QUESTION goodRep="z_oeuf1" id="o_oeuf" type="draggable" />
+    <QUESTION goodRep="z_oeuf2" id="e_oeuf" type="draggable" />
+    <QUESTION goodRep="z_oeuf3" id="u_oeuf" type="draggable" />
+    <QUESTION goodRep="z_oeuf4" id="f_oeuf" type="draggable" />
+    <QUESTION goodRep="z_dromadaire1,z_dromadaire6" id="d1_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire2,z_dromadaire9" id="r1_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire3" id="o_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire4" id="m_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire5,z_dromadaire7" id="a1_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire6,z_dromadaire1" id="d2_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire7,z_dromadaire5" id="a2_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire8" id="i_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire9,z_dromadaire2" id="r2_dromadaire" type="draggable" />
+    <QUESTION goodRep="z_dromadaire10" id="e_dromadaire" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6cgp1s1_ou1">
+          <message>Oups ! Il fallait écrire : soleil.</message>
+          <CELLULE id="s_soleil" />
+          <CELLULE id="o_soleil" />
+          <CELLULE id="l1_soleil" />
+          <CELLULE id="e_soleil" />
+          <CELLULE id="i_soleil" />
+          <CELLULE id="l2_soleil" />
+        </OU>
+        <OU son="m6cgp1s1_ou2">
+          <message>Zut ! Il fallait écrire : scorpion.</message>
+          <CELLULE id="s_scorpion" />
+          <CELLULE id="c_scorpion" />
+          <CELLULE id="o1_scorpion" />
+          <CELLULE id="r_scorpion" />
+          <CELLULE id="p_scorpion" />
+          <CELLULE id="i_scorpion" />
+          <CELLULE id="o2_scorpion" />
+          <CELLULE id="n_scorpion" />
+        </OU>
+        <OU son="m6cgp1s1_ou4">
+          <message>Attention ! C'est "dromadaire" qu'il fallait écrire.&lt;br/&gt;Tu ne dois pas confondre avec le chameau, qui lui, a 2 bosses !</message>
+          <CELLULE id="d1_dromadaire" />
+          <CELLULE id="r1_dromadaire" />
+          <CELLULE id="o_dromadaire" />
+          <CELLULE id="m_dromadaire" />
+          <CELLULE id="a1_dromadaire" />
+          <CELLULE id="d2_dromadaire" />
+          <CELLULE id="a2_dromadaire" />
+          <CELLULE id="i_dromadaire" />
+          <CELLULE id="r2_dromadaire" />
+          <CELLULE id="e_dromadaire" />
+        </OU>
+        <OU son="m6cgp1s1_ou3">
+          <message>Attention ! Il fallait écrire : oeuf.</message>
+          <CELLULE id="o_oeuf" />
+          <CELLULE id="e_oeuf" />
+          <CELLULE id="u_oeuf" />
+          <CELLULE id="f_oeuf" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5flr1_cons">Place chaque mot dans le bon nuage.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_il" id="oiseau" type="draggable" />
+    <QUESTION goodRep="z_il" id="vent" type="draggable" />
+    <QUESTION goodRep="z_il" id="ciel" type="draggable" />
+    <QUESTION goodRep="z_il" id="tourbillon" type="draggable" />
+    <QUESTION goodRep="z_il" id="typhon" type="draggable" />
+    <QUESTION goodRep="z_elle" id="rafale" type="draggable" />
+    <QUESTION goodRep="zone_elle" id="temperature" type="draggable" />
+    <QUESTION goodRep="z_elle" id="aile" type="draggable" />
+    <QUESTION goodRep="z_elle" id="vitesse" type="draggable" />
+    <QUESTION goodRep="z_elle" id="girouette" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m5flr1_all1" rep="z_elle">
+          <message>Attention ! Les déterminants "un" ou "le" sont au masculin.</message>
+        </ALL>
+        <ALL son="m5flr1_all2" rep="z_il">
+          <message>Oups ! Les déterminants "une" ou "la" sont au féminin.</message>
+        </ALL>
+        <ALL rep="0" son="mess_oub">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

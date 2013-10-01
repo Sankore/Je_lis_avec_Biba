@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgpr1_cons">Clique sur le haut-parleur et complète avec les lettres qui conviennent.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="cote" id="t" type="draggable" />
+    <QUESTION goodRep="corde" id="d" type="draggable" />
+    <QUESTION goodRep="flotter" id="f" type="draggable" />
+    <QUESTION goodRep="voler" id="v" type="draggable" />
+    <QUESTION goodRep="port" id="p" type="draggable" />
+    <QUESTION goodRep="bord" id="b" type="draggable" />
+    <QUESTION goodRep="marine" id="m" type="draggable" />
+    <QUESTION goodRep="narines" id="n" type="draggable" />
+    <QUESTION goodRep="antennes" id="an" type="draggable" />
+    <QUESTION goodRep="instruments" id="in" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <ERREURS_SPEC>
+          <ALL son="m4coer2_oub" rep="0">
+            <message>Tu n'as pas terminé.</message>
+          </ALL>
+        </ERREURS_SPEC>
+        <DEFAUT son="m4cgp2_def">
+          <message>Tu as choisi la mauvaise étiquette.&lt;br/&gt;Ecoute à nouveau ce que dit le haut-parleur.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

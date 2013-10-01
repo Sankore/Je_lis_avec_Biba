@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m7cgp1_cons">Complète les mots écrits en violet à l'aide des lettres de l'alphabet. Tu peux essayer de faire l'exercice sans cliquer sur les mots pour entendre le son.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_e" id="_e" type="draggable" />
+    <QUESTION goodRep="z_u2" id="u1" type="draggable" />
+    <QUESTION goodRep="z_s2,z_s3_2,z_s3_1" id="s1" type="draggable" />
+    <QUESTION goodRep="z_s3_1,z_s3_2,z_s2" id="s2" type="draggable" />
+    <QUESTION goodRep="z_s3_2,z_s3_1,z_s2" id="s3" type="draggable" />
+    <QUESTION goodRep="z_e4,z_e6,z_e7_1,z_e7_2" id="e1" type="draggable" />
+    <QUESTION goodRep="z_r4" id="r1" type="draggable" />
+    <QUESTION goodRep="z_o5,z_o8" id="o1" type="draggable" />
+    <QUESTION goodRep="z_i5,z_i6" id="i1" type="draggable" />
+    <QUESTION goodRep="z_e6,z_e4,z_e7_1,z_e7_2" id="e2" type="draggable" />
+    <QUESTION goodRep="z_i6,z_i5" id="i2" type="draggable" />
+    <QUESTION goodRep="z_l6,z_l8" id="l1" type="draggable" />
+    <QUESTION goodRep="z_e7_1,z_e7_2,z_e6,z_e4" id="e3" type="draggable" />
+    <QUESTION goodRep="z_t7_1,z_t7_2" id="t1" type="draggable" />
+    <QUESTION goodRep="z_t7_2,z_t7_1" id="t2" type="draggable" />
+    <QUESTION goodRep="z_e7_2,z_e7_1,z_e6,z_e4" id="e4" type="draggable" />
+    <QUESTION goodRep="z_o8,z_o5" id="o2" type="draggable" />
+    <QUESTION goodRep="z_l8,z_l6" id="l2" type="draggable" />
+    <QUESTION goodRep="0" id="a1" type="draggable" />
+    <QUESTION goodRep="0" id="b1" type="draggable" />
+    <QUESTION goodRep="0" id="c1" type="draggable" />
+    <QUESTION goodRep="0" id="d1" type="draggable" />
+    <QUESTION goodRep="0" id="e_" type="draggable" />
+    <QUESTION goodRep="0" id="f1" type="draggable" />
+    <QUESTION goodRep="0" id="g1" type="draggable" />
+    <QUESTION goodRep="0" id="h1" type="draggable" />
+    <QUESTION goodRep="0" id="j1" type="draggable" />
+    <QUESTION goodRep="0" id="k1" type="draggable" />
+    <QUESTION goodRep="0" id="m1" type="draggable" />
+    <QUESTION goodRep="0" id="p1" type="draggable" />
+    <QUESTION goodRep="0" id="v1" type="draggable" />
+    <QUESTION goodRep="0" id="w1" type="draggable" />
+    <QUESTION goodRep="0" id="x1" type="draggable" />
+    <QUESTION goodRep="0" id="y1" type="draggable" />
+    <QUESTION goodRep="0" id="z1" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m7cgp1s1_def">
+          <message>Tu n'as pas écrit correctement le mot à compléter.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

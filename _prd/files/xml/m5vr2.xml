@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5v1_cons">Range les mots dans l'ordre alphabétique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="air" type="draggable" />
+    <QUESTION goodRep="case2" id="depression" type="draggable" />
+    <QUESTION goodRep="case3" id="eolienne" type="draggable" />
+    <QUESTION goodRep="case4" id="girouette" type="draggable" />
+    <QUESTION goodRep="case5" id="mistral" type="draggable" />
+    <QUESTION goodRep="case6" id="oxygene" type="draggable" />
+    <QUESTION goodRep="case7" id="tornade" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="air" son="m5vr2_cellule1">
+          <message>Oups ! Ce mot commence par la lettre "a".&lt;br/&gt;C'est la 1ère de l'alphabet.</message>
+        </CELLULE>
+        <CELLULE id="depression" son="m5vr2_cellule2">
+          <message>Attention ! Aucun mot ne commence par les lettres "b" ou "c" : "dépression" se place après le mot "air" en 2ème position.</message>
+        </CELLULE>
+        <CELLULE id="eolienne" son="m5vr2_cellule3">
+          <message>Attention ! Après le "d" vient le "e",&lt;br/&gt;"éolienne" se place après "dépression" en 3ème position.</message>
+        </CELLULE>
+        <CELLULE son="m5vr2_cellule4" id="girouette">
+          <message>Zut ! Le mot "girouette" se place après le mot "éolienne" en 4ème position.</message>
+        </CELLULE>
+        <CELLULE id="mistral" son="m5vr2_cellule5">
+          <message>Attention ! Le mot "mistral" se place après le mot "girouette" en 5ème position.</message>
+        </CELLULE>
+        <CELLULE id="oxygene" son="m5vr2_cellule6">
+          <message>Attention ! Le mot "oxygène" se place en 6ème position.</message>
+        </CELLULE>
+        <CELLULE id="tornade" son="m5vr2_cellule7">
+          <message>Oups ! La lettre "t" est la dernière lettre de l'alphabet dans cette liste.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

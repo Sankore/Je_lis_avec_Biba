@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clickmot">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="A partir de quel âge les jeunes baleines sautent-elles hors de l’eau? " ref="0058F3" son="m4c2_leg1">
+    </COULEUR>
+    <COULEUR legende="Où peut-on voir des baleines sauter hors de l’eau ? " ref="F17D0A" son="m4c2_leg2">
+    </COULEUR>
+    <COULEUR legende="Qui cherche à assister à ce spectacle ? " ref="BB21D1" son="m4c2_leg3">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m4c2_cons">Réponds aux questions à l'aide du pinceau en surlignant la réponse dans le texte. Attention aux couleurs.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;Les baleines sautent hors de l’eau très tôt, dès qu’elles ont &lt;v coul="1"&gt;quelques semaines&lt;/v&gt;. &lt;v coul="3"&gt;Des touristes&lt;/v&gt; font le voyage jusque &lt;v coul="2"&gt;dans l’Océan Glacial Arctique&lt;/v&gt; pour assister à ce magnifique spectacle ! Mais pourquoi sautent-elles ? Peut-être est-ce un jeu… ou bien, un moyen de communication ?
+</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m4c2_all1" rep="0" goodRep="1">
+          <message>Houlala ! Tu dois chercher la phrase qui parle de l’âge des baleines.</message>
+        </ALL>
+        <ALL son="m4c2_all2" rep="0" goodRep="2">
+          <message>Quand on te pose la question « où ? », la réponse doit exprimer un lieu, un endroit.</message>
+        </ALL>
+        <ALL son="m4c2_all3" rep="0" goodRep="3">
+          <message>Hou hou ! Ce sont les touristes qui assistent à ce spectacle.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m7flr1_def">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

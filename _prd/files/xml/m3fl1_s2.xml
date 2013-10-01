@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Ponctuation" ref="0058F3" coul="1" son="m3fl1_leg1">
+    </COULEUR>
+    <COULEUR legende="Majuscules" ref="F17D0A" coul="2" son="m3fl1_leg2">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m3fl1_cons">Avec le pinceau bleu, clique sur les signes de ponctuation.&lt;br/&gt; Avec le pinceau orange, clique sur les lettres majuscules.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;v coul="2"&gt;L&lt;/v&gt;e phoque du &lt;v coul="2"&gt;G&lt;/v&gt;roen&lt;f id="faux1"&gt;l&lt;/f&gt;and est assez ma&lt;f id="faux2"&gt;l&lt;/f&gt;adroit sur &lt;f id="faux13"&gt;l&lt;/f&gt;a g&lt;f id="faux3"&gt;l&lt;/f&gt;ace&lt;v coul="1"&gt;.&lt;/v&gt; &lt;v coul="2"&gt;P&lt;/v&gt;ar contre&lt;v coul="1"&gt;, &lt;/v&gt;i&lt;f id="faux4"&gt;l&lt;/f&gt; est très à &lt;f id="faux5"&gt;l&lt;/f&gt;’aise dans &lt;f id="faux6"&gt;l&lt;/f&gt;’eau &lt;v coul="1" &gt;:&lt;/v&gt; i&lt;f id="faux7"&gt;l&lt;/f&gt; peut p&lt;f id="faux8"&gt;l&lt;/f&gt;onger à p&lt;f id="faux9"&gt;l&lt;/f&gt;us de 200 mètres de profondeur &lt;v coul="1"&gt;! &lt;/v&gt; &lt;v coul="2"&gt;S&lt;/v&gt;on menu est varié &lt;v coul="1"&gt;:&lt;/v&gt; des saumons&lt;v coul="1"&gt;,&lt;/v&gt; des harengs&lt;v coul="1"&gt;,&lt;/v&gt; des crustacés&lt;v coul="1"&gt;…&lt;/v&gt; &lt;v coul="2"&gt;S&lt;/v&gt;ais-tu où &lt;f id="faux10"&gt;l&lt;/f&gt;es phoques passent &lt;f id="faux11"&gt;l&lt;/f&gt;eurs &lt;v coul="1"&gt;«&lt;/v&gt;vacances d’hiver &lt;v coul="1"&gt;»&lt;/v&gt; &lt;v coul="1"&gt;?&lt;/v&gt; &lt;v coul="2"&gt;S&lt;/v&gt;ur &lt;f id="faux12"&gt;l&lt;/f&gt;es côtes du &lt;v coul="2"&gt;L&lt;/v&gt;abrador&lt;v coul="1"&gt;,&lt;/v&gt; au &lt;v coul="2"&gt;C&lt;/v&gt;anada&lt;v coul="1"&gt;.&lt;/v&gt;</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m3fl1_ou1">
+          <message>Attention, ce n'est pas facile ! Le "l" minuscule ressemble au "L" majuscule. Là, tu as cliqué sur la lettre minuscule.</message>
+          <CELLULE id="faux1">
+          </CELLULE>
+          <CELLULE id="faux2">
+          </CELLULE>
+          <CELLULE id="faux3">
+          </CELLULE>
+          <CELLULE id="faux4">
+          </CELLULE>
+          <CELLULE id="faux5">
+          </CELLULE>
+          <CELLULE id="faux6">
+          </CELLULE>
+          <CELLULE id="faux7">
+          </CELLULE>
+          <CELLULE id="faux8">
+          </CELLULE>
+          <CELLULE id="faux9">
+          </CELLULE>
+          <CELLULE id="faux10">
+          </CELLULE>
+          <CELLULE id="faux11">
+          </CELLULE>
+          <CELLULE id="faux12">
+          </CELLULE>
+          <CELLULE id="faux13">
+          </CELLULE>
+        </OU>
+        <ALL son="m3fl1_all3" rep="2" goodRep="1">
+          <message>Tu t'es mélangé les pinceaux ! C'est un signe de ponctuation, pas une lettre majuscule.</message>
+        </ALL>
+        <ALL son="m3fl1_all4" rep="1" goodRep="2">
+          <message>Tu t'es mélangé les pinceaux ! C'est une lettre majuscule, pas un signe de ponctuation.</message>
+        </ALL>
+        <ALL son="m3fl1_all1" rep="0" goodRep="1">
+          <message>Tu n'as pas trouvé ce signe de ponctuation.</message>
+        </ALL>
+        <ALL son="m3fl1_all2" rep="0" goodRep="2">
+          <message>Tu n'as pas trouvé cette lettre majuscule.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3fl1_def">
+          <message>Ce n'est ni une lettre majuscule, ni un signe de ponctuation.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="" />
+        <CELLULE id="" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m3fl_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g220">
+      <liste id="r1_l1" goodRep="1" align="left">
+        <item>so</item>
+        <item>ma</item>
+      </liste>
+      <liste>
+        <item>leil</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g604" >
+      <liste id="r2_l1" goodRep="1" align="right">
+        <item>pê</item>
+        <item>cha</item>
+      </liste>
+      <liste>
+        <item>che</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g321">
+      <liste id="r3_l1" goodRep="1" align="right">
+        <item>re</item>
+        <item>se</item>
+      </liste>
+      <liste>
+        <item>quin</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g746">
+      <liste id="r4_l1" goodRep="2" align="left">
+        <item>a</item>
+        <item>i</item>
+      </liste>
+      <liste>
+        <item>gloo</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g172">
+      <liste id="r5_l1" goodRep="1" align="center">
+        <item>fu</item>
+        <item>mi</item>
+      </liste>
+      <liste>
+        <item>sil</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g467">
+      <liste>
+        <item>mai</item>
+      </liste>
+      <liste id="r6_l1" goodRep="2" align="center">
+        <item>pon</item>
+        <item>son</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="m3cgpr1_oub">
+          <message>Tu n'as pas complété ce mot.</message>
+        </ALL>
+        <CELLULE son="m3cgpr1_cellule1" id="r1_l1" rep="2">
+          <message>Tu as écrit "maleil" et pas "soleil". </message>
+        </CELLULE>
+        <CELLULE son="m3cgpr1_cellule2" id="r2_l1" rep="2">
+          <message>Dans le mot "pêche", on entend d'abord la lettre son [p].&lt;br/&gt;Tu as écrit : "chache".</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr1_cellule3" id="r3_l1" rep="2">
+          <message>Le mot "requin" commence par la lettre son [r],&lt;br/&gt;pas par la lettre son [s].&lt;br/&gt;Tu n'as pas choisi la bonne syllabe.</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr1_cellule4" id="r4_l1" rep="1">
+          <message>Tu as confondu la lettre son [a] et la lettre son [i] :&lt;br/&gt;tu as écrit "agloo" au lieu de "igloo".</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr1_cellule5" id="r5_l1" rep="2">
+          <message>Dans le mot "fusil", on entend la lettre son  [f].&lt;br/&gt;Il faut donc choisir la syllabe "fu", pas la syllabe "mi".</message>
+        </CELLULE>
+        <CELLULE son="m3cgpr1_cellule6" id="r6_l1" rep="1">
+          <message>Tu as écrit "maipon", pas "maison".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

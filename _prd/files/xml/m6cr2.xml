@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cr2_cons">Place chaque image à côté de la phrase qui lui correspond.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_image1" id="image1" type="draggable" />
+    <QUESTION goodRep="z_image2" id="image2" type="draggable" />
+    <QUESTION goodRep="z_image3" id="image3" type="draggable" />
+    <QUESTION goodRep="z_image4" id="image4" type="draggable" />
+    <QUESTION goodRep="z_image5" id="image5" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="image4" son="m6cr2_cellule1" rep="z_image1">
+          <message>Sur l'image que tu as choisie, c'est un homme qui boit au point d'eau, pas un chameau.</message>
+        </CELLULE>
+        <CELLULE rep="z_image4" id="image1" son="m6cr2_cellule2">
+          <message>Ali est un homme, pas un chameau.</message>
+        </CELLULE>
+        <CELLULE rep="z_image2" id="image5" son="m6cr2_cellule3">
+          <message>Attention ! Regarde mieux cette image : on y voit un homme charger de l'eau sur un chameau.</message>
+        </CELLULE>
+        <CELLULE rep="z_image5" id="image2" son="m6cr2_cellule4">
+          <message>Tu as confondu : l'homme ne charge pas de l'eau sur le chameau mais tente de monter dessus.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cr2_rajout">
+          <message>Cette image n'est pas à sa place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

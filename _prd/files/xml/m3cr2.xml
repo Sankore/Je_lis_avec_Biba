@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3cr2_cons">Dans chaque phrase, le premier et le dernier mot&lt;br/&gt;sont bien placés.&lt;br/&gt;Remets les autres à leur place.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case2" id="ours" type="draggable" />
+    <QUESTION goodRep="case3" id="blancs" type="draggable" />
+    <QUESTION goodRep="case4" id="mangent" type="draggable" />
+    <QUESTION goodRep="case5" id="du1" type="draggable" />
+    <QUESTION goodRep="case14" id="ferons" type="draggable" />
+    <QUESTION goodRep="case15" id="une" type="draggable" />
+    <QUESTION goodRep="case16" id="promenade" type="draggable" />
+    <QUESTION goodRep="case17" id="en" type="draggable" />
+    <QUESTION goodRep="case20" id="fourrure" type="draggable" />
+    <QUESTION goodRep="case21" id="du2" type="draggable" />
+    <QUESTION goodRep="case22" id="renard" type="draggable" />
+    <QUESTION goodRep="case23" id="est" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m3cr1_def">
+          <message>Cette étiquette n'est pas à sa place.&lt;br&gt;Une phrase doit avoir du sens, elle doit vouloir dire quelque chose.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

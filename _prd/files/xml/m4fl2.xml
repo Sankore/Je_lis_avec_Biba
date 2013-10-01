@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4fl2_cons">Complète chaque espace vide par le déterminant qui convient. Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_un1" id="un1" type="draggable" />
+    <QUESTION goodRep="0" id="une1" type="draggable" />
+    <QUESTION goodRep="0" id="le1" type="draggable" />
+    <QUESTION goodRep="0" id="la1" type="draggable" />
+    <QUESTION goodRep="0" id="les1" type="draggable" />
+    <QUESTION goodRep="0" id="des1" type="draggable" />
+    <QUESTION goodRep="0" id="un2" type="draggable" />
+    <QUESTION goodRep="0" id="une2" type="draggable" />
+    <QUESTION goodRep="z_le2" id="le2" type="draggable" />
+    <QUESTION goodRep="0" id="la2" type="draggable" />
+    <QUESTION goodRep="0" id="les2" type="draggable" />
+    <QUESTION goodRep="0" id="des2" type="draggable" />
+    <QUESTION goodRep="0" id="un3" type="draggable" />
+    <QUESTION goodRep="0" id="une3" type="draggable" />
+    <QUESTION goodRep="0" id="le3" type="draggable" />
+    <QUESTION goodRep="z_la3" id="la3" type="draggable" />
+    <QUESTION goodRep="0" id="les3" type="draggable" />
+    <QUESTION goodRep="0" id="des3" type="draggable" />
+    <QUESTION goodRep="z_un4" id="un4" type="draggable" />
+    <QUESTION goodRep="0" id="une4" type="draggable" />
+    <QUESTION goodRep="0" id="le4" type="draggable" />
+    <QUESTION goodRep="0" id="la4" type="draggable" />
+    <QUESTION goodRep="0" id="les4" type="draggable" />
+    <QUESTION goodRep="0" id="des4" type="draggable" />
+    <QUESTION goodRep="z_un5" id="un5" type="draggable" />
+    <QUESTION goodRep="0" id="le5" type="draggable" />
+    <QUESTION goodRep="0" id="la5" type="draggable" />
+    <QUESTION goodRep="0" id="les5" type="draggable" />
+    <QUESTION goodRep="0" id="des5" type="draggable" />
+    <QUESTION goodRep="0" id="une5" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ET son="m4fl2_et1">
+          <message>Tu as recopié ce qu'il y avait sur la 1ère ligne. Tu dois bien lire la phrase à compléter pour trouver le déterminant qui correspond.</message>
+          <CELLULE id="des1" />
+          <CELLULE id="la2" />
+          <CELLULE id="les3" />
+          <CELLULE id="des4" />
+          <CELLULE id="une5" />
+        </ET>
+        <OU son="m4fl2_ou1">
+          <message>Attention, dans cette phrase, il n'y a pas de "s" à la fin du mot "plaisancier". Il faut donc un déterminant singulier.</message>
+          <CELLULE id="des1" />
+          <CELLULE id="les1" />
+        </OU>
+        <OU son="m4fl2_ou2">
+          <message>Tu as bien vu qu'il fallait un singulier mais "plaisancier" n'est pas un mot féminin. Il faut donc un déterminant masculin.</message>
+          <CELLULE id="une1" />
+          <CELLULE id="la1" />
+        </OU>
+        <CELLULE rep="z_un1" son="m4fl2_cellule1">
+          <message>Presque ! Tu as bien vu qu'il fallait un singulier, mais tu as choisi "le" au lieu de "un".</message>
+        </CELLULE>
+        <OU son="m4fl2_ou9">
+          <message>Attention, dans cette phrase, il n'y a pas de "s" à la fin du mot "aventurier". Il faut donc un déterminant singulier.</message>
+          <CELLULE id="des5" />
+          <CELLULE id="les5" />
+        </OU>
+        <OU son="m4fl2_ou10">
+          <message>Tu as bien vu qu'il fallait un singulier mais  "aventurier" n'est pas un mot féminin. Il faut donc un déterminant masculin.</message>
+          <CELLULE id="une5" />
+          <CELLULE id="la5" />
+        </OU>
+        <CELLULE rep="z_un5" son="m4fl2_cellule5">
+          <message>Presque ! Tu as bien vu qu'il fallait un singulier, mais tu as choisi "un" au lieu de "le".</message>
+        </CELLULE>
+        <OU son="m4fl2_ou3">
+          <message>Il te faut un déterminant au singulier car "navigateur" est écrit au singulier.</message>
+          <CELLULE id="des2" />
+          <CELLULE id="les2" />
+        </OU>
+        <OU son="m4fl2_ou4">
+          <message>Tu as choisi un déterminant féminin mais "navigateur" est un mot masculin.</message>
+          <CELLULE id="une2" />
+          <CELLULE id="la2" />
+        </OU>
+        <CELLULE rep="z_le2" son="m4fl2_cellule2">
+          <message>Dommage ! Tu t'es trompé de déterminant : "un" est le masculin de "une", pas de "la".</message>
+        </CELLULE>
+        <OU son="m4fl2_ou7">
+          <message>Comment est écrit le mot "nageur" à la fin ? Sans "s", alors cherche un déterminant au singulier.</message>
+          <CELLULE id="des4" />
+          <CELLULE id="les4" />
+        </OU>
+        <OU son="m4fl2_ou8">
+          <message>On dit "nageuses" pour les filles mais "nageur" pour les garçons. Il faut donc un déterminant au masculin.</message>
+          <CELLULE id="une4" />
+          <CELLULE id="la4" />
+        </OU>
+        <CELLULE rep="z_un4" son="m4fl2_cellule4">
+          <message>Pas facile cette phrase ! Le masculin singulier de "des" n'est pas "le".</message>
+        </CELLULE>
+        <OU son="m4fl2_ou5">
+          <message>"poissonnière" est écrit au singulier ici, il n'y a pas de "s" à la fin.</message>
+          <CELLULE id="des3" />
+          <CELLULE id="les3" />
+        </OU>
+        <OU son="m4fl2_ou6">
+          <message>"poissonnière" est un mot féminin, il faut donc un déterminant féminin.</message>
+          <CELLULE id="un3" />
+          <CELLULE id="le3" />
+        </OU>
+        <CELLULE rep="z_la3" son="m4fl2_cellule3">
+          <message>Oups ! Dans cette phrase, le féminin de "les" est "la" et non pas "une".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

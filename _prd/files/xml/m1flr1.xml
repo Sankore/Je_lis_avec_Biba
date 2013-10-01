@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1flr1_cons">Dépose dans la butte de terre les étiquettes&lt;br/&gt;sur lesquelles il y a une lettre.&lt;br/&gt;Tu peux cliquer sur le haut-parleur&lt;br/&gt;si tu souhaites obtenir de l'aide !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="d1" type="draggable" />
+    <QUESTION goodRep="dz" id="d2" type="draggable" />
+    <QUESTION goodRep="0" id="d3" type="draggable" />
+    <QUESTION goodRep="0" id="d4" type="draggable" />
+    <QUESTION goodRep="dz" id="d5" type="draggable" />
+    <QUESTION goodRep="dz" id="d6" type="draggable" />
+    <QUESTION goodRep="0" id="d7" type="draggable" />
+    <QUESTION goodRep="0" id="d8" type="draggable" />
+    <QUESTION goodRep="dz" id="d9" type="draggable" />
+    <QUESTION goodRep="dz" id="d10" type="draggable" />
+    <QUESTION goodRep="dz" id="d11" type="draggable" />
+    <QUESTION goodRep="dz" id="d12" type="draggable" />
+    <QUESTION goodRep="dz" id="d13" type="draggable" />
+    <QUESTION goodRep="0" id="d14" type="draggable" />
+    <QUESTION goodRep="dz" id="d15" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m1flr1_def">
+          <message>Ce n'est pas une lettre mais un chiffre. Toutes les lettres de l'alphabet te sont présentées en haut de l'écran.</message>
+        </DEFAUT>
+        <OUBLIS son="m1flr1_oub">
+          <message>Tu as oublié certaines lettres.</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1fl_demo.swf</DEMO>
+</EXO>

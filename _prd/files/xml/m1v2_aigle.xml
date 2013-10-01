@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1v1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, clique sur l'image qui correspond à ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="lichen" type="choix" />
+    <QUESTION goodRep="0" group="1" id="lierre" type="choix" />
+    <QUESTION goodRep="0" group="1" id="feuillage" type="choix" />
+    <QUESTION goodRep="1" group="2" id="mante" type="choix" />
+    <QUESTION goodRep="0" group="2" id="libellule" type="choix" />
+    <QUESTION goodRep="0" group="2" id="sauterelle" type="choix" />
+    <QUESTION goodRep="1" group="3" id="bouleau" type="choix" />
+    <QUESTION goodRep="0" group="3" id="chene" type="choix" />
+    <QUESTION group="3" goodRep="0" id="sapin" type="choix" />
+    <QUESTION goodRep="1" group="4" id="deracine" type="choix" />
+    <QUESTION group="4" goodRep="0" id="casse" type="choix" />
+    <QUESTION goodRep="0" group="4" id="scie" type="choix" />
+    <QUESTION goodRep="1" group="5" id="buse" type="choix" />
+    <QUESTION goodRep="0" group="5" id="chouette" type="choix" />
+    <QUESTION goodRep="0" group="5" id="faisan" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="lierre" rep="1" son="m1v2_cellule1">
+          <message>Le lichen, c'est comme de la mousse verte qu'on trouve parfois sur les arbres.</message>
+        </CELLULE>
+        <CELLULE id="feuillage" rep="1" son="m1v2_cellule2">
+          <message>Ce sont des feuillages.</message>
+        </CELLULE>
+        <CELLULE id="libellule" rep="1" son="m1v2_cellule3">
+          <message>Ceci est une libellule. La mante religieuse est plus grande.</message>
+        </CELLULE>
+        <CELLULE id="sauterelle" rep="1" son="m1v2_cellule4">
+          <message>Ce n'est pas une mante religieuse mais une sauterelle.</message>
+        </CELLULE>
+        <CELLULE id="casse" rep="1" son="m1v2_cellule7">
+          <message>Il n'y a pas d'arbre sur cette image, elle représente un oeuf cassé. Un arbre déraciné est un arbre dont les racines ne sont plus dans la terre.</message>
+        </CELLULE>
+        <CELLULE id="scie" rep="1" son="m1v2_cellule8">
+          <message>Sur cette image, on scie un bout de bois avec une scie. Un arbre déraciné est un arbre dont les racines ne sont plus dans la terre.</message>
+        </CELLULE>
+        <CELLULE id="chene" rep="1" son="m1v2_cellule5">
+          <message>Cet arbre est un chêne, c'est lui qui donne les glands.</message>
+        </CELLULE>
+        <CELLULE id="sapin" rep="1" son="m1v2_cellule6">
+          <message>Cet arbre est un sapin, l'arbre que l'on décore pour Noël. Le bouleau est un arbre à l'écorce blanche.</message>
+        </CELLULE>
+        <CELLULE id="chouette" rep="1" son="m1v2_cellule9">
+          <message>La chouette aux grands yeux ouverts n'est pas un aigle. L'aigle est un très gros oiseau.</message>
+        </CELLULE>
+        <CELLULE id="faisan" rep="1" son="m1v2_cellule10">
+          <message>Le faisan aux multiples couleurs n'est pas un aigle. L'aigle est un très gros oiseau.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

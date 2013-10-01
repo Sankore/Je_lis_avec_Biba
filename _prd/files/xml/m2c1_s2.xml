@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2c1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Place les images au bon endroit.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_colorier" id="colorier" type="draggable" />
+    <QUESTION goodRep="z_encadrer" type="draggable" id="encadrer" />
+    <QUESTION goodRep="z_souligner" id="souligner" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_colorier" son="m2c1s2_all4">
+          <message>Attention ! Colorier, c'est mettre de la couleur.</message>
+        </ALL>
+        <ALL rep="z_encadrer" son="m2c1s2_all2">
+          <message>Zut ! Encadrer, c'est dessiner un cadre autour d'un élément.</message>
+        </ALL>
+        <ALL rep="z_souligner" son="m2c1s2_all5">
+          <message>Oups ! Souligner, c'est faire un trait sous un mot.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m2c1s2_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2c_demo.swf</DEMO>
+</EXO>

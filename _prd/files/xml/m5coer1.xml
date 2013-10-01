@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <CONSIGNE son="m5coer1">Dans chaque phrase, clique sur la lettre majuscule du début et le point final à l'aide du pinceau.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;v&gt;L&lt;/v&gt;’énergie éolienne est l’énergie du vent&lt;v&gt;.&lt;/v&gt;&lt;br/&gt;&lt;v&gt;P&lt;/v&gt;endant la nuit&lt;f id="faux1"&gt;,&lt;/f&gt; la terre se refroidit plus vite que la mer&lt;v&gt;.&lt;/v&gt;&lt;br/&gt;&lt;v&gt;C&lt;/v&gt;’est le vent qui agite la mer en surface et produit les vagues&lt;v&gt;.&lt;/v&gt;&lt;br/&gt;&lt;v&gt;I&lt;/v&gt;l balaie le sable des déserts pour faire des dunes&lt;v&gt;.&lt;/v&gt;&lt;br/&gt;&lt;v&gt;D&lt;/v&gt;epuis très longtemps&lt;f id="faux2"&gt;,&lt;/f&gt; l’homme utilise le vent comme source d’énergie&lt;v&gt;.&lt;/v&gt;&lt;br/&gt;&lt;v&gt;A&lt;/v&gt;utrefois&lt;f id="faux3"&gt;,&lt;/f&gt; les moulins à vent étaient manœuvrés manuellement&lt;v&gt;.&lt;/v&gt;</TEXTE>
+  </CONTENU>
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Majuscule - point final" ref="0058F3" coul="1">
+    </COULEUR>
+  </PALETTE>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m5coer1_ou1">
+          <message>Tu as certainement confondu cette virgule avec un point. Les points se trouvent en fin de phrase.</message>
+          <CELLULE id="faux1" />
+          <CELLULE id="faux2" />
+          <CELLULE id="faux3" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>Tu n'as pas cliqué sur une majuscule ni sur un point final. Dans toutes les phrases, les majuscules sont toujours au début des phrases et les points à la fin des phrases.</message>
+        </DEFAUT>
+        <OUBLIS item-id="64" son="">
+          <message>Attention, tu en as oublié !</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

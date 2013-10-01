@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2cgpr1_cons">Clique sur le haut parleur et choisis l'image du mot qui contient le son que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="buche" type="choix" />
+    <QUESTION goodRep="0" group="1" id="boue" type="choix" />
+    <QUESTION goodRep="1" group="4" id="nid" type="choix" />
+    <QUESTION goodRep="0" group="4" id="rat" type="choix" />
+    <QUESTION goodRep="1" group="2" id="rond" type="choix" />
+    <QUESTION goodRep="0" group="2" id="gris" type="choix" />
+    <QUESTION goodRep="1" group="3" id="mare" type="choix" />
+    <QUESTION goodRep="0" group="3" id="fosse" type="choix" />
+    <QUESTION goodRep="1" group="7" id="hache" type="choix" />
+    <QUESTION goodRep="0" group="7" id="pelle" type="choix" />
+    <QUESTION goodRep="1" group="8" id="souche" type="choix" />
+    <QUESTION goodRep="0" group="8" id="botte" type="choix" />
+    <QUESTION goodRep="1" group="9" id="casque" type="choix" />
+    <QUESTION goodRep="0" group="9" id="graine" type="choix" />
+    <QUESTION goodRep="1" group="6" id="pic" type="choix" />
+    <QUESTION goodRep="0" group="6" id="bois" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="boue" rep="1" son="m2cgpr1_cellule1">
+          <message>Dans le mot "boue", on n'entend pas la lettre son [u]. On l'entend dans le mot "bûche".</message>
+        </CELLULE>
+        <CELLULE id="rat" rep="1" son="m2cgpr1_cellule4">
+          <message>Dans le mot "nid", j'entend la lettre son [i]. Dans le mot "rat", on entend la lettre son [a].</message>
+        </CELLULE>
+        <CELLULE id="gris" rep="1" son="m2cgpr1_cellule2">
+          <message>Dans le mot "gris", on n'entend pas les lettres sons [on]. On les entend dans le mot "rond".</message>
+        </CELLULE>
+        <CELLULE id="fosse" rep="1" son="m2cgpr1_cellule3">
+          <message>Dans le mot "fosse", on n'entend pas la lettre son [m]. On l'entend dans le mot "mare".</message>
+        </CELLULE>
+        <CELLULE id="pelle" rep="1" son="m1_def5">
+          <message>Passe à nouveau sur l'image et écoute bien.</message>
+        </CELLULE>
+        <CELLULE id="botte" rep="1" son="m2cgpr1_cellule8">
+          <message>On n'entend pas la lettre son [ou] dans le mot "botte" mais la lettre son [o].</message>
+        </CELLULE>
+        <CELLULE id="graine" rep="1" son="m2cgpr1_cellule9">
+          <message>Es-tu sûr d'entendre la lettre son [a] dans le mot graine ?</message>
+        </CELLULE>
+        <CELLULE id="bois" rep="1" son="m2cgpr1_cellule6">
+          <message>C'est le mot "pic" qui contient la lettre son [p], pas le mot "bois".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

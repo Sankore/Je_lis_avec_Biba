@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <expliDemo>
+    <status perso="piou" frame="vole" />
+    <move perso="piou" x="900" y="150" speed="15" />
+	<status perso="piou" frame="attend" />
+    <dialogue perso="piou" son="pres_model0_2">
+		Je peux t'aider ! Clique sur moi, je vais te faire une petite démonstration !
+	</dialogue>
+  </expliDemo>
+  <expliBoutonSuite>
+	<status perso="piou" frame="vole" />
+	<move perso="piou" x="810" y="590" speed="15" />
+	<status perso="piou" frame="montreBas" scaleX="-1" />
+	<dialogue perso="piou" son="pres_model0_clignotte">
+		Tu veux continuer ? Clique sur la flèche qui clignote .
+	</dialogue>
+  </expliBoutonSuite>
+  <percherPiou>
+	  <status perso="piou" frame="vole" />
+	  <move perso="piou" x="900" y="150" speed="15" />
+	  <status perso="piou" frame="attend" />
+  </percherPiou>
+  <piouCassos>
+	  <status perso="piou" frame="vole" />
+	  <move perso="piou" x="500" y="-200" speed="15" />
+	  <status perso="piou" frame="attend" visible="false" />
+  </piouCassos>
+  <expliValider>
+	<status perso="piou" frame="vole" />
+	<move perso="piou" x="810" y="590" speed="15" />
+	<status perso="piou" frame="montreBas" scaleX="-1" />
+	<dialogue perso="piou" son="pres_model0_valide">
+		Quand tu as fini, clique sur ce bouton !
+	</dialogue>
+  </expliValider>
+</data>

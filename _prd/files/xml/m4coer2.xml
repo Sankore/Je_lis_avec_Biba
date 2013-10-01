@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4coer2_cons">Classe chaque mot dans le bon tableau.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_h" id="houle" type="draggable" />
+    <QUESTION goodRep="z_ch" id="chalutier" type="draggable" />
+    <QUESTION goodRep="z_ph" id="phare" type="draggable" />
+    <QUESTION goodRep="z_ph" id="elephant" type="draggable" />
+    <QUESTION goodRep="z_h" id="huitre" type="draggable" />
+    <QUESTION goodRep="z_h" id="hippocampe" type="draggable" />
+    <QUESTION goodRep="z_ch" id="rocher" type="draggable" />
+    <QUESTION goodRep="z_h" id="harpon" type="draggable" />
+    <QUESTION goodRep="z_ch" id="chenal" type="draggable" />
+    <QUESTION goodRep="z_ph" id="scaphandre" type="draggable" />
+    <QUESTION goodRep="z_ch" id="seche" type="draggable" />
+    <QUESTION goodRep="z_ph" id="dauphin" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4coer2_ou1">
+          <message>Dans ce mot, le "h" est muet. On ne l'entends pas.</message>
+          <CELLULE id="houle" />
+          <CELLULE id="huitre" />
+          <CELLULE id="hippocampe" />
+          <CELLULE id="harpon" />
+        </OU>
+        <ALL rep="z_h" son="m4coer2_all1">
+          <message>Dans ce mot, le "h" n'est pas muet. A cause de la lettre qui est juste avant, il fait un son.</message>
+        </ALL>
+        <ALL rep="z_ph" son="m4coer2_all2">
+          <message>Tu n'as pas bien regardé : dans ce mot, il y a un "c" devant le "h", on entend donc la lettre son [ch] comme dans le mot "château".</message>
+        </ALL>
+        <ALL rep="z_ch" son="m4coer2_all3">
+          <message>Tu n'as pas bien regardé : dans ce mot, il y a un "p" devant le "h", on entend donc la lettre son [f] comme dans le mot "phoque".</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4coer2_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1flr2_cons">Rassemble dans chaque buisson les différentes façons d'écrire la lettre que tu y vois.&lt;br/&gt;Tu peux cliquer sur le haut-parleur&lt;br/&gt;si tu souhaites obtenir de l'aide !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="dzb" id="d15" type="draggable" />
+    <QUESTION goodRep="dzb" id="d16" type="draggable" />
+    <QUESTION goodRep="dzl" id="d8" type="draggable" />
+    <QUESTION goodRep="dzl" id="d7" type="draggable" />
+    <QUESTION goodRep="dzg" id="d17" type="draggable" />
+    <QUESTION goodRep="dzg" id="d18" type="draggable" />
+    <QUESTION goodRep="dzt" id="d13" type="draggable" />
+    <QUESTION goodRep="dzt" id="d14" type="draggable" />
+    <QUESTION goodRep="dze" id="d24" type="draggable" />
+    <QUESTION goodRep="dze" id="d23" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="dzb" son="m1flr22_all1">
+          <message>Cette lettre n'est pas un "b".</message>
+        </ALL>
+        <ALL rep="dzl" son="m1flr22_all2">
+          <message>Cette lettre n'est pas un "l".</message>
+        </ALL>
+        <ALL rep="dzg" son="m1flr22_all3">
+          <message>Cette lettre n'est pas un "g".</message>
+        </ALL>
+        <ALL rep="dzt" son="m1flr22_all4">
+          <message>Cette lettre n'est pas un "t".</message>
+        </ALL>
+        <ALL rep="dze" son="m1flr22_all5">
+          <message>Cette lettre n'est pas un "e".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire.&lt;br/&gt;Ces images sont mal rangées. Déplace-les pour les remettre dans l'ordre de l'histoire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+    <QUESTION goodRep="case4" id="image4" type="draggable" />
+  </CONTENU>
+</EXO>

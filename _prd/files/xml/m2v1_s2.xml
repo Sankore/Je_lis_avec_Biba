@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2v1s2_cons">Dépose dans les wagons roses, les images de légumes et dans les wagons jaunes, les images de roches.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_legumes" id="poireau" type="draggable" />
+    <QUESTION goodRep="z_legumes" id="pomme_terre" type="draggable" />
+    <QUESTION goodRep="z_legumes" id="carottes" type="draggable" />
+    <QUESTION goodRep="z_legumes" id="endive" type="draggable" />
+    <QUESTION goodRep="z_roches" id="marbre" type="draggable" />
+    <QUESTION goodRep="z_roches" id="charbon" type="draggable" />
+    <QUESTION goodRep="z_roches" id="silex" type="draggable" />
+    <QUESTION goodRep="z_roches" id="gres" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_legumes" son="m2v1s2_all2">
+          <message>Les légumes sont des plantes que l'on mange.&lt;br/&gt;Dans ces wagons, tu devais mettre les légumes. </message>
+        </ALL>
+        <ALL rep="z_roches" son="m2v1s2_all3">
+          <message>Houla mais non ! Dans ces wagons, tu devais mettre les roches.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2v_demo.swf</DEMO>
+</EXO>

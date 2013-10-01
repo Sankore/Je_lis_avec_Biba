@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequence>
+  <exo interface="d">
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_c1.xml" swfPath="ce2_fr_homo_a_c1.swf">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m2.xml">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m1.xml" swfPath="ce2_fr_homo_a_m1.swf">
+    </question>
+    <question itemId="22445" type="d1" interfPath="oaalDragndrop.swf" swfPath="ce2_fr_dico_d1.swf" aide="1" label="azefasefa">
+      <redirectType value="q1" id="*" />
+      <anim path="ce2_fr_dico_d1.swf" />
+    </question>
+  </exo>
+  <exo interface="m">
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_c1.xml" swfPath="ce2_fr_homo_a_c1.swf">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m2.xml">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m1.xml" swfPath="ce2_fr_homo_a_m1.swf">
+    </question>
+    <question itemId="22445" type="d1" interfPath="oaalDragndrop.swf" swfPath="ce2_fr_dico_d1.swf" aide="1" label="azefasefa">
+      <redirectType value="q1" id="*" />
+      <anim path="ce2_fr_dico_d1.swf" />
+    </question>
+  </exo>
+  <exo interface="c">
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_c1.xml" swfPath="ce2_fr_homo_a_c1.swf">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m2.xml">
+    </question>
+    <question itemId="22456" type="m1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/ce2_fr_homo_a_m1.xml" swfPath="ce2_fr_homo_a_m1.swf">
+    </question>
+    <question itemId="22445" type="d1" interfPath="oaalDragndrop.swf" swfPath="ce2_fr_dico_d1.swf" aide="1" label="azefasefa">
+      <redirectType value="q1" id="*" />
+      <anim path="ce2_fr_dico_d1.swf" />
+    </question>
+  </exo>
+</sequence>

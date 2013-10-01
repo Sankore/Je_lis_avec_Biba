@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5cgpr1_cons">Place chaque mot dans le nuage qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_ion" id="pression" type="draggable" />
+    <QUESTION goodRep="z_ion" id="protection" type="draggable" />
+    <QUESTION goodRep="z_ion" id="nidification" type="draggable" />
+    <QUESTION goodRep="z_oin" id="loin" type="draggable" />
+    <QUESTION goodRep="z_oin" id="soin" type="draggable" />
+    <QUESTION goodRep="z_oin" id="coin" type="draggable" />
+    <QUESTION goodRep="z_ier" id="verdier" type="draggable" />
+    <QUESTION goodRep="z_ier" id="echassier" type="draggable" />
+    <QUESTION goodRep="z_ier" id="fauconnier" type="draggable" />
+    <QUESTION goodRep="z_er" id="envoler" type="draggable" />
+    <QUESTION goodRep="z_er" id="monter" type="draggable" />
+    <QUESTION goodRep="z_er" id="souffler" type="draggable" />
+    <QUESTION goodRep="z_ein" id="serein" type="draggable" />
+    <QUESTION goodRep="z_ein" id="peinture" type="draggable" />
+    <QUESTION goodRep="z_ein" id="plein" type="draggable" />
+    <QUESTION goodRep="z_ien" id="chien" type="draggable" />
+    <QUESTION goodRep="z_ien" id="eolien" type="draggable" />
+    <QUESTION goodRep="z_ien" id="musicien" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m5cgpr1_ou1">
+          <message>Oups ! Dans ce mot, on entend les lettres sons [ion] comme dans le mot "invention".</message>
+          <CELLULE id="pression" />
+          <CELLULE id="protection" />
+          <CELLULE id="nidification" />
+        </OU>
+        <OU son="m5cgpr1_ou2">
+          <message>Attention ! Dans ce mot, on entend les letttres sons [oin] comme dans le mot "point".</message>
+          <CELLULE id="loin" />
+          <CELLULE id="coin" />
+          <CELLULE id="soin" />
+        </OU>
+        <OU son="m5cgpr1_ou4">
+          <message>Zut ! Dans ce mot, on entend les letttres sons [ié] comme dans le mot "pompier".</message>
+          <CELLULE id="verdier" />
+          <CELLULE id="echassier" />
+          <CELLULE id="fauconnier" />
+        </OU>
+        <OU son="m5cgpr1_ou5">
+          <message>Attention ! Dans ce mot, on entend la letttre son [é] comme dans le mot "manger".</message>
+          <CELLULE id="envoler" />
+          <CELLULE id="monter" />
+          <CELLULE id="souffler" />
+        </OU>
+        <OU son="m5cgpr1_ou3">
+          <message>Oups ! Dans ce mot, on entend les letttres sons [in] comme dans le mot "ceinture".</message>
+          <CELLULE id="serein" />
+          <CELLULE id="peinture" />
+          <CELLULE id="plein" />
+        </OU>
+        <OU son="m5cgpr1_ou6">
+          <message>Attention ! Dans ce mot, on entend les letttres sons [ien] comme dans le mot "bien".</message>
+          <CELLULE id="musicien" />
+          <CELLULE id="chien" />
+          <CELLULE id="eolien" />
+        </OU>
+        <ALL rep="0" son="mess_oub">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

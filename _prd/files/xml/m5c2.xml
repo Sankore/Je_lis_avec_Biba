@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5c1_cons">Voici les phrases d'une histoire : elles sont dans le désordre.&lt;br/&gt;A toi de jouer !</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="ligne1" id="d1" type="draggable" />
+    <QUESTION goodRep="ligne2" id="d2" type="draggable" />
+    <QUESTION goodRep="ligne3" id="d3" type="draggable" />
+    <QUESTION goodRep="ligne4" id="d4" type="draggable" />
+    <QUESTION goodRep="ligne5" id="d5" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="ligne5" son="m5c1s2_all1">
+          <message>Ce n'est pas comme ça que l'histoire se termine.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m5c1s1_def">
+          <message>Cette étiquette n'est pas à la bonne place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

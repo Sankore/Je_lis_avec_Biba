@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1v1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, clique sur l'image qui correspond à ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="libellule" type="choix" />
+    <QUESTION goodRep="0" group="1" id="criquet" type="choix" />
+    <QUESTION goodRep="1" group="1" id="moustique" type="choix" />
+    <QUESTION goodRep="0" group="2" id="lievre" type="choix" />
+    <QUESTION goodRep="1" group="2" id="herisson" type="choix" />
+    <QUESTION goodRep="0" group="2" id="loup" type="choix" />
+    <QUESTION goodRep="0" group="3" id="ver" type="choix" />
+    <QUESTION goodRep="1" group="3" id="mille" type="choix" />
+    <QUESTION group="3" goodRep="0" id="fourmi" type="choix" />
+    <QUESTION goodRep="0" group="4" id="bouleau" type="choix" />
+    <QUESTION group="4" goodRep="0" id="chene" type="choix" />
+    <QUESTION goodRep="1" group="4" id="sapin" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="libellule" rep="1" son="m1v2_cellule1">
+          <message>Tu as cliqué sur la libellule, pas sur le moustique.</message>
+        </CELLULE>
+        <CELLULE id="criquet" rep="1" son="m1v2_cellule2">
+          <message>Tu as cliqué sur le criquet, pas sur le moustique.</message>
+        </CELLULE>
+        <CELLULE id="lievre" rep="1" son="m1v2_cellule3">
+          <message>Ceci est un lièvre. Le hérisson a la peau recouverte de pics.</message>
+        </CELLULE>
+        <CELLULE id="loup" rep="1" son="m1v2_cellule4">
+          <message>Ceci est un loup. Le hérisson a la peau recouverte de pics.</message>
+        </CELLULE>
+        <CELLULE id="ver" rep="1" son="m1v2_cellule5">
+          <message>Cet insecte n'a pas de pattes !&lt;br/&gt;Ce n'est donc pas un mille-pattes ! C'est un ver de terre.</message>
+        </CELLULE>
+        <CELLULE id="fourmi" rep="1" son="m1v2_cellule6">
+          <message>Cet insecte n'a pas assez de pattes&lt;br/&gt;pour être un mille-pattes !&lt;br/&gt;C'est un ver de terre.</message>
+        </CELLULE>
+        <CELLULE id="chene" rep="1" son="m1v2_cellule7">
+          <message>Cet arbre est un chêne, c'est lui qui donne les glands.&lt;br/&gt;Le sapin est l'arbre que l'on décore pour Noël.</message>
+        </CELLULE>
+        <CELLULE id="bouleau" rep="1" son="m1v2_cellule8">
+          <message>Cet arbre est un bouleau.&lt;br/&gt;Le sapin est l'arbre que l'on décore pour Noël.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1v_demo.swf</DEMO>
+</EXO>

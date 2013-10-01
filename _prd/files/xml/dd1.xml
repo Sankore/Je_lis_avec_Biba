@@ -1,0 +1,44 @@
+﻿<EXO type="dragndrop">
+  <CONSIGNE son="surlignage_test/consigne">youpla</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="chenille" goodRep="zoneCH" />
+    <QUESTION id="niche" goodRep="zoneCH" />
+    <QUESTION id="hibou" goodRep="zoneH" />
+    <QUESTION id="herbe" goodRep="zoneH" />
+    <QUESTION id="mouche" goodRep="zoneCH" />
+  </CONTENU>
+  <ANALYSE>
+    <REDIRECT>
+      <redirectType id="2">
+        <cellule id="chenille" />
+        <cellule id="mouche" />
+      </redirectType>
+      <redirectType id="3">
+        <cellule id="hibou" />
+        <cellule id="herbe" />
+      </redirectType>
+      <redirectType id="3" >
+		  <cellule id="niche" />
+	  </redirectType>
+    </REDIRECT>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="surlignage_test/err2" rep="0">
+          <message>Tu as oublié de classer ces mots.</message>
+        </ALL>
+        <ALL son="surlignage_test/err1" goodRep="zoneCH">
+          <message>On entend bien le son "CH" dans ces mots.</message>
+        </ALL>
+        <ALL son="surlignage_test/err2" goodRep="zoneH">
+          <message>Le "H" est muet dans ce mot.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="surlignage_test/err5">
+          <message>Ces mots sont mal classés.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>lettre_muette.swf</DEMO>
+</EXO>

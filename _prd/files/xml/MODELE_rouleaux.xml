@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="">
+  </CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g518" alignY="h88">
+      <liste>
+        <item>Le </item>
+      </liste>
+      <liste id="ld1" goodRep="1" align="center">
+        <item>c</item>
+        <item>C</item>
+      </liste>
+      <liste>
+        <item>heval de </item>
+      </liste>
+      <liste id="ld2" goodRep="2" align="center">
+        <item>t</item>
+        <item>T</item>
+      </liste>
+      <liste>
+        <item>omas.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </OU>
+        <ALL son="" rep="" goodRep="">
+          <message>
+          </message>
+        </ALL>
+        <CELLULE id="" rep="" son="">
+          <message>
+          </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

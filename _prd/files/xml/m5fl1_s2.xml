@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m5fl1_cons">Choisis le bon pronom personnel : Il, Ils, Elle ou Elles.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" alignY="h50" align="g570">
+      <liste id="r1_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>a augmenté.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g380" alignY="h120">
+      <liste id="r2_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>se forment au dessus de la mer.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g470" alignY="h190">
+      <liste id="r3_l1" goodRep="1" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>éparpille des graines.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g500" alignY="h250">
+      <liste id="r4_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>colore le ciel.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g514" alignY="h320">
+      <liste id="r5_l1" goodRep="1" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>s’est posé dans le champ.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g415" alignY="h390">
+      <liste id="r6_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>repèrent leur proie en volant.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m5fl1s2_cellule1" rep="4" id="r1_l1">
+          <message>Tu as bien choisi un pronom au féminin.&lt;br/&gt;Mais il faut un pronom féminin singulier.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule2" rep="1,2" id="r1_l1">
+          <message>Attention ! "Température" est un mot féminin singulier.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule3" rep="1" id="r2_l1">
+          <message>Tu as bien vu que le mot "nuages" est un mot masculin.&lt;br/&gt;Mais il y a un "s" à la fin, il est donc au pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule4" rep="3,4" id="r2_l1">
+          <message>Oups ! "Nuages" est un mot masculin pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule5" rep="2" id="r3_l1">
+          <message>Attention ! Il n'y a pas de "s" à la fin de "vent" :&lt;br/&gt;c'est donc un mot masculin singulier.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule6" rep="3,4" id="r3_l1">
+          <message>Zut ! On ne dit pas "la vent".&lt;br/&gt;Il faut donc choisir un pronom au masculin.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule7" rep="" id="r4_l1">
+          <message>Tu as bien choisi un pronom au féminin mais dans la phrase on parle des "montgolfières" ; il faut donc un pronom féminin au pluriel.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule8" rep="1,2" id="r4_l1">
+          <message>Oups ! "Monfgolfière" est un mot féminin singulier. </message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule9" rep="2" id="r5_l1">
+          <message>Zut ! Le mot "parachutiste" n'a pas de "s" à la fin.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule10" rep="3,4" id="r5_l1">
+          <message>Ce n’est pas possible :&lt;br/&gt;"parachutiste" est un mot masculin.</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule11" rep="1" id="r6_l1">
+          <message>Attention ! On évoque deux animaux :&lt;br/&gt;"l'aigle et le vautour".</message>
+        </CELLULE>
+        <CELLULE son="m5fl1s2_cellule12" rep="3,4" id="r6_l1">
+          <message>Oups ! Les mots "aigle" et "vautour" sont deux mots masculins.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3c1_cons">Clique sur chaque mot pour écouter ce qui est écrit. Remets les mots dans l'ordre pour former une phrase.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="le1" type="draggable" />
+    <QUESTION goodRep="case2" id="groenland" type="draggable" />
+    <QUESTION goodRep="case3" id="est1" type="draggable" />
+    <QUESTION goodRep="case4" id="recouvert" type="draggable" />
+    <QUESTION goodRep="case5" id="de" type="draggable" />
+    <QUESTION goodRep="case6" id="neige" type="draggable" />
+    <QUESTION goodRep="case19" id="ils" type="draggable" />
+    <QUESTION goodRep="case20" id="mangent" type="draggable" />
+    <QUESTION goodRep="case21" id="de2" type="draggable" />
+    <QUESTION goodRep="case22" id="la" type="draggable" />
+    <QUESTION goodRep="case23" id="viande" type="draggable" />
+    <QUESTION goodRep="case24" id="sechee" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="le1" />
+        <CELLULE id="neige" />
+        <CELLULE id="ils" />
+        <CELLULE id="sechee" />
+      </redirectType>
+    </REDIRECT>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3c1s1_cellule1" id="groenland" rep="case1">
+          <message>Tu as bien compris qu'une phrase commence par une majuscule mais en plaçant ce mot ici, la phrase ne veut rien dire. Regarde bien, il y a un autre mot qui commence par une majuscule.</message>
+        </CELLULE>
+        <ALL rep="case1" son="m3c1s1_all1">
+          <message>Ce n'est pas le 1er mot de la phrase.&lt;br/&gt;Une phrase commence toujours par une majuscule.</message>
+        </ALL>
+        <ALL rep="case6" son="m3c1s1_all2">
+          <message>Il n'y a pas de point sur cette étiquette, or une phrase se termine par un point.</message>
+        </ALL>
+        <ALL rep="case19" son="m3c1s1_all3">
+          <message>Ce n'est pas le 1er mot de la phrase.&lt;br/&gt;Il faut une majuscule ici, comme au début de chaque phrase.</message>
+        </ALL>
+        <ALL rep="case24" son="m3c1s1_all4">
+          <message>Ce n'est pas la bonne étiquette. &lt;br/&gt;Une phrase se termine toujours par un point !</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3c1s1_def">
+          <message>Tu n'as pas remis les mots dans l'ordre.&lt;br/&gt;Cette phrase comme ça ne veut rien dire.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3c_demo.swf</DEMO>
+</EXO>

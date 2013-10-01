@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire.&lt;br/&gt;Ces images sont mal rangées. Déplace-les pour les remettre dans l'ordre de l'histoire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="image1" type="draggable" />
+    <QUESTION goodRep="case2" id="image2" type="draggable" />
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case1" son="m1cr1_all1">
+          <message>Ce n'est pas l'image du début de l'histoire.&lt;br/&gt;Au début de l'histoire, Tom et son papa jouent au ballon dans la forêt. </message>
+        </ALL>
+        <ALL rep="case2" son="m1cr1_all2">
+          <message>Tu n'as pas placé cette image au bon endroit.&lt;br/&gt;A ce moment de l'histoire, le ballon est coincé en haut d'un arbre.</message>
+        </ALL>
+        <ALL rep="case3" son="m1cr1_all3">
+          <message>Ce n'est pas l'image de la fin de l'histoire.&lt;br/&gt; L'histoire se termine lorsque le papa de Tom récupère le ballon dans l'arbre.</message>
+        </ALL>
+        <ALL rep="0" son="mess_oubli">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

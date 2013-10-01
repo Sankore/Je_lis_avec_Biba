@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="etoiles" type="choix" group="1" />
+    <QUESTION goodRep="0" id="tv" type="choix" group="1" />
+    <QUESTION goodRep="0" id="soleil" type="choix" group="1" />
+    <QUESTION goodRep="0" id="nuages" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="tv" son="m7c21_cellule1">
+          <message>Martin ne va pas s'asseoir dans un fauteuil pour regarder la télévision. Il installe son télescope au sommet d'une montagne.</message>
+        </CELLULE>
+        <CELLULE id="soleil" son="m7c21_cellule2">
+          <message>Il ne va pas observer le soleil, il attend que celui-ci soit couché.</message>
+        </CELLULE>
+        <CELLULE id="nuages" son="m7c21_cellule3">
+          <message>Il ne va pas observer les nuages. Le ciel est dégagé cela signifie qu'il n'y a pas de nuages.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

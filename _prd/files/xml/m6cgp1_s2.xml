@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgp1_cons">Lis bien les phrases. Puis, à l'aide des lettres proposées, reconstitue les mots.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_rayons1" id="r_rayons" type="draggable" />
+    <QUESTION goodRep="z_rayons2" id="a_rayons" type="draggable" />
+    <QUESTION goodRep="z_rayons3" id="y_rayons" type="draggable" />
+    <QUESTION goodRep="z_rayons4" id="o_rayons" type="draggable" />
+    <QUESTION goodRep="z_rayons5" id="n_rayons" type="draggable" />
+    <QUESTION goodRep="z_rayons6" id="s_rayons" type="draggable" />
+    <QUESTION goodRep="z_dattier1" id="d_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier2" id="a_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier3,z_dattier4" id="t1_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier4,z_dattier3" id="t2_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier5" id="i_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier6" id="e_dattier" type="draggable" />
+    <QUESTION goodRep="z_dattier7" id="r_dattier" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6cgp1s2_ou3">
+          <message>Il fallait écrire : rayons.</message>
+          <CELLULE id="r_rayons" />
+          <CELLULE id="a_rayons" />
+          <CELLULE id="y_rayons" />
+          <CELLULE id="o_rayons" />
+          <CELLULE id="n_rayons" />
+          <CELLULE id="s_rayons" />
+        </OU>
+        <OU son="m6cgp1s2_ou4">
+          <message>Il fallait écrire : dattier.</message>
+          <CELLULE id="d_dattier" />
+          <CELLULE id="a_dattier" />
+          <CELLULE id="t1_dattier" />
+          <CELLULE id="t2_dattier" />
+          <CELLULE id="i_dattier" />
+          <CELLULE id="e_dattier" />
+          <CELLULE id="r_dattier" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

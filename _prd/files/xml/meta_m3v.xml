@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22594" type="q0" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3v0.xml" swfPath="m3v0.swf">
+    <redirectType value="q1" id="*" />
+    <anim path="m3v0_anim.swf">
+    </anim>
+  </question>
+  <groupe type="q1">
+    <question itemId="22596" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3v1_s1.xml" swfPath="m3v1_s1.swf" type="q1_1">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+    <question itemId="22598" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3v1_s2.xml" swfPath="m3v1_s2.swf" type="q1_2">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+  </groupe>
+  <question itemId="22601" type="r1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m3vr1.xml" swfPath="m3vr1.swf">
+  </question>
+  <question itemId="22600" type="q2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m3v2.xml" swfPath="m3v2.swf">
+  </question>
+</exo>

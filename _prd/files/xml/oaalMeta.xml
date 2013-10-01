@@ -1,0 +1,11 @@
+<exo>
+	<question itemId="16561" type="q1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/dd1.xml" swfPath="dd1.swf">
+		<redirectType value="q2" id="0" />
+		<redirectType value="r1" id="1" />
+		<redirectType value="r2" id="2" />
+		<redirectType value="r2" id="3" />	
+  </question>
+  <question itemId="16562" type="r1" interfPath="oaalPicker.swf" xmlPath="../datas/xml/exo1.xml" swfPath=""/>
+  <question itemId="16563" type="r2" interfPath="oaalPicker.swf" xmlPath="../datas/xml/exo1.xml" swfPath=""/>
+  <question itemId="16564" type="q2" interfPath="oaalPicker.swf" xmlPath="../datas/xml/exo1.xml" swfPath=""/>
+</exo>

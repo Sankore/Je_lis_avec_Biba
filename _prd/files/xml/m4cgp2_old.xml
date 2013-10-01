@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgpr1_cons">Clique sur le haut-parleur et complète avec les lettres qui conviennent.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="din1" id="d" type="draggable" />
+    <QUESTION goodRep="din2" id="i" type="draggable" />
+    <QUESTION goodRep="din3" id="n" type="draggable" />
+    <QUESTION goodRep="za1" id="z" type="draggable" />
+    <QUESTION goodRep="za2" id="a" type="draggable" />
+    <QUESTION goodRep="fe1" id="f" type="draggable" />
+    <QUESTION goodRep="fe2" id="e" type="draggable" />
+    <QUESTION goodRep="plur1" id="p" type="draggable" />
+    <QUESTION goodRep="plur2" id="l" type="draggable" />
+    <QUESTION goodRep="plur3" id="u" type="draggable" />
+    <QUESTION goodRep="plur4" id="r" type="draggable" />
+    <QUESTION goodRep="0" id="b" type="draggable" />
+    <QUESTION goodRep="0" id="c" type="draggable" />
+    <QUESTION goodRep="0" id="g" type="draggable" />
+    <QUESTION goodRep="0" id="h" type="draggable" />
+    <QUESTION goodRep="0" id="j" type="draggable" />
+    <QUESTION goodRep="0" id="k" type="draggable" />
+    <QUESTION goodRep="0" id="m" type="draggable" />
+    <QUESTION goodRep="0" id="o" type="draggable" />
+    <QUESTION goodRep="0" id="q" type="draggable" />
+    <QUESTION goodRep="0" id="s" type="draggable" />
+    <QUESTION goodRep="0" id="t" type="draggable" />
+    <QUESTION goodRep="0" id="v" type="draggable" />
+    <QUESTION goodRep="0" id="w" type="draggable" />
+    <QUESTION goodRep="0" id="x" type="draggable" />
+    <QUESTION goodRep="0" id="y" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4cgp2_ou1">
+          <message>Oups ! Dans cet exemple, les lettres sons [din] s'écrivent avec les lettres "d", "i" et "n".</message>
+          <CELLULE id="d" />
+          <CELLULE id="i" />
+          <CELLULE id="n" />
+        </OU>
+        <OU son="m4cgp2_ou2">
+          <message>Attention ! Dans cet exemple, les lettres sons [za] s'écrivent avec les lettres "z" et "a".</message>
+          <CELLULE id="z" />
+          <CELLULE id="a" />
+        </OU>
+        <OU son="m4cgp2_ou3">
+          <message>Zut ! Les lettres sons [fe] s'écrivent avec les lettres "f" et "e".</message>
+          <CELLULE id="f" />
+          <CELLULE id="e" />
+        </OU>
+        <OU son="m4cgp2_ou4">
+          <message>Attention ! Dans les lettres sons [plur], on entend d'abord la lettre son [p]. Elle s'écrit avec un "p" comme dans "papa".</message>
+          <CELLULE id="p" />
+          <CELLULE id="l" />
+          <CELLULE id="u" />
+          <CELLULE id="r" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

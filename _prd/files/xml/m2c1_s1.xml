@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2c1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Place les images au bon endroit.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_dessiner" id="dessiner" type="draggable" />
+    <QUESTION goodRep="z_barrer" id="barrer" type="draggable" />
+    <QUESTION goodRep="z_relier" id="relier" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_dessiner" son="m2c1s1_all3">
+          <message>Oups ! Dessiner, c'est représenter quelque chose avec un crayon par exemple.</message>
+        </ALL>
+        <ALL rep="z_barrer" son="m2c1s1_all4">
+          <message>Attention ! Barrer, c'est rayer un élément, faire un trait dessus.</message>
+        </ALL>
+        <ALL rep="z_relier" son="m2c1s1_all5">
+          <message>Zut ! Relier, c'est associer deux éléments entre eux.&lt;br/&gt;Ici, ils sont reliés par un trait.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2c_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4fl1_cons">Complète chaque mot par le déterminant qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="des1" type="draggable" />
+    <QUESTION goodRep="ocean" id="un1" type="draggable" />
+    <QUESTION goodRep="0" id="la1" type="draggable" />
+    <QUESTION goodRep="falaise" id="la2" type="draggable" />
+    <QUESTION goodRep="0" id="les1" type="draggable" />
+    <QUESTION goodRep="0" id="un2" type="draggable" />
+    <QUESTION goodRep="0" id="le1" type="draggable" />
+    <QUESTION goodRep="0" id="une1" type="draggable" />
+    <QUESTION goodRep="crabes" id="des2" type="draggable" />
+    <QUESTION goodRep="0" id="la3" type="draggable" />
+    <QUESTION goodRep="dunes" id="les2" type="draggable" />
+    <QUESTION goodRep="0" id="le2" type="draggable" />
+    <QUESTION goodRep="0" id="des3" type="draggable" />
+    <QUESTION goodRep="phare" id="le3" type="draggable" />
+    <QUESTION goodRep="0" id="une2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <REDIRECT>
+      <redirectType id="3">
+        <CELLULE id="des1" />
+        <CELLULE id="des2" />
+        <CELLULE id="les1" />
+        <CELLULE id="les2" />
+        <CELLULE id="les3" />
+      </redirectType>
+      <redirectType id="2">
+        <CELLULE id="une1" />
+        <CELLULE id="une2" />
+        <CELLULE id="une3" />
+        <CELLULE id="la1" />
+        <CELLULE id="la2" />
+        <CELLULE id="un1" />
+        <CELLULE id="un2" />
+        <CELLULE id="le1" />
+        <CELLULE id="le2" />
+        <CELLULE id="le3" />
+      </redirectType>
+    </REDIRECT>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m4fl1s12_all1" rep="ocean">
+          <message>"océan" est un mot masculin singulier, il faut un déterminant masculin singulier comme "un" ou "le".</message>
+        </ALL>
+        <ALL rep="falaise" son="m4fl1s12_all2">
+          <message>"falaise" est un mot féminin singulier, il faut donc un déterminant au féminin singulier comme "la" ou "une".</message>
+        </ALL>
+        <ALL son="m4fl1s12_all3" rep="crabes">
+          <message>Il y a un "s" à la fin du mot "crabes". Tu dois choisir un déterminant au masculin pluriel : "les" ou "des".</message>
+        </ALL>
+        <ALL rep="dunes" son="m4fl1s12_all4">
+          <message>"dunes" est au féminin pluriel, il y a un "s" à la fin du mot. Tu dois choisir un déterminant au féminin pluriel : "les" ou "des".</message>
+        </ALL>
+        <ALL rep="phare" son="m4fl1s12_all5">
+          <message>Il faut un déterminant masculin pour le mot "phare" comme "un" ou "le".</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m4fl_demo.swf</DEMO>
+</EXO>

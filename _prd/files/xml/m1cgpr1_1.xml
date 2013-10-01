@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgr11_cons">Clique sur une image et écoute le mot.&lt;br/&gt;Clique sur une image découpée et écoute la syllabe.&lt;br/&gt;Tu dois reconstituer l'image de chaque animal.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_bourdon01" id="bourdon01" type="draggable" />
+    <QUESTION goodRep="z_bourdon02" id="bourdon02" type="draggable" />
+    <QUESTION goodRep="z_ecureuil01" id="ecureuil01" type="draggable" />
+    <QUESTION goodRep="z_ecureuil02" id="ecureuil02" type="draggable" />
+    <QUESTION goodRep="z_ecureuil03" id="ecureuil03" type="draggable" />
+    <QUESTION goodRep="z_lapin01" id="lapin01" type="draggable" />
+    <QUESTION goodRep="z_lapin02" id="lapin02" type="draggable" />
+    <QUESTION goodRep="z_pigeon01" id="pigeon01" type="draggable" />
+    <QUESTION goodRep="z_pigeon02" id="pigeon02" type="draggable" />
+    <QUESTION goodRep="z_elan01" id="elan01" type="draggable" />
+    <QUESTION goodRep="z_elan02" id="elan02" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="ecureuil01" rep="z_elan01" son="m1cgpr11_cell3">
+          <message>C'est la bonne syllabe mais pas le bon morceau de l'image découpée.&lt;br/&gt;Regarde bien, on voit une partie de l'écureuil,&lt;br/&gt;et pas une partie de l'élan.</message>
+        </CELLULE>
+        <CELLULE id="elan01" rep="z_ecureuil01" son="m1cgpr11_cell4">
+          <message>C'est la bonne syllabe mais pas le bon morceau de l'image découpée.&lt;br/&gt;Regarde bien, on voit une partie de l'élan,&lt;br/&gt; et pas une partie de l'écureuil.</message>
+        </CELLULE>
+        <ALL rep="0">
+          <message son="mess_oubli">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT>
+          <message son="m1cgpr11_def">L'image découpée que tu as placée ici&lt;br/&gt;n'est pas au bon endroit.&lt;br/&gt;En prononçant le mot au ralenti,&lt;br/&gt;tu entendras distinctement chaque syllabe.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

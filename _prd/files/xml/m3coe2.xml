@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coe1_cons3">Clique sur chaque haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="aventure" type="draggable" />
+    <QUESTION goodRep="0" id="temperature" type="draggable" />
+    <QUESTION goodRep="0" id="froidure" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="douloureux" type="draggable" />
+    <QUESTION goodRep="0" id="claire" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="poulain" type="draggable" />
+    <QUESTION goodRep="0" id="laine" type="draggable" />
+    <QUESTION goodRep="0" id="polaire" type="draggable" />
+    <QUESTION goodRep="0" id="poisson" type="draggable" />
+    <QUESTION goodRep="0" id="poilu" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="pointu" type="draggable" />
+    <QUESTION goodRep="0" id="poitrail" type="draggable" />
+    <QUESTION goodRep="0" id="utile" type="draggable" />
+    <QUESTION goodRep="0" id="île" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="aile" type="draggable" />
+    <QUESTION goodRep="0" id="fragile" type="draggable" />
+    <QUESTION goodRep="0" id="pleine" type="draggable" />
+    <QUESTION goodRep="0" id="reine" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="teinture" type="draggable" />
+    <QUESTION goodRep="0" id="baleine" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m3coe2_ou1">
+          <message>Il fallait trouver le mot dans lequel on voit "ure" &lt;br/&gt;mais dans lequel on n'entend pas les lettres son [ure].</message>
+          <CELLULE id="aventure" />
+          <CELLULE id="temperature" />
+          <CELLULE id="froidure" />
+        </OU>
+        <OU son="m3coe2_ou2">
+          <message>Il fallait trouver le mot dans lequel on voit  "lai"&lt;br/&gt;mais dans lequel on n'entend pas les lettres son [lè].</message>
+          <CELLULE id="claire" />
+          <CELLULE id="laine" />
+          <CELLULE id="polaire" />
+        </OU>
+        <OU son="m3coe2_ou3">
+          <message>Il fallait trouver le mot dans lequel on voit "poi"&lt;br/&gt;mais dans lequel on n'entend pas les lettres son [poi].</message>
+          <CELLULE id="poisson" />
+          <CELLULE id="poilu" />
+          <CELLULE id="poitrail" />
+        </OU>
+        <OU son="m3coe2_ou4">
+          <message>Dans cette série, il fallait trouver le mot dans lequel on voit "ile"&lt;br/&gt; mais dans lequel on n'entend pas les lettres son [il].</message>
+          <CELLULE id="utile" />
+          <CELLULE id="ile" />
+          <CELLULE id="fragile" />
+        </OU>
+        <OU son="m3coe2_ou5">
+          <message>Il fallait trouver le mot dans lequel on voit "ein" mais dans lequel on n'entend pas les lettres son [ène].</message>
+          <CELLULE id="pleine" />
+          <CELLULE id="reine" />
+          <CELLULE id="baleine" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

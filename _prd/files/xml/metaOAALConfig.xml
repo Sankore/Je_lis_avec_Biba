@@ -1,0 +1,5 @@
+<config>
+  <imagePath>files/img/</imagePath>
+  <soundPath>files/mp3/</soundPath>
+  <xmlPath>files/xml/</xmlPath>
+</config>

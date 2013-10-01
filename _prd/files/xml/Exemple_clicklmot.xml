@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clickmot">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Mots qui montrent que la phrase est négative" ref="0058F3" son="m7flr1_leg1">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m7flr1_cons">Dans chaque phrase, clique avec le pinceau sur les deux mots qui montrent que la phrase est négative.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>Les astronautes &lt;v coul="1"&gt;ne&lt;/v&gt; peuvent &lt;v coul="1"&gt;pas&lt;/v&gt; boire dans un verre.&lt;br/&gt;Les hommes &lt;v coul="1"&gt;ne&lt;/v&gt; sont &lt;v coul="1"&gt;jamais&lt;/v&gt; allés sur Saturne.&lt;br/&gt;Pendant la journée, on &lt;v coul="1"&gt;ne&lt;/v&gt; voit &lt;v coul="1"&gt;plus&lt;/v&gt; la Lune.&lt;br/&gt;Il &lt;v coul="1"&gt;n’&lt;/v&gt;y a &lt;v coul="1"&gt;pas&lt;/v&gt; de vie sur la planète Mars.&lt;br/&gt;Les autres planètes &lt;v coul="1"&gt;ne&lt;/v&gt; sont &lt;v coul="1"&gt;pas&lt;/v&gt; visibles à l’oeil nu. 
+</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m7flr1_all1" rep="0" goodRep="1">
+          <message>Tu as oublié ce mot pourtant, il marque la négation :&lt;br/&gt; "ne...pas", "n'..pas", "ne...jamais", "ne...plus"&lt;br/&gt;montrent que c’est une phrase négative.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m7flr1_def">
+          <message>Ce n'est pas un mot qui marque la négation.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6v1s22_cons">Complète chaque phrase à l'aide du bon mot :&lt;br/&gt;"paire" ou "père".&lt;br/&gt;Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_pere1,z_pere2" id="pere1" type="draggable" />
+    <QUESTION goodRep="z_paire1,z_paire2" id="paire1" type="draggable" />
+    <QUESTION goodRep="z_paire2,z_paire1" id="paire2" type="draggable" />
+    <QUESTION goodRep="z_pere2,z_pere1" id="pere2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6v1s22_all1" rep="z_pere1">
+          <message>Attention ! Dans cette phrase, on parle du papa de Slimane.</message>
+        </ALL>
+        <ALL son="m6v1s22_all2" rep="z_paire1">
+          <message>Oups ! On dit une "paire de jumelles".</message>
+        </ALL>
+        <ALL son="m6v1s22_all3" rep="z_paire2">
+          <message>Zut ! On dit une "paire de lunettes".</message>
+        </ALL>
+        <ALL son="m6v1s22_all4" rep="z_pere2">
+          <message>Attention ! Ici, on parle d'une personne : le père d'Ahmed.</message>
+        </ALL>
+        <ALL rep="0" son="m6v1s22_oub">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

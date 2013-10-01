@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1coe1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Tu dois choisir l'étiquette dans laquelle est écrit&lt;br/&gt;ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="a1" type="choix" />
+    <QUESTION goodRep="0" group="1" id="a2" type="choix" />
+    <QUESTION goodRep="0" group="1" id="a3" type="choix" />
+    <QUESTION goodRep="0" group="2" id="c1" type="choix" />
+    <QUESTION goodRep="1" group="2" id="c2" type="choix" />
+    <QUESTION goodRep="0" group="2" id="c3" type="choix" />
+    <QUESTION goodRep="1" group="3" id="d1" type="choix" />
+    <QUESTION goodRep="0" group="3" id="d2" type="choix" />
+    <QUESTION goodRep="0" group="3" id="d3" type="choix" />
+    <QUESTION goodRep="0" group="4" id="b1" type="choix" />
+    <QUESTION goodRep="1" group="4" id="b2" type="choix" />
+    <QUESTION goodRep="0" group="4" id="b3" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1coer1_ou2">
+          <message>Attention, lorsque tu cliques sur le haut-parleur, tu n'entends que 2 ou 3 mots.</message>
+          <CELLULE id="a2" />
+          <CELLULE id="d2" />
+          <CELLULE id="a3" />
+          <CELLULE id="d3" />
+        </OU>
+        <OU son="m1coe2_ou2">
+          <message>Tu as cliqué sur une phrase très longue.&lt;br/&gt;Or, lorsque tu cliques sur le haut-parleur, tu entends moins de mots .</message>
+          <CELLULE id="b3" />
+          <CELLULE id="c3" />
+        </OU>
+        <OU son="m1coe2_ou3">
+          <message>Tu as cliqué sur une phrase très courte.&lt;br/&gt;Or, lorsque tu cliques sur le haut-parleur, tu entends un peu plus de mots.</message>
+          <CELLULE id="b1" />
+          <CELLULE id="c1" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1coe_demo.swf</DEMO>
+</EXO>

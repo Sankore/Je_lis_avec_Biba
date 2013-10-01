@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5v1_cons">Range les mots dans l'ordre alphabétique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="altitude" type="draggable" />
+    <QUESTION goodRep="case2" id="ballon" type="draggable" />
+    <QUESTION goodRep="case3" id="ciel" type="draggable" />
+    <QUESTION goodRep="case4" id="hauteur" type="draggable" />
+    <QUESTION goodRep="case5" id="leger" type="draggable" />
+    <QUESTION goodRep="case6" id="nuage" type="draggable" />
+    <QUESTION goodRep="case7" id="oiseau" type="draggable" />
+    <QUESTION goodRep="case8" id="papillon" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="altitude" son="m5v1s1_cellule1">
+          <message>Attention ! Regarde bien, ce mot commence par la lettre "a".&lt;br/&gt;C'est la première de l'alphabet.</message>
+        </CELLULE>
+        <CELLULE id="ballon" son="m5v1s1_cellule2">
+          <message>Oups ! "Ballon" commence par un "b",&lt;br/&gt;il va donc après le mot "altitude" qui est le premier sur la liste.</message>
+        </CELLULE>
+        <CELLULE id="ciel" son="m5v1s1_cellule3">
+          <message>Zut ! "C" est la troisième lettre de l'alphabet,&lt;br/&gt;"ciel" se place donc ici en position n°3.</message>
+        </CELLULE>
+        <CELLULE son="m5v1s1_cellule4" id="hauteur">
+          <message>Attention ! Aucun mot ne commence par les lettres "d", "e", "f", ou "g". Le mot "hauteur" se place donc après le mot "ciel" en 4ème position.</message>
+        </CELLULE>
+        <CELLULE id="leger" son="m5v1s1_cellule5">
+          <message>Oups ! Aucun mot ne commence par les lettres "i", "j", "k".&lt;br/&gt;Le mot "léger" se place donc après le mot "hauteur" en 5ème position.</message>
+        </CELLULE>
+        <CELLULE id="nuage" son="m5v1s1_cellule6">
+          <message>Zut ! Après la lettre "l" vient le "m".&lt;br/&gt;Le mot "nuage" se place donc après le mot "léger" en 6ème position.</message>
+        </CELLULE>
+        <CELLULE id="oiseau" son="m5v1s1_cellule7">
+          <message>Attention ! La prochaine lettre après le "n" de "nuage" est le "o" : "oiseau" se place donc en 7ème position.</message>
+        </CELLULE>
+        <CELLULE id="papillon" son="m5v1s1_cellule8">
+          <message>Oups ! La lettre "p" est la dernière lettre de l'alphabet dans cette liste.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="hauteur" />
+        <CELLULE id="leger" />
+        <CELLULE id="nuage" />
+        <CELLULE id="oiseau" />
+        <CELLULE id="papillon" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

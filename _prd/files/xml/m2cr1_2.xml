@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cr1_cons">Place chaque dessin sous la consigne correspondante.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_completer" id="completer" type="draggable" />
+    <QUESTION goodRep="z_souligner" id="souligner" type="draggable" />
+    <QUESTION goodRep="z_encadrer" id="encadrer" type="draggable" />
+    <QUESTION goodRep="z_cocher" id="cocher" type="draggable" />
+    <QUESTION goodRep="z_colorier" id="colorier" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="completer" son="m2cr12_cellule1">
+          <message>Attention, sur ce dessin, on a écrit le mot "mille-pattes" pour compléter une ligne.</message>
+        </CELLULE>
+        <CELLULE id="souligner" son="m2cr12_cellule2">
+          <message>Oups ! Il y a un trait sous le mot "mille-pattes",&lt;br/&gt;ce mot est donc souligné.</message>
+        </CELLULE>
+        <CELLULE id="encadrer" son="m2cr12_cellule3">
+          <message>Zut ! Ici, on a fait un cadre autour du mille-pattes,&lt;br/&gt;on l'a donc encadré.</message>
+        </CELLULE>
+        <CELLULE id="cocher" son="m2cr12_cellule4">
+          <message>Attention ! Avec une croix, on a coché la case devant le mot.</message>
+        </CELLULE>
+        <CELLULE id="colorier" son="m2cr12_cellule5">
+          <message>Oups ! Regarde bien cette image : on y voit des crayons de couleurs qui permettent de colorier.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2c_demo.swf</DEMO>
+</EXO>

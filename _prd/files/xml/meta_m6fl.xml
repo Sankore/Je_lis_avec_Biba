@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <groupe type="q1">
+    <question itemId="22558" interfPath="oaalLD.swf" xmlPath="../datas/xml/m6fl1_s1.xml" swfPath="m6fl1_s1.swf" type="q1_1">
+      <redirectType value="r1" id="1" />
+      <redirectType value="q2" id="0" />
+    </question>
+    <question itemId="22561" interfPath="oaalLD.swf" xmlPath="../datas/xml/m6fl1_s2.xml" swfPath="m6fl1_s2.swf" type="q1_2">
+      <redirectType value="r1" id="1" />
+      <redirectType value="q2" id="0" />
+    </question>
+  </groupe>
+  <question itemId="22565" type="r1" interfPath="oaalLD.swf" xmlPath="../datas/xml/m6flr1.xml" swfPath="m6flr1.swf">
+    <redirectType value="q2" id="*" />
+  </question>
+  <question itemId="22564" type="q2" interfPath="oaalLD.swf" xmlPath="../datas/xml/m6fl2.xml" swfPath="m6fl2.swf">
+  </question>
+</exo>

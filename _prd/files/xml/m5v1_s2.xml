@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5v1_cons">Range les mots dans l'ordre alphabétique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="bourrasque" type="draggable" />
+    <QUESTION goodRep="case2" id="climat" type="draggable" />
+    <QUESTION goodRep="case3" id="dirigeable" type="draggable" />
+    <QUESTION goodRep="case4" id="monter" type="draggable" />
+    <QUESTION goodRep="case5" id="oiseau" type="draggable" />
+    <QUESTION goodRep="case6" id="temperature" type="draggable" />
+    <QUESTION goodRep="case7" id="urbain" type="draggable" />
+    <QUESTION goodRep="case8" id="vent" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="bourrasque" son="m5v1s2_cellule1">
+          <message>Attention ! Aucun mot ne commence par la lettre "a".&lt;br/&gt;Ce mot commence par la lettre "b".&lt;br/&gt;C'est donc le premier de la liste.</message>
+        </CELLULE>
+        <CELLULE id="climat" son="m5v1s2_cellule2">
+          <message>Oups ! "Climat" commence par un "c",&lt;br/&gt;il va donc après le mot "bourrasque" en 2ème position.</message>
+        </CELLULE>
+        <CELLULE id="dirigeable" son="m5v1s2_cellule3">
+          <message>Attention ! "Dirigeable" se place après "climat" en 3ème position.</message>
+        </CELLULE>
+        <CELLULE id="monter" son="m5v1s2_cellule4">
+          <message>Zut ! Aucun mot ne commence par les lettres&lt;br/&gt;"e", "f", "g", "h", "i", "j", "k" ou "l".&lt;br/&gt;Le mot "monter" se place donc après le mot "dirigeable" en 4ème position.</message>
+        </CELLULE>
+        <CELLULE son="m5v1s2_cellule5" id="oiseau">
+          <message>Attention ! Après la lettre "m" vient le "n", puis le "o".&lt;br/&gt;Le mot "oiseau" se place donc après le mot "monter" en 5ème position.</message>
+        </CELLULE>
+        <CELLULE id="temperature" son="m5v1s2_cellule6">
+          <message>Attention ! Le mot "température" se place en 6ème position, après "oiseau".</message>
+        </CELLULE>
+        <CELLULE id="urbain" son="m5v1s2_cellule7">
+          <message>Zut ! La prochaine lettre après le "t" est le "u" :&lt;br/&gt;"urbain" se place en 7ème position.</message>
+        </CELLULE>
+        <CELLULE id="vent" son="m5v1s2_cellule8">
+          <message>Oups ! Le mot "vent" commence par la lettre "v" qui vient juste après le "u", c'est le dernier mot de la liste.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="monter" />
+        <CELLULE id="oiseau" />
+        <CELLULE id="temperature" />
+        <CELLULE id="urbain" />
+        <CELLULE id="vent" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

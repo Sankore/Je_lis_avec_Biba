@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4cgp1_cons">Complète chaque phrase avec le mot qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_courant" id="courant" type="draggable" />
+    <QUESTION goodRep="0" id="coupant" type="draggable" />
+    <QUESTION goodRep="0" id="pont" type="draggable" />
+    <QUESTION goodRep="z_fond" id="fond" type="draggable" />
+    <QUESTION goodRep="0" id="cravates" type="draggable" />
+    <QUESTION goodRep="z_crevettes" id="crevettes" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="coupant" son="m4cgp1s21_et1">
+          <message>Tu as confondu les lettres sons [p] et [r].&lt;br/&gt;L'exemple suivant peut t'aider : on entend la lettre son [p] dans "pompier" et la lettre son [r] dans "route".</message>
+        </CELLULE>
+        <CELLULE id="pont" son="m4cgp1s21_et2">
+          <message>Eh oui ! Ces mots se ressemblent beaucoup.&lt;br/&gt;Tu as confondu [p] et [f].</message>
+        </CELLULE>
+        <CELLULE id="cravates" son="m4cgp1s21_et3">
+          <message>Pour écrire le mot "crevettes", il faut un "e".&lt;br/&gt;Tu as choisi le mot "cravates".</message>
+        </CELLULE>
+        <ALL rep="0" son="m4cgp1s12_def">
+          <message>La phrase est incomplète.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur. &lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="caillou" goodRep="zone_ou" />
+    <QUESTION id="grotte" goodRep="zone_r" />
+  </CONTENU>
+</EXO>

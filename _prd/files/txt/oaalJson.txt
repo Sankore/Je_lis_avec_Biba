@@ -1,0 +1,136 @@
+{	
+	"USERID":4565465,
+	"TIME":5498798798798,
+	"K":"dfgsdfgsd5sd56fg5ds6f8g6sd8",
+	"ACTION":"save",
+	"gameData":{"worldIndex":1},
+	"world_1": {
+		"topicId": 1562,
+		"module_1": {
+			"itemIdModule": 41560,
+			"scoreModule":100,
+			"scoreDetails":[]
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_2": {
+		"topicId": 4653,
+		"module_1": {
+			"itemId": 41560,
+			"scoreDetails":[]
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_3": {
+		"topicId": 4627,
+		"module_1": {
+			"itemId": 41560
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_4": {
+		"topicId": 4613,
+		"module_1": {
+			"itemId": 41560
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_5": {
+		"topicId": 3574,
+		"module_1": {
+			"itemId": 41560
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_6": {
+		"topicId": 4651,
+		"module_1": {
+			"itemId": 41560
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	},
+	"world_7": {
+		"topicId": 4832,
+		"module_1": {
+			"itemId": 41560
+		},
+		"module_2": {
+			"itemId": 41561
+		},
+		"module_3": {
+			"itemId": 41562
+		},
+		"module_4": {
+			"itemId": 41563
+		},
+		"module_5": {
+			"itemId": 41564
+		}
+	}
+}

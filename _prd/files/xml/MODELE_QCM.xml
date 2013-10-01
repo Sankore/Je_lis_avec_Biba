@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="">
+  </CONSIGNE>
+  <CONTENU>
+    <QUESTION type="choix" id="" goodRep="" group="" />
+    <!--Si on renseigne le groupe (1, 2 , 3...), c'est pour des choix uniques.-->
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="">
+          <message>
+          </message>
+          <CELLULE id="">
+          </CELLULE>
+          <CELLULE id="">
+          </CELLULE>
+        </OU>
+        <ALL son="" rep="" goodRep="">
+          <message>
+          </message>
+        </ALL>
+        <CELLULE id="" rep="" son="">
+          <message>
+          </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

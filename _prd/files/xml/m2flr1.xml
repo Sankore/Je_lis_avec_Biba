@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2fl1_cons">Ecoute bien le haut-parleur.&lt;br/&gt;Tu dois séparer les mots en cliquant entre 2 lettres.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="barre" selectionTypeCorrection="fills">
+    <QUESTION id="1_1" goodRep="0" />
+    <QUESTION id="1_2" goodRep="0" />
+    <QUESTION id="1_3" goodRep="1" />
+    <QUESTION id="1_4" goodRep="0" />
+    <QUESTION id="1_5" goodRep="0" />
+    <QUESTION id="1_6" goodRep="0" />
+    <QUESTION id="1_7" goodRep="0" />
+    <QUESTION id="1_8" goodRep="0" />
+    <QUESTION id="1_9" goodRep="0" />
+    <QUESTION id="1_10" goodRep="1" />
+    <QUESTION id="1_11" goodRep="0" />
+    <QUESTION id="1_12" goodRep="0" />
+    <QUESTION id="1_13" goodRep="0" />
+    <QUESTION id="1_14" goodRep="0" />
+    <QUESTION id="1_15" goodRep="0" />
+    <QUESTION id="1_16" goodRep="0" />
+    <QUESTION id="1_17" goodRep="0" />
+    <QUESTION id="1_18" goodRep="0" />
+    <QUESTION id="1_19" goodRep="1" />
+    <QUESTION id="2_1" goodRep="0" />
+    <QUESTION id="2_2" goodRep="0" />
+    <QUESTION id="2_3" goodRep="0" />
+    <QUESTION id="2_4" goodRep="0" />
+    <QUESTION id="2_5" goodRep="1" />
+    <QUESTION id="2_6" goodRep="0" />
+    <QUESTION id="2_7" goodRep="0" />
+    <QUESTION id="2_8" goodRep="0" />
+    <QUESTION id="2_9" goodRep="1" />
+    <QUESTION id="2_10" goodRep="0" />
+    <QUESTION id="2_11" goodRep="0" />
+    <QUESTION id="2_12" goodRep="1" />
+    <QUESTION id="2_13" goodRep="0" />
+    <QUESTION id="2_14" goodRep="0" />
+    <QUESTION id="2_15" goodRep="0" />
+    <QUESTION id="2_16" goodRep="0" />
+    <QUESTION id="2_17" goodRep="1" />
+    <QUESTION id="3_1" goodRep="0" />
+    <QUESTION id="3_2" goodRep="1" />
+    <QUESTION id="3_3" goodRep="0" />
+    <QUESTION id="3_4" goodRep="0" />
+    <QUESTION id="3_5" goodRep="0" />
+    <QUESTION id="3_6" goodRep="0" />
+    <QUESTION id="3_7" goodRep="1" />
+    <QUESTION id="3_8" goodRep="0" />
+    <QUESTION id="3_9" goodRep="0" />
+    <QUESTION id="3_10" goodRep="1" />
+    <QUESTION id="3_11" goodRep="0" />
+    <QUESTION id="3_12" goodRep="0" />
+    <QUESTION id="3_13" goodRep="0" />
+    <QUESTION id="3_14" goodRep="0" />
+    <QUESTION id="3_15" goodRep="0" />
+    <QUESTION id="3_16" goodRep="0" />
+    <QUESTION id="3_17" goodRep="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2fl1s1_ou6">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Les".</message>
+          <CELLULE id="1_1" />
+          <CELLULE id="1_2" />
+        </OU>
+        <OU son="m2flr1_ou2">
+          <message>Attention, tu as cliqué à l'intérieur du mot "fourmis".</message>
+          <CELLULE id="1_4" />
+          <CELLULE id="1_5" />
+          <CELLULE id="1_6" />
+          <CELLULE id="1_7" />
+          <CELLULE id="1_8" />
+          <CELLULE id="1_9" />
+        </OU>
+        <OU son="m2flr1_ou3">
+          <message>Attention, tu as cliqué à l'intérieur du mot "attaquent".</message>
+          <CELLULE id="1_11" />
+          <CELLULE id="1_12" />
+          <CELLULE id="1_13" />
+          <CELLULE id="1_14" />
+          <CELLULE id="1_15" />
+          <CELLULE id="1_16" />
+          <CELLULE id="1_17" />
+          <CELLULE id="1_18" />
+        </OU>
+        <OU son="m2flr1_ou4">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Elles".</message>
+          <CELLULE id="2_1" />
+          <CELLULE id="2_2" />
+          <CELLULE id="2_3" />
+          <CELLULE id="2_4" />
+        </OU>
+        <OU son="m2flr1_ou5">
+          <message>Attention, tu as cliqué à l'intérieur du mot "font".</message>
+          <CELLULE id="2_6" />
+          <CELLULE id="2_7" />
+          <CELLULE id="2_8" />
+        </OU>
+        <OU son="m2flr1_ou6">
+          <message>Attention, tu as cliqué à l'intérieur du mot "des".</message>
+          <CELLULE id="2_11" />
+          <CELLULE id="2_10" />
+        </OU>
+        <OU son="m2flr1_ou7">
+          <message>Attention, tu as cliqué à l'intérieur du mot "trous".</message>
+          <CELLULE id="2_13" />
+          <CELLULE id="2_14" />
+          <CELLULE id="2_15" />
+          <CELLULE id="2_16" />
+        </OU>
+        <OU son="m2flr1_ou8">
+          <message>Attention, tu as cliqué à l'intérieur du mot "La".</message>
+          <CELLULE id="3_1" />
+        </OU>
+        <OU son="m2flr1_ou9">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Terre".</message>
+          <CELLULE id="3_3" />
+          <CELLULE id="3_4" />
+          <CELLULE id="3_5" />
+          <CELLULE id="3_6" />
+        </OU>
+        <OU son="m2flr1_ou10">
+          <message>Attention, tu as cliqué à l'intérieur du mot "est".</message>
+          <CELLULE id="3_8" />
+          <CELLULE id="3_9" />
+        </OU>
+        <OU son="m2flr1_ou11">
+          <message>Attention, tu as cliqué à l'intérieur du mot "polluée".</message>
+          <CELLULE id="3_11" />
+          <CELLULE id="3_12" />
+          <CELLULE id="3_13" />
+          <CELLULE id="3_14" />
+          <CELLULE id="3_15" />
+          <CELLULE id="3_16" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

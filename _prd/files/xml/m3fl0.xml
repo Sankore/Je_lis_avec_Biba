@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <PALETTE>
+    <rollOverColor>777777</rollOverColor>
+    <COULEUR legende="Ponctuation" ref="0058F3" coul="1" son="m3fl1_leg1">
+    </COULEUR>
+    <COULEUR legende="Majuscules" ref="F17D0A" coul="2" son="m3fl1_leg2">
+    </COULEUR>
+  </PALETTE>
+  <CONSIGNE son="m3fl1_cons">Avec le pinceau bleu, clique sur les signes de ponctuation.&lt;br/&gt; Avec le pinceau orange, clique sur les lettres majuscules.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;v coul="2"&gt;C&lt;/v&gt;ertains habitent tout au nord du &lt;v coul="2"&gt;C&lt;/v&gt;anada&lt;v coul="1"&gt;,&lt;/v&gt; d’autres en &lt;v coul="2"&gt;S&lt;/v&gt;ibérie&lt;v coul="1"&gt;…&lt;/v&gt;</TEXTE>
+  </CONTENU>
+</EXO>

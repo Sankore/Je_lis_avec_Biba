@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo>
+  <question itemId="22579" type="q0" interfPath="oaalPicker.swf" xmlPath="../datas/xml/m3fl0.xml" swfPath="m3fl0.swf">
+    <redirectType value="q1" id="*" />
+    <anim path="m3fl0_anim.swf" />
+  </question>
+  <groupe type="q1">
+    <question itemId="22581" type="q1_1" interfPath="oaalPicker.swf" xmlPath="../datas/xml/m3fl1_s1.xml" swfPath="m3fl1_s1.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+    <question itemId="22583" type="q1_2" interfPath="oaalPicker.swf" xmlPath="../datas/xml/m3fl1_s2.xml" swfPath="m3fl1_s2.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+    </question>
+  </groupe>
+  <question itemId="22586" type="r1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m3flr1.xml" swfPath="m3flr1.swf">
+  </question>
+  <question itemId="22585" type="q2" interfPath="oaalPicker.swf" xmlPath="../datas/xml/m3fl2.xml" />
+</exo>

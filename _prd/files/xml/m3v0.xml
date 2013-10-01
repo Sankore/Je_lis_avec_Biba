@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3v1s1_cons">Range les mots de la même famille dans le même igloo.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_peche" id="pecheur" type="draggable" />
+    <QUESTION goodRep="z_peche" id="pecher" type="draggable" />
+    <QUESTION goodRep="z_chien" id="chienne" type="draggable" />
+    <QUESTION goodRep="z_chien" id="chiot" type="draggable" />
+  </CONTENU>
+</EXO>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m3coer1_cons2">Ecoute la consigne lue par le haut-parleur.&lt;br/&gt;Choisis les mots qui conviennent.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="polaire" type="choix" />
+    <QUESTION goodRep="1" id="abricot" type="choix" />
+    <QUESTION goodRep="1" id="anorak" type="choix" />
+    <QUESTION goodRep="0" id="etoile" type="choix" />
+    <QUESTION goodRep="1" id="chasse" type="choix" />
+    <QUESTION goodRep="1" id="echarpe" type="choix" />
+    <QUESTION goodRep="1" id="manchot" type="choix" />
+    <QUESTION goodRep="0" id="lichen" type="choix" />
+    <QUESTION goodRep="0" id="chauffer" type="choix" />
+    <QUESTION goodRep="1" id="fourrure" type="choix" />
+    <QUESTION goodRep="1" id="luge" type="choix" />
+    <QUESTION goodRep="1" id="baluchon" type="choix" />
+    <QUESTION goodRep="1" id="banquise" type="choix" />
+    <QUESTION goodRep="1" id="gant" type="choix" />
+    <QUESTION goodRep="0" id="laniere" type="choix" />
+    <QUESTION goodRep="1" id="elan" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3coer1_cellule1" id="etoile">
+          <message>Attention ! Dans le mot "étoile", tu vois un "o" mais tu n'entends pas [o].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou1">
+          <message>Oups ! Dans ce mot, on entend bien la lettre son [o], comme dans le mot "olive".</message>
+          <CELLULE id="polaire" />
+          <CELLULE id="abricot" />
+          <CELLULE id="anorak" />
+        </OU>
+        <CELLULE son="m3coer1_cellule2" id="lichen">
+          <message>Attention ! Dans le mot "lichen", tu vois "ch" mais tu n'entends pas [ch].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou2">
+          <message>Oups ! Dans ce mot, on entend bien les lettres sons [ch], comme dans le mot "cheminée".</message>
+          <CELLULE id="chasse" />
+          <CELLULE id="echarpe" />
+          <CELLULE id="manchot" />
+        </OU>
+        <CELLULE son="m3coer1_cellule3" id="chauffer">
+          <message>Attention ! Dans le mot "chauffer", tu vois un "u" mais tu n'entends pas [u].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou3">
+          <message>Oups ! Dans ce mot, on entend bien la lettre  "u", comme dans le mot "urgence".</message>
+          <CELLULE id="fourrure" />
+          <CELLULE id="baluchon" />
+          <CELLULE id="luge" />
+        </OU>
+        <CELLULE son="m3coer1_cellule5" id="laniere">
+          <message>Attention ! Dans le mot "lanière", tu vois "an"  mais tu n'entends pas [an].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou5">
+          <message>Oups ! Dans ce mot, on entend bien les lettres sons [an], comme dans le mot "antenne".</message>
+          <CELLULE id="banquise" />
+          <CELLULE id="gant" />
+          <CELLULE id="elan" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m5coe1_cons">Combien y a t-il de phrases dans ce texte ? Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="1" type="choix" group="1" />
+    <QUESTION goodRep="0" id="2" type="choix" group="1" />
+    <QUESTION goodRep="0" id="3" type="choix" group="1" />
+    <QUESTION goodRep="0" id="4" type="choix" group="1" />
+    <QUESTION goodRep="0" id="5" type="choix" group="1" />
+    <QUESTION goodRep="0" id="6" type="choix" group="1" />
+    <QUESTION goodRep="1" id="7" type="choix" group="1" />
+    <QUESTION goodRep="0" id="8" type="choix" group="1" />
+    <QUESTION goodRep="0" id="9" type="choix" group="1" />
+    <QUESTION goodRep="0" id="10" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m5coe1s2_cellule2" id="1">
+          <message>Tu as peut-être confondu le texte et les phrases.&lt;br/&gt;Il y a bien un texte mais plusieurs phrases.</message>
+        </CELLULE>
+        <OU son="m5coe1s2_ou1">
+          <message>Une phrase commence par une lettre majuscule et se termine par un point.&lt;br/&gt;Il y a plus de phrases que cela. </message>
+          <CELLULE id="2" />
+          <CELLULE id="3" />
+          <CELLULE id="5" />
+        </OU>
+        <OU son="m5coe1s2_ou2">
+          <message>Une phrase commence par une lettre majuscule et se termine par un point.&lt;br/&gt;Il y a moins de phrases que cela. </message>
+          <CELLULE id="9" />
+          <CELLULE id="10" />
+        </OU>
+        <CELLULE son="m5coe1s2_cellule3" id="6">
+          <message>Tu as oublié une phrase.&lt;br/&gt;Il y a sept phrases dans ce texte, il n'y en a pas six.</message>
+        </CELLULE>
+        <CELLULE son="m5coe1s2_cellule4" id="8">
+          <message>Tu as compté une phrase en plus. Il n'y a que sept phrases.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE>Par quoi peux-tu remplacer les mots écrits en bleu ?&lt;br/&gt; Choisis le bon pronom personnel : Il, Ils, Elle ou Elles.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g20">
+      <liste id="r1_l1" goodRep="1" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>décolle en bout de piste.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g20">
+      <liste id="r2_l1" goodRep="4" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>voyageront en hélicoptère.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="c300">
+      <liste id="r3_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>virevoltent dans le ciel.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="c300">
+      <liste id="r4_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>a tout détruit sur son passage.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25">
+      <liste id="r5_l1" goodRep="2" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>soufflent très fort.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25">
+      <liste id="r6_l1" goodRep="3" align="gauche">
+        <item>Il</item>
+        <item>Ils</item>
+        <item>Elle</item>
+        <item>Elles</item>
+      </liste>
+      <liste>
+        <item>est plus fraîche dans les hauteurs.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="0">
+          <message>Tu n'as pas complété cete phrase.</message>
+        </ALL>
+        <CELLULE rep="2,4" id="r1_l1">
+          <message>Tu as bien choisi un pronom masculin mais il est écrit "un  avion" : il faut donc un pronom au singulier.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="">
+          <message>Le pronom que tu as choisi ne convient pas.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

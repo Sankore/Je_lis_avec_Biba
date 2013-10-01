@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6fl2_cons">Choisis la bonne terminaison des verbes incomplets.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g314" alignY="h74">
+      <liste id="r1_l1" goodRep="3" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g183" alignY="h111">
+      <liste id="r2_l1" goodRep="1" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g87" alignY="h146">
+      <liste id="r3_l1" goodRep="3" align="center">
+        <item>suis</item>
+        <item>es</item>
+        <item>est</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g382" alignY="h146">
+      <liste id="r4_l1" goodRep="1" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g278" alignY="h183">
+      <liste id="r5_l1" goodRep="5" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g281" alignY="h254">
+      <liste id="r6_l1" goodRep="2" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g248" alignY="h305">
+      <liste id="r7_l1" goodRep="4" align="center">
+        <item>e</item>
+        <item>es</item>
+        <item>ons</item>
+        <item>ez</item>
+        <item>ent</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m6fl2_cellule1" id="r1_l1">
+          <message>Attention ! Avec le pronom "nous", il faut écrire "ons" à la fin du verbe.</message>
+        </CELLULE>
+        <CELLULE son="m6fl2_cellule2" id="r2_l1">
+          <message>Oups ! Lorsque le pronom est "je", il faut écrire "e" à la fin du verbe.</message>
+        </CELLULE>
+        <CELLULE son="m6_def1" id="r3_l1">
+          <message>Ta réponse ne convient pas.</message>
+        </CELLULE>
+        <CELLULE son="m6fl2_cellule3" id="r4_l1">
+          <message>Zut ! Avec le pronom "il", il faut écrire "e" à la fin du verbe.</message>
+        </CELLULE>
+        <CELLULE son="m6fl2_cellule4" id="r5_l1">
+          <message>Attention ! Avec le pronom "ils", il faut écrire "ent" à la fin du verbe.</message>
+        </CELLULE>
+        <CELLULE son="m6fl2_cellule5" id="r6_l1">
+          <message>Oups ! Lorsque tu vois "tu", il faut que tu termines ton verbe&lt;br/&gt;par "es".</message>
+        </CELLULE>
+        <CELLULE son="m6fl2_cellule6" id="r7_l1">
+          <message>Zut ! Lorsque tu vois "vous", il faut que tu termines ton verbe&lt;br/&gt;par "ez".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

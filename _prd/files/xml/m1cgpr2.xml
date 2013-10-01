@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgp1_cons">Passe sur une image et écoute bien le mot : compte le nombre de syllabes que tu entends puis place l'image dans le buisson correspondant.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="panier4" id="eucalyptus" type="draggable" />
+    <QUESTION goodRep="panier2" id="cabane" type="draggable" />
+    <QUESTION goodRep="panier3" id="amanite" type="draggable" />
+    <QUESTION goodRep="panier3" id="scarabee" type="draggable" />
+    <QUESTION goodRep="panier2" id="bucheron" type="draggable" />
+    <QUESTION goodRep="panier2" id="blaireau" type="draggable" />
+    <QUESTION goodRep="panier3" id="sauterelle" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1cgpr2_ou1">
+          <message>On entend deux syllabes dans le mot qui correspond à cette image comme dans le mot "serpent".&lt;br/&gt;Il fallait donc placer cette image dans le buisson 2.</message>
+          <CELLULE id="cabane" />
+          <CELLULE id="blaireau" />
+        </OU>
+        <OU son="m1cgpr2_ou2">
+          <message>On entend trois syllabes dans le mot qui correspond à cette image comme dans le mot "scarabée".&lt;br/&gt;Cette image doit être rangée dans le buisson 3.</message>
+          <CELLULE id="amanite" />
+          <CELLULE id="bucheron" />
+          <CELLULE id="sauterelle" />
+        </OU>
+        <CELLULE son="m1cgpr2_cellule1" id="eucalyptus">
+          <message>Cette image doit se ranger dans le buisson 4 car on entend 4 syllabes dans le mot correspondant à cette image.&lt;br/&gt;Comme dans le mot "coléoptère".</message>
+        </CELLULE>
+        <ALL rep="0">
+          <message son="m1cgpr2_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1cgp_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2fl1_cons">Ecoute bien le haut-parleur.&lt;br/&gt;Tu dois séparer les mots en cliquant entre 2 lettres.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="barre" selectionTypeCorrection="fills">
+    <QUESTION id="1_1" goodRep="0" />
+    <QUESTION id="1_2" goodRep="0" />
+    <QUESTION id="1_3" goodRep="0" />
+    <QUESTION id="1_4" goodRep="1" />
+    <QUESTION id="1_5" goodRep="0" />
+    <QUESTION id="1_6" goodRep="0" />
+    <QUESTION id="1_7" goodRep="1" />
+    <QUESTION id="1_8" goodRep="0" />
+    <QUESTION id="1_9" goodRep="0" />
+    <QUESTION id="1_10" goodRep="0" />
+    <QUESTION id="1_11" goodRep="1" />
+    <QUESTION id="1_12" goodRep="0" />
+    <QUESTION id="1_13" goodRep="1" />
+    <QUESTION id="1_14" goodRep="0" />
+    <QUESTION id="1_15" goodRep="0" />
+    <QUESTION id="1_16" goodRep="0" />
+    <QUESTION id="1_17" goodRep="0" />
+    <QUESTION id="1_18" goodRep="0" />
+    <QUESTION id="2_1" goodRep="0" />
+    <QUESTION id="2_2" goodRep="1" />
+    <QUESTION id="2_3" goodRep="0" />
+    <QUESTION id="2_4" goodRep="0" />
+    <QUESTION id="2_5" goodRep="0" />
+    <QUESTION id="2_6" goodRep="0" />
+    <QUESTION id="2_7" goodRep="1" />
+    <QUESTION id="2_8" goodRep="0" />
+    <QUESTION id="2_9" goodRep="0" />
+    <QUESTION id="2_10" goodRep="1" />
+    <QUESTION id="2_11" goodRep="0" />
+    <QUESTION id="2_12" goodRep="0" />
+    <QUESTION id="2_13" goodRep="0" />
+    <QUESTION id="2_14" goodRep="0" />
+    <QUESTION id="2_15" goodRep="0" />
+    <QUESTION id="2_16" goodRep="1" />
+    <QUESTION id="2_17" goodRep="0" />
+    <QUESTION id="2_18" goodRep="0" />
+    <QUESTION id="2_19" goodRep="0" />
+    <QUESTION id="2_20" goodRep="0" />
+    <QUESTION id="2_21" goodRep="0" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2fl2_ou1">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Papa".</message>
+          <CELLULE id="1_1" />
+          <CELLULE id="1_2" />
+          <CELLULE id="1_3" />
+          <CELLULE id="1_4" />
+        </OU>
+        <OU son="m2fl2_ou2">
+          <message>Attention, tu as cliqué à l'intérieur du mot "est".</message>
+          <CELLULE id="1_5" />
+          <CELLULE id="1_6" />
+        </OU>
+        <OU son="m2fl2_ou3">
+          <message>Attention, tu as cliqué à l'intérieur du mot "dans".</message>
+          <CELLULE id="1_8" />
+          <CELLULE id="1_11" />
+          <CELLULE id="1_9" />
+          <CELLULE id="1_10" />
+        </OU>
+        <CELLULE son="m2fl2_cellule1" id="1_12">
+          <message>Attention, tu as cliqué à l'intérieur du mot "le".</message>
+        </CELLULE>
+        <OU son="m2fl2_ou4">
+          <message>Attention, tu as cliqué à l'intérieur du mot "jardin".</message>
+          <CELLULE id="1_14" />
+          <CELLULE id="1_15" />
+          <CELLULE id="1_16" />
+          <CELLULE id="1_17" />
+          <CELLULE id="1_18" />
+        </OU>
+        <CELLULE id="2_1" son="m2fl2_cellule2">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Je".</message>
+        </CELLULE>
+        <OU son="m2fl2_ou5">
+          <message>Attention, tu as cliqué à l'intérieur du mot "suis".</message>
+          <CELLULE id="2_3" />
+          <CELLULE id="2_4" />
+          <CELLULE id="2_5" />
+        </OU>
+        <OU son="m2fl2_ou6">
+          <message>Attention, tu as cliqué à l'intérieur du mot "une".</message>
+          <CELLULE id="2_9" />
+          <CELLULE id="2_8" />
+        </OU>
+        <OU son="m2fl2_ou7">
+          <message>Attention, tu as cliqué à l'intérieur du mot "petite".</message>
+          <CELLULE id="2_11" />
+          <CELLULE id="2_12" />
+          <CELLULE id="2_13" />
+          <CELLULE id="2_14" />
+          <CELLULE id="2_15" />
+        </OU>
+        <OU son="m2fl2_ou8">
+          <message>Attention, tu as cliqué à l'intérieur du mot "souris".</message>
+          <CELLULE id="2_17" />
+          <CELLULE id="2_18" />
+          <CELLULE id="2_19" />
+          <CELLULE id="2_20" />
+          <CELLULE id="2_21" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

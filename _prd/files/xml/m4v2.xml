@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v2_cons">Associe les phrases qui disent presque la même chose.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z1" id="d1" type="draggable" />
+    <QUESTION goodRep="z2" id="d2" type="draggable" />
+    <QUESTION goodRep="z3" id="d3" type="draggable" />
+    <QUESTION goodRep="z4" id="d4" type="draggable" />
+    <QUESTION goodRep="z5" id="d5" type="draggable" />
+    <QUESTION goodRep="z6" id="d6" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m4v1s1_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4v2_def">
+          <message>Houlala ! Ces expressions ne veulent pas dire la même chose que la phrase correspondante.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

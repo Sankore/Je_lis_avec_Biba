@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6vr12_cons">Trouve le mot qui se prononce de la même manière que "sot", donc son homonyme.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="conte" type="draggable" />
+    <QUESTION goodRep="0" id="rat" type="draggable" />
+    <QUESTION goodRep="0" id="sot" type="draggable" />
+    <QUESTION goodRep="0" id="compte" type="draggable" />
+    <QUESTION goodRep="0" id="ras" type="draggable" />
+    <QUESTION goodRep="z_seau" id="seau" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_seau" son="m6vr12_all1">
+          <message>Ce mot ne commence pas par le son [s].</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

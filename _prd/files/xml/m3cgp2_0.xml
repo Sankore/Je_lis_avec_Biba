@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur chaque haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète les mots avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g66" alignY="h115">
+      <liste id="r1_l1" goodRep="3" align="gauche">
+        <item>pé</item>
+        <item>tion</item>
+        <item>ex</item>
+        <item>di</item>
+      </liste>
+      <liste id="r2_l1" goodRep="1" align="gauche">
+        <item>pé</item>
+        <item>tion</item>
+        <item>ex</item>
+        <item>di</item>
+      </liste>
+      <liste id="r3_l1" goodRep="4" align="gauche">
+        <item>pé</item>
+        <item>tion</item>
+        <item>ex</item>
+        <item>di</item>
+      </liste>
+      <liste id="r4_l1" goodRep="2" align="gauche">
+        <item>pé</item>
+        <item>tion</item>
+        <item>ex</item>
+        <item>di</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+</EXO>

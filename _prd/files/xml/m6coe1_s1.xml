@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m6coe1_cons">Clique sur chaque image.&lt;br/&gt;Retrouve le mot qui est lu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="teinte" type="choix" />
+    <QUESTION goodRep="0" group="1" id="lente" type="choix" />
+    <QUESTION goodRep="1" group="1" id="tente" type="choix" />
+    <QUESTION goodRep="0" group="1" id="tete" type="choix" />
+    <QUESTION goodRep="0" group="2" id="cirque" type="choix" />
+    <QUESTION goodRep="0" group="2" id="crique" type="choix" />
+    <QUESTION goodRep="1" group="2" id="criquet" type="choix" />
+    <QUESTION goodRep="0" group="2" id="briquet" type="choix" />
+    <QUESTION goodRep="0" group="3" id="gazon" type="choix" />
+    <QUESTION goodRep="1" group="3" id="gazelle" type="choix" />
+    <QUESTION goodRep="0" group="3" id="gamelle" type="choix" />
+    <QUESTION goodRep="0" group="3" id="gazette" type="choix" />
+    <QUESTION goodRep="1" group="4" id="chameau" type="choix" />
+    <QUESTION goodRep="0" group="4" id="chateau" type="choix" />
+    <QUESTION goodRep="0" group="4" id="chalumeau" type="choix" />
+    <QUESTION goodRep="0" group="4" id="chamois" type="choix" />
+    <QUESTION goodRep="0" group="5" id="papier" type="choix" />
+    <QUESTION goodRep="1" group="5" id="palmier" type="choix" />
+    <QUESTION goodRep="0" group="5" id="palme" type="choix" />
+    <QUESTION goodRep="0" group="5" id="panier" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="teinte" son="m6coe1s1_cellule1">
+          <message>Tu as confondu "ein" et "en". Tente s'écrit avec "en". </message>
+        </CELLULE>
+        <CELLULE id="lente" son="m6coe1s1_cellule2">
+          <message>Tu as confondu "l" et "t". "Tente" s'écrit avec un "t".</message>
+        </CELLULE>
+        <CELLULE id="tete" son="m6coe1s1_cellule3">
+          <message>Tu as confondu "ê" et "en". "Tente" s'écrit avec "en".</message>
+        </CELLULE>
+        <CELLULE id="briquet" son="m6coe1s1_cellule4">
+          <message>Attention ! Tu as cliqué sur le mot "briquet", pas sur le mot "criquet" qui s'écrit avec un "c", pas avec un "b".</message>
+        </CELLULE>
+        <CELLULE id="crique" son="m6coe1s1_cellule5">
+          <message>Presque ! Il ne te manque qu'une lettre à la fin pour écrire le mot "criquet".</message>
+        </CELLULE>
+        <CELLULE id="cirque" son="m6coe1s1_cellule6">
+          <message>Attention ! Le mot "criquet" commence par les lettres sons [cri], pas par les lettres sons [cir] comme dans "cirque".</message>
+        </CELLULE>
+        <CELLULE id="gazette" son="m6coe1s1_ou1">
+          <message>Oups ! Ces deux mots se ressemblent beaucoup.&lt;br/&gt;"Gazelle" s'écrit avec deux "l".</message>
+        </CELLULE>
+        <CELLULE id="gazon" son="m6coe1s1_cellule7">
+          <message>Zut ! Tu as cliqué sur le mot "gazon", pas sur le mot "gazelle".</message>
+        </CELLULE>
+        <CELLULE id="chateau" son="m6coe1s1_cellule8">
+          <message>Attention, tu as cliqué sur "château", mais "chameau" s'écrit avec un "m".</message>
+        </CELLULE>
+        <CELLULE id="chalumeau" son="m6coe1s1_cellule9">
+          <message>Oups ! Tu as cliqué sur "chalumeau" pas sur "chameau". </message>
+        </CELLULE>
+        <CELLULE id="chamois" son="m6coe1s1_cellule10">
+          <message>Attention ! Tu as cliqué sur le mot "chamois".</message>
+        </CELLULE>
+        <OU son="m6coe1s1_ou2">
+          <message>Zut ! Ce mot ressemble à "palmier" mais il y a des différences.</message>
+          <CELLULE id="panier" />
+          <CELLULE id="palme" />
+          <CELLULE id="papier" />
+        </OU>
+        <CELLULE id="gamelle" son="m6coe1s2_cellule8">
+          <message>Zut ! Lis le mot jusqu'au bout.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="surlignage_test/consigne">Ecoute la phrase puis sépare les mots en cliquant entre deux lettres.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="barre" selectionTypeCorrection="fills">
+    <CHOIX id="1" goodRep="0" />
+    <CHOIX id="2" goodRep="0" />
+    <CHOIX id="3" goodRep="1" />
+    <CHOIX id="4" goodRep="0" />
+    <CHOIX id="5" goodRep="0" />
+    <!-- <CHOIX id="9" goodRep="0" group="2" /> -->
+    <CHOIX id="6" goodRep="0" />
+    <CHOIX id="7" goodRep="1" />
+    <CHOIX id="8" goodRep="0" />
+    <CHOIX id="9" goodRep="0" />
+    <CHOIX id="10" goodRep="0" />
+    <CHOIX id="11" goodRep="0" />
+    <CHOIX id="12" goodRep="0" />
+    <CHOIX id="13" goodRep="1" />
+    <CHOIX id="14" goodRep="0" />
+    <CHOIX id="15" goodRep="0" />
+    <CHOIX id="16" goodRep="1" />
+    <CHOIX id="17" goodRep="0" />
+    <CHOIX id="18" goodRep="0" />
+    <CHOIX id="19" goodRep="0" />
+    <CHOIX id="20" goodRep="0" />
+    <CHOIX id="21" goodRep="0" />
+    <CHOIX id="22" goodRep="0" />
+    <CHOIX id="23" goodRep="0" />
+    <CHOIX id="24" goodRep="1" />
+    <CHOIX id="25" goodRep="0" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL item-id="464454" son="surlignage_test/err2" goodRep="0" rep="1">
+          <message>Il ne fallait pas cocher ces cases.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="464454" son="surlignage_test/err5">
+          <message>Ces réponses sont fausses</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>lettre_muette.swf</DEMO>
+</EXO>

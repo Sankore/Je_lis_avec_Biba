@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <CONSIGNE son="m4coe1_cons">Clique sur les lettres muettes en début ou en fin de mot. Attention, certains mots ont une lettre muette&lt;br/&gt;au début et à la fin.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;br/&gt;Cette nui&lt;v&gt;t&lt;/v&gt;, un pétrolier s’es&lt;v&gt;t&lt;/v&gt; éc&lt;f id="fa1"&gt;h&lt;/f&gt;oué le lon&lt;v&gt;g&lt;/v&gt; des roc&lt;f id="fa2"&gt;h&lt;/f&gt;er&lt;v&gt;s&lt;/v&gt;. Le sable de la plage Nor&lt;v&gt;d&lt;/v&gt; es&lt;f id="fp2"&gt;t&lt;/f&gt; devenu gri&lt;v&gt;s&lt;/v&gt;. Une bou&lt;v&gt;e&lt;/v&gt; collante recouvre de&lt;f id="fp3"&gt;s&lt;/f&gt; animau&lt;v&gt;x&lt;/v&gt; qui ne peuve&lt;v&gt;nt&lt;/v&gt; plu&lt;v&gt;s&lt;/v&gt; bouger. Le peti&lt;v&gt;t&lt;/v&gt; garçon &lt;v&gt;h&lt;/v&gt;ésite pui&lt;v&gt;s&lt;/v&gt; s’approc&lt;f id="fa3"&gt;h&lt;/f&gt;e d’un jeune p&lt;f id="fa4"&gt;h&lt;/f&gt;oque.</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4coe1_ou1">
+          <message>Quand tu vois "ch", tu entends les lettres sons [ch] comme dans "cheval" ou la lettre son [k] comme dans "Christophe".&lt;br/&gt;Quand tu vois "ph", tu entends la lettre son [f] comme dans "phoque".</message>
+          <CELLULE id="fa1" />
+          <CELLULE id="fa2" />
+          <CELLULE id="fa3" />
+          <CELLULE id="fa4" />
+        </OU>
+        <OU son="m4coe1_ou2">
+          <message>Dans ce mot, le "t" n'est pas une lettre muette.</message>
+          <CELLULE id="fp1" />
+          <CELLULE id="fp2" />
+        </OU>
+        <OU son="m4coe1_ou3">
+          <message>Dans ce mot, le "s" n'est pas une lettre muette.</message>
+          <CELLULE id="fp3" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4coe1_def">
+          <message>Cette lettre n'est pas une lettre muette.</message>
+        </DEFAUT>
+        <OUBLIS son="m4coe1_oub">
+          <message>Tu as oublié de cliquer sur cette lettre muette.</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m4coe_demo.swf</DEMO>
+</EXO>

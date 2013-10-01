@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent à la question posée.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="mot1" type="draggable" />
+    <QUESTION goodRep="0" id="mot2" type="draggable" />
+    <QUESTION goodRep="0" id="mot3" type="draggable" />
+    <QUESTION goodRep="0" id="mot4" type="draggable" />
+    <QUESTION goodRep="0" id="mot5" type="draggable" />
+    <QUESTION goodRep="0" id="mot6" type="draggable" />
+    <QUESTION goodRep="0" id="mot7" type="draggable" />
+    <QUESTION goodRep="0" id="mot8" type="draggable" />
+    <QUESTION goodRep="0" id="mot9" type="draggable" />
+    <QUESTION goodRep="0" id="mot10" type="draggable" />
+    <QUESTION goodRep="0" id="mot11" type="draggable" />
+    <QUESTION goodRep="0" id="mot12" type="draggable" />
+    <QUESTION goodRep="0" id="mot13" type="draggable" />
+    <QUESTION goodRep="0" id="mot14" type="draggable" />
+    <QUESTION goodRep="z_ok" id="mot15" type="draggable" />
+    <QUESTION goodRep="0" id="mot16" type="draggable" />
+    <QUESTION goodRep="0" id="mot17" type="draggable" />
+    <QUESTION goodRep="0" id="mot18" type="draggable" />
+    <QUESTION goodRep="0" id="mot19" type="draggable" />
+    <QUESTION goodRep="0" id="mot20" type="draggable" />
+    <QUESTION goodRep="0" id="mot21" type="draggable" />
+    <QUESTION goodRep="0" id="mot22" type="draggable" />
+    <QUESTION goodRep="0" id="mot23" type="draggable" />
+    <QUESTION goodRep="0" id="mot24" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m6c1s2_cellule7" id="mot10" rep="z_ok">
+          <message>Attention ! C’est avant le repas qu’Elias court vers le troupeau. Que fait- il après le repas ? </message>
+        </CELLULE>
+        <CELLULE son="m6c1s2_cellule8" id="mot21" rep="z_ok">
+          <message>Oups ! C’est juste avant la tombée de la nuit qu’Elias escalade. Mais que fait-il tout de suite après son repas ?  </message>
+        </CELLULE>
+        <ALL rep="z_ok" son="m6c1_def">
+          <message>Cette étiquette ne répond pas à la question.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

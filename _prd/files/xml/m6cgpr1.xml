@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgpr1_cons">Reconstitue chaque mot en regardant bien les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_cactus1,z_cactus3" id="c1_cactus" type="draggable" />
+    <QUESTION goodRep="z_cactus2" id="a_cactus" type="draggable" />
+    <QUESTION goodRep="z_cactus3,z_cactus1" id="c2_cactus" type="draggable" />
+    <QUESTION goodRep="z_cactus4" id="t_cactus" type="draggable" />
+    <QUESTION goodRep="z_cactus5" id="u_cactus" type="draggable" />
+    <QUESTION goodRep="z_cactus6" id="s_cactus" type="draggable" />
+    <QUESTION goodRep="z_chameau1" id="c_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau2" id="h_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau3,z_chameau6" id="a1_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau4" id="m_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau5" id="e_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau6,z_chameau3" id="a2_chameau" type="draggable" />
+    <QUESTION goodRep="z_chameau7" id="u_chameau" type="draggable" />
+    <QUESTION goodRep="z_pluie1" id="p_pluie" type="draggable" />
+    <QUESTION goodRep="z_pluie2" id="l_pluie" type="draggable" />
+    <QUESTION goodRep="z_pluie3" id="u_pluie" type="draggable" />
+    <QUESTION goodRep="z_pluie4" id="i_pluie" type="draggable" />
+    <QUESTION goodRep="z_pluie5" id="e_pluie" type="draggable" />
+    <QUESTION goodRep="z_chevre1" id="c_chevre" type="draggable" />
+    <QUESTION goodRep="z_chevre2" id="h_chevre" type="draggable" />
+    <QUESTION goodRep="z_chevre3" id="e1_chevre" type="draggable" />
+    <QUESTION goodRep="z_chevre4" id="v_chevre" type="draggable" />
+    <QUESTION goodRep="z_chevre5" id="r_chevre" type="draggable" />
+    <QUESTION goodRep="z_chevre6" id="e2_chevre" type="draggable" />
+    <QUESTION goodRep="z_boire1" id="b_boire" type="draggable" />
+    <QUESTION goodRep="z_boire2" id="o_boire" type="draggable" />
+    <QUESTION goodRep="z_boire3" id="i_boire" type="draggable" />
+    <QUESTION goodRep="z_boire4" id="r_boire" type="draggable" />
+    <QUESTION goodRep="z_boire5" id="e_boire" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6cgpr1_ou1">
+          <message>Il fallait écrire : cactus.</message>
+          <CELLULE id="c1_cactus" />
+          <CELLULE id="a_cactus" />
+          <CELLULE id="c2_cactus" />
+          <CELLULE id="t_cactus" />
+          <CELLULE id="u_cactus" />
+          <CELLULE id="s_cactus" />
+        </OU>
+        <OU son="m6cgpr1_ou2">
+          <message>Il fallait écrire : chameau.</message>
+          <CELLULE id="c_chameau" />
+          <CELLULE id="h_chameau" />
+          <CELLULE id="a1_chameau" />
+          <CELLULE id="m_chameau" />
+          <CELLULE id="e_chameau" />
+          <CELLULE id="a2_chameau" />
+          <CELLULE id="u_chameau" />
+        </OU>
+        <OU son="m6cgpr1_ou2">
+          <message>Il fallait écrire : pluie.</message>
+          <CELLULE id="p_pluie" />
+          <CELLULE id="l_pluie" />
+          <CELLULE id="u_pluie" />
+          <CELLULE id="i_pluie" />
+          <CELLULE id="e_pluie" />
+        </OU>
+        <OU son="m6cgpr1_ou4">
+          <message>Il fallait écrire : chèvre.</message>
+          <CELLULE id="c_chevre" />
+          <CELLULE id="h_chevre" />
+          <CELLULE id="e1_chevre" />
+          <CELLULE id="v_chevre" />
+          <CELLULE id="r_chevre" />
+          <CELLULE id="e2_chevre" />
+        </OU>
+        <OU son="m6cgpr1_ou5">
+          <message>Il fallait écrire : boire.</message>
+          <CELLULE id="b_boire" />
+          <CELLULE id="o_boire" />
+          <CELLULE id="i_boire" />
+          <CELLULE id="r_boire" />
+          <CELLULE id="e_boire" />
+        </OU>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

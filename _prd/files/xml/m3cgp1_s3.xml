@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_peau" id="peau" type="draggable" />
+    <QUESTION goodRep="z_cou" id="cou" type="draggable" />
+    <QUESTION goodRep="z_de" id="de" type="draggable" />
+    <QUESTION goodRep="z_pa" id="pa" type="draggable" />
+    <QUESTION goodRep="z_pe" id="pe" type="draggable" />
+    <QUESTION goodRep="z_na" id="na" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="pa" rep="z_peau" son="m3cgp1s21_cellule1">
+          <message>Il manque les lettres "e" et "u". &lt;br/&gt;Là, tu as écrit "troupa".</message>
+        </CELLULE>
+        <CELLULE id="peau" rep="z_pa" son="m3cgp1s21_cellule2">
+          <message>Tu as confondu la syllabe [peau] avec la syllabe [pa].&lt;br/&gt;On ne dit pas "transpeaurant" mais "transparant".</message>
+        </CELLULE>
+        <CELLULE id="pa" rep="z_na" son="m3cgp1s21_cellule3">
+          <message>"Pager" ou "nager" ?&lt;br/&gt;La syllabe [na] ressemble à la syllabe [pa] . </message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3cgp1s11_def">
+          <message>Oups ! Le mot que tu as complété doit vouloir dire quelque chose.&lt;br/&gt;Tu dois trouver la syllabe qui convient.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+      <REDIRECT>
+        <redirectType id="2">
+          <CELLULE id="peau" />
+          <CELLULE id="pa" />
+          <CELLULE id="pe" />
+        </redirectType>
+      </REDIRECT>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3cgp_demo.swf</DEMO>
+</EXO>

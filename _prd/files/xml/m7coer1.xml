@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7coe1r1_cons">Clique sur chaque haut-parleur pour écouter la syllabe lue puis retrouve-la.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="oul" type="choix" />
+    <QUESTION goodRep="0" group="1" id="olu" type="choix" />
+    <QUESTION goodRep="1" group="1" id="lou" type="choix" />
+    <QUESTION goodRep="0" group="2" id="tar" type="choix" />
+    <QUESTION goodRep="1" group="2" id="tra" type="choix" />
+    <QUESTION goodRep="0" group="2" id="rat" type="choix" />
+    <QUESTION goodRep="1" group="3" id="pil" type="choix" />
+    <QUESTION goodRep="0" group="3" id="lip" type="choix" />
+    <QUESTION goodRep="0" group="3" id="pli" type="choix" />
+    <QUESTION goodRep="0" group="4" id="mon" type="choix" />
+    <QUESTION goodRep="1" group="4" id="nom" type="choix" />
+    <QUESTION goodRep="0" group="4" id="nmo" type="choix" />
+    <QUESTION goodRep="0" group="5" id="pas" type="choix" />
+    <QUESTION goodRep="1" group="5" id="spa" type="choix" />
+    <QUESTION goodRep="0" group="5" id="sap" type="choix" />
+    <QUESTION goodRep="1" group="6" id="oif" type="choix" />
+    <QUESTION goodRep="0" group="6" id="ofi" type="choix" />
+    <QUESTION goodRep="0" group="6" id="ifo" type="choix" />
+    <QUESTION goodRep="0" group="7" id="cai" type="choix" />
+    <QUESTION goodRep="1" group="7" id="cia" type="choix" />
+    <QUESTION goodRep="0" group="7" id="ica" type="choix" />
+    <QUESTION goodRep="0" group="8" id="hau" type="choix" />
+    <QUESTION goodRep="0" group="8" id="ahu" type="choix" />
+    <QUESTION goodRep="1" group="8" id="hua" type="choix" />
+    <QUESTION goodRep="0" group="10" id="cho" type="choix" />
+    <QUESTION goodRep="0" group="10" id="och" type="choix" />
+    <QUESTION goodRep="1" group="10" id="hoc" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="oul" son="m7coer1_cellule1">
+          <message>Oups ! Tu as cliqué sur "oul", pas sur la syllabe [lou].&lt;br/&gt;La lettre son [l] est la première que l'on entend.</message>
+        </CELLULE>
+        <CELLULE id="olu" son="m7coer1_cellule2">
+          <message>Les lettres ne sont pas dans le bon ordre. Elles ne correspondent pas au son entendu.</message>
+        </CELLULE>
+        <CELLULE id="tar" son="m7coer1_cellule3">
+          <message>Oups ! Tu as cliqué sur "tar". Or on entend les lettres sons [ra]. </message>
+        </CELLULE>
+        <CELLULE id="rat" son="m7coer1_cellule4">
+          <message>Oups ! La syllabe lue est : [tra]. Toi, tu as cliqué sur "rat". </message>
+        </CELLULE>
+        <CELLULE id="lip" son="m7coer1_cellule5">
+          <message>Attention ! L'étiquette sur laquelle tu as cliqué commence par le son [l]. Or la syllabe lue commence par la lettre son [p]. </message>
+        </CELLULE>
+        <CELLULE id="pli" son="m7coer1_cellule6">
+          <message>Zut ! Tu as cliqué sur "pli" pas sur "pil". Dans cette syllabe, le dernier son entendu est [l]. </message>
+        </CELLULE>
+        <CELLULE id="mon" son="m7coer1_cellule7">
+          <message>Oups ! Tu as confondu les lettres sons [n] et [m]. La syllabe lue est : [nom], pas [mon].</message>
+        </CELLULE>
+        <CELLULE id="nmo" son="m7coer1_cellule8">
+          <message>Attention ! Tu as cliqué sur "nmo" par sur "mon".</message>
+        </CELLULE>
+        <CELLULE id="pas" son="m7coer1_cellule9">
+          <message>Zut ! L'étiquette sur laquelle tu as cliqué commence par la lettre son [p]. Or la syllabe lue commence par la lettre son [s]. </message>
+        </CELLULE>
+        <CELLULE id="sap" son="m7coer1_cellule10">
+          <message>Dans cette syllabe, le dernier son que l'on entend est [p] alors que dans la syllabe lue, c'est la lettre son [a] que l'on entend en dernier.</message>
+        </CELLULE>
+        <OU son="m7coer1_ou1">
+          <message>Oups ! Dans cette étiquette, les lettres sons [oi] ne sont pas présentes. </message>
+          <CELLULE id="ofi" />
+          <CELLULE id="ifo" />
+        </OU>
+        <CELLULE id="cai" son="m7coer1_cellule11">
+          <message>Attention ! Tu as cliqué sur "cai". Dans la syllabe lue, on entend la lettre son [s] . </message>
+        </CELLULE>
+        <CELLULE id="ica" son="m7coer1_cellule12">
+          <message>La syllabe lue ne commence pas par la lettre son [i].</message>
+        </CELLULE>
+        <OU son="m7coer1_ou2">
+          <message>Attention ! Le dernier son entendu est [a]. Ce n'est pas le cas avec cette étiquette.</message>
+          <CELLULE id="hau" />
+          <CELLULE id="ahu" />
+        </OU>
+        <OU son="m7coer1_ou3">
+          <message>Oups ! La syllabe lue est "hoc", elle commence donc par la lettre son [o] et se termine par la lettre son [k].</message>
+          <CELLULE id="cho" />
+          <CELLULE id="och" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

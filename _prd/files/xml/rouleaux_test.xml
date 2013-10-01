@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE>Clique sur les lettres muettes en début ou en fin de mot. Attention, certains mots ont une lettre muette au début et à la fin.</CONSIGNE>
+  <CONTENU>
+	  
+	<rouleau texteSize="25">
+		<liste>
+			<item>Ma </item>
+		</liste>
+		<liste id="r1_l1" goodRep="2" align="center">
+			<item>maison</item>
+			<item>voiture</item>
+			<item>femme</item>
+		</liste>
+		<liste>
+			<item> est </item>
+		</liste>
+		<liste id="r1_l2" goodRep="4" align="center">
+			<item>moche</item>
+			<item>puante</item>
+			<item>fat</item>
+			<item>ugly-fat</item>
+			<item>motherfucking bitch</item>
+		</liste>
+	</rouleau>
+	
+	
+	
+	<rouleau texteSize="25">
+		<liste>
+			<item>Mon </item>
+		</liste>
+		<liste id="r2_l1" goodRep="2" align="center">>
+			<item>tonton</item>
+			<item>tracteur</item>
+			<item>pénis</item>
+		</liste>
+		<liste>
+			<item> est </item>
+		</liste>
+		<liste id="r2_l2" goodRep="2" align="left">>
+			<item>gros</item>
+			<item>puant</item>
+			<item>fat</item>
+			<item>ugly-fat</item>
+			<item>motherfucking bitch</item>
+		</liste>
+	</rouleau>
+	
+	
+	<rouleau texteSize="25">
+		<liste>
+			<item>Anabelle </item>
+		</liste>
+		<liste id="r3_l1" goodRep="1" align="center">>
+			<item>est</item>
+			<item>était</item>
+			<item>sera</item>
+		</liste>
+		<liste id="r3_l2" goodRep="3" align="left">>
+			<item>belle</item>
+			<item>intéligente</item>
+			<item>fabuleuse</item>
+			<item>merveilleuse</item>
+			<item>motherfucking bitch</item>
+		</liste>
+	</rouleau>	
+	
+	
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU item-id="M4COEr1" son="">
+          <message>Attention, ce n’est pas parce que tu vois un &lt;b&gt;h&lt;/b&gt; qu’il est muet. 
+Quand tu vois &lt;b&gt;ch&lt;/b&gt;,  tu entends &lt;b&gt;[ch]&lt;/b&gt; comme dans &lt;b&gt;ch&lt;/b&gt;eval  ou  &lt;b&gt;[k]&lt;/b&gt; comme dans &lt;b&gt;Ch&lt;/b&gt;ristophe. Quand tu vois &lt;b&gt;ph&lt;/b&gt;, tu entends &lt;b&gt;[f]&lt;/b&gt; comme dans &lt;b&gt;ph&lt;/b&gt;oque.</message>
+          <cellule id="fa1" />
+          <cellule id="fa2">
+          </cellule>
+          <cellule id="fa3" />
+        </OU>
+        <OU>
+          <message>Dans ce mot, le &lt;b&gt;t&lt;/b&gt; n'est pas une lettre muette.</message>
+          <cellule id="fp1" />
+          <cellule id="fp2">
+          </cellule>
+        </OU>
+        <OU>
+          <message>Dans ce mot, le &lt;b&gt;s&lt;/b&gt; n'est pas une lettre muette.</message>
+          <cellule id="fp3" />
+          <cellule id="fp4">
+          </cellule>
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="M4COEr2" son="">
+          <message>Quand tu lis, certaines lettres ne font aucun bruit. Ce sont des lettres muettes.Voici quelques lettres qui peuvent être muettes: &lt;b&gt;e&lt;/b&gt;, &lt;b&gt;t&lt;/b&gt;, &lt;b&gt;d&lt;/b&gt;, &lt;b&gt;s&lt;/b&gt;, &lt;b&gt;x&lt;/b&gt;, &lt;b&gt;g&lt;/b&gt;, &lt;b&gt;s&lt;/b&gt;, &lt;b&gt;nt&lt;/b&gt; en fin de mot et  &lt;b&gt;h&lt;/b&gt; en début ou en milieu de mot.</message>
+        </DEFAUT>
+        <OUBLIS item-id="64" son="">
+          <message>Tu aurai du choisir un mot dans ces cases</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+
+</EXO>

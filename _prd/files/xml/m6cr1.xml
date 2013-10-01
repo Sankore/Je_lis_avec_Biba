@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cr1_cons">Place les étapes de cette recette dans l'ordre.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="ligne1" id="d1" type="draggable" />
+    <QUESTION goodRep="ligne2" id="d2" type="draggable" />
+    <QUESTION goodRep="ligne3" id="d3" type="draggable" />
+    <QUESTION goodRep="ligne4" id="d4" type="draggable" />
+    <QUESTION goodRep="ligne5" id="d5" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="d1" son="m6cr1_cellule1">
+          <message>Oups ! Cette phrase commence par "Tout d'abord",&lt;br/&gt;c'est donc la première de la recette.</message>
+        </CELLULE>
+        <CELLULE id="d2" rep="ligne1" son="m6cr1_cellule2">
+          <message>Attention ! "Ensuite" signifie "après",&lt;br/&gt;cette phrase ne peut donc pas être la première.</message>
+        </CELLULE>
+        <CELLULE id="d3" rep="ligne1" son="m6cr1_cellule3">
+          <message>Oups ! "Puis" signifie "après",&lt;br/&gt;cette phrase ne peut donc pas être la première.</message>
+        </CELLULE>
+        <CELLULE id="d5" son="m6cr1_cellule4">
+          <message>Zut ! "Enfin" siginifie "à la fin",&lt;br/&gt;il faut donc mettre cette phrase à la dernière place.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cr1_def">
+          <message>Attention ! Pour remettre ce texte dans l'ordre,&lt;br/&gt;sers-toi des petits mots comme : "enfin", "ensuite", "puis"...</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

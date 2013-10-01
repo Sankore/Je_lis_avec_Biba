@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2v1s1_cons">Dépose dans les wagons violets, les images d'outils et dans les wagons jaunes les images de métiers.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_outils" id="tronconneuse" type="draggable" />
+    <QUESTION goodRep="z_outils" id="scie" type="draggable" />
+    <QUESTION goodRep="z_outils" id="hache" type="draggable" />
+    <QUESTION goodRep="z_outils" id="beche" type="draggable" />
+    <QUESTION goodRep="z_metiers" id="mineur" type="draggable" />
+    <QUESTION goodRep="z_metiers" id="chasseur" type="draggable" />
+    <QUESTION goodRep="z_metiers" id="speleologue" type="draggable" />
+    <QUESTION goodRep="z_metiers" id="archeologue" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_outils" son="m2v1s1_all2">
+          <message>Oups ! Dans ces wagons, tu devais mettre des outils.</message>
+        </ALL>
+        <ALL rep="z_metiers" son="m2v1s1_all3">
+          <message>Les métiers, les professions, c'est le travail des grandes personnes.&lt;br/&gt;Dans ces wagons, tu devais mettre des métiers.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2v_demo.swf</DEMO>
+</EXO>

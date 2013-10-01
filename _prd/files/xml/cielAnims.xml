@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro>
+    <status perso="pelican" scaleX="-1" />
+    <status perso="souris" frame="marche" x="-1000" y="-730" scaleX="1" />
+    <move perso="souris" x="250" speed="15" />
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m5_dial_deb_01_souris">
+		Bonjour ! Je m’appelle Léon. 
+	</dialogue>
+    <status perso="pelican" frame="attend_jeu" />
+    <dialogue perso="pelican" son="m5_dial_deb_02_pelican"> Bonjour moussaillon! Moi c’est Gilou, mais tu peux m’appeler Gigi si tu préfères. 
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_03_souris"> Désolé de vous déranger mais Cathy la pieuvre m’a conseillé de venir vous voir ! 
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_04_pelican">Tu as bien fait Léon, et je savais que tu allais venir … 	</dialogue>
+    <status perso="pelican" frame="objectif" />
+    <dialogue perso="pelican" son="m5_dial_deb_05_pelican">Tu n’aurais pas vu une des bananes ou un journal sur le chemin ?
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_06_souris"> Euh…si si, pourquoi ? 
+	</dialogue>
+    <status perso="pelican" frame="attend_jeu" />
+    <dialogue perso="pelican" son="m5_dial_deb_07_pelican"> Je viens de faire des courses mais elles sont tombées de mon bec… je ne les retrouve plus et j’ai une faim de loup ! 
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_09_souris">Pas de problème. Qu’avez vous perdu ?</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_10_pelican">Alors, réfléchissons…des tomates, des bananes, une baguette de pain, mon journal et un pot de confiture.
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_10_souris">C’est parti !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m5_dial_deb_11_souris">Tu me donnes un coup de main ? Clique sur les 5 objets éparpillés dans les nuages. 
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_12_souris">Tu te souviens, il nous faut retrouver : des tomates, des bananes, une baguette de pain, mon journal et un pot de confiture.</dialogue>
+    <dialogue perso="souris" son="m5_dial_deb_13_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <finsExos>
+    <animFin_fruits>
+      <status perso="pelican" scaleX="1" frame="marche" />
+      <move perso="pelican" x="" />
+    </animFin_fruits>
+  </finsExos>
+  <rappelConsigne>
+    <status perso="pelican" frame="objectif" />
+    <dialogue autoClose="false" perso="pelican" son="m5_rap_cons_pelican">Tu te souviens, il faut retrouver : des tomates, des bananes, une baguette de pain, mon journal et un pot de confiture.  
+	</dialogue>
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m4_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+    <status perso="souris" frame="attend" />
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m5_dial_fin_01_souris">Et voilà ! J’ai tout retrouvé !
+	</dialogue>
+    <status perso="pelican" frame="attend_jeu" />
+    <dialogue perso="pelican" son="m5_dial_fin_02_pelican"> Merci beaucoup mon p’tit gars !
+	</dialogue>
+    <dialogue perso="pelican" son="m5_dial_fin_03_pelican">J’adore lire mon journal et manger dans les nuages…tranquille !</dialogue>
+    <dialogue perso="souris" son="m5_dial_fin_04_souris"> Tu as bien raison.
+	</dialogue>
+    <status perso="pelican" frame="objectif" />
+    <dialogue perso="pelican" son="m5_dial_fin_05_pelican"> Bon, voilà le morceau de formule magique, tu l’as bien mérité !
+	</dialogue>
+    <dialogue perso="souris" son="m5_dial_fin_06_souris">Merci monsieur.
+	</dialogue>
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="pelican" son="m5_dial_fin_07_narratrice">" comme un magicien "
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <status perso="pelican" frame="attend_jeu" />
+    <dialogue perso="pelican" son="m4_dial_fin_08_pieuvre">Pour la suite de ton voyage je te conseil de te rendre dans le désert pour rencontrer Gédéon, le caméléon. </dialogue>
+    <status perso="pelican" frame="objectif" />
+    <dialogue perso="pelican" son="m5_dial_fin_09_pelican"> Mais je te conseil de te changer car, dans le désert, le soleil frappe fort ! 	</dialogue>
+    <dialogue perso="souris" son="m5_dial_fin_10_souris">Encore Merci Gilou ! À bientôt !
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="-1" />
+    <move perso="souris" x="-1000" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m5_dial_retour_01__souris">Bonjour Gilou ! Ca me fait plaisir de vous revoir.
+	</dialogue>
+    <status perso="pelican" frame="objectif" />
+    <dialogue perso="pelican" son="m5_dial_retour_02__pelican"> Léon ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="m5_dial_retour_03__souris">Oui oui très bien ! </dialogue>
+    <status perso="pelican" frame="attend_jeu" />
+    <dialogue perso="pelican" son="m5_dial_retour_04__pelican"> Bon, je te laisse profiter de la vue !</dialogue>
+    <dialogue perso="souris" son="m5_dial_retour_05__souris">D'accord, A bientôt Gigi !</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m5_dial_retour_06__souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m5_dial_retour_07__souris">Clique sur les objets en bas de l’écran. </dialogue>
+  </retourExo>
+</data>

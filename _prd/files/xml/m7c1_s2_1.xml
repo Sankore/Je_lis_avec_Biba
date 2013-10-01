@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="espace" type="choix" />
+    <QUESTION goodRep="0" group="1" id="mer" type="choix" />
+    <QUESTION goodRep="0" group="1" id="montagne" type="choix" />
+    <QUESTION goodRep="0" group="1" id="piste" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="mer" son="m7c1s21_cellule1">
+          <message>Youri n'est pas dans la mer ! Il est dans une fusée et il regarde la planète Terre !</message>
+        </CELLULE>
+        <CELLULE id="montagne" son="m7c1s21_cellule2">
+          <message>Youri n'est pas en haut d'une montagne ! Il est dans une fusée !</message>
+        </CELLULE>
+        <CELLULE id="piste" son="m7c1s21_cellule3">
+          <message>Oups ! Youri sera bientôt sur une piste d'atterrissage mais pour l'instant la fusée est toujours en l'air.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE SO="sectionFifthLevel" id="montagne" />
+        <CELLULE SO="sectionFifthLevel" id="piste" />
+        <CELLULE SO="sectionFifthLevel" id="planetes" />
+        <CELLULE SO="sectionFifthLevel" id="pluie" />
+        <CELLULE SO="sectionFifthLevel" id="poussieres" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

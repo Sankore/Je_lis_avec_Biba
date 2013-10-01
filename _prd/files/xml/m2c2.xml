@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2c2_cons">Regarde attentivement chaque image.&lt;br/&gt;Clique sur le bon texte.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="coche_taupe" type="choix" />
+    <QUESTION goodRep="0" group="1" id="barre_taupe" type="choix" />
+    <QUESTION goodRep="0" group="1" id="souligne_taupe" type="choix" />
+    <QUESTION goodRep="0" group="1" id="entoure_taupe" type="choix" />
+    <QUESTION goodRep="0" group="1" id="dessine_taupe" type="choix" />
+    <QUESTION goodRep="1" group="2" id="complete_phrase" type="choix" />
+    <QUESTION goodRep="0" group="2" id="barre_phrase" type="choix" />
+    <QUESTION goodRep="0" group="2" id="souligne_phrase" type="choix" />
+    <QUESTION goodRep="0" group="2" id="coche_phrase" type="choix" />
+    <QUESTION goodRep="0" group="2" id="relie_phrase" type="choix" />
+    <QUESTION goodRep="1" group="3" id="encadre_escargot" type="choix" />
+    <QUESTION goodRep="0" group="3" id="colorie_escargot" type="choix" />
+    <QUESTION goodRep="0" group="3" id="entoure_escargot" type="choix" />
+    <QUESTION goodRep="0" group="3" id="decoupe_escargot" type="choix" />
+    <QUESTION goodRep="0" group="3" id="dessine_escargot" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="entoure_escargot" son="m2c2_cellule1">
+          <message>Presque ! Entourer, c'est faire un rond autour de quelque chose.&lt;br/&gt;Ici, c'est un cadre qui est dessiné, d'où le mot "encadrer".</message>
+        </CELLULE>
+        <OU son="m2c2_ou1">
+          <message>Attention ! Sur l'image, l'escargot est encadré.</message>
+          <CELLULE id="dessine_escargot" />
+          <CELLULE id="colorie_escargot" />
+          <CELLULE id="decoupe_escargot" />
+        </OU>
+        <CELLULE id="barre_taupe" son="m2c2_cellule2">
+          <message>Presque ! Barrer, c'est rayer un élément. Ici, c'est une case sous l'image qui est cochée.</message>
+        </CELLULE>
+        <OU son="m2c2_ou3">
+          <message>Regarde bien l'image : on y voit le dessin d'une taupe et en dessous, une petite case avec une croix dedans.&lt;br/&gt;La consigne était donc : "Coche la taupe."</message>
+          <CELLULE id="entoure_taupe" />
+          <CELLULE id="souligne_taupe" />
+          <CELLULE id="dessine_taupe" />
+        </OU>
+        <OU son="m2c2_ou4">
+          <message>Attention. Sur l'image, le mot "mine" écrit en jaune complète la phrase.</message>
+          <CELLULE id="barre_phrase" />
+          <CELLULE id="coche_phrase" />
+          <CELLULE id="relie_phrase" />
+          <CELLULE id="souligne_phrase" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

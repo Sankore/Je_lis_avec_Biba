@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2v1s3_cons">Dépose dans les wagons verts, les images d'insectes et dans les wagons rouges, les images d'oiseaux.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_insectes" id="criquet" type="draggable" />
+    <QUESTION goodRep="z_insectes" id="scarabee" type="draggable" />
+    <QUESTION goodRep="z_insectes" id="fourmi" type="draggable" />
+    <QUESTION goodRep="z_insectes" id="bourdon" type="draggable" />
+    <QUESTION goodRep="z_couleurs" id="noir" type="draggable" />
+    <QUESTION goodRep="z_couleurs" id="gris" type="draggable" />
+    <QUESTION goodRep="z_couleurs" id="vert" type="draggable" />
+    <QUESTION goodRep="z_couleurs" id="rouge" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="z_insectes" son="m2v1s1_all1">
+          <message>Les insectes sont de petits animaux.&lt;br/&gt;Dans ces wagons, tu devais mettre les insectes.</message>
+        </ALL>
+        <ALL rep="z_couleurs" son="m2v1s2_all1">
+          <message>Dans ces wagons, tu devais mettre les oiseaux. </message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m2v_demo.swf</DEMO>
+</EXO>

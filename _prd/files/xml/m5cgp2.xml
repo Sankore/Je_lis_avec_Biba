@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m5cgp1_cons">Retrouve la syllabe de chaque mot incomplet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_loin" id="oin" type="draggable" />
+    <QUESTION goodRep="z_habitation" id="ion" type="draggable" />
+    <QUESTION goodRep="z_grenier" id="ier" type="draggable" />
+    <QUESTION goodRep="z_observer" id="er" type="draggable" />
+    <QUESTION goodRep="z_vient" id="ien" type="draggable" />
+    <QUESTION goodRep="z_atteindre" id="ein" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE rep="z_loin" son="m5cgp2_cellule4" id="ion">
+          <message>Attention ! On écrit le mot "loin" avec les lettres "o", "i" et "n" dans cet ordre.</message>
+        </CELLULE>
+        <CELLULE rep="z_habitation" son="m5cgp2_cellule3" id="oin">
+          <message>Oups ! Ce sont les bonnes lettres mais elles ne sont pas dans le bon ordre. Dans "habitation" on voit "ion".</message>
+        </CELLULE>
+        <CELLULE id="er" rep="z_grenier" son="m5cgp2_cellule1">
+          <message>Il manque une lettre pour former le mot "grenier".&lt;br/&gt;Là, tu as écrit "grener".</message>
+        </CELLULE>
+        <CELLULE rep="z_vient" son="m5cgp2_cellule5" id="ein">
+          <message>Les lettres ne sont pas dans le bon ordre.&lt;br/&gt;Pour écrire le mot "vient", il faut voir "ien".</message>
+        </CELLULE>
+        <CELLULE rep="z_atteindre" son="m5cgp2_cellule6" id="ien">
+          <message>Les lettres ne sont pas dans le bon ordre.&lt;br/&gt;Pour écrire le mot "atteindre", il faut voir "ein".</message>
+        </CELLULE>
+        <ALL rep="0" son="mess_oub">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m5cgp1s1_all1">
+          <message>Tu n'as pas choisi la bonne syllabe.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

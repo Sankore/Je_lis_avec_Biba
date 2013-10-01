@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1coe1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Tu dois choisir l'étiquette dans laquelle est écrit&lt;br/&gt;ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="2" id="c1" type="choix" />
+    <QUESTION goodRep="1" group="2" id="c2" type="choix" />
+    <QUESTION goodRep="0" group="2" id="c3" type="choix" />
+  </CONTENU>
+</EXO>

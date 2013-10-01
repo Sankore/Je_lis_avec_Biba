@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1fl1_cons">Dépose dans la butte de terre les étiquettes sur lesquelles il y a une lettre de l'alphabet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="dz" id="d1" type="draggable" />
+    <QUESTION goodRep="0" id="d3" type="draggable" />
+    <QUESTION goodRep="0" id="d4" type="draggable" />
+  </CONTENU>
+</EXO>

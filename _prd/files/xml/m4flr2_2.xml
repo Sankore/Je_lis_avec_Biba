@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m4flr1_cons">Choisis le déterminant qui convient pour chaque mot. &lt;br&gt;Tu peux essayer de faire l'exercice sans cliquer sur les images.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g47" alignY="h155">
+      <liste id="r1_l1" goodRep="2" align="gauche">
+        <item>le</item>
+        <item>les</item>
+      </liste>
+      <liste>
+        <item>coquillages</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g762" alignY="h185">
+      <liste id="r1_l2" goodRep="1" align="gauche">
+        <item>un</item>
+        <item>des</item>
+      </liste>
+      <liste>
+        <item>filet</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g372" alignY="h247">
+      <liste id="r1_l3" goodRep="1" align="gauche">
+        <item>le</item>
+        <item>les</item>
+      </liste>
+      <liste>
+        <item>nageur</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g120" alignY="h375">
+      <liste id="r1_l4" goodRep="2" align="gauche">
+        <item>un</item>
+        <item>des</item>
+      </liste>
+      <liste>
+        <item>poissons</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g600" alignY="h385">
+      <liste id="r1_l5" goodRep="1" align="gauche">
+        <item>le</item>
+        <item>les</item>
+      </liste>
+      <liste>
+        <item>cachalot</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4flr2_ou2">
+          <message>Tu as choisi un déterminant au pluriel mais ce mot est au singulier.</message>
+          <CELLULE id="r1_l5">
+          </CELLULE>
+          <CELLULE id="r1_l3">
+          </CELLULE>
+          <CELLULE id="r1_l2">
+          </CELLULE>
+        </OU>
+        <OU son="m4flr2_cellule1">
+          <message>Ce mot est au pluriel. Regarde, il y a un "s" à la fin.&lt;br/&gt;Ce déterminant n'est donc pas le bon.</message>
+          <CELLULE id="r1_l1">
+          </CELLULE>
+          <CELLULE id="r1_l4">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

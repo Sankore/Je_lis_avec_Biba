@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coe0_cons">Clique sur le haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_intrus" id="remonter" type="draggable" />
+    <QUESTION goodRep="0" id="morue" type="draggable" />
+    <QUESTION goodRep="0" id="abricot" type="draggable" />
+    <QUESTION goodRep="0" id="accroche" type="draggable" />
+  </CONTENU>
+  <DEMO>m3coe_demo.swf</DEMO>
+</EXO>

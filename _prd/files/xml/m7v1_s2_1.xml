@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7v1_cons">Lis le texte. Choisis l'étiquette qui correspond à la définition du mot écrit en violet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="pierre" type="choix" />
+    <QUESTION goodRep="0" group="1" id="volcan" type="choix" />
+    <QUESTION goodRep="0" group="1" id="planete" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="volcan" son="m7v1s21_cellule1">
+          <message>Oups ! Un cratère, creusé par une météorite ressemble parfois à un volcan, mais ce n'est pas un volcan.</message>
+        </CELLULE>
+        <CELLULE id="planete" son="m7v1s21_cellule2">
+          <message>Attention ! Des morceaux de planètes, les météorites ne sont pas des planètes.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

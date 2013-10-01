@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgpr1_cons">Reconstitue chaque mot en regardant bien les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_secheresse1,z_secheresse8,z_secheresse9" id="s1_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse2" id="e1_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse3" id="c_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse4" id="h_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse5,z_secheresse7,z_secheresse10,z_feuille2,z_feuille7" id="e2_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse6" id="r_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse7,z_secheresse5,z_secheresse10,z_feuille2,z_feuille7" id="e3_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse8,z_secheresse1,z_secheresse9" id="s2_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse9,z_secheresse1,z_secheresse8" id="s3_secheresse" type="draggable" />
+    <QUESTION goodRep="z_secheresse10,z_secheresse7,z_secheresse5,z_feuille2,z_feuille7" id="e4_secheresse" type="draggable" />
+    <QUESTION goodRep="z_feuille1" id="f_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille2,z_secheresse5,z_secheresse7,z_secheresse10,z_feuille7" id="e1_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille3" id="u_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille4" id="i_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille5,z_feuille6" id="l1_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille6,z_feuille5" id="l2_feuille" type="draggable" />
+    <QUESTION goodRep="z_feuille7,z_secheresse5,z_secheresse7,z_secheresse10,z_feuille2" id="e2_feuille" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE rep="z_secheresse2" id="e2_feuille" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cgp2_cellule">
+          <message>Cette lettre n'est pas à sa place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

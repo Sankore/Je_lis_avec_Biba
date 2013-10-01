@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2fl1_cons">Ecoute bien le haut-parleur.&lt;br/&gt;Tu dois séparer les mots en cliquant entre 2 lettres.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="barre" selectionTypeCorrection="fills">
+    <QUESTION id="1_1" goodRep="0" />
+    <QUESTION id="1_2" goodRep="1" />
+    <QUESTION id="1_3" goodRep="0" />
+    <QUESTION id="1_4" goodRep="0" />
+    <QUESTION id="1_5" goodRep="0" />
+    <QUESTION id="1_6" goodRep="1" />
+    <QUESTION id="1_7" goodRep="0" />
+    <QUESTION id="1_8" goodRep="0" />
+    <QUESTION id="1_9" goodRep="0" />
+    <QUESTION id="2_1" goodRep="0" />
+    <QUESTION id="2_2" goodRep="1" />
+    <QUESTION id="2_3" goodRep="0" />
+    <QUESTION id="2_4" goodRep="0" />
+    <QUESTION id="2_5" goodRep="0" />
+    <QUESTION id="2_6" goodRep="0" />
+    <QUESTION id="2_7" goodRep="1" />
+    <QUESTION id="2_8" goodRep="0" />
+    <QUESTION id="2_9" goodRep="0" />
+    <QUESTION id="2_10" goodRep="0" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m2flr1s1_cellule1" id="1_1">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Il".</message>
+        </CELLULE>
+        <OU son="m2flr1s1_ou1">
+          <message>Attention, tu as cliqué à l'intérieur du mot "fait".</message>
+          <CELLULE id="1_3" />
+          <CELLULE id="1_5" />
+          <CELLULE id="1_4" />
+        </OU>
+        <OU son="m2flr1s1_ou2">
+          <message>Attention, tu as cliqué à l'intérieur du mot "noir".</message>
+          <CELLULE id="1_7" />
+          <CELLULE id="1_8" />
+          <CELLULE id="1_9" />
+        </OU>
+        <CELLULE son="m2flr1s1_cellule2" id="2_1">
+          <message>Attention, tu as cliqué à l'intérieur du mot "Le".</message>
+        </CELLULE>
+        <OU son="m2flr1s1_ou3">
+          <message>Attention, tu as cliqué à l'intérieur du mot "lapin".</message>
+          <CELLULE id="2_3" />
+          <CELLULE id="2_4" />
+          <CELLULE id="2_5" />
+          <CELLULE id="2_6" />
+        </OU>
+        <OU son="m2flr1s1_ou4">
+          <message>Attention, tu as cliqué à l'intérieur du mot "dort".</message>
+          <CELLULE id="2_8" />
+          <CELLULE id="2_9" />
+          <CELLULE id="2_10" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coe1_cons2">Clique sur chaque haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_intrus" id="laponie" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="poisson" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="laniere" type="draggable" />
+    <QUESTION goodRep="0" id="harpon" type="draggable" />
+    <QUESTION goodRep="0" id="ponton" type="draggable" />
+    <QUESTION goodRep="0" id="crampons" type="draggable" />
+    <QUESTION goodRep="0" id="blouson" type="draggable" />
+    <QUESTION goodRep="0" id="maison" type="draggable" />
+    <QUESTION goodRep="0" id="saison" type="draggable" />
+    <QUESTION goodRep="0" id="elan" type="draggable" />
+    <QUESTION goodRep="0" id="lancer" type="draggable" />
+    <QUESTION goodRep="0" id="blanc" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3coe1s2_cellule1" id="laponie">
+          <message>Dans le mot "Laponie", tu vois "o", "n" mais tu n'entends pas les lettres son [on].</message>
+        </CELLULE>
+        <OU son="m3coe1s2_ou1">
+          <message>Attention, dans ce mot on entend les lettres sons [on], comme dans le mot "plongeon".</message>
+          <CELLULE id="harpon" />
+          <CELLULE id="ponton" />
+          <CELLULE id="crampons" />
+        </OU>
+        <CELLULE son="m3coe1s2_cellule3" id="poisson">
+          <message>Dans le mot "poisson", tu n'entends pas la lettre son [z], mais la lettre son [s].</message>
+        </CELLULE>
+        <OU son="m3coe1s2_ou3">
+          <message>Attention, dans ce mot, on entend les lettres sons [z], comme dans le mot "poison".</message>
+          <CELLULE id="blouson" />
+          <CELLULE id="maison" />
+          <CELLULE id="saison" />
+        </OU>
+        <CELLULE son="m3coe1s2_cellule5" id="laniere">
+          <message>Dans le mot "lanière", tu vois "a", "n", mais tu n'entends pas les lettres sons [an]. Tu entends la lettre son [a].</message>
+        </CELLULE>
+        <OU son="m3coe1s2_ou5">
+          <message>Attention, dans ce mot, on entend les lettres sons [an], comme dans le mot "avant".</message>
+          <CELLULE id="elan" />
+          <CELLULE id="lancer" />
+          <CELLULE id="blanc" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3coe_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6cgp1_v2_cons">Choisis le son qui convient pour compléter le mot. </CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="20" align="g72" alignY="h50">
+      <liste>
+        <item>un r</item>
+      </liste>
+      <liste id="ld1" goodRep="1" align="left">
+        <item>oi</item>
+        <item>oin</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h120">
+      <liste>
+        <item>du b</item>
+      </liste>
+      <liste id="ld2" goodRep="1" align="center">
+        <item>oi</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>s</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h190">
+      <liste>
+        <item>un p</item>
+      </liste>
+      <liste id="ld3" goodRep="2" align="center">
+        <item>oi</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>t</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h260">
+      <liste>
+        <item>un d</item>
+      </liste>
+      <liste id="ld4" goodRep="1" align="center">
+        <item>oi</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>gt</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h330">
+      <liste>
+        <item>un c</item>
+      </liste>
+      <liste id="ld5" goodRep="2" align="left">
+        <item>oi</item>
+        <item>oin</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <OU son="m6cgpr1_v2_ou1">
+          <message>Dans ce mot, on entend les lettres sons [oi] comme dans le mot "r&lt;b&gt;oi&lt;/b&gt;".</message>
+          <CELLULE id="ld1" />
+          <CELLULE id="ld2" />
+          <CELLULE id="ld4" />
+        </OU>
+        <OU son="m6cgpr1_v2_ou1">
+          <message>Ce mot s'écrit avec les lettres "o-i-n" qui forment les lettres sons [oin] comme dans le mot "p&lt;b&gt;oin&lt;/b&gt;t".</message>
+          <CELLULE id="ld3" />
+          <CELLULE id="ld5" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1fl1_cons">Dépose dans la butte de terre les étiquettes sur lesquelles il y a une lettre de l'alphabet.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="dz" id="d1" type="draggable" />
+    <QUESTION goodRep="0" id="d4" type="draggable" />
+    <QUESTION goodRep="dz" id="d5" type="draggable" />
+    <QUESTION goodRep="dz" id="d8" type="draggable" />
+    <QUESTION goodRep="dz" id="d9" type="draggable" />
+    <QUESTION goodRep="dz" id="d10" type="draggable" />
+    <QUESTION goodRep="0" id="d11" type="draggable" />
+    <QUESTION goodRep="dz" id="d12" type="draggable" />
+    <QUESTION goodRep="0" id="d13" type="draggable" />
+    <QUESTION goodRep="dz" id="d14" type="draggable" />
+    <QUESTION goodRep="0" id="d15" type="draggable" />
+    <QUESTION goodRep="dz" id="d17" type="draggable" />
+    <QUESTION goodRep="dz" id="d18" type="draggable" />
+    <QUESTION goodRep="0" id="d19" type="draggable" />
+    <QUESTION goodRep="0" id="d20" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m1fl1_ou1">
+          <message>Ces symboles que tu peux retrouver dans des phrases,&lt;br/&gt;dans des textes ne sont pas des lettres mais des signes de ponctuation.</message>
+          <CELLULE id="d11" />
+          <CELLULE id="d13" />
+        </OU>
+        <OU son="m1fl1_ou2">
+          <message>Ne confonds-tu pas les lettres et les chiffres ?&lt;br/&gt;Là, tu as cliqué sur un chiffre.</message>
+          <CELLULE id="d2" />
+          <CELLULE id="d15" />
+        </OU>
+        <CELLULE id="d6" son="m1fl1s2_ou1">
+          <message>"rat" est un mot constitué de trois lettres. La consigne demande de cliquer sur les étiquettes qui contiennent une lettre, pas un mot.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT id="d15" son="m1fl1s1_def">
+          <message>Tu as mis dans la butte de terre des symboles qui ne sont pas des lettres.</message>
+        </DEFAUT>
+        <OUBLIS id="d15" son="m1fl1s1_oub">
+          <message>Tu as oublié de placer certaines lettres dans la butte de terre.</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="d1" />
+        <CELLULE id="d5" />
+        <CELLULE id="d8" />
+        <CELLULE id="d9" />
+        <CELLULE id="d10" />
+        <CELLULE id="d12" />
+        <CELLULE id="d14" />
+        <CELLULE id="d17" />
+        <CELLULE id="d18" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1fl_demo.swf</DEMO>
+</EXO>

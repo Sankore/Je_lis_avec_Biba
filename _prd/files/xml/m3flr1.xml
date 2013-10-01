@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m3flr1_cons">Clique sur les 2 lettres majuscules de chaque iceberg.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="b" type="choix" />
+    <QUESTION goodRep="1" id="T" type="choix" />
+    <QUESTION goodRep="0" id="h" type="choix" />
+    <QUESTION goodRep="1" id="E" type="choix" />
+    <QUESTION goodRep="0" id="s" type="choix" />
+    <QUESTION goodRep="1" id="L" type="choix" />
+    <QUESTION goodRep="1" id="S" type="choix" />
+    <QUESTION goodRep="0" id="i" type="choix" />
+    <QUESTION goodRep="0" id="f" type="choix" />
+    <QUESTION goodRep="0" id="p" type="choix" />
+    <QUESTION goodRep="1" id="P" type="choix" />
+    <QUESTION goodRep="1" id="J" type="choix" />
+    <QUESTION goodRep="1" id="M" type="choix" />
+    <QUESTION goodRep="0" id="v" type="choix" />
+    <QUESTION goodRep="0" id="o" type="choix" />
+    <QUESTION goodRep="1" id="O" type="choix" />
+    <QUESTION goodRep="0" id="y" type="choix" />
+    <QUESTION goodRep="0" id="g" type="choix" />
+    <QUESTION goodRep="1" id="H" type="choix" />
+    <QUESTION goodRep="1" id="U" type="choix" />
+    <QUESTION goodRep="1" id="C" type="choix" />
+    <QUESTION goodRep="1" id="A" type="choix" />
+    <QUESTION goodRep="0" id="c" type="choix" />
+    <QUESTION goodRep="0" id="n" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m3flr1_def">
+          <message>Cette lettre n'est pas écrite en majuscule mais en minuscule.&lt;br/&gt;Regarde dans l'exemple, les lettres majuscules sont écrites en blanc.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1v1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, clique sur l'image qui correspond à ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="5" id="fourmiliere" type="choix" />
+    <QUESTION goodRep="0" group="5" id="fourmi" type="choix" />
+    <QUESTION goodRep="0" group="5" id="ruche" type="choix" />
+  </CONTENU>
+</EXO>

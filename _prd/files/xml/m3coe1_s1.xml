@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coe1_cons2">Clique sur chaque haut-parleur et écoute bien.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_intrus" id="polaire" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="alpiniste" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="chauffer" type="draggable" />
+    <QUESTION goodRep="z_intrus" id="combinaison" type="draggable" />
+    <QUESTION goodRep="0" id="escalade" type="draggable" />
+    <QUESTION goodRep="0" id="congelation" type="draggable" />
+    <QUESTION goodRep="0" id="glace" type="draggable" />
+    <QUESTION goodRep="0" id="pingouin" type="draggable" />
+    <QUESTION goodRep="0" id="sapin" type="draggable" />
+    <QUESTION goodRep="0" id="lapin" type="draggable" />
+    <QUESTION goodRep="0" id="chale" type="draggable" />
+    <QUESTION goodRep="0" id="chasser" type="draggable" />
+    <QUESTION goodRep="0" id="chaleur" type="draggable" />
+    <QUESTION goodRep="0" id="narval" type="draggable" />
+    <QUESTION goodRep="0" id="renard" type="draggable" />
+    <QUESTION goodRep="0" id="canada" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3coe1s1_cellule1" id="polaire">
+          <message>Dans le mot "polaire", tu vois un "a" mais tu n'entends pas la lettre son [a], tu entends la lettre son [è].</message>
+        </CELLULE>
+        <OU son="m3coe1s1_ou1">
+          <message>Attention, dans ce mot, on entend le son "a", comme dans le mot "animal". </message>
+          <CELLULE id="escalade" />
+          <CELLULE id="congelation" />
+          <CELLULE id="glace" />
+        </OU>
+        <CELLULE son="m3coe1s1_cellule2" id="alpiniste">
+          <message>Dans le mot "alpiniste", tu vois "i", "n" mais tu n'entends pas les lettres sons [in].</message>
+        </CELLULE>
+        <OU son="m3coe1s1_ou2">
+          <message>Attention, dans ce mot, on entend les lettres sons [in], comme dans le mot "requin".</message>
+          <CELLULE id="pingouin" />
+          <CELLULE id="sapin" />
+          <CELLULE id="lapin" />
+        </OU>
+        <CELLULE son="m3coe1s1_cellule5" id="combinaison">
+          <message>Dans le mot "combinaison", tu vois "a"  mais tu n'entends pas la lettre son [a]. Tu entends la lettre son [è].</message>
+        </CELLULE>
+        <OU son="m3coe1s1_ou5">
+          <message>Oups ! Dans ce mot, on entend la lettre son [a], comme dans le mot "abeille".</message>
+          <CELLULE id="narval" />
+          <CELLULE id="renard" />
+          <CELLULE id="canada" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m3coe_demo.swf</DEMO>
+</EXO>

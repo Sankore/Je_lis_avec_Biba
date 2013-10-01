@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="clicklettre">
+  <CONSIGNE son="m4coe1_cons">Clique sur les lettres muettes en début ou en fin de mot.&lt;br/&gt;Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <TEXTE>&lt;br/&gt;&lt;br/&gt;Sur le quai, comme c&lt;f id="fa1"&gt;h&lt;/f&gt;aque jour, c’es&lt;f id="fp1"&gt;t&lt;/f&gt; la crié&lt;v&gt;e&lt;/v&gt; : on ven&lt;v&gt;d&lt;/v&gt; du &lt;v&gt;h&lt;/v&gt;aren&lt;v&gt;g&lt;/v&gt;, du &lt;v&gt;h&lt;/v&gt;omar&lt;v&gt;d&lt;/v&gt;… Le ven&lt;v&gt;t&lt;/v&gt; es&lt;f id="fp2"&gt;t&lt;/f&gt; tombé, la &lt;v&gt;h&lt;/v&gt;oule anime le&lt;f id="fp3"&gt;s&lt;/f&gt; bateau&lt;v&gt;x&lt;/v&gt;. Prè&lt;v&gt;s&lt;/v&gt; du p&lt;f id="fa2"&gt;h&lt;/f&gt;are, de&lt;f id="fp4"&gt;s&lt;/f&gt; p&lt;f id="fa3"&gt;h&lt;/f&gt;oque&lt;v&gt;s&lt;/v&gt; attende&lt;v&gt;nt&lt;/v&gt; qu’on leur jette du poisson.</TEXTE>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4coe1_ou1">
+          <message>Quand tu vois "ch", tu entends les lettres sons [ch] comme dans "cheval".&lt;br/&gt;Quand tu vois "ph", tu entends la lettre son [f] comme dans "phoque".</message>
+          <CELLULE id="fa1" />
+          <CELLULE id="fa2" />
+          <CELLULE id="fa3" />
+        </OU>
+        <OU son="m4coe1_ou2">
+          <message>Dans ce mot, le "t" n'est pas une lettre muette.</message>
+          <CELLULE id="fp1" />
+          <CELLULE id="fp2" />
+        </OU>
+        <OU son="m4coe1_ou3">
+          <message>Dans ce mot, le "s" n'est pas une lettre muette.</message>
+          <CELLULE id="fp3" />
+          <CELLULE id="fp4" />
+        </OU>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4coe1_def">
+          <message>Cette lettre n'est pas une lettre muette.</message>
+        </DEFAUT>
+        <OUBLIS item-id="64" son="m4coe1_oub">
+          <message>Tu as oublié de cliquer sur cette lettre muette.</message>
+        </OUBLIS>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m4coe_demo.swf</DEMO>
+</EXO>

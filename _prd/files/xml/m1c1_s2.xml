@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire.&lt;br/&gt;Ces images sont mal rangées. Déplace-les pour les remettre dans l'ordre de l'histoire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+    <QUESTION goodRep="case4" id="image4" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case3" son="m1c1s2_all3">
+          <message>A ce moment-là de l'histoire, M. Hérisson est à côté d'une rivière. Il y rencontre une biche.</message>
+        </ALL>
+        <ALL rep="case4" son="m1c1s2_all4">
+          <message>Ce n'est pas l'image de la fin de l'histoire.&lt;br/&gt;L'histoire se termine lorsque M. Hérisson retrouve son frère.</message>
+        </ALL>
+        <ALL rep="0" son="mess_oubli">
+          <message>Tu n'a pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="image2" />
+        <CELLULE id="image3" />
+        <CELLULE id="image4" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

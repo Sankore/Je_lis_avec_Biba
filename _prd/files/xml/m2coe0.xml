@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2coe1_cons">Clique sur le point d'interrogation ( ? ) et ensuite sur le haut-parleur. Choisis la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="2" id="phr2_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_6" type="choix">
+    </QUESTION>
+  </CONTENU>
+</EXO>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2coe1_cons">Clique sur le point d'interrogation ( ? ) et ensuite sur le haut-parleur. Choisis la bonne étiquette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="phr1_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="1" id="phr1_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_7" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_8" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_9" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_10" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="1" id="phr1_11" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="2" id="phr2_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="2" id="phr2_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_1" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_2" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_3" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_4" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="1" group="3" id="phr3_5" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_6" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_7" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_8" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_9" type="choix">
+    </QUESTION>
+    <QUESTION goodRep="0" group="3" id="phr3_10" type="choix">
+    </QUESTION>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m2coe2_ou1">
+          <message>Tu as cliqué avant le mot "on". Le mot "on" est le 4ème mot de la phrase.</message>
+          <CELLULE id="phr1_1">
+          </CELLULE>
+          <CELLULE id="phr1_2">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou2">
+          <message>Tu as cliqué après le mot "on". Le mot "on" est le 4ème mot de la phrase.</message>
+          <CELLULE id="phr1_6">
+          </CELLULE>
+          <CELLULE id="phr1_7">
+          </CELLULE>
+          <CELLULE id="phr1_8">
+          </CELLULE>
+          <CELLULE id="phr1_9">
+          </CELLULE>
+          <CELLULE id="phr1_10">
+          </CELLULE>
+          <CELLULE id="phr1_11">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou3">
+          <message>Pas loin ! Tu as cliqué juste à côté du mot "on". Le mot "on" est le 4ème mot de la phrase.</message>
+          <CELLULE id="phr1_3">
+          </CELLULE>
+          <CELLULE id="phr1_5">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou4">
+          <message>Tu as cliqué avant le mot "très". Le mot "très" est l'avant dernier mot de la phrase.</message>
+          <CELLULE id="phr2_1">
+          </CELLULE>
+          <CELLULE id="phr2_2">
+          </CELLULE>
+          <CELLULE id="phr2_3">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou5">
+          <message>Presque ! Tu as cliqué juste à côté du mot "très". Le mot "très" est l'avant dernier mot de la phrase.</message>
+          <CELLULE id="phr2_4">
+          </CELLULE>
+          <CELLULE id="phr2_6">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou6">
+          <message>Tu as cliqué avant le mot "entendent" qui est le 5ème mot de la phrase.</message>
+          <CELLULE id="phr3_1">
+          </CELLULE>
+          <CELLULE id="phr3_2">
+          </CELLULE>
+          <CELLULE id="phr3_3">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou7">
+          <message>Tu as cliqué après le mot "entendent" qui est le 5ème mot de la phrase.</message>
+          <CELLULE id="phr3_7">
+          </CELLULE>
+          <CELLULE id="phr3_8">
+          </CELLULE>
+          <CELLULE id="phr3_9">
+          </CELLULE>
+          <CELLULE id="phr3_10">
+          </CELLULE>
+        </OU>
+        <OU son="m2coe2_ou8">
+          <message>Tu as cliqué juste à côté du mot "entendent". Le mot "entendent" est le 5ème mot de la phrase.</message>
+          <CELLULE id="phr3_4">
+          </CELLULE>
+          <CELLULE id="phr3_6">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

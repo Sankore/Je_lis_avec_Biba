@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire.&lt;br/&gt;Ces images sont mal rangées. Déplace-les pour les remettre dans l'ordre de l'histoire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="image1" type="draggable" />
+    <QUESTION goodRep="case2" id="image2" type="draggable" />
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+    <QUESTION goodRep="case4" id="image4" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case1" son="m1c1s1_all1">
+          <message>Ce n'est pas l'image du début de l'histoire.&lt;br/&gt;Au début de l'histoire, l'ours est seul devant sa maison.</message>
+        </ALL>
+        <ALL rep="case2" son="m1c1s1_all2">
+          <message>Attention, cette image est mal placée. A ce moment de l'histoire, l'ours entend des cris et décide de sortir de chez lui.</message>
+        </ALL>
+        <ALL rep="case3" son="m1c1s1_all3">
+          <message>Attention, cette image est mal placée. A ce moment-là de l'histoire, l'ours aide la biche blessée en la couchant sur un lit de feuille.</message>
+        </ALL>
+        <ALL rep="case4" son="m1c1s1_all4">
+          <message>Ce n'est pas l'image de la fin de l'histoire.&lt;br/&gt;L'histoire se termine avec tous les animaux réunis.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="image1" />
+        <CELLULE id="image2" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

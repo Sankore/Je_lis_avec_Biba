@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo>
+  <question itemId="22670" type="q0" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coe0.xml" swfPath="m2coe0.swf">
+    <redirectType value="q1" id="*" />
+    <anim path="m2coe0_anim.swf" />
+  </question>
+  <groupe type="q1">
+    <question type="q1_1" itemId="22508" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coe1_s1.xml" swfPath="m2coe1_s1.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+      <redirectType value="r2" id="2" />
+    </question>
+    <question type="q1_2" itemId="22509" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coe1_s2.xml" swfPath="m2coe1_s2.swf">
+      <redirectType value="q2" id="0" />
+      <redirectType value="r1" id="1" />
+      <redirectType value="r2" id="2" />
+    </question>
+  </groupe>
+  <question itemId="22513" type="r1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coer1.xml" swfPath="m2coer1.swf">
+  </question>
+  <question itemId="22514" type="r2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coer2.xml" swfPath="m2coer2.swf">
+  </question>
+  <groupe type="q2">
+    <question type="q2_1" itemId="22511" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coe2_1.xml" swfPath="m2coe2_1.swf">
+    </question>
+    <question type="q2_2" itemId="22512" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m2coe2_2.xml" swfPath="m2coe2_2.swf">
+    </question>
+  </groupe>
+</exo>

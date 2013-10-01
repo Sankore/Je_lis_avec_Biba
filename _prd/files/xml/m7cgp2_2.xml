@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m7cgp2_cons">Retrouve ce qui est dessiné sur les images suivantes en te servant des lettres de l'alphabet. Tu peux essayer de faire l'exercice sans cliquer sur les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="c_comete,c_combinaison,c_telescope" id="c1" type="draggable" />
+    <QUESTION goodRep="o_comete,o_telescope,o1_combinaison,o2_combinaison" id="o1" type="draggable" />
+    <QUESTION goodRep="m_comete,m_combinaison" id="m1" type="draggable" />
+    <QUESTION goodRep="e__comete" id="e_" type="draggable" />
+    <QUESTION goodRep="t_comete,t_telescope,t1_navette,t2_navette" id="t1" type="draggable" />
+    <QUESTION goodRep="e_comete,e1_telescope,e2_telescope,e1_navette,e2_navette" id="e1" type="draggable" />
+    <QUESTION goodRep="t_telescope,t_comete,t1_navette,t2_navette" id="t2" type="draggable" />
+    <QUESTION goodRep="_e_telescope" id="_e" type="draggable" />
+    <QUESTION goodRep="l_telescope" id="l1" type="draggable" />
+    <QUESTION goodRep="e1_telescope,e_comete,e2_telescope,e1_navette,e2_navette" id="e2" type="draggable" />
+    <QUESTION goodRep="s_telescope,s_combinaison" id="s1" type="draggable" />
+    <QUESTION goodRep="c_telescope,c_combinaison,c_comete" id="c2" type="draggable" />
+    <QUESTION goodRep="o_telescope,o_comete,o1_combinaison,o2_combinaison" id="o2" type="draggable" />
+    <QUESTION goodRep="p_telescope" id="p1" type="draggable" />
+    <QUESTION goodRep="e2_telescope,e_comete,e1_telescope,e1_navette,e2_navette" id="e3" type="draggable" />
+    <QUESTION goodRep="n_navette,n1_combinaison,n2_combinaison" id="n3" type="draggable" />
+    <QUESTION goodRep="a_navette,a_combinaison" id="a2" type="draggable" />
+    <QUESTION goodRep="v_navette" id="v1" type="draggable" />
+    <QUESTION goodRep="e1_navette,e_comete,e1_telescope,e2_telescope,e2_navette" id="e4" type="draggable" />
+    <QUESTION goodRep="t1_navette,t_comete,t_telescope,t2_navette" id="t3" type="draggable" />
+    <QUESTION goodRep="t2_navette,t_comete,t_telescope,t1_navette" id="t4" type="draggable" />
+    <QUESTION goodRep="e2_navette,e_comete,e1_telescope,e2_telescope,e1_navette" id="e5" type="draggable" />
+    <QUESTION goodRep="c_combinaison,c_comete,c_telescope" id="c3" type="draggable" />
+    <QUESTION goodRep="o1_combinaison,o_comete,o_telescope,o2_combinaison" id="o3" type="draggable" />
+    <QUESTION goodRep="m_combinaison,m_comete" id="m2" type="draggable" />
+    <QUESTION goodRep="b_combinaison" id="b1" type="draggable" />
+    <QUESTION goodRep="i1_combinaison,i2_combinaison" id="i1" type="draggable" />
+    <QUESTION goodRep="n1_combinaison,n2_combinaison,n_navette" id="n1" type="draggable" />
+    <QUESTION goodRep="a_combinaison,a_navette" id="a1" type="draggable" />
+    <QUESTION goodRep="i2_combinaison,i1_combinaison" id="i2" type="draggable" />
+    <QUESTION goodRep="s_combinaison,s_telescope" id="s2" type="draggable" />
+    <QUESTION goodRep="o2_combinaison,o_comete,o_telescope,o1_combinaison" id="o4" type="draggable" />
+    <QUESTION goodRep="n2_combinaison,n1_combinaison,n_navette" id="n2" type="draggable" />
+    <QUESTION goodRep="0" id="g1" type="draggable" />
+    <QUESTION goodRep="0" id="h1" type="draggable" />
+    <QUESTION goodRep="0" id="j1" type="draggable" />
+    <QUESTION goodRep="0" id="k1" type="draggable" />
+    <QUESTION goodRep="0" id="u1" type="draggable" />
+    <QUESTION goodRep="0" id="w1" type="draggable" />
+    <QUESTION goodRep="0" id="x1" type="draggable" />
+    <QUESTION goodRep="0" id="y1" type="draggable" />
+    <QUESTION goodRep="0" id="z1" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m7cgp1s1_def">
+          <message>Tu n'as pas écrit correctement le mot à compléter.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

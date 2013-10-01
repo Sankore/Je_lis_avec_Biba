@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo>
+  <groupe type="q1">
+    <question itemId="22526" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c1_s1_1.xml" swfPath="m7c1_s1_1.swf" type="q1_1">
+      <redirectType value="q1_2_1" id="*" />
+    </question>
+    <question itemId="22531" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c1_s2_1.xml" swfPath="m7c1_s2_1.swf" type="q1_2">
+      <redirectType value="q1_2_2" id="*" />
+    </question>
+  </groupe>
+  <question itemId="22528" type="q1_2_1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c1_s1_2.xml" swfPath="m7c1_s1_2.swf">
+    <redirectType value="q2_1" id="0" />
+    <redirectType value="r1_1" id="1" />
+    <redirectType value="r2_1" id="2" />
+  </question>
+  <question itemId="22533" type="q1_2_2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c1_s2_2.xml" swfPath="m7c1_s2_2.swf">
+    <redirectType value="q2_1" id="0" />
+    <redirectType value="r1_1" id="1" />
+    <redirectType value="r2_1" id="2" />
+  </question>
+  <question itemId="22539" type="r2_1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7cr2_1.xml" swfPath="m7cr2_1.swf">
+    <redirectType value="r2_2" id="*" />
+  </question>
+  <question itemId="22534" type="q2_1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c2_1.xml" swfPath="m7c2_1.swf">
+    <redirectType value="q2_2" id="*" />
+  </question>
+  <question itemId="22535" type="q2_2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7c2_2.xml" swfPath="m7c2_2.swf">
+  </question>
+  <question itemId="22536" type="r1_1" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7cr1_1.xml" swfPath="m7cr1_1.swf">
+    <redirectType value="r1_2" id="*" />
+  </question>
+  <question itemId="22537" type="r1_2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7cr1_2.xml" swfPath="m7cr1_2.swf">
+    <redirectType value="q2_1" id="*" />
+  </question>
+  <question itemId="22540" type="r2_2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7cr2_2.xml" swfPath="m7cr2_2.swf">
+    <redirectType value="q2_1" id="*" />
+  </question>
+</exo>

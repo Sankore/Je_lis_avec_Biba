@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgpr1_cons">Reconstitue chaque mot en regardant bien les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_tempete1,z_tempete6" id="t1_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete2,z_tempete7,z_ombre5" id="e1_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete3,z_ombre2" id="m_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete4" id="p_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete5" id="e2_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete6,z_tempete1" id="t2_tempete" type="draggable" />
+    <QUESTION goodRep="z_tempete7,z_tempete2,z_ombre5" id="e3_tempete" type="draggable" />
+    <QUESTION goodRep="z_ombre1" id="o_ombre" type="draggable" />
+    <QUESTION goodRep="z_ombre2,z_tempete3" id="m_ombre" type="draggable" />
+    <QUESTION goodRep="z_ombre3" id="b_ombre" type="draggable" />
+    <QUESTION goodRep="z_ombre4" id="r_ombre" type="draggable" />
+    <QUESTION goodRep="z_ombre5,z_tempete2,z_tempete7" id="e_ombre" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE rep="z_tempete5" id="e1_tempete" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+        <CELLULE rep="z_tempete5" id="e3_tempete" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+        <CELLULE rep="z_tempete5" id="e_ombre" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cgp2_cellule">
+          <message>Cette lettre n'est pas à sa place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

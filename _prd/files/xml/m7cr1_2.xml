@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1r2_cons">Ecoute bien ce court texte car après je vais te poser une seule question. Pour répondre, clique sur une des 4 phrases.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="pierre_lune" type="choix" group="1" />
+    <QUESTION goodRep="0" id="photo_terre" type="choix" group="1" />
+    <QUESTION goodRep="1" id="photo_lune" type="choix" group="1" />
+    <QUESTION goodRep="0" id="livre_lune" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="pierre_lune" son="m7c1r1_cellule4">
+          <message>John ne va pas ramasser des pierres sur la Lune car il prend un appareil pour ramener des images de la Lune.</message>
+        </CELLULE>
+        <CELLULE id="photo_terre" son="m7c1r1_cellule5">
+          <message>John ne va pas photographier la Terre puisqu'il va rapporter des images de la Lune :  cela veut dire qu'il va photographier la Lune.</message>
+        </CELLULE>
+        <CELLULE id="livre_lune" son="m7c1r1_cellule6">
+          <CELLULE />
+          <message>Oups ! Quand on dit que John veut rapporter des images de la Lune, il s'agit de photos. C'est pour cela qu'il prend un appareil .</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m7fl1s1_cons__creole">"Tè a se yon boul" sa a se yon fraz afimativ; "Tè a se pa yon boul". Se yon fraz negativ. Mete fraz yo nan tablo a dapre egzanp lan.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_neg" id="neg1" type="draggable" />
+    <QUESTION goodRep="z_neg" id="neg2" type="draggable" />
+    <QUESTION goodRep="z_neg" id="neg3" type="draggable" />
+    <QUESTION goodRep="z_neg" id="neg4" type="draggable" />
+    <QUESTION goodRep="z_neg" id="neg5" type="draggable" />
+    <QUESTION goodRep="z_affir" id="affir1" type="draggable" />
+    <QUESTION goodRep="z_affir" id="affir2" type="draggable" />
+    <QUESTION goodRep="z_affir" id="affir3" type="draggable" />
+    <QUESTION goodRep="z_affir" id="affir4" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m7fl1s1_ou1_creole">
+          <message>Se yon fraz negativ. Ou jwenn ti mo sa yo ki rele…</message>
+          <CELLULE id="neg1" />
+          <CELLULE id="neg3" />
+          <CELLULE id="neg5" />
+        </OU>
+        <OU son="m7fl1s1_ou3_creole">
+          <message>Se yon fraz negativ. Li gen sign negasyon sa a: "pa".</message>
+          <CELLULE id="neg2" />
+          <CELLULE id="neg4" />
+        </OU>
+        <OU son="m7fl1s1_ou2_creole">
+          <message>Fraz sa a se yon fraz afimativ. Ou pa jwenn piyès sign negasyon.</message>
+          <CELLULE id="affir1" />
+          <CELLULE id="affir2" />
+          <CELLULE id="affir3" />
+          <CELLULE id="affir4" />
+          <CELLULE id="affir5" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

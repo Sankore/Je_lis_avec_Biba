@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_re" id="re" type="draggable" />
+    <QUESTION goodRep="z_va" id="va" type="draggable" />
+    <QUESTION goodRep="z_fon" id="fon" type="draggable" />
+    <QUESTION goodRep="z_le" id="le" type="draggable" />
+    <QUESTION goodRep="z_ri" id="ri" type="draggable" />
+    <QUESTION goodRep="z_lan" id="lan" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT son="m3cgp1s11_def">
+          <message>Oups ! Le mot que tu as complété doit vouloir dire quelque chose.&lt;br/&gt;Tu dois trouver la syllabe qui convient.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="re" />
+        <CELLULE id="le" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m3cgp_demo.swf</DEMO>
+</EXO>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="22488" type="q1" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m7fl1_s1_creole.xml" swfPath="m7fl1_s1_creole.swf">
+    <redirectType id="*" value="q1_2" />
+  </question>
+  <question itemId="22491" type="r1" interfPath="oaalPickWords.swf" xmlPath="../datas/xml/m7flr1_creole.xml" swfPath="m7flr1_creole.swf">
+  </question>
+  <question itemId="22490" type="q2" interfPath="oaalQCM.swf" xmlPath="../datas/xml/m7fl2_creole.xml" swfPath="m7fl2_creole.swf">
+  </question>
+</exo>

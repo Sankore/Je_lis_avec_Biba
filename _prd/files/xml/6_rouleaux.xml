@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6cgp1_v2_cons">Choisis le son qui convient pour compléter le mot. </CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="20" align="g72" alignY="h50">
+      <liste>
+        <item>une d</item>
+      </liste>
+      <liste id="ld1" goodRep="1" align="center">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>de</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h120">
+      <liste>
+        <item>du l</item>
+      </liste>
+      <liste id="ld2" goodRep="1" align="center">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>ge</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h190">
+      <liste>
+        <item>du v</item>
+      </liste>
+      <liste id="ld3" goodRep="1" align="left">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h260">
+      <liste>
+        <item>le p</item>
+      </liste>
+      <liste id="ld4" goodRep="2" align="center">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>g</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h330">
+      <liste>
+        <item>il rej</item>
+      </liste>
+      <liste id="ld5" goodRep="2" align="center">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>t</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="20" align="g72" alignY="h400">
+      <liste>
+        <item>m</item>
+      </liste>
+      <liste id="ld6" goodRep="2" align="center">
+        <item>in</item>
+        <item>oin</item>
+      </liste>
+      <liste>
+        <item>s</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <OU son="m6cgpr1_v2_ou1">
+          <message>Dans ce mot, on entend les lettres sons [in] comme dans le mot "d&lt;b&gt;in&lt;/b&gt;de".</message>
+          <CELLULE id="ld1" />
+          <CELLULE id="ld2" />
+          <CELLULE id="ld3" />
+        </OU>
+        <OU son="m6cgpr1_v2_ou1">
+          <message>Ce mot s'écrit avec les lettres "o-i-n" qui forment les lettres sons [oin] comme dans "m&lt;b&gt;oin&lt;/b&gt;s".</message>
+          <CELLULE id="ld4" />
+          <CELLULE id="ld5" />
+          <CELLULE id="ld6" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

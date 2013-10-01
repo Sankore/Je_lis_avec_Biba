@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cr2_cons">Clique sur le haut-parleur et écoute bien l’histoire. Une des 3 images du haut correspond au début de l'histoire.Trouve-là et place-là.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="image1" type="draggable" />
+    <QUESTION goodRep="0" id="intrus1" type="draggable" />
+    <QUESTION goodRep="0" id="intrus2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="intrus2" son="m1cr2_cell1">
+          <message>Observe bien le paysage : il s'agit d'une plage.&lt;br/&gt;Or, l'histoire se passe dans une forêt.</message>
+        </CELLULE>
+        <CELLULE son="m1_def1" id="intrus1">
+          <message>Ta réponse ne convient pas.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

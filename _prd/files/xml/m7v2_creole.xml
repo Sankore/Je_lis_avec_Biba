@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7vr1_cons_creole">Li tèks yo epi chwazi repons ki bon an.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="0" id="peur" type="choix" />
+    <QUESTION goodRep="0" group="0" id="chaud" type="choix" />
+    <QUESTION goodRep="0" group="1" id="proximite" type="choix" />
+    <QUESTION goodRep="1" group="1" id="connaitre" type="choix" />
+    <QUESTION goodRep="1" group="2" id="reacteurs" type="choix" />
+    <QUESTION goodRep="0" group="2" id="bouteilles" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="chaud" son="m7v2_cellule1_creole">
+          <message>Ou kapab swoue frèt lè w' pè. Li kapab fè chalè oswa fredi, sa pa impòtan.</message>
+        </CELLULE>
+        <CELLULE id="proximite" son="m7v2_cellule2_creole">
+          <message>Kòmandan an itilize enstriman yo san reflechi, sa vle di ke li konnen yo byen.</message>
+        </CELLULE>
+        <CELLULE id="bouteilles" son="m7v2_cellule3_creole">
+          <message>Zut ! Pour faire décoller une fusée, on n'utilise pas de bouteilles de gaz.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

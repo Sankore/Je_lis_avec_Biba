@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m6v2">2 mots sur 3 sont des homonymes. Dans chaque dune de sable, tu dois trouver l'intrus.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="cochon" type="choix" />
+    <QUESTION goodRep="0" group="1" id="port" type="choix" />
+    <QUESTION goodRep="0" group="1" id="porc" type="choix" />
+    <QUESTION goodRep="1" group="2" id="laid" type="choix" />
+    <QUESTION goodRep="0" group="2" id="beau" type="choix" />
+    <QUESTION goodRep="0" group="2" id="bot" type="choix" />
+    <QUESTION goodRep="1" group="3" id="tatie" type="choix" />
+    <QUESTION goodRep="0" group="3" id="tante" type="choix" />
+    <QUESTION goodRep="0" group="3" id="tente" type="choix" />
+    <QUESTION goodRep="1" group="4" id="vache" type="choix" />
+    <QUESTION goodRep="0" group="4" id="veau" type="choix" />
+    <QUESTION goodRep="0" group="4" id="vos" type="choix" />
+    <QUESTION goodRep="1" group="5" id="peine" type="choix" />
+    <QUESTION goodRep="0" group="5" id="plaine" type="choix" />
+    <QUESTION goodRep="0" group="5" id="pleine" type="choix" />
+    <QUESTION goodRep="1" group="6" id="pont" type="choix" />
+    <QUESTION goodRep="0" group="6" id="point" type="choix" />
+    <QUESTION goodRep="0" group="6" id="poing" type="choix" />
+    <QUESTION goodRep="1" group="7" id="pousser" type="choix" />
+    <QUESTION goodRep="0" group="7" id="pousse" type="choix" />
+    <QUESTION goodRep="0" group="7" id="pouce" type="choix" />
+    <QUESTION goodRep="1" group="8" id="p_a_t_e" type="choix" />
+    <QUESTION goodRep="0" group="8" id="patte" type="choix" />
+    <QUESTION goodRep="0" group="8" id="pate" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6v2_ou2">
+          <CELLULE id="beau" />
+          <CELLULE id="laid" />
+          <CELLULE id="bot" />
+          <message>Attention ! Les mots "bot" et "beau" se prononcent à l'identique. Ce sont donc des homonymes.</message>
+        </OU>
+        <OU son="m6v2_ou1">
+          <CELLULE id="port" />
+          <CELLULE id="porc" />
+          <CELLULE id="cochon" />
+          <message>Attention ! Le mot "porc" se prononce de la même manière que le mot "port". Ce sont donc des homonymes.</message>
+        </OU>
+        <OU son="m6v2_ou3">
+          <message>Zut ! "Tante" et "tente" sont des homonymes.&lt;br/&gt;Mais "tatie" est un synonyme du mot "tante" car il signifie la même chose.</message>
+          <CELLULE id="tante" />
+          <CELLULE id="tente" />
+          <CELLULE id="tatie" />
+        </OU>
+        <OU son="m6v2_ou4">
+          <message>Oups ! Le "s" de "vos" est une lettre muette.&lt;br/&gt;Les mots "vos" et "veau" sont donc des homonymes. </message>
+          <CELLULE id="vos" />
+          <CELLULE id="veau" />
+          <CELLULE id="vache" />
+        </OU>
+        <OU son="m6v2_ou5">
+          <message>Attention ! Le mot "peine" ressemble à "pleine" mais il lui manque un "l".</message>
+          <CELLULE id="plaine" />
+          <CELLULE id="pleine" />
+          <CELLULE id="peine" />
+        </OU>
+        <OU son="m6v2_ou6">
+          <message>Zut ! Les mots "point" et "poing" se prononcent de la même manière car le "t" et le "g" de la fin du mot sont muets. </message>
+          <CELLULE id="point" />
+          <CELLULE id="poing" />
+          <CELLULE id="pont" />
+        </OU>
+        <OU son="m6v2_ou7">
+          <message>Attention ! "Pousse" et "pouce" sont des homonymes.&lt;br/&gt;Seul le mot "pousser", s'écrit avec le son [é].</message>
+          <CELLULE id="pouce" />
+          <CELLULE id="pousse" />
+          <CELLULE id="pousser" />
+        </OU>
+        <OU son="m6v2_ou8">
+          <message>Pas facile ! Tous ces mots contiennent presque les mêmes lettres. Seul le mot "pâté" contient la lettre son [é].</message>
+          <CELLULE id="patte" />
+          <CELLULE id="p_a_t_e" />
+          <CELLULE id="pate" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6v1s21_cons">Complète chaque phrase à l'aide du bon mot :&lt;br/&gt;"vert" ou "vers".&lt;br/&gt;Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_vert1,z_vert2" id="vert1" type="draggable" />
+    <QUESTION goodRep="z_vers1,z_vers2" id="vers1" type="draggable" />
+    <QUESTION goodRep="z_vers2,z_vers1" id="vers2" type="draggable" />
+    <QUESTION goodRep="z_vert2,z_vert1" id="vert2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6v1s21_all1" rep="z_vert1">
+          <message>Attention ! L'oasis est une tache de couleur dans le désert.&lt;br/&gt;La réponse est donc "vert".</message>
+        </ALL>
+        <ALL son="m6v1s21_all2" rep="z_vers1">
+          <message>Oups ! Il s'agit dans cette phrase d'un endroit où l'on va,&lt;br/&gt;il faut choisir le mot "vers".</message>
+        </ALL>
+        <ALL son="m6v1s21_all3" rep="z_vers2">
+          <message>Zut ! Avec le mot "vert", cette phrase n'a pas de sens.</message>
+        </ALL>
+        <ALL son="m6v1s21_all4" rep="z_vert2">
+          <message>Attention ! Dans cette phrase, on parle de la couleur verte des cactus.</message>
+        </ALL>
+        <ALL son="m6v1s21_oub" rep="0">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

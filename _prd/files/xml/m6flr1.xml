@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6flr1_cons">Choisis le pronom qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g486" alignY="h138">
+      <liste id="r1_l1" goodRep="2" align="center">
+        <item>Je</item>
+        <item>Nous</item>
+        <item>Elle</item>
+      </liste>
+      <liste>
+        <item>traversons le Sahara.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g183" alignY="h249">
+      <liste id="r2_l1" goodRep="2" align="center">
+        <item>Vous</item>
+        <item>Tu</item>
+        <item>Nous</item>
+      </liste>
+      <liste>
+        <item>gardes le troupeau. </item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g600" alignY="h275">
+      <liste id="r3_l1" goodRep="3" align="center">
+        <item>Je</item>
+        <item>Vous</item>
+        <item>Ils</item>
+      </liste>
+      <liste>
+        <item>cherchent du pétrole.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g60" alignY="h360">
+      <liste id="r4_l1" goodRep="2" align="center">
+        <item>Vous</item>
+        <item>Je</item>
+        <item>Nous</item>
+      </liste>
+      <liste>
+        <item>prépare du thé.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g454" alignY="h385">
+      <liste id="r5_l1" goodRep="1" align="center">
+        <item>Il</item>
+        <item>Vous</item>
+        <item>Ils</item>
+      </liste>
+      <liste>
+        <item>installe la tente.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m6flr1_cellule1" id="r1_l1">
+          <message>Attention ! Lorsque la terminaison du verbe est "ons", il faut choisir le pronom "nous".</message>
+        </CELLULE>
+        <CELLULE son="m6flr1_cellule2" id="r2_l1">
+          <message>Zut ! Regarde, ce verbe se termine par "es" il faut donc choisir le pronom "tu".</message>
+        </CELLULE>
+        <CELLULE son="m6flr1_cellule3" id="r3_l1">
+          <message>Oups ! Lorsque le verbe se termine par "ent" il s'agit du pronom pluriel : "ils" ou "elles".</message>
+        </CELLULE>
+        <OU son="m6flr1_ou1">
+          <message>Ce pronom ne convient pas car il est au pluriel.</message>
+          <CELLULE id="r4_l1">
+          </CELLULE>
+          <CELLULE id="r5_l1">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

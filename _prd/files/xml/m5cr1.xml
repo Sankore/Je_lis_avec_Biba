@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m5cr1_cons">Tu dois retrouver la fin de ce texte. Clique sur la bonne étiquette. Tu peux essayer de faire l'exercice sans écouter le haut-parleur.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="d1" type="choix" group="1" />
+    <QUESTION goodRep="1" id="d2" type="choix" group="1" />
+    <QUESTION goodRep="0" id="d3" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m5cr1_cellule1" id="d1">
+          <message>Il n'y a pas de rapport entre la boulangerie et cette histoire.</message>
+        </CELLULE>
+        <CELLULE son="m5cr1_cellule2" id="d3">
+          <message>Il n'y a pas de rapport entre le gâteau et cette histoire.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

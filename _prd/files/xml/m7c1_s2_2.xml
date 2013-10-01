@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="2" id="planetes" type="choix" />
+    <QUESTION goodRep="1" group="2" id="etoiles" type="choix" />
+    <QUESTION goodRep="0" group="2" id="pluie" type="choix" />
+    <QUESTION goodRep="0" group="2" id="poussieres" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="planetes" son="m7c1s22_cellule1">
+          <message>On ne parle pas des planètes. On n'a pas l'impression qu'elles tombent du ciel !</message>
+        </CELLULE>
+        <CELLULE id="pluie" son="m7c1s22_cellule2">
+          <message>Ce ne sont pas des gouttes de pluie car on nous indique qu'on n'en voit qu'une. </message>
+        </CELLULE>
+        <CELLULE id="poussieres" son="m7c1s22_cellule3">
+          <message>On ne parle pas des lucioles. Aucune luciole ne tombe du ciel !</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE SO="sectionFifthLevel" id="montagne" />
+        <CELLULE SO="sectionFifthLevel" id="piste" />
+        <CELLULE SO="sectionFifthLevel" id="planetes" />
+        <CELLULE SO="sectionFifthLevel" id="pluie" />
+        <CELLULE SO="sectionFifthLevel" id="poussieres" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

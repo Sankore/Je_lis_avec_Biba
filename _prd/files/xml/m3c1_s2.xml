@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3c1_cons">Clique sur chaque mot pour écouter ce qui est écrit. Remets les mots dans l'ordre pour former une phrase.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case13" id="la" type="draggable" />
+    <QUESTION goodRep="case14" id="banquise" type="draggable" />
+    <QUESTION goodRep="case15" id="est" type="draggable" />
+    <QUESTION goodRep="case16" id="constituee" type="draggable" />
+    <QUESTION goodRep="case17" id="de1" type="draggable" />
+    <QUESTION goodRep="case18" id="glace" type="draggable" />
+    <QUESTION goodRep="case19" id="le3" type="draggable" />
+    <QUESTION goodRep="case20" id="mot" type="draggable" />
+    <QUESTION goodRep="case21" id="inuit" type="draggable" />
+    <QUESTION goodRep="case22" id="veut" type="draggable" />
+    <QUESTION goodRep="case23" id="dire" type="draggable" />
+    <QUESTION goodRep="case24" id="homme" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case13" son="m3c1s1_all1">
+          <message>Ce n'est pas le 1er mot de la phrase.&lt;br/&gt;Une phrase commence toujours par une majuscule.</message>
+        </ALL>
+        <ALL rep="case18" son="m3c1s1_all2">
+          <message>Il n'y a pas de point sur cette étiquette, or une phrase se termine par un point.</message>
+        </ALL>
+        <CELLULE son="m3c1s1_cellule1" id="inuit" rep="case19">
+          <message>Tu as bien compris qu'une phrase commence par une majuscule mais en plaçant ce mot ici, la phrase ne veut rien dire. Regarde bien, il y a un autre mot qui commence par une majuscule.</message>
+        </CELLULE>
+        <ALL rep="case19" son="m3c1s1_all3">
+          <message>Ce n'est pas le 1er mot de la phrase.&lt;br/&gt;Il faut une majuscule ici, comme au début de chaque phrase.</message>
+        </ALL>
+        <ALL rep="case24" son="m3c1s1_all4">
+          <message>Ce n'est pas la bonne étiquette. &lt;br/&gt;Une phrase se termine toujours par un point !</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3c1s1_def">
+          <message>Tu n'as pas remis les mots dans l'ordre.&lt;br/&gt;Cette phrase comme ça ne veut rien dire.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="groenland" />
+        <CELLULE id="est1" />
+        <CELLULE id="recouvert" />
+        <CELLULE id="de" />
+        <CELLULE id="banquise" />
+        <CELLULE id="est" />
+        <CELLULE id="constituée" />
+        <CELLULE id="de1" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m3c_demo.swf</DEMO>
+</EXO>

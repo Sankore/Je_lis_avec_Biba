@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3cgp1s1_cons">Clique sur le haut-parleur et écoute le mot qui est lu.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_ban" id="ban" type="draggable" />
+    <QUESTION goodRep="z_di" id="di" type="draggable" />
+    <QUESTION goodRep="z_no" id="no" type="draggable" />
+    <QUESTION goodRep="z_na" id="na" type="draggable" />
+    <QUESTION goodRep="z_ra" id="ra" type="draggable" />
+    <QUESTION goodRep="z_con" id="con" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="na" rep="z_no" son="m3cgp1s12_cellule1">
+          <message>Anarak… Ou anorak ?&lt;br/&gt;Oh ! Je crois que tu as mélangé les deux syllabes. </message>
+        </CELLULE>
+        <CELLULE id="no" rep="z_na" son="m3cgp1s12_cellule2">
+          <message>Tu as confondu la syllabe [no] avec la syllabe [na].&lt;br/&gt;On ne dit pas "canoda" mais "Canada".</message>
+        </CELLULE>
+        <CELLULE id="ra" rep="z_na" son="m3cgp1s12_cellule3">
+          <message>Tu as confondu la syllabe [ra] avec la syllabe [na].&lt;br/&gt;On ne dit pas "carada" mais "Canada".</message>
+        </CELLULE>
+        <CELLULE id="na" rep="z_ra" son="m3cgp1s12_cellule4">
+          <message>Les syllabes [na] et [ra] se ressemblent beaucoup.&lt;br/&gt;"Raquette" s'écrit avec les lettres "r" et "a".&lt;br/&gt;Toi, tu as écrit "naquette".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3cgp1s11_def">
+          <message>Oups ! Le mot que tu as complété doit vouloir dire quelque chose.&lt;br/&gt;Tu dois trouver la syllabe qui convient.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+      <REDIRECT>
+        <redirectType id="2">
+          <CELLULE id="na" />
+          <CELLULE id="ra" />
+          <CELLULE id="no" />
+        </redirectType>
+      </REDIRECT>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

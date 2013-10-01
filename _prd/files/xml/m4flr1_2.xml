@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m4flr1_cons">Choisis le déterminant qui convient pour chaque mot. Tu peux essayer de faire l'exercice sans cliquer sur les images.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g139">
+      <liste id="r1_l1" goodRep="1" align="gauche">
+        <item>un</item>
+        <item>une</item>
+      </liste>
+      <liste>
+        <item>oiseau</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g736">
+      <liste id="r1_l2" goodRep="1" align="gauche">
+        <item>un</item>
+        <item>une</item>
+      </liste>
+      <liste>
+        <item>port</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g280">
+      <liste id="r1_l3" goodRep="2" align="gauche">
+        <item>un</item>
+        <item>une</item>
+      </liste>
+      <liste>
+        <item>carte</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g623">
+      <liste id="r1_l4" goodRep="1" align="gauche">
+        <item>un</item>
+        <item>une</item>
+      </liste>
+      <liste>
+        <item>parasol</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g175">
+      <liste id="r1_l5" goodRep="2" align="gauche">
+        <item>un</item>
+        <item>une</item>
+      </liste>
+      <liste>
+        <item>île</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4flr1_ou1">
+          <message>Ce mot est féminin : le déterminant "un" ne convient pas ici.</message>
+          <CELLULE id="r1_l5">
+          </CELLULE>
+          <CELLULE id="r1_l3">
+          </CELLULE>
+        </OU>
+        <OU son="m4flr1_ou2">
+          <message>Ce mot est masculin : le déterminant "une" ne convient pas ici.</message>
+          <CELLULE id="r1_l1">
+          </CELLULE>
+          <CELLULE id="r1_l2">
+          </CELLULE>
+          <CELLULE id="r1_l4">
+          </CELLULE>
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent &lt;br/&gt;aux questions posées.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_q1" id="d1" type="draggable" />
+    <QUESTION goodRep="0" id="d2" type="draggable" />
+    <QUESTION goodRep="0" id="d3" type="draggable" />
+    <QUESTION goodRep="0" id="d4" type="draggable" />
+    <QUESTION goodRep="0" id="d5" type="draggable" />
+    <QUESTION goodRep="z_q2" id="d9" type="draggable" />
+    <QUESTION goodRep="z_q3" id="d6" type="draggable" />
+    <QUESTION goodRep="0" id="d7" type="draggable" />
+    <QUESTION goodRep="0" id="d8" type="draggable" />
+    <QUESTION goodRep="0" id="d10" type="draggable" />
+    <QUESTION goodRep="0" id="d11" type="draggable" />
+    <QUESTION goodRep="0" id="d12" type="draggable" />
+    <QUESTION goodRep="0" id="d13" type="draggable" />
+    <QUESTION goodRep="0" id="d14" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m4c1s2_cellule1" id="d2" rep="z_q1">
+          <message>Ce n’est pas tout à fait faux mais quel est le nom exact de la plage sur laquelle Louis va tous les ans ?  </message>
+        </CELLULE>
+        <CELLULE rep="z_q1" son="m4c1s2_cellule2" id="d20">
+          <message>Il faut être plus précis : de quel endroit parle t-on ici ?</message>
+        </CELLULE>
+        <ALL rep="z_q1" son="m4c1s2_all1">
+          <message>Louis va au bord de la mer tous les ans au mois de juillet ; mais quel est le nom exact de la plage sur laquelle il va ? </message>
+        </ALL>
+        <CELLULE rep="z_q2" son="m4c1s2_cellule7" id="d8">
+          <message>Quel est leur nom ?</message>
+        </CELLULE>
+        <CELLULE rep="z_q2" son="m4c1s2_cellule4" id="d3">
+          <message>Oups ! Louis est le personnage principal de l’histoire. </message>
+        </CELLULE>
+        <CELLULE rep="z_q2" son="m4c1s2_cellule5" id="d1">
+          <message>Erquy n’est pas un prénom, c’est le nom de la plage.</message>
+        </CELLULE>
+        <ALL rep="z_q2" son="m4c1s2_all2">
+          <message>Zut ! Cette étiquette ne parle pas d'une personne de l'histoire.</message>
+        </ALL>
+        <CELLULE rep="z_q3" son="m4c1s2_cellule6" id="d5">
+          <message>Ta réponse n'est pas assez précise.</message>
+        </CELLULE>
+        <ALL rep="z_q3" son="m4c1s2_all3">
+          <message>Attention ! La question porte sur le mois de l'année.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="d1" />
+        <CELLULE id="d3" />
+        <CELLULE id="d7" />
+        <CELLULE id="d9" />
+        <CELLULE id="d14" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

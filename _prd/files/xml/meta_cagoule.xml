@@ -1,0 +1,4 @@
+﻿<exo resultServlet="http://sormieresv6/soutien/partner/AnalyzeOAALExerciseResult.do">
+  <question itemId="16562" type="q2" interfPath="oaalDragndrop.swf" xmlPath="../datas/xml/m1fl1_s2.xml" swfPath="m1fl1_s2.swf">
+  </question>
+</exo>

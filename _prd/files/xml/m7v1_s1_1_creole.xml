@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7v1_cons_creole">Li byen 3 etikèt yo, epi jwen yon definisyon ki mache ak mo ki ekri an vyolèt la.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="engin" type="choix" />
+    <QUESTION goodRep="0" group="1" id="camera" type="choix" />
+    <QUESTION goodRep="0" group="1" id="fusee" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="camera" son="m7v1s11_cellule1_creole">
+          <message>Woy! Gen kamera sou satelit yo, men kamera yo se pa satelit.</message>
+        </CELLULE>
+        <CELLULE id="fusee" son="m7v1s11_cellule2_creole">
+          <message>Yo itilize yon fizé pou mete yon satelit kap vire bò kote tè a.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

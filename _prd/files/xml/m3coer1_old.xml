@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3coer1_cons">Clique sur chaque haut-parleur : tu entendras la consigne à suivre pour chaque igloo. Clique sur les mots où tu entends le son demandé.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" id="polaire"  group="1"  type="choix" />
+    <QUESTION goodRep="1" id="phoque"   group="1"  type="choix" />
+    <QUESTION goodRep="1" id="anorak"   group="1"  type="choix" />
+    <QUESTION goodRep="0" id="etoile"   group="1"  type="choix" />
+    <QUESTION goodRep="1" id="chasse"   group="2"  type="choix" />
+    <QUESTION goodRep="1" id="echarpe"  group="2"  type="choix" />
+    <QUESTION goodRep="1" id="manchot"  group="2"  type="choix" />
+    <QUESTION goodRep="0" id="lichen"   group="2"  type="choix" />
+    <QUESTION goodRep="0" id="chauffer" group="3"  type="choix" />
+    <QUESTION goodRep="1" id="fourrure" group="3"  type="choix" />
+    <QUESTION goodRep="1" id="inuit"    group="3"  type="choix" />
+    <QUESTION goodRep="1" id="luge"     group="3"  type="choix" />
+    <QUESTION goodRep="1" id="boreale"  group="4"  type="choix" />
+    <QUESTION goodRep="0" id="secher"   group="4"  type="choix" />
+    <QUESTION goodRep="1  id="groenland" group="4"  type="choix" />
+    <QUESTION goodRep="1" id="froid"    group="4"  type="choix" />
+    <QUESTION goodRep="1" id="banquise" group="5"  type="choix" />
+    <QUESTION goodRep="1" id="gant"     group="5"  type="choix" />
+    <QUESTION goodRep="0" id="laniere"  group="5"  type="choix" />
+    <QUESTION goodRep="1" id="elan"     group="5"   type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m3coer1_cellule1" id="etoile">
+          <message>Dans le mot "étoile", tu vois un   o  mais tu n'entends pas  [o].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou1">
+          <message>On entend bien le son "o", comme dans le mot "olive".</message>
+          <CELLULE id="polaire" />
+          <CELLULE id="phoque" />
+          <CELLULE id="anorak" />
+        </OU>
+        <CELLULE son="m3coer1_cellule2" id="lichen">
+          <message>Dans le mot "lichen", tu vois un   ch  mais tu n'entends pas  [ch].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou2">
+          <message>On entend bien le son "ch", comme dans le mot "cheminée".</message>
+          <CELLULE id="chasse" />
+          <CELLULE id="echarpe" />
+          <CELLULE id="manchot" />
+        </OU>
+        <CELLULE son="m3coer1_cellule4" id="secher">
+          <message>Dans le mot "sécher", tu vois un   r  mais tu n'entends pas  [r].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou4">
+          <message>On entend bien le son "r", comme dans le mot "rat".</message>
+          <CELLULE id="boreale" />
+          <CELLULE id="groenland" />
+          <CELLULE id="froid" />
+        </OU>
+        <CELLULE son="m3coer1_cellule3" id="chauffer">
+          <message>Dans le mot "chauffer", tu vois un   u  mais tu n'entends pas  [u].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou3">
+          <message>On entend bien le son "u", comme dans le mot "urgence".</message>
+          <CELLULE id="fourrure" />
+          <CELLULE id="inuit" />
+          <CELLULE id="luge" />
+        </OU>
+        <CELLULE son="m3coer1_cellule5" id="laniere">
+          <message>Dans le mot "lanière", tu vois    an  mais tu n'entends pas  [an].</message>
+        </CELLULE>
+        <OU son="m3coer1_ou5">
+          <message>On entend bien le son "an", comme dans le mot "antenne".</message>
+          <CELLULE id="banquise" />
+          <CELLULE id="gant" />
+          <CELLULE id="elan" />
+        </OU>
+        <ALL rep="0">
+          <message son="m3coer1_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m3coer1_def" />
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

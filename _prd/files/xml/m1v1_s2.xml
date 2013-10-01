@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m1v1_cons">Clique sur chaque haut-parleur et écoute bien ce qui est lu.&lt;br/&gt;Ensuite, clique sur l'image qui correspond à ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="branche" type="choix" />
+    <QUESTION goodRep="0" group="1" id="baton" type="choix" />
+    <QUESTION goodRep="0" group="1" id="arbre" type="choix" />
+    <QUESTION goodRep="1" group="4" id="terrier" type="choix" />
+    <QUESTION goodRep="0" group="4" id="cabane" type="choix" />
+    <QUESTION goodRep="0" group="4" id="nid" type="choix" />
+    <QUESTION goodRep="1" group="3" id="sanglier" type="choix" />
+    <QUESTION goodRep="0" group="3" id="cerf" type="choix" />
+    <QUESTION goodRep="0" group="3" id="cochon" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="arbre" rep="1" son="m1v1s2_cellule1">
+          <message>Un arbre est constitué de plusieurs branches mais ce n'est pas une branche !</message>
+        </CELLULE>
+        <CELLULE id="baton" rep="1" son="m1v1s2_cellule2">
+          <message>Un bout de bois n'est pas une branche.</message>
+        </CELLULE>
+        <CELLULE id="cabane" rep="1" son="m1v1s2_cellule7">
+          <message>Le terrier est un abri creusé dans la terre par certains animaux.</message>
+        </CELLULE>
+        <CELLULE id="nid" rep="1" son="m1v1s2_cellule8">
+          <message>C'est un nid, un abri pour les oiseaux.</message>
+        </CELLULE>
+        <CELLULE id="cochon" rep="1" son="m1v1s2_cellule6">
+          <message>Le sanglier, lui, est un des cousins du cochon, il vit dans la forêt.</message>
+        </CELLULE>
+        <CELLULE id="cerf" rep="1" son="m1v1s2_cellule5">
+          <message>Le cerf porte des bois sur la tête.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2" />
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1v_demo.swf</DEMO>
+</EXO>

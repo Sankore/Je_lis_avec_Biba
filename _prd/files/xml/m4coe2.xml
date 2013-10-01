@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="QCM">
+  <CONSIGNE son="m4coe2_cons">Clique sur les mots qui se terminent par une lettre muette.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="mazout" type="choix" />
+    <QUESTION goodRep="1" id="plongee" type="choix" />
+    <QUESTION goodRep="1" id="estomac" type="choix" />
+    <QUESTION goodRep="1" id="long" type="choix" />
+    <QUESTION goodRep="1" id="cachalot" type="choix" />
+    <QUESTION goodRep="1" id="coraux" type="choix" />
+    <QUESTION goodRep="0" id="albatros" type="choix" />
+    <QUESTION goodRep="0" id="narine" type="choix" />
+    <QUESTION goodRep="0" id="bec" type="choix" />
+    <QUESTION goodRep="0" id="iceberg" type="choix" />
+    <QUESTION goodRep="0" id="dix" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m4coe2_ou1">
+          <message>On entend bien toutes les lettres de ce mot, il ne se termine donc pas par une lettre muette.</message>
+          <CELLULE id="albatros" />
+          <CELLULE id="narine" />
+          <CELLULE id="bec" />
+          <CELLULE id="iceberg" />
+          <CELLULE id="dix" />
+        </OU>
+        <OU son="m4coe2_def">
+          <message>Ce mot se termine par une lettre que l'on n'entend pas.</message>
+          <CELLULE id="plongee" />
+          <CELLULE id="estomac" />
+          <CELLULE id="long" />
+          <CELLULE id="cachalot" />
+          <CELLULE id="coraux" />
+        </OU>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1_cons">Clique sur le haut-parleur et écoute bien ce que l'on va te demander.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="2" id="jumelles" type="choix" />
+    <QUESTION goodRep="0" group="2" id="photo" type="choix" />
+    <QUESTION goodRep="0" group="2" id="lampe" type="choix" />
+    <QUESTION goodRep="1" group="2" id="telescope" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="photo" son="m7c1s12_cellule1">
+          <message>Ce n'est pas un appareil photo car un appareil photo ne sert pas à observer mais à photographier.</message>
+        </CELLULE>
+        <CELLULE id="jumelles" son="m7c1s12_cellule2">
+          <message>Oups ! Une loupe permet d'observer, d'agrandir ce qui est tout près.</message>
+        </CELLULE>
+        <CELLULE id="lampe" son="m7c1s12_cellule3">
+          <message>Attention ! Jacques s'installe pour observer les étoiles et le ciel. L'appareil qu'il installe ne peut pas être une lampe de poche.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="photo" />
+        <CELLULE id="jumelles" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+</EXO>

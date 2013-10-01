@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3_dnd_01_pingouin">Prochaine étape, chez Cathy, la pieuvre ! Habille toi pour plonger sous la mer … Sélectionne et déplace les vêtements et accessoires appropriés sur Léon.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="ciel_lunette" type="draggable" />
+    <QUESTION goodRep="0" id="desert_lunette" type="draggable" />
+    <QUESTION goodRep="0" id="espace_combi" type="draggable" />
+    <QUESTION goodRep="z1" id="mer_combi" type="draggable" />
+    <QUESTION goodRep="0" id="glace_chaussure" type="draggable" />
+    <QUESTION goodRep="0" id="terre_botte" type="draggable" />
+    <QUESTION goodRep="z1" id="mer_palme" type="draggable" />
+    <QUESTION goodRep="0" id="glace_bonnet" type="draggable" />
+    <QUESTION goodRep="0" id="terre_casque" type="draggable" />
+    <QUESTION goodRep="0" id="desert_gourde" type="draggable" />
+    <QUESTION goodRep="0" id="glace_echarpe" type="draggable" />
+    <QUESTION goodRep="0" id="ciel_bonnet" type="draggable" />
+    <QUESTION goodRep="0" id="desert_foulard" type="draggable" />
+    <QUESTION goodRep="0" id="glace_manteau" type="draggable" />
+    <QUESTION goodRep="0" id="ciel_avion" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_COM>
+        <DEFAUT>
+          <message>
+          </message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

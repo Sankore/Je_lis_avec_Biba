@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="rouleaux">
+  <CONSIGNE son="m6fl1_cons">Choisis la fin de la phrase qui convient.</CONSIGNE>
+  <CONTENU>
+    <rouleau texteSize="25" align="g272" alignY="h89">
+      <liste>
+        <item>Il</item>
+      </liste>
+      <liste id="r1_l1" goodRep="1" align="center">
+        <item>surveille le bétail.</item>
+        <item>surveillons le bétail.                               </item>
+        <item>surveillent le bétail.                               </item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g623" alignY="h200">
+      <liste>
+        <item>Elles</item>
+      </liste>
+      <liste id="r2_l1" goodRep="2" align="center">
+        <item>buvez peu.</item>
+        <item>boivent peu.</item>
+        <item>buvons peu.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g67" alignY="h263">
+      <liste>
+        <item>J'</item>
+      </liste>
+      <liste id="r3_l1" goodRep="3" align="center">
+        <item>avons froid la nuit.</item>
+        <item>avez froid la nuit.</item>
+        <item>ai froid la nuit.</item>
+      </liste>
+    </rouleau>
+    <rouleau texteSize="25" align="g364" alignY="h370">
+      <liste>
+        <item>Vous</item>
+      </liste>
+      <liste id="r4_l1" goodRep="1" align="center">
+        <item>êtes éblouis.</item>
+        <item>sommes éblouis.</item>
+        <item>est ébloui.</item>
+      </liste>
+    </rouleau>
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6fl1_all1" rep="0">
+          <message>Tu n'as pas complété cette phrase.</message>
+        </ALL>
+        <CELLULE son="m6fl1s2_cellule1" id="r1_l1" rep="2">
+          <message>Attention ! Le verbe que tu as choisi se termine par "ons", ce qui ne correspond pas au pronom "il".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule2" id="r1_l1" rep="3">
+          <message>Oups ! Pour ce verbe, la terminaison "ent" correspond au pronom "ils".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule3" id="r2_l1" rep="1">
+          <message>Zut ! Le verbe que tu as choisi se termine par "ez", ce qui ne correspond pas au pronom "elles".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule4" id="r2_l1" rep="3">
+          <message>Attention ! Le verbe que tu as choisi se termine par "ons", ce qui ne correspond pas au pronom "elles".</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule5" id="r3_l1" rep="1">
+          <message>Zut ! Ce verbe ne convient pas : on ne dit pas "J'avons froid la nuit." mais "J'ai froid la nuit."</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule6" id="r3_l1" rep="2">
+          <message>Oups ! Ce verbe ne convient pas : on ne dit pas "J'avez froid la nuit." mais "J'ai froid la nuit."</message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule7" id="r4_l1" rep="2">
+          <message>Attention ! On dit "vous êtes", pas "vous sommes". </message>
+        </CELLULE>
+        <CELLULE son="m6fl1s2_cellule8" id="r4_l1" rep="3">
+          <message>Oups ! On dit "vous êtes", pas "vous est".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

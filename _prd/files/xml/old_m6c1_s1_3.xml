@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent à la question posée.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="qcm1" type="draggable" />
+    <QUESTION goodRep="0" id="qcm2" type="draggable" />
+    <QUESTION goodRep="0" id="qcm3" type="draggable" />
+    <QUESTION goodRep="0" id="qcm4" type="draggable" />
+    <QUESTION goodRep="0" id="qcm4_bis" type="draggable" />
+    <QUESTION goodRep="0" id="qcm5" type="draggable" />
+    <QUESTION goodRep="0" id="qcm6" type="draggable" />
+    <QUESTION goodRep="0" id="qcm7" type="draggable" />
+    <QUESTION goodRep="0" id="qcm8" type="draggable" />
+    <QUESTION goodRep="0" id="qcm9" type="draggable" />
+    <QUESTION goodRep="0" id="qcm9_bis" type="draggable" />
+    <QUESTION goodRep="0" id="qcm9_ter" type="draggable" />
+    <QUESTION goodRep="0" id="qcm10" type="draggable" />
+    <QUESTION goodRep="z_ok1" id="qcm11" type="draggable" />
+    <QUESTION goodRep="0" id="qcm11_bis" type="draggable" />
+    <QUESTION goodRep="z_ok2" id="qcm12" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m6c1s1_cellule4" id="qcm4" rep="z_ok">
+          <message>Majouba ne s'explique pas elle-même qu'elle a vu un mirage.</message>
+        </CELLULE>
+        <CELLULE son="m6c1s1_cellule5" id="qcm9_bis" rep="z_ok">
+          <message>Lis bien la fin du texte, Majouba pose sa question à une seule personne.</message>
+        </CELLULE>
+        <ALL rep="z_ok" son="m6c1s1_all3">
+          <message>Cette étiquette ne fait pas référence à un personnage de l'histoire.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

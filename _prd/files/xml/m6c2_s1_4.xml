@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6c1_cons">Lis le texte suivant.&lt;br/&gt;Choisis et déplace les groupes de mots qui répondent à la question posée.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="mot1" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="0" id="mot2" type="draggable" />
+    <QUESTION goodRep="0" id="mot3" type="draggable" />
+    <QUESTION goodRep="0" id="mot4" type="draggable" />
+    <QUESTION goodRep="0" id="mot5" type="draggable" />
+    <QUESTION goodRep="0" id="mot6" type="draggable" />
+    <QUESTION goodRep="0" id="mot7" type="draggable" />
+    <QUESTION goodRep="0" id="mot8" type="draggable" />
+    <QUESTION goodRep="0" id="mot9" type="draggable" />
+    <QUESTION goodRep="0" id="mot10" type="draggable" />
+    <QUESTION goodRep="0" id="mot11" type="draggable" />
+    <QUESTION goodRep="0" id="mot12" type="draggable" />
+    <QUESTION goodRep="0" id="mot13" type="draggable" />
+    <QUESTION goodRep="0" id="mot14" type="draggable" />
+    <QUESTION goodRep="0" id="mot15" type="draggable" />
+    <QUESTION goodRep="0" id="mot16" type="draggable" />
+    <QUESTION goodRep="0" id="mot17" type="draggable" />
+    <QUESTION goodRep="0" id="mot18" type="draggable" />
+    <QUESTION goodRep="0" id="mot19" type="draggable" />
+    <QUESTION goodRep="0" id="mot20" type="draggable" />
+    <QUESTION goodRep="0" id="mot21" type="draggable" />
+    <QUESTION goodRep="0" id="mot22" type="draggable" />
+    <QUESTION goodRep="0" id="mot23" type="draggable" />
+    <QUESTION goodRep="0" id="mot24" type="draggable" />
+    <QUESTION goodRep="0" id="mot25" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="0" id="mot26" type="draggable">
+    </QUESTION>
+    <QUESTION goodRep="0" id="mot27" type="draggable" />
+    <QUESTION goodRep="0" id="mot28" type="draggable" />
+    <QUESTION goodRep="z_ok" id="mot29" type="draggable" />
+    <QUESTION goodRep="0" id="mot30" type="draggable" />
+    <QUESTION goodRep="0" id="mot31" type="draggable" />
+    <QUESTION goodRep="0" id="mot32" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE son="m6c2_cellule7" id="mot32" rep="z_ok">
+          <message>Cette réponse indique où part le renard, mais elle n’indique pas à quel moment  exactement.</message>
+        </CELLULE>
+        <CELLULE son="m6c2_cellule8" id="mot25" rep="z_ok">
+          <message>Il est vrai que le renard marche vers Nabil ; mais Nabil fait un geste et le renard disparaît. Que fait Nabil exactement ?</message>
+        </CELLULE>
+        <ALL rep="z_ok" son="m6c2_cellule6">
+          <message>Cette réponse n’explique pas à quel moment le renard disparaît. Nabil fait un geste avant que le renard ne parte; que fait-il ?</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

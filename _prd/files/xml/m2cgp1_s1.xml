@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur. &lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION id="abri" goodRep="zone_i" />
+    <QUESTION id="limace" goodRep="zone_i" />
+    <QUESTION id="pointu" goodRep="zone_u" />
+    <QUESTION id="tunnel" goodRep="zone_u" />
+    <QUESTION id="tronc" goodRep="zone_on" />
+    <QUESTION id="charbon" goodRep="zone_on" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m2cgp1s1_ou1" goodRep="zone_i">
+          <message>Dans ce mot, on entend la lettre son [i]. </message>
+        </ALL>
+        <ALL son="m2cgp1s1_ou2" goodRep="zone_u">
+          <message>Dans ce mot, on entend la lettre son [u].</message>
+        </ALL>
+        <ALL son="m2cgp1s1_ou3" goodRep="zone_on">
+          <message>Dans ce mot, on entend les lettres sons [on]. </message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT item-id="464454" son="m2cgp1s3_def">
+          <message>Ces mots sont mal classés.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <cellule id="limace" />
+        <cellule id="tunnel" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m2cgp_demo.swf</DEMO>
+</EXO>

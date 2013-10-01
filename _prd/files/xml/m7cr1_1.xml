@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7c1r2_cons">Ecoute bien ce court texte car après je vais te poser une seule question. Pour répondre, clique sur une des 4 phrases.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" id="marin" type="choix" group="1" />
+    <QUESTION goodRep="1" id="cosmonaute" type="choix" group="1" />
+    <QUESTION goodRep="0" id="avion" type="choix" group="1" />
+    <QUESTION goodRep="0" id="parachutiste" type="choix" group="1" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="marin" son="m7c1r1_cellule1">
+          <message>John ne peut pas être un marin car les vaisseaux des marins ne se posent pas sur la Lune.</message>
+        </CELLULE>
+        <CELLULE id="avion" son="m7c1r1_cellule2">
+          <message>John ne peut pas être un pilote d'avion car ce n'est pas un pilote d'avion qui commande un vaisseau qui se pose sur la Lune.</message>
+        </CELLULE>
+        <CELLULE id="parachutiste" son="m7c1r1_cellule3">
+          <message>John ne peut pas être parachutiste car on ne se pose pas en parachute sur la Lune.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

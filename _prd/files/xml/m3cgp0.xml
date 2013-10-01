@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m3cgp0_cons">Clique sur le haut-parleur et écoute bien.&lt;br/&gt;Complète le mot avec la syllabe qui convient.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_teau" id="teau" type="draggable" />
+    <QUESTION goodRep="z_let" id="let" type="draggable" />
+  </CONTENU>
+</EXO>

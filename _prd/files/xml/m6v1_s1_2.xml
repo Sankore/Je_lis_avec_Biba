@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6v1s12_cons">Complète chaque phrase à l'aide du bon mot : &lt;br/&gt;"laid" ou "lait". &lt;br/&gt;Aide-toi des définitions en cliquant sur les haut-parleurs.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_laid1,z_laid2" id="laid1" type="draggable" />
+    <QUESTION goodRep="z_lait1,z_lait2" id="lait1" type="draggable" />
+    <QUESTION goodRep="z_laid2,z_laid1" id="laid2" type="draggable" />
+    <QUESTION goodRep="z_lait2,z_lait1" id="lait2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL son="m6v1s12_all1" rep="z_laid1">
+          <message>Oups ! Cette phrase signifie que le lézard à collerette n'est pas très beau.</message>
+        </ALL>
+        <ALL son="m6v1s12_all2" rep="z_lait1">
+          <message>Avec le mot "laid", la phrase n'a pas de sens.</message>
+        </ALL>
+        <ALL son="m6v1s12_all3" rep="z_laid2">
+          <message>Un paysage peut être "beau" ou "laid".</message>
+        </ALL>
+        <ALL son="m6v1s12_all4" rep="z_lait2">
+          <message>C'est le "lait" qui est nourissant.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m6v1s12_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

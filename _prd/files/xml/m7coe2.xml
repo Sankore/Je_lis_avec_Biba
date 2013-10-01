@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7coe2_cons">Clique sur les martiens et écoute bien ce qu'ils disent.&lt;br/&gt;Choisis le mot lu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="predisent" type="choix" />
+    <QUESTION goodRep="0" group="1" id="president" type="choix" />
+    <QUESTION goodRep="1" group="2" id="pr_ec_edent" type="choix" />
+    <QUESTION goodRep="0" group="2" id="pr_ece_dent" type="choix" />
+    <QUESTION goodRep="0" group="3" id="prosperite" type="choix" />
+    <QUESTION goodRep="1" group="3" id="proprietes" type="choix" />
+    <QUESTION goodRep="0" group="4" id="humaniste" type="choix" />
+    <QUESTION goodRep="1" group="4" id="humanit_es" type="choix" />
+    <QUESTION goodRep="0" group="5" id="conversation" type="choix" />
+    <QUESTION goodRep="1" group="5" id="conservation" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m7coe2_def">
+          <message>Tu n'as pas cliqué sur le mot lu.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

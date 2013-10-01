@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m6coe1_cons">Clique sur chaque image.&lt;br/&gt;Retrouve le mot qui est lu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="0" group="1" id="besoin" type="choix" />
+    <QUESTION goodRep="0" group="1" id="babouin" type="choix" />
+    <QUESTION goodRep="1" group="1" id="bedouin" type="choix" />
+    <QUESTION goodRep="0" id="beguin" type="choix" />
+    <QUESTION goodRep="0" group="2" id="table" type="choix" />
+    <QUESTION goodRep="0" group="2" id="salle" type="choix" />
+    <QUESTION goodRep="1" group="2" id="sable" type="choix" />
+    <QUESTION goodRep="0" group="2" id="sablier" type="choix" />
+    <QUESTION goodRep="0" group="3" id="liste" type="choix" />
+    <QUESTION goodRep="1" group="3" id="piste" type="choix" />
+    <QUESTION goodRep="0" group="3" id="poste" type="choix" />
+    <QUESTION goodRep="0" group="3" id="triste" type="choix" />
+    <QUESTION goodRep="1" group="4" id="diamant" type="choix" />
+    <QUESTION goodRep="0" group="4" id="diamantaire" type="choix" />
+    <QUESTION goodRep="0" group="4" id="diametre" type="choix" />
+    <QUESTION goodRep="0" group="4" id="diamine" type="choix" />
+    <QUESTION goodRep="0" group="5" id="plie" type="choix" />
+    <QUESTION goodRep="1" group="5" id="pluie" type="choix" />
+    <QUESTION goodRep="0" group="5" id="puits" type="choix" />
+    <QUESTION goodRep="0" group="5" id="punie" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <OU son="m6coe1s2_ou1">
+          <message>Oups ! Le dessin représente un bédouin, un homme du désert.</message>
+          <CELLULE id="besoin" />
+          <CELLULE id="beguin" />
+        </OU>
+        <CELLULE id="babouin" son="m6coe1s2_cellule1">
+          <message>Attention ! Le babouin est un animal : un singe.</message>
+        </CELLULE>
+        <CELLULE id="table" son="m6coe1s2_cellule2">
+          <message>Tu as confondu le son [s] et le son [t] :&lt;br/&gt;"sable" s'écrit avec un "s".</message>
+        </CELLULE>
+        <CELLULE id="salle" son="m6coe1s2_cellule3">
+          <message>Zut ! Dans le mot illustré on entend [b]. Tu as cliqué sur un mot dans lequel il n'y a pas [b].</message>
+        </CELLULE>
+        <CELLULE id="sablier" son="m6coe1s2_cellule4">
+          <message>Attention, ces mots se ressemblent.&lt;br/&gt; Tu as cliqué sur "sablier", pas sur "sable".</message>
+        </CELLULE>
+        <CELLULE id="liste" son="m6coe1s2_cellule5">
+          <message>Tu as confondu la lettre son [p] et le son [l] :&lt;br/&gt;"piste" s'écrit avec un "p".</message>
+        </CELLULE>
+        <CELLULE id="poste" son="m6coe1s2_cellule6">
+          <message>Oups ! Dans le mot illustré on entend [i]. Tu as cliqué sur un mot dans lequel il n'y a pas la lettre son [i].</message>
+        </CELLULE>
+        <CELLULE id="triste" son="m6coe1s2_cellule7">
+          <message>Attention ce mot commence par "pis". </message>
+        </CELLULE>
+        <CELLULE id="diamantaire" son="m6coe1s2_cellule8">
+          <message>Zut ! Lis le mot jusqu'au bout.</message>
+        </CELLULE>
+        <CELLULE id="diametre" son="m6coe1s2_cellule9">
+          <message>Attention ! Tu as cliqué sur le mot "diamètre", pas sur le mot "diamant".</message>
+        </CELLULE>
+        <CELLULE id="diamine" son="m6coe1s2_cellule10">
+          <message>Oups ! Tu as cliqué sur "diamine", pas sur "diamant".</message>
+        </CELLULE>
+        <CELLULE id="plie" son="m6coe1s2_cellule11">
+          <message>Presque ! Tu as cliqué sur "plie", il manque un "u" pour former le mot "pluie".</message>
+        </CELLULE>
+        <CELLULE id="puits" son="m6coe1s2_cellule12">
+          <message>Oups ! Tu as cliqué sur "puits" dans lequel il n'y a pas la lettre son [l]. Dans le mot "pluie", on entend le son [l]. </message>
+        </CELLULE>
+        <CELLULE id="punie" son="m6coe1s2_cellule13">
+          <message>Attention ! Tu as cliqué sur "punie", pas sur "pluie".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

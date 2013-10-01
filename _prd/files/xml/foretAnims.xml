@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <animIntro2>
+    <dialogue perso="souris">
+		Bonjour ! Je suis Léon.
+	</dialogue>
+  </animIntro2>
+  <animIntro>
+    <status perso="souris" frame="attend" x="-800" scaleX="1" />
+    <pause>2</pause>
+    <status perso="souris" frame="marche" x="-800" scaleX="1" />
+    <status perso="ours" scaleX="-1" />
+    <move perso="souris" x="0" speed="10" />
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m1_dial_deb_01_souris">Bonjour ! Je suis Léon.
+	</dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_deb_02_ours">Ah ! Je t’attendais… Je savais que tu allais venir ! Je m’appelle Oscar. Cette longue marche ne t’a pas trop fatigué ?
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="souris" son="m1_dial_deb_03_souris">
+		Ça va, ça va ! Tu dois savoir ce que je recherche...
+	</dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_deb_04_ours">
+Oui mon cher ! J’ai avec moi une partie de la formule que tu recherches pour ouvrir le livre magique. 
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="souris" son="m1_dial_deb_05_souris">
+		Super ! 
+	</dialogue>
+    <dialogue perso="ours" son="m1_dial_deb_05_bis_ours">
+		Mais, avant que je ne te la donne et que tu poursuives ton chemin, pourrais-tu me rendre un service ? </dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_deb_06_ours">Il faudrait que tu m’aides à ramasser ce dont j’ai besoin pour faire mon repas de ce soir... des amis viennent pour dîner !</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="souris" son="m1_dial_deb_07_souris">
+		Pas de problème ! De quoi as-tu besoin ?
+	</dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_deb_08_ours">Alors : des fraises, des noisettes, des champignons, une fleur bleue et une pomme. Merci beaucoup !
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="souris" son="m1_dial_deb_09_souris">
+		C’est parti !
+	</dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m1_dial_deb_13_souris">Tu me donnes un coup de main ? 
+	</dialogue>
+    <dialogue perso="souris" son="m1_dial_deb_14_souris">Clique sur ce dont Oscar à besoin. Tu te souviens, il faut ramasser des fraises, des noisettes, des champignons, une fleur bleue et une pomme. 
+	</dialogue>
+    <dialogue perso="souris" son="m1_dial_deb_15_souris">A nous de jouer !
+	</dialogue>
+  </animIntro>
+  <finNiveau2>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="souris">
+		a+
+	</dialogue>
+  </finNiveau2>
+  <rappelConsigne>
+    <status perso="ours" frame="objectif" />
+    <dialogue autoClose="false" perso="ours" son="m1_rap_cons_ours">
+		Tu te souviens, il me faut des fraises, des noisettes, des champignons, une fleur bleue et une pomme.
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+  </rappelConsigne>
+  <finExo>
+    <status perso="souris" scaleX="1" />
+    <dialogue perso="souris" son="m1_mess_allez_souris">
+		Super ! Allez, on continue !
+	</dialogue>
+  </finExo>
+  <finNiveau>
+    <dialogue perso="souris" son="m1_dial_fin_01_souris">
+		C’est bon, j’ai tout trouvé : des fraises, des noisettes, des champignons blancs, une fleur bleue et une pomme !
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="ours" son="m1_dial_fin_03_ours">
+		Merci beaucoup pour ton aide ! Tu veux rester dîner ? Mes amis sont sympas tu vas voir…
+	</dialogue>
+    <dialogue perso="souris" son="m1_dial_fin_04_souris">
+		Non merci, c’est gentil, je dois continuer ma route ! Et la formule magique ?
+	</dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_fin_05_ours">
+		Ah oui ! La voilà.
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <fermeBulles>
+    </fermeBulles>
+    <status perso="souris" frame="win1">
+    </status>
+    <dialogue perso="souris" son="m1_dial_fin_07_narratrice">« Lièvre, limace, lion, licorne et lutin .»
+	</dialogue>
+    <status perso="souris" frame="ecoute">
+    </status>
+    <dialogue perso="souris" son="m1_dial_fin_06_souris">
+		Génial.
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="ours" son="m1_dial_fin_08_ours">
+		Va voir Louise à l’autre bout de la forêt, c’est une taupe et elle possède une autre partie de la formule. </dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_fin_09_ours">
+		Mais, un conseil, tu as besoin d’un équipement particulier... Elle vit sous terre, il fait très sombre et tu risques de te salir ! Bonne route et à bientôt !
+	</dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="souris" son="m1_dial_fin_10_souris">
+		Encore merci ! À bientôt Oscar !
+	</dialogue>
+    <status perso="souris" frame="marche" scaleX="1" />
+    <move perso="souris" x="1050" speed="10" />
+  </finNiveau>
+  <retourExo>
+    <status perso="souris" frame="ecoute" />
+    <dialogue perso="souris" son="m1_dial_retour_12_souris">Salut Oscar ! Ca me fait plaisir de te revoir. 
+	</dialogue>
+    <status perso="ours" frame="objectif" />
+    <dialogue perso="ours" son="m1_dial_retour_13_ours">Léon ! Ton voyage se passe bien ?</dialogue>
+    <dialogue perso="souris" son="m1_dial_retour_14_souris">Oui oui très bien ! </dialogue>
+    <status perso="ours" frame="attend_jeu" />
+    <dialogue perso="ours" son="m1_dial_retour_15_ours">Fais comme chez toi ! </dialogue>
+    <dialogue perso="souris" son="m1_dial_retour_16_souris"> Repose toi bien Oscar, à bientôt ! </dialogue>
+    <status perso="souris" frame="faceParle" />
+    <dialogue perso="souris" son="m1_dial_retour_17_souris">Si tu veux, nous pouvons nous entrainer un peu. </dialogue>
+    <dialogue perso="souris" son="m1_dial_retour_18_souris">Clique sur les objets en bas de l’écran.  </dialogue>
+  </retourExo>
+</data>

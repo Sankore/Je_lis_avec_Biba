@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1_cons">Complète chaque phrase par l'étiquette dont le sens est le plus proche du mot écrit en bleu et en italique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_vogue" id="navigue" type="draggable" />
+    <QUESTION goodRep="0" id="coule" type="draggable" />
+    <QUESTION goodRep="0" id="chante" type="draggable" />
+    <QUESTION goodRep="0" id="malade" type="draggable" />
+    <QUESTION goodRep="z_trempe" id="mouille" type="draggable" />
+    <QUESTION goodRep="0" id="sale" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_vogue" son="m4v1s1_all3">
+          <message>Voguer et naviguer sont des synonymes qui signifient : se déplacer sur la mer.</message>
+        </ALL>
+        <ALL goodRep="z_trempe" son="m4v1s1_all5">
+          <message>Oulala ! Quand on est "trempé", on est très "mouillé".</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4v1s1_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4v1s1_def" />
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

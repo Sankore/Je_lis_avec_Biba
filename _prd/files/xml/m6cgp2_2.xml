@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6cgpr1_cons">Reconstitue chaque mot en regardant bien les images.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_coquille1, z_cuisine1" id="c_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille2" id="o_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille3" id="q_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille4,z_cuisine2" id="u_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille5,z_cuisine5,z_cuisine3" id="i_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille6,z_coquille7" id="l1_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille7,z_coquille6" id="l2_coquille" type="draggable" />
+    <QUESTION goodRep="z_coquille8,z_cuisine7" id="e_coquille" type="draggable" />
+    <QUESTION goodRep="z_cuisine1, z_coquille1" id="c_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine2,z_coquille4" id="u_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine3,z_cuisine5,z_coquille5" id="i1_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine4" id="s_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine5,z_cuisine3,z_coquille5" id="i2_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine6" id="n_cuisine" type="draggable" />
+    <QUESTION goodRep="z_cuisine7,z_coquille8" id="e_cuisine" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE rep="z_tempete5" id="e1_tempete" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+        <CELLULE rep="z_tempete5" id="e3_tempete" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+        <CELLULE rep="z_tempete5" id="e_ombre" son="m6cgp21_cellule">
+          <message>C'est bien la place d'un "e" mais il faut un accent.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m6cgp2_cellule">
+          <message>Cette lettre n'est pas à sa place.</message>
+        </DEFAUT>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

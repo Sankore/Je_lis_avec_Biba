@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1c1_cons">Clique sur le haut-parleur et écoute bien l’histoire. Range les images dans l’ordre de ce que tu as entendu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="case1" id="image1" type="draggable" />
+    <QUESTION goodRep="case2" id="image2" type="draggable" />
+    <QUESTION goodRep="case3" id="image3" type="draggable" />
+    <QUESTION goodRep="case4" id="image4" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL rep="case1" son="m1c1s1_all1">
+          <message>Au début de l'histoire, on ne parle que de l'ours, il est donc seul sur l'image.</message>
+        </ALL>
+        <ALL rep="case2" son="m1c1s1_all2">
+          <message>Tu t'es trompé sur le milieu de l'histoire : l'ours entend des cris dehors et décide d'aller voir ce qui se passe.</message>
+        </ALL>
+        <ALL rep="case3" son="m1c1s1_all3">
+          <message>Ici, l'ours aide la biche blessée en la couchant sur un lit de feuilles.</message>
+        </ALL>
+        <ALL rep="case4" son="m1c1s1_all4">
+          <message>Tu t'es trompé, ce n'est pas la fin. L'histoire se termine dans la joie : l'ours s'est fait de nouveaux amis avec lesquels il s'amuse.</message>
+        </ALL>
+        <ALL rep="0" son="mess_oubli">
+          <message>Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <OUBLIS />
+      </ERREURS_COM>
+    </ERREURS>
+    <REDIRECT>
+      <redirectType id="2">
+        <CELLULE id="image1" />
+      </redirectType>
+    </REDIRECT>
+  </ANALYSE>
+  <DEMO>m1c_demo.swf</DEMO>
+</EXO>

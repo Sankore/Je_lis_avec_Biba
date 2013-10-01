@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m6v1_cons">Complète chaque phrase à l'aide du bon mot :&lt;br/&gt;"puits" ou "puis".&lt;br/&gt;Aide-toi des définitions en cliquant sur les haut-parleurs.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_puits1,z_puits2" id="puits1" type="draggable" />
+    <QUESTION goodRep="z_puis1,z_puis2" id="puis1" type="draggable" />
+    <QUESTION goodRep="z_puis2,z_puis1" id="puis2" type="draggable" />
+    <QUESTION goodRep="z_puits2,z_puits1" id="puits2" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL id="" son="m6v1s11_all1" rep="z_puits1">
+          <message>C'est dans un "puits" que l'on peut faire boire les bêtes.</message>
+          <CELLULE />
+        </ALL>
+        <CELLULE id="puis2" son="m6v1s11_all2" rep="z_puits1">
+          <message>Oups ! Dans cette phrase, on peut remplacer "puis" par "après".</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puits1" son="m6v1s11_all2" rep="z_puis1">
+          <message>Oups ! Dans cette phrase, on peut remplacer "puis" par "après".</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puits2" son="m6v1s11_all2" rep="z_puis1">
+          <message>Oups ! Dans cette phrase, on peut remplacer "puis" par "après".</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puits2" son="m6v1s11_ou3" rep="z_puis2">
+          <message>Cette phrase n'a pas de sens avec ce mot.</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puits1" son="m6v1s11_ou2" rep="z_puis2">
+          <message>Cette phrase n'a pas de sens avec ce mot.</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puis2" son="m6v1s11_ou2" rep="z_puits2">
+          <message>Ce sont des "puits" que l'on creuse dans la terre.</message>
+          <CELLULE />
+        </CELLULE>
+        <CELLULE id="puis1" son="m6v1s11_ou2" rep="z_puits2">
+          <message>Ce sont des "puits" que l'on creuse dans la terre.</message>
+          <CELLULE />
+        </CELLULE>
+        <ALL rep="0">
+          <message son="mess_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM />
+    </ERREURS>
+  </ANALYSE>
+</EXO>

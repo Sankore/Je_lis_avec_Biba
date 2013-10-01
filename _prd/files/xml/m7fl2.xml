@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7fl2_cons">Lis les phrases.&lt;br/&gt;Clique sur la phrase qui dit le contraire.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="1" id="n1" type="choix" />
+    <QUESTION goodRep="0" group="1" id="a1" type="choix" />
+    <QUESTION goodRep="0" group="2" id="a2" type="choix" />
+    <QUESTION goodRep="1" group="2" id="n2" type="choix" />
+    <QUESTION goodRep="0" group="3" id="n3" type="choix" />
+    <QUESTION goodRep="1" group="3" id="a3" type="choix" />
+    <QUESTION goodRep="1" group="4" id="n4" type="choix" />
+    <QUESTION goodRep="0" group="4" id="a4" type="choix" />
+    <QUESTION goodRep="1" group="5" id="a5" type="choix" />
+    <QUESTION goodRep="0" group="5" id="n5" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="a1" son="m7fl2_cellule1">
+          <message>"Pas" n'est pas la négation de "toujours".</message>
+        </CELLULE>
+        <CELLULE id="a2" son="m7fl2_ou1">
+          <message>"Encore" est le contraire de "jamais".&lt;br/&gt;Or, ce mot n'est pas écrit dans la phrase.</message>
+        </CELLULE>
+        <OU son="m7fl2_cellule2">
+          <message>Le contraire d'une phrase négative ne peut pas être une phrase négative.</message>
+          <CELLULE id="n3"></CELLULE>
+          <CELLULE id="n5"></CELLULE>
+        </OU>
+        <CELLULE id="a4" son="m7fl2_cellule3">
+          <message>"Toujours" n'est pas le contraire de "encore".</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

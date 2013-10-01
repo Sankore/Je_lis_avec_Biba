@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1s2_cons">Pour chaque phrase incomplète, choisis le mot dont le sens est le plus proche du mot écrit en bleu.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_pirates" id="corsaires" type="draggable" />
+    <QUESTION goodRep="0" id="bateaux" type="draggable" />
+    <QUESTION goodRep="0" id="vacanciers" type="draggable" />
+    <QUESTION goodRep="0" id="jardin" type="draggable" />
+    <QUESTION goodRep="z_depotoir" id="decharge" type="draggable" />
+    <QUESTION goodRep="0" id="dune" type="draggable" />
+    <QUESTION goodRep="0" id="flotter" type="draggable" />
+    <QUESTION goodRep="0" id="nager" type="draggable" />
+    <QUESTION goodRep="z_couler" id="chavirer" type="draggable" />
+    <QUESTION goodRep="z_crustaces" id="fruits_mer" type="draggable" />
+    <QUESTION goodRep="0" id="des poissons" type="draggable" />
+    <QUESTION goodRep="0" id="legumes" type="draggable" />
+    <QUESTION goodRep="0" id="calme" type="draggable" />
+    <QUESTION goodRep="z_demontee" id="agitee" type="draggable" />
+    <QUESTION goodRep="0" id="belle" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_pirates" son="m4v1s2_all1">
+          <message>Pirate et corsaire signifient : navigateur qui attaque les navires. Un bateau est un objet qui navigue sur l'eau et les vacanciers sont les personne qui sont en vacances.</message>
+        </ALL>
+        <ALL goodRep="z_depotoir" son="m4v1s2_all2">
+          <message>Un dépotoir est l'endroit où l'on dépose tout ce dont on veut se débarrasser, dans une décharge, on dépose les ordures. Dans un jardin on cultive des fleurs et des légumes. Une dune est une colline de sable.</message>
+        </ALL>
+        <ALL goodRep="z_couler" son="m4v1s2_all3">
+          <message>Couler et chavirer sont des synonymes qui siginifient : s'enfoncer dans l'eau. Au contraire, quand on flotte, on est porté par l'eau. Quand tu nages, tu avances dans l'eau.</message>
+        </ALL>
+        <ALL goodRep="z_crustaces" son="m4v1s2_all4">
+          <message>Les fruits de mer sont des crustacés, des animaux à carapace qui vivent dans l'eau comme les poissons mais eux n'ont pas de carapace. Un légume est une plante que l'on mange... comme les haricots verts !</message>
+        </ALL>
+        <ALL goodRep="z_demontee" son="m4v1s2_all5">
+          <message>Une mer démontée est une mer agitée, avec de grosses vagues. Au contraire, lorsque la mer est calme ou belle, il n'y a pas de vague.</message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4v1s2_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+        <DEFAUT son="m4v1s2_def" />
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m2cgp2_cons">Clique sur chaque haut-parleur.&lt;br/&gt;Ensuite déplace les images dans le bon terrier.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="zone_p" id="empreinte" type="draggable" />
+    <QUESTION goodRep="zone_u" id="ecureuil" type="draggable" />
+    <QUESTION goodRep="zone_on" id="flocon" type="draggable" />
+    <QUESTION goodRep="zone_i" id="lit" type="draggable" />
+    <QUESTION goodRep="zone_m" id="marcher" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="empreinte" son="m2cgp2s1_cellule1">
+          <message>Dans le mot "empreinte", on entend la lettre son [p].</message>
+        </CELLULE>
+        <CELLULE id="ecureuil" son="m2cgp2s1_cellule2">
+          <message>Dans le mot "écureuil", on entend la lettre son [u].</message>
+        </CELLULE>
+        <CELLULE id="flocon" son="m2cgp2s1_cellule3">
+          <message>Dans le mot "flocon", on entend les lettres sons [on].</message>
+        </CELLULE>
+        <CELLULE id="lit" son="m2cgp2s1_cellule4">
+          <message>Dans le mot "lit", on entend la lettre son [i].</message>
+        </CELLULE>
+        <CELLULE id="marcher" son="m2cgp2s1_cellule5">
+          <message>Dans le mot "marcher", on entend la lettre son [m].</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

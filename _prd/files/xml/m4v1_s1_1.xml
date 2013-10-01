@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m4v1_cons">Complète chaque phrase par l'étiquette dont le sens est le plus proche du mot écrit en bleu et en italique.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="z_navire" id="bateau" type="draggable" />
+    <QUESTION goodRep="0" id="marin" type="draggable" />
+    <QUESTION goodRep="0" id="planche" type="draggable" />
+    <QUESTION goodRep="0" id="mer" type="draggable" />
+    <QUESTION goodRep="z_rivage" id="cote" type="draggable" />
+    <QUESTION goodRep="0" id="soleil" type="draggable" />
+    <QUESTION goodRep="0" id="nuit" type="draggable" />
+    <QUESTION goodRep="0" id="neige" type="draggable" />
+    <QUESTION goodRep="z_ouragan" id="tempete" type="draggable" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <ALL goodRep="z_navire" son="m4v1s1_all1">
+          <message>Oups ! Un navire est un grand bateau qui navigue sur la mer. </message>
+        </ALL>
+        <ALL goodRep="z_rivage" son="m4v1s1_all2">
+          <message>Attention ! Le rivage ou la côte désignent le bord de la mer.</message>
+        </ALL>
+        <ALL goodRep="z_ouragan" son="m4v1s1_all4">
+          <message>Zut ! Un ouragan est une grande tempête, c'est à dire un vent violent accompagné de pluies. </message>
+        </ALL>
+        <ALL rep="0">
+          <message son="m4v1s1_oub">Tu n'as pas terminé.</message>
+        </ALL>
+      </ERREURS_SPEC>
+      <ERREURS_COM>
+      </ERREURS_COM>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

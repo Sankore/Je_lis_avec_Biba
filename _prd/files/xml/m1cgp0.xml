@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="dragndrop">
+  <CONSIGNE son="m1cgp1_cons">Passe sur une image et écoute bien le mot : compte le nombre de syllabes que tu entends puis place l'image dans le buisson correspondant.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="panier3" id="rossignol" type="draggable" />
+  </CONTENU>
+  <!--<DEMO>m2coe_demo.swf</DEMO>-->
+</EXO>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m7vr1_cons">Lis les textes et choisis la bonne réponse.</CONSIGNE>
+  <CONTENU>
+    <QUESTION goodRep="1" group="0" id="peur" type="choix" />
+    <QUESTION goodRep="0" group="0" id="chaud" type="choix" />
+    <QUESTION goodRep="0" group="1" id="proximite" type="choix" />
+    <QUESTION goodRep="1" group="1" id="connaitre" type="choix" />
+    <QUESTION goodRep="1" group="2" id="reacteurs" type="choix" />
+    <QUESTION goodRep="0" group="2" id="bouteilles" type="choix" />
+  </CONTENU>
+  <ANALYSE>
+    <ERREURS>
+      <ERREURS_SPEC>
+        <CELLULE id="chaud" son="m7v2_cellule1">
+          <message>Oups ! On peut avoir des sueurs froides quand on a peur.&lt;br/&gt;Il peut alors faire chaud ou froid, c'est sans importance.</message>
+        </CELLULE>
+        <CELLULE id="proximite" son="m7v2_cellule2">
+          <message>Attention ! Le commandant utilise les instruments sans réfléchir, cela signifie donc qu'il les connaît très bien.</message>
+        </CELLULE>
+        <CELLULE id="bouteilles" son="m7v2_cellule3">
+          <message>Zut ! Pour faire décoller une fusée, on n'utilise pas de bouteilles de gaz.</message>
+        </CELLULE>
+      </ERREURS_SPEC>
+    </ERREURS>
+  </ANALYSE>
+</EXO>

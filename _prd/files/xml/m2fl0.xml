@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EXO type="qcm">
+  <CONSIGNE son="m2fl1_cons">Ecoute bien le haut-parleur.&lt;br/&gt;Tu dois séparer les mots en cliquant entre 2 lettres.</CONSIGNE>
+  <!-- lineBlack, barre  ||||||  symboles, lines, fills-->
+  <CONTENU selectionTypeClic="barre" selectionTypeCorrection="fills">
+    <QUESTION id="3_1" goodRep="0" />
+    <QUESTION id="3_2" goodRep="0" />
+    <QUESTION id="3_3" goodRep="0" />
+    <QUESTION id="3_4" goodRep="1" />
+    <QUESTION id="3_5" goodRep="0" />
+    <QUESTION id="3_6" goodRep="0" />
+    <QUESTION id="3_7" goodRep="0" />
+    <QUESTION id="3_8" goodRep="0" />
+    <QUESTION id="3_9" goodRep="1" />
+    <QUESTION id="3_10" goodRep="0" />
+    <QUESTION id="3_11" goodRep="0" />
+    <QUESTION id="3_12" goodRep="1" />
+    <QUESTION id="3_13" goodRep="0" />
+    <QUESTION id="3_14" goodRep="0" />
+    <QUESTION id="3_15" goodRep="0" />
+    <QUESTION id="3_16" goodRep="0" />
+    <QUESTION id="3_17" goodRep="0" />
+  </CONTENU>
+</EXO>
